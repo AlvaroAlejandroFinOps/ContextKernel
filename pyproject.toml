@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "icontext-control"
+version = "6.0.0"
+requires-python = ">=3.10"
+description = "Incremental context engineering orchestration and audit CLI"
+
+[project.optional-dependencies]
+audit = ["pydantic>=2", "pyyaml>=6"]
+
+[project.scripts]
+icontext = "icontext_cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "tools/icontext_runtime"}
+py-modules = ["icontext_cli", "context_runtime", "fwengine", "skill_installer", "benchmark"]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+where = ["tools/icontext_runtime"]
+include = ["metricsthinking*", "ireadme*", "_icontext_assets*"]
+
+[tool.setuptools.package-data]
+metricsthinking = ["profiles/*.yaml"]
+_icontext_assets = ["runtime_payload.zip"]

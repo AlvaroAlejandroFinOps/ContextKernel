@@ -1,0 +1,20 @@
+# Máscara de Exclusión para Agentes de IA (iDirectory Context Engineering)
+data/raw/
+data/processed/
+data/sandbox/
+logs/
+*.parquet
+*.csv
+*.delta/
+.venv/
+__pycache__/
+.git/
+artifacts/plans/archive/
+
+# >>> ICONTEXT-V6:GENERATED
+docs/specs/*before-v6.md
+tools/icontext_runtime/
+# <<< ICONTEXT-V6:GENERATED
+
+# >>> FPAI-PRUNE-START
+# <<< FPAI-PRUNE-END

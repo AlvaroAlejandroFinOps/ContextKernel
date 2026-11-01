@@ -1,0 +1,13 @@
+version: 1.0
+directory: artifacts/plans/metricsthinking
+role: metrics_evaluation
+purpose: "Evaluación forense de métricas de avance del proyecto, scores de madurez y roadmap de remediación SDD (MetricsThinking™)."
+relevance: medium
+crawl: true
+read_priority: p2
+seed_reference: optional
+token_density: sparse
+instructions: Snapshots de auditoría MetricsThinking. Consultar solo en evaluaciones de madurez (/metrics); verificar fecha de vigencia.
+key_files:
+  - "MetricsThinking.md"
+  - "MetricsThinking.json"

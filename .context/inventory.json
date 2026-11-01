@@ -1,0 +1,750 @@
+{
+  "analyzer_version": "6.0.0:3",
+  "files": {
+    ".agentignore": {
+      "sha256": "b713832b5ab2fd6191a9c59e9098496c9d90d5570f06742d8749ed504e23f030",
+      "size": 370,
+      "stat": [
+        370,
+        1793541179285795000
+      ]
+    },
+    ".agents/skills/icontext/SKILL.md": {
+      "sha256": "45ea6e13061205c4c9bcb01f62c73cf929bb1ac9fce3170c313653ee066eb095",
+      "size": 520,
+      "stat": [
+        520,
+        1793473210523107300
+      ]
+    },
+    ".gitignore": {
+      "sha256": "35713b534536f0a8e24b9e8e1f3dee18bbd39e3c811995133119794f86ede520",
+      "size": 152,
+      "stat": [
+        152,
+        1793407283188580800
+      ]
+    },
+    "01_seed/.context.yaml": {
+      "sha256": "23f3fb5aaf9f1790f6b0ddf4711ae507d13c4900cc3388b951404855ac85db99",
+      "size": 451,
+      "stat": [
+        451,
+        1793487828448663600
+      ]
+    },
+    "01_seed/seed-contextcontrol-master.md": {
+      "sha256": "f0e08f2ed7cde68d2059d6bf4b2a198ad8117323133176a9e0c5e1ad4cd7135e",
+      "size": 13616,
+      "stat": [
+        13616,
+        1793485142254968400
+      ]
+    },
+    "02_foundation/.context.yaml": {
+      "sha256": "2637c17b145539cd43d629c4285f8085395e25a4f5b7b935f8c01060750ee3e1",
+      "size": 344,
+      "stat": [
+        344,
+        1793407282561486300
+      ]
+    },
+    "02_foundation/engine/.context.yaml": {
+      "sha256": "91d2b15b6ce915671565770cce1d0ea73fb39f540390bdfe9de79cef971ea59d",
+      "size": 404,
+      "stat": [
+        404,
+        1793487828453655300
+      ]
+    },
+    "02_foundation/engine/engine_readme.md": {
+      "sha256": "963934986b410f6194c21888cc7d8d25f7a598679061b6a9e5d6a8033ab8c35f",
+      "size": 4447,
+      "stat": [
+        4447,
+        1793407283118163600
+      ]
+    },
+    "03_research/.context.yaml": {
+      "sha256": "94310235703d158e92b81d1c8cde14116b192c4cad4d8b6b6c4e36840a9c51a5",
+      "size": 340,
+      "stat": [
+        340,
+        1793407282662891300
+      ]
+    },
+    "03_research/prompts/.context.yaml": {
+      "sha256": "db006f937bff731d5c030613c1f6b0f47f199d8c1b8a2af7fc56cc4cbdd17c65",
+      "size": 350,
+      "stat": [
+        350,
+        1793487828467595700
+      ]
+    },
+    "AGENTS.md": {
+      "sha256": "834ed6d346c258c5b2216a099cdef6bba8cb2a53fa8c324746f69b1ffa970973",
+      "size": 1262,
+      "stat": [
+        1262,
+        1793473131778874500
+      ]
+    },
+    "FWengine.py": {
+      "contracts": {
+        "cli_flags": [
+          "--expand",
+          "--pack",
+          "--tier"
+        ],
+        "imports": [
+          "argparse",
+          "icontext_cli",
+          "pathlib",
+          "sys"
+        ],
+        "signatures": [],
+        "symbols": []
+      },
+      "sha256": "f8c9499aa5b6dc286e846b401f3b414e4ed8ed8b4c309e2db007927e23fc6b1a",
+      "size": 1039,
+      "stat": [
+        1039,
+        1793476793642829200
+      ]
+    },
+    "GEMINI.md": {
+      "sha256": "eeb6db99d76a4959495c02353e1e89d9981bf945d26a6bcc674b850db716feea",
+      "size": 240,
+      "stat": [
+        240,
+        1793473131782862800
+      ]
+    },
+    "ICONTEXT_FEDERATION_PROTOCOL_V5.md": {
+      "sha256": "48ee0c8b22f8ab2b139f936c4e38e737fbdfcd540737fcfaa0c20056a10610de",
+      "size": 33064,
+      "stat": [
+        33064,
+        1793408681203221000
+      ]
+    },
+    "README.md": {
+      "semantic_sha256": "b0f857b4a8a9965275c3918c8632c404ee6f03b5a8c6b24192b5d4d3d42b4983",
+      "sha256": "6d9f59c156ca74677705276a6d60bd2aa860f493a60d046fef0cc6ccc1653c4a",
+      "size": 13101,
+      "stat": [
+        13101,
+        1793487664630660000
+      ]
+    },
+    "README_ES.md": {
+      "semantic_sha256": "0463d103725caa0ad95c9d84c0eab9e35c20a5f047f69bb628b0aaf5eb3cbb78",
+      "sha256": "31ba45c0c1e665e5c7fcae89b6afb584c3395b4be8dc5d95ec15aa6e3939de43",
+      "size": 13610,
+      "stat": [
+        13610,
+        1793487664634650600
+      ]
+    },
+    "artifacts/.context.yaml": {
+      "sha256": "429d77ed7c25a3487d1123da8a3e41d5d191d9da88c30d9d00c0c9d6641a4499",
+      "size": 336,
+      "stat": [
+        336,
+        1793407282732594700
+      ]
+    },
+    "artifacts/benchmark_coverage_report.json": {
+      "sha256": "c9062933636e50d37669845bcec0906f3931c6e5ebbe33301cc1440d0df6cfe3",
+      "size": 282,
+      "stat": [
+        282,
+        1793541171325644500
+      ]
+    },
+    "artifacts/plans/.context.yaml": {
+      "sha256": "0f0ecf4a001b63bd3d55f61920b562dec2bfe3f76405b6c72cb82415da2144db",
+      "size": 348,
+      "stat": [
+        348,
+        1793407283021839900
+      ]
+    },
+    "artifacts/plans/active/.context.yaml": {
+      "sha256": "12dd39667065fab1d1899ec47c3a1bd5090bb36d0451e25385c504f4ed5e3b46",
+      "size": 387,
+      "stat": [
+        387,
+        1793487828494886100
+      ]
+    },
+    "audit_federation.py": {
+      "contracts": {
+        "cli_flags": [],
+        "imports": [
+          "icontext_cli",
+          "pathlib",
+          "sys"
+        ],
+        "signatures": [],
+        "symbols": []
+      },
+      "sha256": "c895122135f92c0d03d585637c4c3a12130076756ffaf1dad1d2bf6747df0f06",
+      "size": 497,
+      "stat": [
+        497,
+        1793474010264211300
+      ]
+    },
+    "config/.context.yaml": {
+      "sha256": "185ad9f205b1fb166b2630ff597af2f442c12e76e2fa73a8c99ffcb4d9396d4f",
+      "size": 403,
+      "stat": [
+        403,
+        1793487828525029600
+      ]
+    },
+    "config/context_policy.json": {
+      "sha256": "ce0f8225044a815455fdfdeb7346ba761f1198d719fd608f048b5b1d1c3b8bde",
+      "size": 3098,
+      "stat": [
+        3098,
+        1793477321790370900
+      ]
+    },
+    "data/.context.yaml": {
+      "sha256": "22afe8cb377c67ecfd09273d40b1396353b5559d2b0d854955d71fde0a282d7e",
+      "size": 326,
+      "stat": [
+        326,
+        1793407282768751400
+      ]
+    },
+    "docs/.context.yaml": {
+      "sha256": "aa23519398d49ea2d4a35efdab0c290d230680bcf35fee3cb2993c2c7cf0c67e",
+      "size": 326,
+      "stat": [
+        326,
+        1793407282853617300
+      ]
+    },
+    "docs/architecture/.context.yaml": {
+      "sha256": "6f6a17401b28a19aef98b6bf4d46213217a7d7e387764c8eeae851f8cbad704f",
+      "size": 350,
+      "stat": [
+        350,
+        1793487828512991300
+      ]
+    },
+    "docs/notes/.context.yaml": {
+      "sha256": "3425f57f359033363ae217df26d6f3bc7262af469cd8910ea26918df10ad2164",
+      "size": 351,
+      "stat": [
+        351,
+        1793487828521020500
+      ]
+    },
+    "docs/specs/.context.yaml": {
+      "sha256": "f5f48db46374d9967dae8889c01010be31127ad2b982b9da7ff9c3d06e9c7f1c",
+      "size": 333,
+      "stat": [
+        333,
+        1793487828515983500
+      ]
+    },
+    "docs/specs/icontext-v6.md": {
+      "sha256": "a2533b901c6dec1d87fa8dc77ae89efa776dd51499ab487f58e33b404f9554cd",
+      "size": 6740,
+      "stat": [
+        6740,
+        1793477321793364700
+      ]
+    },
+    "icontext.py": {
+      "contracts": {
+        "cli_flags": [],
+        "imports": [
+          "icontext_cli",
+          "pathlib",
+          "sys"
+        ],
+        "signatures": [],
+        "symbols": []
+      },
+      "sha256": "8b52138e03af2d2ce30684eb62d25801d1060e9e429017d42783cb9ebb1f8bac",
+      "size": 341,
+      "stat": [
+        341,
+        1793474010260220600
+      ]
+    },
+    "pyproject.toml": {
+      "sha256": "973941897cacca538e22be38702f45fe9333071c6d9137ce9b26ffd48afedd60",
+      "size": 794,
+      "stat": [
+        794,
+        1793474077686113200
+      ]
+    },
+    "schemas/.context.yaml": {
+      "sha256": "0360e24966cfb776e436d1a29d5c8b7eedc6fc50e3fe030a23e8196dfbdf4fc7",
+      "size": 368,
+      "stat": [
+        368,
+        1793487828545322300
+      ]
+    },
+    "schemas/backlog.schema.json": {
+      "sha256": "a5d392ea7768d984781da5f61ede127f53d6469c08617f62ce0124bc73179ea9",
+      "size": 1561,
+      "stat": [
+        1561,
+        1793473806698607700
+      ]
+    },
+    "schemas/beacon.schema.json": {
+      "sha256": "d42d69bebda3b414376fa8c48c06cd8863301e35bf506d643fbfb9608150c686",
+      "size": 1872,
+      "stat": [
+        1872,
+        1793473806733852800
+      ]
+    },
+    "schemas/checkpoint.schema.json": {
+      "sha256": "c81210ffaa333b9176313486ba14b4a012f8888706e9f0536308c158e3c9dd59",
+      "size": 2212,
+      "stat": [
+        2212,
+        1793473806735845800
+      ]
+    },
+    "schemas/contracts_ast.schema.json": {
+      "sha256": "30d2107109780341dd10d8befbba1defe9e61befe0381985c833f43dc514e2f8",
+      "size": 3223,
+      "stat": [
+        3223,
+        1793473806737840400
+      ]
+    },
+    "schemas/icontext_bus.schema.json": {
+      "sha256": "a82c2abd66a6d04272605764bb9c64cfb20da0d5b799a475d408bbf48b8b6a41",
+      "size": 6183,
+      "stat": [
+        6183,
+        1793473806745008000
+      ]
+    },
+    "schemas/inventory.schema.json": {
+      "sha256": "aa5f4d9e42f2ccdd88ab086686f2ae66e0bace9d702c73fa8dba36e8bbd04cdf",
+      "size": 604,
+      "stat": [
+        604,
+        1793473806748000500
+      ]
+    },
+    "schemas/plan_metadata.schema.json": {
+      "sha256": "059aa7e208d67d464c8615bdb4abb29235f45c01c76f209537b5952e1356e505",
+      "size": 892,
+      "stat": [
+        892,
+        1793473806749994100
+      ]
+    },
+    "schemas/toolchain.schema.json": {
+      "sha256": "1906661dc8e0cd43e79477362692ee306d1bc66211792f2b3b56e042558cfdcb",
+      "size": 552,
+      "stat": [
+        552,
+        1793473806751990900
+      ]
+    },
+    "schemas/tree.schema.json": {
+      "sha256": "590f8fb62ed341b87acb75686999cc1df64a9f6105df24cf233772133522fc91",
+      "size": 3564,
+      "stat": [
+        3564,
+        1793473806753983600
+      ]
+    },
+    "scripts/.context.yaml": {
+      "sha256": "80ce3be199164168bc7a07c6990288db2485c2b8b1d749c2094296f3c860abb1",
+      "size": 318,
+      "stat": [
+        318,
+        1793487828556292300
+      ]
+    },
+    "skills/.context.yaml": {
+      "sha256": "f30ef9a20a9e0b735a60aaabd5ddb57dde7a5de2bcd53671ec39b4765a3877bb",
+      "size": 311,
+      "stat": [
+        311,
+        1793474276872020900
+      ]
+    },
+    "skills/v6/.context.yaml": {
+      "sha256": "cc1f01d9150f8a1544c70c0d2c0d26b6c1ea2bad542bca67f9376df9492de508",
+      "size": 280,
+      "stat": [
+        280,
+        1793474276919299300
+      ]
+    },
+    "skills/v6/icontext/.context.yaml": {
+      "sha256": "55e6b70dc0cb9329084bb66c32da71618bc0326569ac8bac1445294b37a9b3f7",
+      "size": 301,
+      "stat": [
+        301,
+        1793474276933993400
+      ]
+    },
+    "skills/v6/icontext/SKILL.md": {
+      "sha256": "09a67f9f64757ecf121de31e86ae691b587c42f641585abdf4b15c941ffbd4c4",
+      "size": 1716,
+      "stat": [
+        1716,
+        1793476790084710400
+      ]
+    },
+    "skills/v6/icontext/bundle.json": {
+      "sha256": "80f2c0850cb0552241aa8de8ea240f0bda2ab615590cb0304f6ff8778c659888",
+      "size": 246,
+      "stat": [
+        246,
+        1793476790088700400
+      ]
+    },
+    "skills/v6/icontext/scripts/.context.yaml": {
+      "sha256": "6f20eae097aeab78079838eae66f87668690001e28561920cde599cf1de30b41",
+      "size": 326,
+      "stat": [
+        326,
+        1793474276978061500
+      ]
+    },
+    "skills/v6/icontext/scripts/run.py": {
+      "contracts": {
+        "cli_flags": [],
+        "imports": [
+          "icontext_cli",
+          "json",
+          "pathlib",
+          "sys"
+        ],
+        "signatures": [
+          "./skills/v6/icontext/scripts/run.py::matches_version(path) -> Any"
+        ],
+        "symbols": [
+          "matches_version"
+        ]
+      },
+      "sha256": "354efcdae125b7fc630daa0c9c7d1950574b0f797c19039f4427684405614af6",
+      "size": 1369,
+      "stat": [
+        1369,
+        1793474238401751300
+      ]
+    },
+    "src/.context.yaml": {
+      "sha256": "79c9f9eeff5906de30a46912164c35259be19fd4d9d63643aaef95f01285a048",
+      "size": 322,
+      "stat": [
+        322,
+        1793407282898698600
+      ]
+    },
+    "src/cloud_jobs/.context.yaml": {
+      "sha256": "4ad406c4285681ea3f0adba530641023ee7c7cfb874ba50e267304332a51db9f",
+      "size": 437,
+      "stat": [
+        437,
+        1793487828475939200
+      ]
+    },
+    "src/core/.context.yaml": {
+      "sha256": "1fcfcc1e5c260a147e9e3231be5abce1db8777adef0261602bee1cf5d3d57afd",
+      "size": 335,
+      "stat": [
+        335,
+        1793487828484912500
+      ]
+    },
+    "src/core/benchmark.py": {
+      "contracts": {
+        "cli_flags": [],
+        "imports": [
+          "context_runtime",
+          "icontext_cli",
+          "metricsthinking.engine",
+          "pathlib",
+          "statistics",
+          "subprocess",
+          "sys",
+          "tempfile",
+          "time"
+        ],
+        "signatures": [
+          "./src/core/benchmark.py::percentile(values, fraction) -> Any",
+          "./src/core/benchmark.py::benchmark(root, samples=7) -> Any"
+        ],
+        "symbols": [
+          "percentile",
+          "benchmark"
+        ]
+      },
+      "sha256": "447bfb62fb73788c23b48f2104f6c1e732597fb0eb534d3abb8fe5f8dd40bd0f",
+      "size": 4303,
+      "stat": [
+        4303,
+        1793486069887979300
+      ]
+    },
+    "src/core/icontext_cli.py": {
+      "contracts": {
+        "cli_flags": [
+          "--agents",
+          "--all",
+          "--constraint",
+          "--decision",
+          "--dry-run",
+          "--evidence-hash",
+          "--expand",
+          "--fix",
+          "--full",
+          "--home",
+          "--input-hash",
+          "--json",
+          "--local",
+          "--next",
+          "--objective",
+          "--profile",
+          "--root",
+          "--session-id",
+          "--set",
+          "--show",
+          "--target",
+          "--task",
+          "--tier",
+          "--verbose",
+          "-v"
+        ],
+        "imports": [
+          "__future__",
+          "argparse",
+          "benchmark",
+          "context_runtime",
+          "contextlib",
+          "fwengine",
+          "io",
+          "json",
+          "metricsthinking.engine",
+          "os",
+          "pathlib",
+          "skill_installer",
+          "sys"
+        ],
+        "signatures": [
+          "./src/core/icontext_cli.py::ecosystem_root(value=None) -> Any",
+          "./src/core/icontext_cli.py::outputs(root, layer) -> Any",
+          "./src/core/icontext_cli.py::output_hash(root, layer) -> Any",
+          "./src/core/icontext_cli.py::layer_hash(inv, layer, root) -> Any",
+          "./src/core/icontext_cli.py::plan(root, full=False) -> Any",
+          "./src/core/icontext_cli.py::status(root) -> Any",
+          "./src/core/icontext_cli.py::audit(root, full=False) -> Any",
+          "./src/core/icontext_cli.py::request(root, layer, inv, fingerprint, delta) -> Any",
+          "./src/core/icontext_cli.py::complete(root, layer, expected) -> Any",
+          "./src/core/icontext_cli.py::metrics(root, eco, full=False, profile='default') -> Any",
+          "./src/core/icontext_cli.py::sync(root, eco, dry_run=False, full=False) -> Any",
+          "./src/core/icontext_cli.py::pack(root, path='.', tier='1a', expand=False, task='') -> Any",
+          "./src/core/icontext_cli.py::main(argv=None) -> Any"
+        ],
+        "symbols": [
+          "ecosystem_root",
+          "outputs",
+          "output_hash",
+          "layer_hash",
+          "plan",
+          "status",
+          "audit",
+          "request",
+          "complete",
+          "metrics",
+          "sync",
+          "pack",
+          "main"
+        ]
+      },
+      "sha256": "8587ab138a19322ddee4fa8b88413465001479aea04d5aef138a1894819062e1",
+      "size": 23438,
+      "stat": [
+        23438,
+        1793485709833989200
+      ]
+    },
+    "src/core/skill_installer.py": {
+      "contracts": {
+        "cli_flags": [],
+        "imports": [
+          "_icontext_assets",
+          "context_runtime",
+          "ctypes",
+          "json",
+          "os",
+          "pathlib",
+          "shutil",
+          "sys",
+          "tempfile",
+          "time",
+          "winreg",
+          "zipfile"
+        ],
+        "signatures": [
+          "./src/core/skill_installer.py::source_bundles(eco) -> Any",
+          "./src/core/skill_installer.py::inspect_installation(eco, home) -> Any",
+          "./src/core/skill_installer.py::install(eco, agents, home, local=None, dry_run=False, only=None, source_runtime=None) -> Any"
+        ],
+        "symbols": [
+          "source_bundles",
+          "inspect_installation",
+          "install"
+        ]
+      },
+      "sha256": "58e08fc5b33f7ab635dbe2a19f99b137737044fb28cedb325535f66aad18b938",
+      "size": 11318,
+      "stat": [
+        11318,
+        1793484769375893100
+      ]
+    },
+    "src/dashboards/.context.yaml": {
+      "sha256": "f1af8cc10c1da0362b606197a9f752e0c1885f919e83f685fbbd46db13a690d8",
+      "size": 351,
+      "stat": [
+        351,
+        1793487828489899300
+      ]
+    },
+    "src/data_generation/.context.yaml": {
+      "sha256": "8354c5ab27f0146ca433a0fad16fa9ac32a505b9db186dbedac4c53540a5f7a5",
+      "size": 365,
+      "stat": [
+        365,
+        1793487828480927500
+      ]
+    },
+    "tests/.context.yaml": {
+      "sha256": "17f237291b102c3af1f3aa08a3e96dae3932252b6c8089309505fdf129572118",
+      "size": 318,
+      "stat": [
+        318,
+        1793487828566495800
+      ]
+    },
+    "tests/fixtures/golden_baseline_report.json": {
+      "sha256": "2bbaaeb4d4b8b962159831534784328c5ac3b4a16803ec1037879ae98be44c70",
+      "size": 146,
+      "stat": [
+        146,
+        1793541172104302000
+      ]
+    },
+    "tests/test_v6.py": {
+      "contracts": {
+        "cli_flags": [],
+        "imports": [
+          "context_runtime",
+          "fwengine",
+          "icontext_cli",
+          "json",
+          "jsonschema",
+          "os",
+          "pathlib",
+          "pytest",
+          "shutil",
+          "skill_installer",
+          "subprocess",
+          "sys"
+        ],
+        "signatures": [
+          "./tests/test_v6.py::snapshot(root) -> Any",
+          "./tests/test_v6.py::project(root) -> Any",
+          "./tests/test_v6.py::seed(root) -> Any",
+          "./tests/test_v6.py::readmes(root) -> Any",
+          "./tests/test_v6.py::test_inventory_tracks_dirty_add_delete_rename_and_full_verification(tmp_path) -> Any",
+          "./tests/test_v6.py::test_inherited_pruning_and_gitignore(tmp_path) -> Any",
+          "./tests/test_v6.py::test_queries_and_dry_run_do_not_write_even_without_context(tmp_path) -> Any",
+          "./tests/test_v6.py::test_complete_rejects_stale_inputs(tmp_path) -> Any",
+          "./tests/test_v6.py::test_sync_handoff_and_noop_are_idempotent(tmp_path, monkeypatch) -> Any",
+          "./tests/test_v6.py::test_required_failure_blocks_dependents(tmp_path, monkeypatch) -> Any",
+          "./tests/test_v6.py::test_parallel_publish_retains_all_producers(tmp_path) -> Any",
+          "./tests/test_v6.py::test_bundles_install_equally_and_repeat_without_writes(tmp_path) -> Any",
+          "./tests/test_v6.py::test_runtime_can_run_without_sibling_repositories(tmp_path) -> Any",
+          "./tests/test_v6.py::test_no_command_only_shows_help(tmp_path) -> Any",
+          "./tests/test_v6.py::test_missing_metrics_does_not_become_a_perfect_score(tmp_path) -> Any",
+          "./tests/test_v6.py::test_sessions_are_isolated_and_can_resume_from_another_host(tmp_path) -> Any",
+          "./tests/test_v6.py::test_context_payload_is_bounded_and_expansion_is_explicit(tmp_path) -> Any",
+          "./tests/test_v6.py::test_v6_schema_accepts_unknown_measurements(tmp_path) -> Any",
+          "./tests/test_v6.py::test_compiled_orientation_stays_read_only_and_honors_new_pruning(tmp_path, monkeypatch) -> Any",
+          "./tests/test_v6.py::test_windows_json_contract_is_utf8(tmp_path) -> Any",
+          "./tests/test_v6.py::test_hybrid_snapshot_does_not_require_a_master(tmp_path) -> Any",
+          "./tests/test_v6.py::test_standalone_metrics_preserves_report_telemetry(tmp_path) -> Any",
+          "./tests/test_v6.py::test_installation_diagnosis_detects_damaged_resources(tmp_path) -> Any",
+          "./tests/test_v6.py::test_full_sync_propagates_verification_to_metrics(tmp_path, monkeypatch) -> Any",
+          "./tests/test_v6.py::test_context_pack_respects_project_budget(tmp_path) -> Any",
+          "./tests/test_v6.py::test_pack_does_not_mistake_an_internal_kernel_for_the_project_root(tmp_path) -> Any",
+          "./tests/test_v6.py::test_document_validation_allows_web_urls_and_rejects_local_paths(tmp_path) -> Any",
+          "./tests/test_v6.py::test_readme_validation_allows_absolute_paths_in_terminal_examples(tmp_path) -> Any",
+          "./tests/test_v6.py::test_audit_runtime_upgrade_invalidates_consumer_metrics(tmp_path, monkeypatch) -> Any"
+        ],
+        "symbols": [
+          "snapshot",
+          "project",
+          "seed",
+          "readmes",
+          "test_inventory_tracks_dirty_add_delete_rename_and_full_verification",
+          "test_inherited_pruning_and_gitignore",
+          "test_queries_and_dry_run_do_not_write_even_without_context",
+          "test_complete_rejects_stale_inputs",
+          "test_sync_handoff_and_noop_are_idempotent",
+          "test_required_failure_blocks_dependents",
+          "test_parallel_publish_retains_all_producers",
+          "test_bundles_install_equally_and_repeat_without_writes",
+          "test_runtime_can_run_without_sibling_repositories",
+          "test_no_command_only_shows_help",
+          "test_missing_metrics_does_not_become_a_perfect_score",
+          "test_sessions_are_isolated_and_can_resume_from_another_host",
+          "test_context_payload_is_bounded_and_expansion_is_explicit",
+          "test_v6_schema_accepts_unknown_measurements",
+          "test_compiled_orientation_stays_read_only_and_honors_new_pruning",
+          "test_windows_json_contract_is_utf8",
+          "test_hybrid_snapshot_does_not_require_a_master",
+          "test_standalone_metrics_preserves_report_telemetry",
+          "test_installation_diagnosis_detects_damaged_resources",
+          "test_full_sync_propagates_verification_to_metrics",
+          "test_context_pack_respects_project_budget",
+          "test_pack_does_not_mistake_an_internal_kernel_for_the_project_root",
+          "test_document_validation_allows_web_urls_and_rejects_local_paths",
+          "test_readme_validation_allows_absolute_paths_in_terminal_examples",
+          "test_audit_runtime_upgrade_invalidates_consumer_metrics"
+        ]
+      },
+      "sha256": "851839a5811a3ef39708d32a71d4b152c7e0a9d009ce6a96d946286780bda304",
+      "size": 17092,
+      "stat": [
+        17092,
+        1793487563911188700
+      ]
+    },
+    "tools/.context.yaml": {
+      "sha256": "270d27ea24148c667bed940a12dbbb3d7ce5139d05a14b392ffc9a6f4b37cb14",
+      "size": 288,
+      "stat": [
+        288,
+        1793487828571493600
+      ]
+    }
+  },
+  "inputs_hash": "a8b81c7831236124c2eb3d1d8ee769286d68e32a40ae98bd147ee025370e9ac5",
+  "policy_hash": "e6e415c5dd5c4606e0d8361b23d27408c9f572af7b23385c62359facaaf14460",
+  "version": "6.0.0"
+}

@@ -1,0 +1,46 @@
+{
+  "$schema": "../schemas/icontext_bus.schema.json",
+  "layers": {
+    "l0_idirectory": {
+      "contracts_ast_hash": "69ed47492abf4f3d28bb1e5aedc487fe8a7a056ef4203b82a0d337bdc2642325",
+      "inputs_hash": "b367f0faf195d30823e30f3ae9af0816288e88dd7cec74cb8307f1663f92056b",
+      "present": true,
+      "published_at": "2026-10-31T23:03:55.644931+00:00",
+      "state": "recorded",
+      "version": "6.0.0"
+    },
+    "l1_thinkingseed": {
+      "artifact_kind": "master",
+      "inputs_hash": "036bb1a2c4df56c3efb115150c61e96070af5246199807becf0ccc121fec8da2",
+      "output_hash": "3b5faa595530012ac87a4e7c2e178ee325fe996fe2a2ec8f60051e650e4eb8ee",
+      "present": true,
+      "published_at": "2026-10-31T23:00:45.774547+00:00",
+      "state": "validated",
+      "version": "6.0.0"
+    },
+    "l2_metricsthinking": {
+      "consolidated_score": 61.67,
+      "fpai_pf_spectral": 1.0,
+      "fpai_s_spectral": 45404.0,
+      "inputs_hash": "a8b81c7831236124c2eb3d1d8ee769286d68e32a40ae98bd147ee025370e9ac5",
+      "present": true,
+      "published_at": "2026-11-01T13:53:00.946703+00:00",
+      "report_path": "artifacts/plans/metricsthinking/MetricsThinking.json",
+      "security_gate": 1.0,
+      "state": "validated",
+      "version": "6.0.0"
+    },
+    "l3_ireadme": {
+      "artifact_kind": "readme",
+      "inputs_hash": "67f299cf248c45f0884606328e3243dcaa5f361e3d38a4e4a9f799bbe31cb435",
+      "output_hash": "a44b1be5c911e955376c05f67bed1432c57490204e0f118a6d4ec7fc89f8d4b2",
+      "present": true,
+      "published_at": "2026-10-31T23:01:09.064106+00:00",
+      "state": "validated",
+      "version": "6.0.0"
+    }
+  },
+  "project": "ContextControl",
+  "protocol_version": "6.0.0",
+  "updated_at": "2026-11-01T13:53:00.960265+00:00"
+}

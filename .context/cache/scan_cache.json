@@ -1,0 +1,359 @@
+{
+  ".agentignore": {
+    "mtime": 1793407283.1231067,
+    "size": 211,
+    "sha256": "2f8be57be335469c99868d75dbf60b50626eb5a859e030737e6cc053afde219e",
+    "line_count": 12,
+    "token_estimate": 52
+  },
+  ".gitignore": {
+    "mtime": 1793407283.1885808,
+    "size": 152,
+    "sha256": "199f65d19fdcdc15be74c66ca577504a40a0ece027e5d1dc21835212ff607592",
+    "line_count": 12,
+    "token_estimate": 38
+  },
+  "audit_federation.py": {
+    "mtime": 1793408509.5274024,
+    "size": 25745,
+    "sha256": "ae84021272735d84e99598dc2bb39d6180530c010080de1bff38fa663ca621d5",
+    "line_count": 644,
+    "token_estimate": 6436
+  },
+  "FWengine.py": {
+    "mtime": 1793408119.8354714,
+    "size": 163992,
+    "sha256": "3d9d6fb8bd3d17e9ac2ec2742e804f8dba63855b5787217e95f5054a3d6c6f94",
+    "line_count": 3781,
+    "token_estimate": 40998
+  },
+  "icontext.py": {
+    "mtime": 1793408287.752484,
+    "size": 30136,
+    "sha256": "60261725971beb2a4a0a301e6f640e1caed77bcc037ade6a967f53d063d2ed4c",
+    "line_count": 680,
+    "token_estimate": 7534
+  },
+  "ICONTEXT_FEDERATION_PROTOCOL_V5.md": {
+    "mtime": 1793408681.203221,
+    "size": 33064,
+    "sha256": "48ee0c8b22f8ab2b139f936c4e38e737fbdfcd540737fcfaa0c20056a10610de",
+    "line_count": 511,
+    "token_estimate": 8266
+  },
+  "README.md": {
+    "mtime": 1793410000.622929,
+    "size": 11424,
+    "sha256": "6016f86819bf1f50b5e5fd00794396c26c7dddee4543a49ea57df375efbe2913",
+    "line_count": 165,
+    "token_estimate": 2856
+  },
+  "README_ES.md": {
+    "mtime": 1793410000.6288822,
+    "size": 11877,
+    "sha256": "a2accc391e1e4d1f4a58ab9f34aadbe2a0fba6a303834bbd945b36789c08892f",
+    "line_count": 165,
+    "token_estimate": 2969
+  },
+  ".agents/skills/icontext/SKILL.md": {
+    "mtime": 1793409788.523671,
+    "size": 4717,
+    "sha256": "385dcbd3390ebbd3d90a1d379879fd23882592d8a12ade6ed00c2f4fa8ce3940",
+    "line_count": 79,
+    "token_estimate": 1179
+  },
+  ".context/checkpoint.json": {
+    "mtime": 1793409902.156554,
+    "size": 362,
+    "sha256": "a376af599eb261d1f9ff3a5bc9ca4f26693daefcc9221670a23cecc2ac38e966",
+    "line_count": 17,
+    "token_estimate": 90
+  },
+  ".context/contracts_ast.json": {
+    "mtime": 1793409995.2682712,
+    "size": 19400,
+    "sha256": "b64efb713ff067499ec20b72cd8f7c07da082e3454297f3927b5bb4c4abeffea",
+    "line_count": 404,
+    "token_estimate": 4850
+  },
+  ".context/icontext_bus.json": {
+    "mtime": 1793410111.325616,
+    "size": 2349,
+    "sha256": "254c20b0b02396cda2f944c93a5dc51024af443ce594cc9e13cf3b6750796c8f",
+    "line_count": 60,
+    "token_estimate": 587
+  },
+  ".context/tree.json": {
+    "mtime": 1793410109.210236,
+    "size": 3757,
+    "sha256": "fb071dbfd0bcec9bbc5d1e6d6c9b5b7b01de17e367e7ab26925f4d012c05b81b",
+    "line_count": 38,
+    "token_estimate": 939
+  },
+  ".context/cache/benchmark_seed_coverage.md": {
+    "mtime": 1793410111.2810729,
+    "size": 4029,
+    "sha256": "1780a6c11b6123b30e9df710c9d8076de659095f56721d9d0d7a629e2319aace",
+    "line_count": 66,
+    "token_estimate": 1007
+  },
+  "01_seed/.context.yaml": {
+    "mtime": 1793410108.2917967,
+    "size": 451,
+    "sha256": "796672e3427fcf6af436837757c486fbc8b5ed372731ef25daac6a149bb849a8",
+    "line_count": 13,
+    "token_estimate": 112
+  },
+  "01_seed/seed-contextcontrol-master.md": {
+    "mtime": 1793410070.1126149,
+    "size": 11148,
+    "sha256": "80f3d932b3ba369fbe836c4cc246d7f6d1d8aa9d829f944adadd179c93455d2e",
+    "line_count": 159,
+    "token_estimate": 2787
+  },
+  "02_foundation/.context.yaml": {
+    "mtime": 1793407282.5614862,
+    "size": 344,
+    "sha256": "bf3de5fda16a759f3f0ec7c80f08b3225cdefca247afbad174a780ad5e77df91",
+    "line_count": 11,
+    "token_estimate": 86
+  },
+  "02_foundation/engine/.context.yaml": {
+    "mtime": 1793410108.2947652,
+    "size": 404,
+    "sha256": "ef90dfda58842c7bd87c7511a8e33e2a1d1d0aa36706ac713c53850853301249",
+    "line_count": 12,
+    "token_estimate": 101
+  },
+  "02_foundation/engine/engine_readme.md": {
+    "mtime": 1793407283.1181636,
+    "size": 4447,
+    "sha256": "47f57990f4b428949ae75bbda6b92d85657a6f3952f753c2867a77926200787f",
+    "line_count": 39,
+    "token_estimate": 1111
+  },
+  "03_research/.context.yaml": {
+    "mtime": 1793407282.6628914,
+    "size": 340,
+    "sha256": "a685d83bb8320f1c4c07e9b77894fdc85b63294b53c596ceaca5a49c5e4231e5",
+    "line_count": 11,
+    "token_estimate": 85
+  },
+  "03_research/experiments/.context.yaml": {
+    "mtime": 1793410108.3048031,
+    "size": 343,
+    "sha256": "6b7aaa19adf3fb9034394b05ec0ca75b64aec50c33e3299943c6fcd8876c03ec",
+    "line_count": 10,
+    "token_estimate": 85
+  },
+  "03_research/notebooks/.context.yaml": {
+    "mtime": 1793410108.2984474,
+    "size": 390,
+    "sha256": "f943ebb021bba1c5ca13171c7fdb98f6783e80611706f32da4be450773a1e2c0",
+    "line_count": 10,
+    "token_estimate": 97
+  },
+  "03_research/prompts/.context.yaml": {
+    "mtime": 1793410108.301917,
+    "size": 350,
+    "sha256": "8a95f230e75f5b824c50c3483541b356742417a54d96ef013349a6a8413ac779",
+    "line_count": 10,
+    "token_estimate": 87
+  },
+  "artifacts/.context.yaml": {
+    "mtime": 1793407282.7325947,
+    "size": 336,
+    "sha256": "4195f5bff38c85540257f4cf0000c7df68c2b2b897f930340f229f758dc1156c",
+    "line_count": 11,
+    "token_estimate": 84
+  },
+  "artifacts/plans/.context.yaml": {
+    "mtime": 1793407283.0218399,
+    "size": 348,
+    "sha256": "73c5cdc5a2a2bd4050e53b6645aa0ddbc3deca4395913c40be8234f6df714859",
+    "line_count": 11,
+    "token_estimate": 87
+  },
+  "artifacts/plans/active/.context.yaml": {
+    "mtime": 1793410108.3224761,
+    "size": 387,
+    "sha256": "732ea05f3b31bc1a0a6951c1972a9d756f91217fe485c816bdc36e6b1e53d62f",
+    "line_count": 10,
+    "token_estimate": 96
+  },
+  "artifacts/plans/archive/.context.yaml": {
+    "mtime": 1793410108.3329859,
+    "size": 411,
+    "sha256": "acf1b5481f0370c8d932cb1795f506d5f6a99aa1492bae1c042df35d91499bd8",
+    "line_count": 10,
+    "token_estimate": 102
+  },
+  "artifacts/plans/backlog/.context.yaml": {
+    "mtime": 1793410108.3291035,
+    "size": 397,
+    "sha256": "2209bbfcff37fc4079a82a96707e579a12680bd60ae3e6f8a3ade5f1ad5b5a30",
+    "line_count": 11,
+    "token_estimate": 99
+  },
+  "artifacts/plans/backlog/queue.json": {
+    "mtime": 1793407281.1136875,
+    "size": 42,
+    "sha256": "caeb63a3c2d5dac4c4e0bd86b91b63fee2f41714befe5550b278dfe642c05ae9",
+    "line_count": 4,
+    "token_estimate": 10
+  },
+  "artifacts/plans/metricsthinking/.context.yaml": {
+    "mtime": 1793410108.3250775,
+    "size": 528,
+    "sha256": "0fb1a00bf1b6a56f9e94912952fad1a45cded5b520c9368f44ea7f5c67e67622",
+    "line_count": 13,
+    "token_estimate": 132
+  },
+  "artifacts/plans/metricsthinking/CONTEXT_PRUNING_PLAN.json": {
+    "mtime": 1793410000.2179253,
+    "size": 263,
+    "sha256": "4f0f58469de0e3a40bbdc8cc99ec21bba485652d4042d2dd49554fb19646372e",
+    "line_count": 8,
+    "token_estimate": 65
+  },
+  "artifacts/plans/metricsthinking/INFERRED_ROADMAP.md": {
+    "mtime": 1793410000.2173345,
+    "size": 11570,
+    "sha256": "cf92b0405140c28660996f71e2e8b8ceb2216dcda2c034e7db51a008b4c7d8b2",
+    "line_count": 161,
+    "token_estimate": 2892
+  },
+  "artifacts/plans/metricsthinking/MetricsThinking.json": {
+    "mtime": 1793410000.2202191,
+    "size": 24738,
+    "sha256": "bd5f8555ac3e62c1eccb6f2aa93b3be9e46856e58fe894c277197271e277abdd",
+    "line_count": 610,
+    "token_estimate": 6184
+  },
+  "artifacts/plans/metricsthinking/MetricsThinking.md": {
+    "mtime": 1793410000.2166598,
+    "size": 18603,
+    "sha256": "807a9361219d2f5f8152f97b83ecef7f7ca28a219baba6114a82250645f82ea3",
+    "line_count": 280,
+    "token_estimate": 4650
+  },
+  "config/.context.yaml": {
+    "mtime": 1793410108.345452,
+    "size": 403,
+    "sha256": "53ca6f5f07d072662a7e9bbf39e7154b82f5198e765ef52f53814d18bfa1d226",
+    "line_count": 12,
+    "token_estimate": 100
+  },
+  "config/context_policy.json": {
+    "mtime": 1793407281.0435934,
+    "size": 2836,
+    "sha256": "4c7ffd364369d027bc2bdfda1ca6ae429b197dffaa52557fc4c8c0ede22fdd3b",
+    "line_count": 78,
+    "token_estimate": 709
+  },
+  "data/.context.yaml": {
+    "mtime": 1793407282.7687514,
+    "size": 326,
+    "sha256": "27f1dfefc43d880aa0eecf83fea6a9fe051ed11c345a06762b9bcde5c9f03da4",
+    "line_count": 11,
+    "token_estimate": 81
+  },
+  "docs/.context.yaml": {
+    "mtime": 1793407282.8536172,
+    "size": 326,
+    "sha256": "8436fe90041187866e8ed56b9f462f103e34f6ad6326be1e68436f2af6990228",
+    "line_count": 11,
+    "token_estimate": 81
+  },
+  "docs/architecture/.context.yaml": {
+    "mtime": 1793410108.3365102,
+    "size": 350,
+    "sha256": "44322449efe9adf324dd52770551b5e3ab3c0ee4418b85cb17e06aa45968bde5",
+    "line_count": 10,
+    "token_estimate": 87
+  },
+  "docs/notes/.context.yaml": {
+    "mtime": 1793410108.3425238,
+    "size": 351,
+    "sha256": "09647dcf9838963568410e4b605020e43bd3b5e00372faea706399bf233e010c",
+    "line_count": 10,
+    "token_estimate": 87
+  },
+  "docs/specs/.context.yaml": {
+    "mtime": 1793410108.3387768,
+    "size": 333,
+    "sha256": "a4e9794274b7db3bf48af3e121fce7f7076d4f06f7850939a0617be303d3403f",
+    "line_count": 10,
+    "token_estimate": 83
+  },
+  "logs/.context.yaml": {
+    "mtime": 1793410108.4104173,
+    "size": 343,
+    "sha256": "f69089e9dad91a7a64f7c4d74dfd1ac5de0f8c98ddee893e2fcd2e512091e7b8",
+    "line_count": 10,
+    "token_estimate": 85
+  },
+  "schemas/.context.yaml": {
+    "mtime": 1793410108.3592765,
+    "size": 368,
+    "sha256": "6e1b1759ca038be522a39640e8a98adf781817b7c3c0968a090b54580b4dced4",
+    "line_count": 10,
+    "token_estimate": 92
+  },
+  "scripts/.context.yaml": {
+    "mtime": 1793410108.3632183,
+    "size": 318,
+    "sha256": "75f8fae5606ee34cb897e3b6e08b0c7ec8e173d032fac9ce812a0b74ac062a09",
+    "line_count": 10,
+    "token_estimate": 79
+  },
+  "src/.context.yaml": {
+    "mtime": 1793407282.8986986,
+    "size": 322,
+    "sha256": "363a0e70a633efa2be22140d411341eba1a3dc7cb3fe9948af929d15c3fe0a94",
+    "line_count": 11,
+    "token_estimate": 80
+  },
+  "src/cloud_jobs/.context.yaml": {
+    "mtime": 1793410108.3080473,
+    "size": 437,
+    "sha256": "ed6e89ac38b0fb760f46da565844deaf4ec0f769fdd9619de02d64f47807845b",
+    "line_count": 13,
+    "token_estimate": 109
+  },
+  "src/core/.context.yaml": {
+    "mtime": 1793410108.3156316,
+    "size": 335,
+    "sha256": "b5c17bc80c50eb07c800a5ab3d10ab3b405c34fa304b454683a29f8be22678ba",
+    "line_count": 10,
+    "token_estimate": 83
+  },
+  "src/dashboards/.context.yaml": {
+    "mtime": 1793410108.3188984,
+    "size": 351,
+    "sha256": "63e306c0a400ce596c3070b7ff50426fdd4ce10cde4a366a229498d83ac2855b",
+    "line_count": 10,
+    "token_estimate": 87
+  },
+  "src/data_generation/.context.yaml": {
+    "mtime": 1793410108.3128555,
+    "size": 365,
+    "sha256": "838d98d07f792fc3c9b9e312d95db8476eb43b27f2b2a57b219a44b5a39f8da1",
+    "line_count": 10,
+    "token_estimate": 91
+  },
+  "tests/.context.yaml": {
+    "mtime": 1793410108.3666782,
+    "size": 318,
+    "sha256": "354bc92d9959c48d535467e7bde621770a6b9ee0e7876e30f57fdf749beba932",
+    "line_count": 10,
+    "token_estimate": 79
+  },
+  "tools/.context.yaml": {
+    "mtime": 1793410108.3694718,
+    "size": 288,
+    "sha256": "1455a9b11cc6d41886da887ffc83d06a3742043bbd7725549b14ad3c888a0951",
+    "line_count": 10,
+    "token_estimate": 72
+  }
+}
