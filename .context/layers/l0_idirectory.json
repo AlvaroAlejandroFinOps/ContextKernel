@@ -1,8 +1,8 @@
 {
   "contracts_ast_hash": "69ed47492abf4f3d28bb1e5aedc487fe8a7a056ef4203b82a0d337bdc2642325",
-  "inputs_hash": "b367f0faf195d30823e30f3ae9af0816288e88dd7cec74cb8307f1663f92056b",
+  "inputs_hash": "5b58fc499cb5e79fd13c13e7d6e7e264da99ab35e3d902d3e15d36db47ef1081",
   "present": true,
-  "published_at": "2026-10-31T23:03:55.644931+00:00",
+  "published_at": "2026-11-01T14:55:38.648712+00:00",
   "state": "recorded",
   "version": "6.0.0"
 }

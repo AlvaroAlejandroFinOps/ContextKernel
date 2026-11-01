@@ -1,20 +1,20 @@
 {
   "project_name": "ContextControl",
   "project_path": "./",
-  "audit_date": "2026-11-01 10:53:00",
+  "audit_date": "2026-11-01 11:56:02",
   "auditor": "MetricsThinking™ Universal Auditor",
   "profile_used": "default",
   "domain_archetype": "software-engineering",
   "inspection_mode": "source_code",
-  "git_commit": null,
-  "git_branch": null,
+  "git_commit": "05f9474",
+  "git_branch": "master",
   "seed_detected": true,
   "seed_version": "6.0",
   "evidence_primitives": {
     "config": {
       "primitive_type": "config",
-      "file_count": 30,
-      "total_lines": 423,
+      "file_count": 31,
+      "total_lines": 435,
       "sample_paths": [
         ".agentignore",
         "pyproject.toml",
@@ -175,7 +175,7 @@
           "name": "Validación Estricta de Esquemas / Context",
           "fulfilled": true,
           "evidence_path": "01_seed/.context.yaml",
-          "evidence_detail": "Gobernanza contextual iDirectory activa con 27 archivos de contexto (.context.yaml).",
+          "evidence_detail": "Gobernanza contextual iDirectory activa con 28 archivos de contexto (.context.yaml).",
           "remediation_hint": "Asegurar validadores estrictos o gobernanza .context.yaml."
         }
       ],
@@ -210,7 +210,7 @@
           "name": "Fixture Enterprise Disponible",
           "fulfilled": true,
           "evidence_path": "src/data_generation/.context.yaml",
-          "evidence_detail": "Fixtures y datos de prueba disponibles (2 archivos, e.g. 'src/data_generation/.context.yaml').",
+          "evidence_detail": "Fixtures y datos de prueba disponibles (3 archivos, e.g. 'src/data_generation/.context.yaml').",
           "remediation_hint": "Proveer fixtures o esquemas de prueba deterministas en tests/fixtures o data/."
         }
       ],
@@ -288,7 +288,7 @@
           "name": "Exportación Multi-Formato",
           "fulfilled": true,
           "evidence_path": null,
-          "evidence_detail": "Soporte de representación multi-formato verificado en el repositorio (.json, .md, .py, .toml, .yaml).",
+          "evidence_detail": "Soporte de representación multi-formato verificado en el repositorio (.code-workspace, .json, .md, .py, .toml).",
           "remediation_hint": "Ofrecer serialización a JSON, Markdown o diagramas."
         },
         {
@@ -460,7 +460,7 @@
           "name": "Eficiencia Contextual Espectral FPAI",
           "fulfilled": true,
           "evidence_path": ".agentignore",
-          "evidence_detail": "Indicador FPAI estimado (distorsión no medida): PF_spectral=1.000 >= 0.70 (S_spectral=45392, S_linear=45392).",
+          "evidence_detail": "Indicador FPAI estimado (distorsión no medida): PF_spectral=1.000 >= 0.70 (S_spectral=45568, S_linear=45568).",
           "remediation_hint": "Mantener eficiencia espectral >= 0.70 eliminando tokens muertos o redundantes."
         }
       ],
@@ -599,18 +599,18 @@
     }
   ],
   "stats": {
-    "total_files_scanned": 61,
+    "total_files_scanned": 63,
     "seeds_detected": 1,
     "manifests_detected": 1,
-    "context_files_detected": 27,
+    "context_files_detected": 28,
     "schemas_detected": 9,
     "tests_detected": 1,
     "source_files_detected": 3,
-    "is_git": false,
+    "is_git": true,
     "domain_archetype": "software-engineering",
     "inspection_mode": "source_code",
     "context_measurement": {
-      "total": 45404,
+      "total": 45592,
       "dead": 0,
       "duplicate": 0,
       "distortion": 0.0,
@@ -619,12 +619,12 @@
     }
   },
   "fpai": {
-    "p_active": 45404.0,
+    "p_active": 45592.0,
     "q_dead": 0.0,
     "q_dup": 0.0,
     "d_structural": 0.0,
-    "s_spectral": 45404.0,
-    "s_linear": 45404.0,
+    "s_spectral": 45592.0,
+    "s_linear": 45592.0,
     "divergence_ratio": 0.0,
     "power_factor_spectral": 1.0,
     "power_factor_linear": 1.0,
@@ -647,14 +647,14 @@
   },
   "resilience": {
     "afferent_coupling_ca": {
-      "FWengine": 0,
       "src.core.icontext_cli": 7,
-      "skills.v6.icontext.scripts.run": 4,
-      "src.core.skill_installer": 2,
-      "tests.test_v6": 0,
-      "icontext": 6,
       "audit_federation": 0,
-      "src.core.benchmark": 1
+      "FWengine": 0,
+      "src.core.benchmark": 1,
+      "src.core.skill_installer": 2,
+      "icontext": 6,
+      "tests.test_v6": 0,
+      "skills.v6.icontext.scripts.run": 4
     },
     "efferent_coupling_ce": {
       "FWengine": 2,
@@ -693,7 +693,7 @@
     "total_tokens_recovered": 0,
     "active_tokens_remaining": 1000,
     "power_factor_target": 0.85,
-    "generated_at": "2026-11-01T13:53:00.933714+00:00"
+    "generated_at": "2026-11-01T14:56:02.276499+00:00"
   },
   "consolidated_score": 61.67,
   "maturity_band": "Construcción Activa / Madurez Media (50.0% - 74.9%)",

@@ -1,12 +1,15 @@
 {
   "consolidated_score": 61.67,
+  "evaluation_hash": "9bb4927e2b3724a2b742014cca88218d33c6a934d762b51f2f9935b8de5a0003",
   "fpai_pf_spectral": 1.0,
-  "fpai_s_spectral": 45404.0,
-  "inputs_hash": "a8b81c7831236124c2eb3d1d8ee769286d68e32a40ae98bd147ee025370e9ac5",
+  "fpai_s_spectral": 45592.0,
+  "inputs_hash": "5b58fc499cb5e79fd13c13e7d6e7e264da99ab35e3d902d3e15d36db47ef1081",
+  "output_hash": "42dcd0f413bfaca75554a19f866374c4ee138e9416122788dadeb0cbe9941d8d",
   "present": true,
-  "published_at": "2026-11-01T13:53:00.946703+00:00",
+  "published_at": "2026-11-01T14:56:02.342483+00:00",
   "report_path": "artifacts/plans/metricsthinking/MetricsThinking.json",
   "security_gate": 1.0,
+  "security_gate_basis": "pii_scan_only",
   "state": "validated",
   "version": "6.0.0"
 }

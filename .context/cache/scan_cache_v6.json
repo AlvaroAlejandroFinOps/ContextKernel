@@ -29,16 +29,16 @@
   },
   ".gitignore": {
     "record": {
-      "content": ".venv/\r\n__pycache__/\r\n*.pyc\r\n.ipynb_checkpoints/\r\n\r\n# Ignorar datos locales y logs\r\n*.csv\r\n*.parquet\r\nlogs/\r\ndata/raw/\r\ndata/processed/\r\ndata/sandbox/\r\n",
-      "line_count": 12,
+      "content": ".venv/\n__pycache__/\n*.pyc\n.ipynb_checkpoints/\n.pytest_cache/\n.coverage\nhtmlcov/\n\n# Lock files & concurrency markers\n.context/*.lock\n.context/.*.lock\n*.lock\n\n# Ignorar datos locales y logs\n*.csv\n*.parquet\nlogs/\ndata/raw/\ndata/processed/\ndata/sandbox/\n",
+      "line_count": 20,
       "path": ".gitignore",
-      "sha256": "35713b534536f0a8e24b9e8e1f3dee18bbd39e3c811995133119794f86ede520",
-      "size_bytes": 152,
-      "token_estimate": 38
+      "sha256": "f95bf97bd1140a0777c30981adea38d1bd3206400924bdfe5bd6a8d7a4400858",
+      "size_bytes": 250,
+      "token_estimate": 62
     },
     "stat": [
-      152,
-      1793407283188580800
+      250,
+      1793544333493258400
     ]
   },
   "01_seed/.context.yaml": {
@@ -52,7 +52,7 @@
     },
     "stat": [
       451,
-      1793487828448663600
+      1793544163081029900
     ]
   },
   "01_seed/seed-contextcontrol-master.md": {
@@ -94,7 +94,7 @@
     },
     "stat": [
       404,
-      1793487828453655300
+      1793544163088075500
     ]
   },
   "02_foundation/engine/engine_readme.md": {
@@ -136,7 +136,7 @@
     },
     "stat": [
       350,
-      1793487828467595700
+      1793544163104688300
     ]
   },
   "AGENTS.md": {
@@ -151,6 +151,20 @@
     "stat": [
       1262,
       1793473131778874500
+    ]
+  },
+  "Contex.code-workspace": {
+    "record": {
+      "content": "{\n\t\"folders\": [\n\t\t{\n\t\t\t\"name\": \"ContextControl (Controller)\",\n\t\t\t\"path\": \".\"\n\t\t},\n\t\t{\n\t\t\t\"name\": \"iDirectory (L0)\",\n\t\t\t\"path\": \"../iDirectory\"\n\t\t},\n\t\t{\n\t\t\t\"name\": \"ThinkingSeed (L1)\",\n\t\t\t\"path\": \"../ThinkingSeed\"\n\t\t},\n\t\t{\n\t\t\t\"name\": \"MetricsThinking (L2)\",\n\t\t\t\"path\": \"../MetricsThinking\"\n\t\t},\n\t\t{\n\t\t\t\"name\": \"iReadme (L3)\",\n\t\t\t\"path\": \"../iReadme\"\n\t\t}\n\t],\n\t\"settings\": {}\n}\n",
+      "line_count": 25,
+      "path": "Contex.code-workspace",
+      "sha256": "a7d87ef11070c557fc66e2c84c0c92ba2dba7d24d5b7618fd0ab9b07cf0698fc",
+      "size_bytes": 375,
+      "token_estimate": 93
+    },
+    "stat": [
+      375,
+      1793543789437114300
     ]
   },
   "FWengine.py": {
@@ -211,16 +225,16 @@
   },
   "README_ES.md": {
     "record": {
-      "content": "# ContextControl: Plataforma de Ingeniería Empresarial\n\n**iContext v6.0.0.** Actualización por evidencia incremental, skills portables para Antigravity y Codex, y continuidad por sesión. Guía: [operación y migración v6](docs/specs/icontext-v6.md).\n<!-- ICONTEXT-V6:RELEASE -->\n\n\n**Idioma:** [English](README.md) | [Español](README_ES.md)\n\n[![Standard](https://img.shields.io/badge/Standard-Enterprise%20Paper--Grade%20v6.0-2b2b2b?style=flat-square)](#)\n[![Ecosystem](https://img.shields.io/badge/Ecosystem-Multi--AI%20%28Google%20%7C%20Claude%20%7C%20OpenAI%20%7C%20Cursor%29-34495e?style=flat-square)](#)\n[![iContext Federation](https://img.shields.io/badge/iContext-Federated%20v6.0-1a1a1a?style=flat-square)](#)\n[![iDirectory L0](https://img.shields.io/badge/L0-iDirectory%20v6.0-2b2b2b?style=flat-square)](#)\n[![ThinkingSeed L1](https://img.shields.io/badge/L1-ThinkingSeed%20v6.0-34495e?style=flat-square)](#)\n[![MetricsThinking L2](https://img.shields.io/badge/L2-MetricsThinking%20v6.0-4b5563?style=flat-square)](#)\n[![iReadme L3](https://img.shields.io/badge/L3-iReadme%20v6.0-000000?style=flat-square)](#)\n[![Engine](https://img.shields.io/badge/Engine-ContextControl%20Core-1a1a1a?style=flat-square)](#)\n\n---\n\n## 1. Resumen Ejecutivo\n\nLos sistemas de software empresarial modernos, las plataformas de datos en la nube y los agentes autónomos de IA enfrentan una severa fricción arquitectónica derivada de topologías desestructuradas, derivas no rastreadas de contratos y fronteras de contexto desalineadas. En ausencia de una gobernanza determinista, los equipos de alta velocidad acumulan deuda cognitiva, comprometiendo los tiempos de incorporación técnica y rompiendo la orquestación agéntica autónoma en clusters productivos.\n\nContextControl coordina sincronización y auditoría mediante un runtime versionado. Actualiza evidencia incremental, propaga fallos y entrega al agente actual las secciones de SeedMaster y README que necesitan redacción. No se han medido ahorros de TCO ni cumplimiento de SLA.\n\nLa plataforma opera bajo un modelo de ingesta universal multi-IA, funcionando de manera homogénea en Google Antigravity, Anthropic Claude Code, OpenAI ChatGPT/Codex y Cursor IDE. Mediante sincronización dual de idiomas (Inglés/Español), formulación matemática en KaTeX, insignias sobrias de alto impacto y topologías simétricas en ASCII, ContextControl entrega transparencia institucional tanto para líderes tecnológicos como para ingenieros de sistemas senior.\n\n---\n\n## 2. Arquitectura y Topología del Sistema\n\nEl sistema implementa una separación arquitectónica estricta entre el Plano de Control de Ingesta, el Núcleo Analítico Autónomo y el Plano de Estado Sincronizado de Artefactos.\n\n```\n+---------------------------------------------------------------------------------------------------+\n|                                 TOPOLOGÍA DEL ECOSISTEMA CONTEXTCONTROL                          |\n+---------------------------------------------------------------------------------------------------+\n                                                  |\n                 +--------------------------------+--------------------------------+\n                 |                                                                 |\n                 v                                                                 v\n+----------------------------------+                              +----------------------------------+\n|    PLANO DE CONTROL DE INGESTA   |                              |      PLANO DE DATOS Y ANALÍTICA  |\n|  - Orquestadores Multi-IA        |                              |  - Motores de Alto Rendimiento   |\n|  - Cápsulas de Contexto Aisladas |                              |  - Verificación y Benchmarks     |\n|  - Integridad por Topology Hash  |                              |  - Cumplimiento de Invariantes   |\n+----------------------------------+                              +----------------------------------+\n                 |                                                                 |\n                 +--------------------------------+--------------------------------+\n                                                  |\n                                                  v\n+---------------------------------------------------------------------------------------------------+\n|                                PLANO DE ARTEFACTOS SINCRONIZADOS                                  |\n|  - Artefactos Duales Enterprise Paper-Grade (README.md / README_ES.md con paridad phi = 1.0)     |\n|  - Satélites Criptográficos (.context/tree.json & .context/icontext_bus.json)                     |\n+---------------------------------------------------------------------------------------------------+\n```\n\n### Gobernanza Federada & Context Engineering iContext v6.0\n\nEste proyecto implementa formalmente el protocolo **iContext Federation Protocol v6.0**, incorporando **4 de los 4 proyectos canónicos** (iDirectory, ThinkingSeed, MetricsThinking y iReadme) de gobernanza agéntica y optimización atencional creados por Gravity HyperScale Thinking:\n\n| Capa | Componente | Función Principal en este Repositorio | Estado |\n| :--- | :--- | :--- | :--- |\n| `L0` | **iDirectory (L0)** — Plano de Control Topológico & Context Engineering Adaptativo | Gobierna la topología canónica all-lowercase, balizas semánticas (.context.yaml), satélite criptográfico (.context/tree.json), presupuestos de tokens y aislamiento mediante cápsulas para subagentes (<450 tokens). | `ACTIVE (v6.0)` |\n| `L1` | **ThinkingSeed (L1)** — Vector de ADN Arquitectónico Simbólico & Memoria Zero-Code | Preserva la memoria técnica y contratos simbólicos AST sin fuga de código fuente (Zero Source Code), auditado bajo validación estricta de 6 Gates deterministas. | `ACTIVE (v6.0)` |\n| `L2` | **MetricsThinking (L2)** — Auditoría Forense Tecnológica & Gobernanza Espectral FPIA | Calcula madurez por Ground Truth en 10 módulos canónicos, deriva semántica AST, eficiencia espectral FPIA (S_spectral, PF_spectral) y escaneo de seguridad Zero-Trust. | `ACTIVE (v6.0)` |\n| `L3` | **iReadme (L3)** — Sintetizador Institucional de Documentación Dual Paper-Grade | Sincroniza documentación dual inglés/español bajo el estándar Enterprise Paper-Grade, garantizando paridad estructural phi = 1.0, formulación formal en KaTeX y cero fugas de ruta local. | `ACTIVE (v6.0)` |\n\nLa interoperabilidad entre estas herramientas se orquesta de manera no-bloqueante a través del **Bus Cognitivo Federado** (`./.context/icontext_bus.json`), garantizando continuidad atencional, cero deriva satelital y protección estricta contra alucinaciones en agentes autónomos.\n\n\n---\n\n## 3. Formulación Matemática y Motores Analíticos\n\nLa estabilidad arquitectónica y eficiencia computacional de ContextControl están gobernadas por modelos matemáticos formales de optimización.\n\nSea $\\mathcal{T}$ la topología rastreada del sistema de archivos, donde cada nodo $n_i \\in \\mathcal{T}$ posee un estado de activación $\\alpha_i \\in \\{0, 1\\}$ gobernado por balizas de contexto. El presupuesto atencional activo $\\Omega(\\mathcal{T})$ se formaliza como:\n\n$$\\Omega(\\mathcal{T}) = \\sum_{i=1}^{N} \\alpha_i \\cdot \\tau(n_i)$$\n\ndonde $\\tau(n_i)$ representa el peso estimado en tokens del artefacto $n_i$. El factor de potencia espectral FPIA $PF_{\\text{spectral}}$ evalúa la pureza cognitiva:\n\n$$PF_{\\text{spectral}} = \\frac{P_{\\text{activo}}}{\\sqrt{P_{\\text{activo}}^2 + Q_{\\text{muerto}}^2 + Q_{\\text{duplicado}}^2 + D_{\\text{estructural}}^2}}$$\n\nLa paridad estructural documental $\\Phi$ entre las variantes de idioma se certifica deterministamente:\n\n$$\\Phi = \\frac{1}{M} \\sum_{m=1}^{M} \\mathbb{I}(\\text{Sección}_{m}^{\\text{EN}} \\equiv \\text{Sección}_{m}^{\\text{ES}}) = 1.0$$\n\n---\n\n## 4. Rendimiento Empírico y Benchmarks\n\n<!-- ICONTEXT-V6:TELEMETRY:START -->\n| Evidence / Evidencia | Recorded value / Valor registrado |\n| :--- | :--- |\n| Metrics score | 58.33 |\n| Estimated spectral factor (auxiliary) | 1.0 |\n| Query latency p95 (ms) | 7.313400041311979 |\n| Validity | Recorded evidence; verify freshness with icontext audit |\n<!-- ICONTEXT-V6:TELEMETRY:END -->\n\nLa versión 6 incorpora inventario incremental, invalidación por contenido y consultas sin escritura. Las mediciones de esta entrega se registran en `.context/benchmark_v6.json`; incluyen p50/p95 del motor y del proceso, lecturas de archivos y comparación con inventario completo. Los tokens son estimaciones explícitas. Las métricas de atención del modelo requieren sesiones observadas y no se deducen de FPAI.\n\n## 5. Estructura del Repositorio y Artefactos\n\nEl repositorio sigue estrictamente la topología canónica normalizada en minúsculas (`all-lowercase`):\n\n```\nContextControl/\n├── .context/                          # Satélites de estado (tree.json, checkpoint.json, icontext_bus.json)\n├── 01_seed/                           # ADN arquitectónico y contratos simbólicos Zero-Code\n├── 02_foundation/                     # Especificaciones de gobernanza y motor de framework\n├── config/                            # Políticas parametrizadas y configuración desacoplada\n├── schemas/                           # Esquemas formales JSON Schema Draft-07\n├── src/                               # Código fuente principal de producción\n├── tests/                             # Suites de pruebas unitarias, adversariales y de estrés\n├── tools/                             # Herramientas locales de soporte y linters\n├── scripts/                           # Scripts de terminal para automatización de alta velocidad\n├── audit_federation.py                # Auditor holístico multi-proyecto y motor de auto-reparación\n├── FWengine.py                        # Context engineering y motor topológico local\n├── icontext.py                        # CLI orquestador maestro universal (L0-L3)\n└── ICONTEXT_FEDERATION_PROTOCOL_V5.md # Especificación formal del protocolo v6.0\n```\n\n---\n\n## 6. Protocolo de Ejecución y Verificación\n\n### Ejecución rápida\n\nEstos comandos funcionan desde cualquier directorio; cada script localiza el runtime usando su propia ruta.\n\n```powershell\n# Estado registrado del ecosistema (no es una auditoría en vivo)\npython \"D:\\0001 HyperScale Thinking\\PROYECTOS CLOUD\\iContext\\ContextControl\\icontext.py\" status --all\n\n# Sincronizar el repositorio actual o los cuatro productos registrados\npython \"D:\\0001 HyperScale Thinking\\PROYECTOS CLOUD\\iContext\\ContextControl\\icontext.py\" sync\npython \"D:\\0001 HyperScale Thinking\\PROYECTOS CLOUD\\iContext\\ContextControl\\icontext.py\" sync --all\npython \"D:\\0001 HyperScale Thinking\\PROYECTOS CLOUD\\iContext\\ContextControl\\icontext.py\" sync --dry-run --all\n\n# Verificar la evidencia sin reparar archivos\npython \"D:\\0001 HyperScale Thinking\\PROYECTOS CLOUD\\iContext\\ContextControl\\icontext.py\" audit --all\n\n# Normalizar la capitalización de directorios y reconstruir el satélite topológico\npython \"D:\\0001 HyperScale Thinking\\PROYECTOS CLOUD\\iContext\\ContextControl\\FWengine.py\" reconcile\n# Comprobar capitalización y topología sin escribir cambios\npython \"D:\\0001 HyperScale Thinking\\PROYECTOS CLOUD\\iContext\\ContextControl\\FWengine.py\" reconcile --check\n\n# Consultar contexto focalizado; la ampliación es explícita\npython \"D:\\0001 HyperScale Thinking\\PROYECTOS CLOUD\\iContext\\ContextControl\\icontext.py\" pack \"D:\\0001 HyperScale Thinking\\PROYECTOS CLOUD\\iContext\\iDirectory\\src\" --json\n\n# Auditoría federada: solo revisar o reparar explícitamente con --fix\npython \"D:\\0001 HyperScale Thinking\\PROYECTOS CLOUD\\iContext\\ContextControl\\audit_federation.py\" --all\npython \"D:\\0001 HyperScale Thinking\\PROYECTOS CLOUD\\iContext\\ContextControl\\audit_federation.py\" --all --fix\n\n# Consultar la ayuda de comandos\npython \"D:\\0001 HyperScale Thinking\\PROYECTOS CLOUD\\iContext\\ContextControl\\icontext.py\" --help\n```\n\n`status` muestra el último estado registrado; `audit` verifica la evidencia actual. `reconcile` restaura los nombres canónicos en minúsculas cuando el motor detecta una diferencia de capitalización, sincroniza las balizas y reconstruye el satélite. `reconcile --check` informa la deriva sin modificar archivos.\n---\n\n## 7. Glosario de Dominio\n\n- **Cápsula de Contexto**: Carga quirúrgica ultra-densa en formato JSON (<450 tokens) diseñada para subagentes, previniendo degradación atencional.\n- **Topology Hash**: Huella criptográfica SHA-256 representativa de la estructura gobernada de directorios, asegurando cero derivas satelitales.\n- **Bus Federado**: Vector de estado interoperable (`.context/icontext_bus.json`) que sincroniza las capas L0, L1, L2 y L3 de forma no-bloqueante.\n- **Índice de Paridad ($\\Phi$)**: Invariante estricto de coincidencia 1 a 1 entre los artefactos documentales en inglés y español.\n\n---\n\n## 8. Referencias Académicas y de Ingeniería\n\n1. **Dean, J., & Ghemawat, S.** (2004). *MapReduce: Simplified Data Processing on Large Clusters*. Communications of the ACM.\n2. **Gamma, E., et al.** (1994). *Design Patterns: Elements of Reusable Object-Oriented Software*. Addison-Wesley.\n3. **Gravity HyperScale Thinking**. (2026). *iContext Federation Protocol v6.0: Universal Attentional Engineering & Zero-Drift Governance for Multi-Agent Systems*.\n\n```bibtex\n@article{icontext2026federation,\n  title={iContext Federation Protocol v6.0: Universal Attentional Engineering},\n  author={Gravity HyperScale Thinking Systems Architecture Lab},\n  year={2026},\n  institution={Gravity HyperScale Thinking}\n}\n```\n",
+      "content": "# ContextControl: Plataforma de Ingeniería Empresarial\n\n**iContext v6.0.0.** Actualización por evidencia incremental, skills portables para Antigravity y Codex, y continuidad por sesión. Guía: [operación y migración v6](docs/specs/icontext-v6.md).\n<!-- ICONTEXT-V6:RELEASE -->\n\n\n**Idioma:** [English](README.md) | [Español](README_ES.md)\n\n[![Standard](https://img.shields.io/badge/Standard-Enterprise%20Paper--Grade%20v6.0-2b2b2b?style=flat-square)](#)\n[![Ecosystem](https://img.shields.io/badge/Ecosystem-Multi--AI%20%28Google%20%7C%20Claude%20%7C%20OpenAI%20%7C%20Cursor%29-34495e?style=flat-square)](#)\n[![iContext Federation](https://img.shields.io/badge/iContext-Federated%20v6.0-1a1a1a?style=flat-square)](#)\n[![iDirectory L0](https://img.shields.io/badge/L0-iDirectory%20v6.0-2b2b2b?style=flat-square)](#)\n[![ThinkingSeed L1](https://img.shields.io/badge/L1-ThinkingSeed%20v6.0-34495e?style=flat-square)](#)\n[![MetricsThinking L2](https://img.shields.io/badge/L2-MetricsThinking%20v6.0-4b5563?style=flat-square)](#)\n[![iReadme L3](https://img.shields.io/badge/L3-iReadme%20v6.0-000000?style=flat-square)](#)\n[![Engine](https://img.shields.io/badge/Engine-ContextControl%20Core-1a1a1a?style=flat-square)](#)\n\n---\n\n## 1. Resumen Ejecutivo \n\nLos sistemas de software empresarial modernos, las plataformas de datos en la nube y los agentes autónomos de IA enfrentan una severa fricción arquitectónica derivada de topologías desestructuradas, derivas no rastreadas de contratos y fronteras de contexto desalineadas. En ausencia de una gobernanza determinista, los equipos de alta velocidad acumulan deuda cognitiva, comprometiendo los tiempos de incorporación técnica y rompiendo la orquestación agéntica autónoma en clusters productivos.\n\nContextControl coordina sincronización y auditoría mediante un runtime versionado. Actualiza evidencia incremental, propaga fallos y entrega al agente actual las secciones de SeedMaster y README que necesitan redacción. No se han medido ahorros de TCO ni cumplimiento de SLA.\n\nLa plataforma opera bajo un modelo de ingesta universal multi-IA, funcionando de manera homogénea en Google Antigravity, Anthropic Claude Code, OpenAI ChatGPT/Codex y Cursor IDE. Mediante sincronización dual de idiomas (Inglés/Español), formulación matemática en KaTeX, insignias sobrias de alto impacto y topologías simétricas en ASCII, ContextControl entrega transparencia institucional tanto para líderes tecnológicos como para ingenieros de sistemas senior.\n\n---\n\n## 2. Arquitectura y Topología del Sistema\n\nEl sistema implementa una separación arquitectónica estricta entre el Plano de Control de Ingesta, el Núcleo Analítico Autónomo y el Plano de Estado Sincronizado de Artefactos.\n\n```\n+---------------------------------------------------------------------------------------------------+\n|                                 TOPOLOGÍA DEL ECOSISTEMA CONTEXTCONTROL                          |\n+---------------------------------------------------------------------------------------------------+\n                                                  |\n                 +--------------------------------+--------------------------------+\n                 |                                                                 |\n                 v                                                                 v\n+----------------------------------+                              +----------------------------------+\n|    PLANO DE CONTROL DE INGESTA   |                              |      PLANO DE DATOS Y ANALÍTICA  |\n|  - Orquestadores Multi-IA        |                              |  - Motores de Alto Rendimiento   |\n|  - Cápsulas de Contexto Aisladas |                              |  - Verificación y Benchmarks     |\n|  - Integridad por Topology Hash  |                              |  - Cumplimiento de Invariantes   |\n+----------------------------------+                              +----------------------------------+\n                 |                                                                 |\n                 +--------------------------------+--------------------------------+\n                                                  |\n                                                  v\n+---------------------------------------------------------------------------------------------------+\n|                                PLANO DE ARTEFACTOS SINCRONIZADOS                                  |\n|  - Artefactos Duales Enterprise Paper-Grade (README.md / README_ES.md con paridad phi = 1.0)     |\n|  - Satélites Criptográficos (.context/tree.json & .context/icontext_bus.json)                     |\n+---------------------------------------------------------------------------------------------------+\n```\n\n### Gobernanza Federada & Context Engineering iContext v6.0\n\nEste proyecto implementa formalmente el protocolo **iContext Federation Protocol v6.0**, incorporando **4 de los 4 proyectos canónicos** (iDirectory, ThinkingSeed, MetricsThinking y iReadme) de gobernanza agéntica y optimización atencional creados por Gravity HyperScale Thinking:\n\n| Capa | Componente | Función Principal en este Repositorio | Estado |\n| :--- | :--- | :--- | :--- |\n| `L0` | **iDirectory (L0)** — Plano de Control Topológico & Context Engineering Adaptativo | Gobierna la topología canónica all-lowercase, balizas semánticas (.context.yaml), satélite criptográfico (.context/tree.json), presupuestos de tokens y aislamiento mediante cápsulas para subagentes (<450 tokens). | `ACTIVE (v6.0)` |\n| `L1` | **ThinkingSeed (L1)** — Vector de ADN Arquitectónico Simbólico & Memoria Zero-Code | Preserva la memoria técnica y contratos simbólicos AST sin fuga de código fuente (Zero Source Code), auditado bajo validación estricta de 6 Gates deterministas. | `ACTIVE (v6.0)` |\n| `L2` | **MetricsThinking (L2)** — Auditoría Forense Tecnológica & Gobernanza Espectral FPIA | Calcula madurez por Ground Truth en 10 módulos canónicos, deriva semántica AST, eficiencia espectral FPIA (S_spectral, PF_spectral) y escaneo de seguridad Zero-Trust. | `ACTIVE (v6.0)` |\n| `L3` | **iReadme (L3)** — Sintetizador Institucional de Documentación Dual Paper-Grade | Sincroniza documentación dual inglés/español bajo el estándar Enterprise Paper-Grade, garantizando paridad estructural phi = 1.0, formulación formal en KaTeX y cero fugas de ruta local. | `ACTIVE (v6.0)` |\n\nLa interoperabilidad entre estas herramientas se orquesta de manera no-bloqueante a través del **Bus Cognitivo Federado** (`./.context/icontext_bus.json`), garantizando continuidad atencional, cero deriva satelital y protección estricta contra alucinaciones en agentes autónomos.\n\n\n---\n\n## 3. Formulación Matemática y Motores Analíticos\n\nLa estabilidad arquitectónica y eficiencia computacional de ContextControl están gobernadas por modelos matemáticos formales de optimización.\n\nSea $\\mathcal{T}$ la topología rastreada del sistema de archivos, donde cada nodo $n_i \\in \\mathcal{T}$ posee un estado de activación $\\alpha_i \\in \\{0, 1\\}$ gobernado por balizas de contexto. El presupuesto atencional activo $\\Omega(\\mathcal{T})$ se formaliza como:\n\n$$\\Omega(\\mathcal{T}) = \\sum_{i=1}^{N} \\alpha_i \\cdot \\tau(n_i)$$\n\ndonde $\\tau(n_i)$ representa el peso estimado en tokens del artefacto $n_i$. El factor de potencia espectral FPIA $PF_{\\text{spectral}}$ evalúa la pureza cognitiva:\n\n$$PF_{\\text{spectral}} = \\frac{P_{\\text{activo}}}{\\sqrt{P_{\\text{activo}}^2 + Q_{\\text{muerto}}^2 + Q_{\\text{duplicado}}^2 + D_{\\text{estructural}}^2}}$$\n\nLa paridad estructural documental $\\Phi$ entre las variantes de idioma se certifica deterministamente:\n\n$$\\Phi = \\frac{1}{M} \\sum_{m=1}^{M} \\mathbb{I}(\\text{Sección}_{m}^{\\text{EN}} \\equiv \\text{Sección}_{m}^{\\text{ES}}) = 1.0$$\n\n---\n\n## 4. Rendimiento Empírico y Benchmarks\n\n<!-- ICONTEXT-V6:TELEMETRY:START -->\n| Evidence / Evidencia | Recorded value / Valor registrado |\n| :--- | :--- |\n| Metrics score | 58.33 |\n| Estimated spectral factor (auxiliary) | 1.0 |\n| Query latency p95 (ms) | 7.313400041311979 |\n| Validity | Recorded evidence; verify freshness with icontext audit |\n<!-- ICONTEXT-V6:TELEMETRY:END -->\n\nLa versión 6 incorpora inventario incremental, invalidación por contenido y consultas sin escritura. Las mediciones de esta entrega se registran en `.context/benchmark_v6.json`; incluyen p50/p95 del motor y del proceso, lecturas de archivos y comparación con inventario completo. Los tokens son estimaciones explícitas. Las métricas de atención del modelo requieren sesiones observadas y no se deducen de FPAI.\n\n## 5. Estructura del Repositorio y Artefactos\n\nEl repositorio sigue estrictamente la topología canónica normalizada en minúsculas (`all-lowercase`):\n\n```\nContextControl/\n├── .context/                          # Satélites de estado (tree.json, checkpoint.json, icontext_bus.json)\n├── 01_seed/                           # ADN arquitectónico y contratos simbólicos Zero-Code\n├── 02_foundation/                     # Especificaciones de gobernanza y motor de framework\n├── config/                            # Políticas parametrizadas y configuración desacoplada\n├── schemas/                           # Esquemas formales JSON Schema Draft-07\n├── src/                               # Código fuente principal de producción\n├── tests/                             # Suites de pruebas unitarias, adversariales y de estrés\n├── tools/                             # Herramientas locales de soporte y linters\n├── scripts/                           # Scripts de terminal para automatización de alta velocidad\n├── audit_federation.py                # Auditor holístico multi-proyecto y motor de auto-reparación\n├── FWengine.py                        # Context engineering y motor topológico local\n├── icontext.py                        # CLI orquestador maestro universal (L0-L3)\n└── ICONTEXT_FEDERATION_PROTOCOL_V5.md # Especificación formal del protocolo v6.0\n```\n\n---\n\n## 6. Protocolo de Ejecución y Verificación\n\n### Ejecución rápida\n\nEstos comandos funcionan desde cualquier directorio; cada script localiza el runtime usando su propia ruta.\n\n```powershell\n# Estado registrado del ecosistema (no es una auditoría en vivo)\npython \"D:\\0001 HyperScale Thinking\\PROYECTOS CLOUD\\iContext\\ContextControl\\icontext.py\" status --all\n\n# Sincronizar el repositorio actual o los cuatro productos registrados\npython \"D:\\0001 HyperScale Thinking\\PROYECTOS CLOUD\\iContext\\ContextControl\\icontext.py\" sync\npython \"D:\\0001 HyperScale Thinking\\PROYECTOS CLOUD\\iContext\\ContextControl\\icontext.py\" sync --all\npython \"D:\\0001 HyperScale Thinking\\PROYECTOS CLOUD\\iContext\\ContextControl\\icontext.py\" sync --dry-run --all\n\n# Verificar la evidencia sin reparar archivos\npython \"D:\\0001 HyperScale Thinking\\PROYECTOS CLOUD\\iContext\\ContextControl\\icontext.py\" audit --all\n\n# Normalizar la capitalización de directorios y reconstruir el satélite topológico\npython \"D:\\0001 HyperScale Thinking\\PROYECTOS CLOUD\\iContext\\ContextControl\\FWengine.py\" reconcile\n# Comprobar capitalización y topología sin escribir cambios\npython \"D:\\0001 HyperScale Thinking\\PROYECTOS CLOUD\\iContext\\ContextControl\\FWengine.py\" reconcile --check\n\n# Consultar contexto focalizado; la ampliación es explícita\npython \"D:\\0001 HyperScale Thinking\\PROYECTOS CLOUD\\iContext\\ContextControl\\icontext.py\" pack \"D:\\0001 HyperScale Thinking\\PROYECTOS CLOUD\\iContext\\iDirectory\\src\" --json\n\n# Auditoría federada: solo revisar o reparar explícitamente con --fix\npython \"D:\\0001 HyperScale Thinking\\PROYECTOS CLOUD\\iContext\\ContextControl\\audit_federation.py\" --all\npython \"D:\\0001 HyperScale Thinking\\PROYECTOS CLOUD\\iContext\\ContextControl\\audit_federation.py\" --all --fix\n\n# Consultar la ayuda de comandos\npython \"D:\\0001 HyperScale Thinking\\PROYECTOS CLOUD\\iContext\\ContextControl\\icontext.py\" --help\n```\n\n`status` muestra el último estado registrado; `audit` verifica la evidencia actual. `reconcile` restaura los nombres canónicos en minúsculas cuando el motor detecta una diferencia de capitalización, sincroniza las balizas y reconstruye el satélite. `reconcile --check` informa la deriva sin modificar archivos.\n---\n\n## 7. Glosario de Dominio\n\n- **Cápsula de Contexto**: Carga quirúrgica ultra-densa en formato JSON (<450 tokens) diseñada para subagentes, previniendo degradación atencional.\n- **Topology Hash**: Huella criptográfica SHA-256 representativa de la estructura gobernada de directorios, asegurando cero derivas satelitales.\n- **Bus Federado**: Vector de estado interoperable (`.context/icontext_bus.json`) que sincroniza las capas L0, L1, L2 y L3 de forma no-bloqueante.\n- **Índice de Paridad ($\\Phi$)**: Invariante estricto de coincidencia 1 a 1 entre los artefactos documentales en inglés y español.\n\n---\n\n## 8. Referencias Académicas y de Ingeniería\n\n1. **Dean, J., & Ghemawat, S.** (2004). *MapReduce: Simplified Data Processing on Large Clusters*. Communications of the ACM.\n2. **Gamma, E., et al.** (1994). *Design Patterns: Elements of Reusable Object-Oriented Software*. Addison-Wesley.\n3. **Gravity HyperScale Thinking**. (2026). *iContext Federation Protocol v6.0: Universal Attentional Engineering & Zero-Drift Governance for Multi-Agent Systems*.\n\n```bibtex\n@article{icontext2026federation,\n  title={iContext Federation Protocol v6.0: Universal Attentional Engineering},\n  author={Gravity HyperScale Thinking Systems Architecture Lab},\n  year={2026},\n  institution={Gravity HyperScale Thinking}\n}\n```\n",
       "line_count": 188,
       "path": "README_ES.md",
-      "sha256": "31ba45c0c1e665e5c7fcae89b6afb584c3395b4be8dc5d95ec15aa6e3939de43",
-      "size_bytes": 13610,
+      "sha256": "6e482835b8fb861d8c4d421c6eeabd3113d2844677ba36f5eed1bb74ca87044b",
+      "size_bytes": 13611,
       "token_estimate": 3347
     },
     "stat": [
-      13610,
-      1793487664634650600
+      13611,
+      1793542038649993200
     ]
   },
   "artifacts/.context.yaml": {
@@ -276,7 +290,7 @@
     },
     "stat": [
       387,
-      1793487828494886100
+      1793544163139109700
     ]
   },
   "audit_federation.py": {
@@ -304,7 +318,7 @@
     },
     "stat": [
       403,
-      1793487828525029600
+      1793544163180585100
     ]
   },
   "config/context_policy.json": {
@@ -360,7 +374,7 @@
     },
     "stat": [
       350,
-      1793487828512991300
+      1793544163168303800
     ]
   },
   "docs/notes/.context.yaml": {
@@ -374,7 +388,7 @@
     },
     "stat": [
       351,
-      1793487828521020500
+      1793544163177421200
     ]
   },
   "docs/specs/.context.yaml": {
@@ -388,7 +402,7 @@
     },
     "stat": [
       333,
-      1793487828515983500
+      1793544163173140200
     ]
   },
   "docs/specs/icontext-v6.md": {
@@ -444,7 +458,7 @@
     },
     "stat": [
       368,
-      1793487828545322300
+      1793544163217527300
     ]
   },
   "schemas/backlog.schema.json": {
@@ -584,7 +598,7 @@
     },
     "stat": [
       318,
-      1793487828556292300
+      1793544163223585600
     ]
   },
   "skills/.context.yaml": {
@@ -710,7 +724,7 @@
     },
     "stat": [
       437,
-      1793487828475939200
+      1793544163118780400
     ]
   },
   "src/core/.context.yaml": {
@@ -724,7 +738,7 @@
     },
     "stat": [
       335,
-      1793487828484912500
+      1793544163131240700
     ]
   },
   "src/core/benchmark.py": {
@@ -780,7 +794,7 @@
     },
     "stat": [
       351,
-      1793487828489899300
+      1793544163134580400
     ]
   },
   "src/data_generation/.context.yaml": {
@@ -794,7 +808,7 @@
     },
     "stat": [
       365,
-      1793487828480927500
+      1793544163121820600
     ]
   },
   "tests/.context.yaml": {
@@ -808,7 +822,21 @@
     },
     "stat": [
       318,
-      1793487828566495800
+      1793544163230633900
+    ]
+  },
+  "tests/fixtures/.context.yaml": {
+    "record": {
+      "content": "version: 1.0\r\ndirectory: tests/fixtures\r\nrole: test_suites\r\npurpose: Subdominio fixtures bajo tests/.\r\nrelevance: high\r\ncrawl: true\r\nread_priority: p1\r\nseed_reference: optional\r\ntier1_preload: false\r\ninherited: true\r\ntoken_density: sparse\r\ninstructions: Hereda directivas de tests/.\r\n",
+      "line_count": 12,
+      "path": "tests/fixtures/.context.yaml",
+      "sha256": "acf10d7faaca5f887e0445662514bbff8670e1cd0579745e4fdb12b10ef84fad",
+      "size_bytes": 284,
+      "token_estimate": 71
+    },
+    "stat": [
+      284,
+      1793544163675428200
     ]
   },
   "tests/fixtures/golden_baseline_report.json": {
@@ -850,7 +878,7 @@
     },
     "stat": [
       288,
-      1793487828571493600
+      1793544163234755900
     ]
   }
 }

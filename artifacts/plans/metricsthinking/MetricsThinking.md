@@ -3,12 +3,12 @@
 > **Motor Evaluador:** MetricsThinking™ v6.0 Universal  
 > **Proyecto Auditado:** `ContextControl`  
 > **Ubicación:** `./`  
-> **Fecha de Auditoría:** `2026-11-01 10:53:00`  
+> **Fecha de Auditoría:** `2026-11-01 11:56:02`  
 > **Auditor Responsable:** `MetricsThinking™ Universal Auditor`  
 > **Perfil Aplicado:** `default` (`software-engineering`)  
 > **Modo de Inspección:** `source_code`  
 > **ThinkingSeed:** `Detectado (v6.0)`  
-> **Git Commit / Branch:** `N/A` / `N/A`  
+> **Git Commit / Branch:** `05f9474` / `master`  
 > **Score Consolidado:** **`61.7% / 100.0%`**  
 > **Banda de Madurez:** **Construcción Activa / Madurez Media (50.0% - 74.9%)**
 
@@ -22,7 +22,7 @@ MetricsThinking™ ha completado la auditoría forense estricta basada en eviden
 - **Arquetipo de Dominio:** **`software-engineering`** (Modo: `source_code`)
 - **Criterios Cumplidos:** **`24 / 36`** (66.7%)
 - **Cuello de Botella Inmediato:** **`M01: Descubrimiento y Alcance (66.7% completado)`**
-- **Archivos Físicos Escaneados:** **`61`**
+- **Archivos Físicos Escaneados:** **`63`**
 - **Memoria Técnica (Seed):** `Presente`
 - **Gobernanza iDirectory (.context.yaml):** `Activa`
 
@@ -30,7 +30,7 @@ MetricsThinking™ ha completado la auditoría forense estricta basada en eviden
 
 | Primitiva | Archivos Clasificados | Rutas de Muestra |
 |:---|:---:|:---|
-| **Config** | `30` | `.agentignore`, `pyproject.toml`, `01_seed/.context.yaml` |
+| **Config** | `31` | `.agentignore`, `pyproject.toml`, `01_seed/.context.yaml` |
 | **Spec** | `22` | `.agentignore`, `AGENTS.md`, `GEMINI.md` |
 | **Pipeline** | `0` | — |
 | **Verification** | `3` | `artifacts/benchmark_coverage_report.json`, `src/core/benchmark.py`, `tests/test_v6.py` |
@@ -139,7 +139,7 @@ flowchart LR
 |:---|:---|:---:|:---|
 | `M03-C01` | Detección y Marcado de PII | ❌ `[FALTANTE]` | No se detectó clasificación de PII ni reglas explícitas de privacidad. |
 | `M03-C02` | Reglas de Calidad Formales (cQS) | ❌ `[FALTANTE]` | No se encontraron reglas cuantitativas de calidad formal (cQS). |
-| `M03-C03` | Validación Estricta de Esquemas / Context | ✅ `[CUMPLIDO]` | **`01_seed/.context.yaml`** — Gobernanza contextual iDirectory activa con 27 archivos de contexto (.context.yaml). |
+| `M03-C03` | Validación Estricta de Esquemas / Context | ✅ `[CUMPLIDO]` | **`01_seed/.context.yaml`** — Gobernanza contextual iDirectory activa con 28 archivos de contexto (.context.yaml). |
 
 ### M04: Aprovisionamiento y Readiness — 🟢 DONE (100.0%)
 **Peso Relativo:** 5% | **Contribución Ponderada:** 5.00%
@@ -148,7 +148,7 @@ flowchart LR
 |:---|:---|:---:|:---|
 | `M04-C01` | Entorno Reproducible | ✅ `[CUMPLIDO]` | **`pyproject.toml`** — Manifiesto de empaquetado y entorno reproducible verificado en 'pyproject.toml'. |
 | `M04-C02` | Dependencias Versionadas | ✅ `[CUMPLIDO]` | **`pyproject.toml`** — Especificación estricta de versiones de dependencias verificada en 'pyproject.toml'. |
-| `M04-C03` | Fixture Enterprise Disponible | ✅ `[CUMPLIDO]` | **`src/data_generation/.context.yaml`** — Fixtures y datos de prueba disponibles (2 archivos, e.g. 'src/data_generation/.context.yaml'). |
+| `M04-C03` | Fixture Enterprise Disponible | ✅ `[CUMPLIDO]` | **`src/data_generation/.context.yaml`** — Fixtures y datos de prueba disponibles (3 archivos, e.g. 'src/data_generation/.context.yaml'). |
 
 ### M05: Construcción Núcleo (Core Engine) — 🔵 ACTIVE (50.0%)
 **Peso Relativo:** 25% | **Contribución Ponderada:** 12.50%
@@ -167,7 +167,7 @@ flowchart LR
 |:---|:---|:---:|:---|
 | `M06-C01` | Emisores de Dialecto Nativo | ❌ `[FALTANTE]` | No se encontraron emisores nativos de plataforma o destino. |
 | `M06-C02` | Escritura Atómica y Safe-Encoding | ✅ `[CUMPLIDO]` | **`src/core/benchmark.py`** — Manejo seguro de codificación UTF-8 / serialización protegida en 'src/core/benchmark.py'. |
-| `M06-C03` | Exportación Multi-Formato | ✅ `[CUMPLIDO]` | Soporte de representación multi-formato verificado en el repositorio (.json, .md, .py, .toml, .yaml). |
+| `M06-C03` | Exportación Multi-Formato | ✅ `[CUMPLIDO]` | Soporte de representación multi-formato verificado en el repositorio (.code-workspace, .json, .md, .py, .toml). |
 | `M06-C04` | Resiliencia de Sistemas y Mitigación de SPOF | ❌ `[FALTANTE]` | Alerta de resiliencia: 1 SPOFs detectados en módulos críticos (icontext). |
 | `M06-C05` | Patrones de Tolerancia a Fallos y Fallback | ✅ `[CUMPLIDO]` | Patrones de tolerancia a fallos verificados: {'timeout': 3, 'retry': 0, 'circuit_breaker': 0, 'fallback': 0} (cobertura=37.5%). |
 
@@ -207,7 +207,7 @@ flowchart LR
 | `M10-C01` | Documentación Técnica Exhaustiva (Seed) | ✅ `[CUMPLIDO]` | **`01_seed/seed-contextcontrol-master.md`** — Memoria técnica formal (ThinkingSeed) identificada en '01_seed/seed-contextcontrol-master.md'. |
 | `M10-C02` | CLI Help Documentado | ✅ `[CUMPLIDO]` | **`README.md`** — Instrucciones operativas y ayuda de comandos documentadas en 'README.md'. |
 | `M10-C03` | Adaptadores Multicanal / Roadmap | ✅ `[CUMPLIDO]` | **`ICONTEXT_FEDERATION_PROTOCOL_V5.md`** — Roadmap formal de extensibilidad y capacidades futuras documentado en 'ICONTEXT_FEDERATION_PROTOCOL_V5.md'. |
-| `M10-C04` | Eficiencia Contextual Espectral FPAI | ✅ `[CUMPLIDO]` | **`.agentignore`** — Indicador FPAI estimado (distorsión no medida): PF_spectral=1.000 >= 0.70 (S_spectral=45392, S_linear=45392). |
+| `M10-C04` | Eficiencia Contextual Espectral FPAI | ✅ `[CUMPLIDO]` | **`.agentignore`** — Indicador FPAI estimado (distorsión no medida): PF_spectral=1.000 >= 0.70 (S_spectral=45568, S_linear=45568). |
 
 
 ---
@@ -239,12 +239,12 @@ Métrica canónica de densidad cognitiva y preservación de potencia activa $P$:
 
 | Componente de Potencia | Símbolo | Tokens | Ratio | Estado |
 |:---|:---:|:---:|:---:|:---|
-| **Potencia Activa** (Working Set) | $P$ | `45404` | `100.0%` | 🟢 Preservada |
+| **Potencia Activa** (Working Set) | $P$ | `45592` | `100.0%` | 🟢 Preservada |
 | **Potencia Reactiva Inerte** | $Q_{dead}$ | `0` | `0.0%` | ⚪ Inerte |
 | **Potencia Reactiva Redundante** | $Q_{dup}$ | `0` | `0.0%` | 🟡 Duplicada |
 | **Distorsión Estructural** | $D$ | `0` | `0.0%` | 🔴 Conflicto |
-| **Potencia Aparente Espectral** | $S_{spectral}$ | `45404` | — | $\sqrt{P^2 + Q^2 + D^2}$ |
-| **Potencia Aparente Lineal** | $S_{linear}$ | `45404` | — | $P + Q + D$ |
+| **Potencia Aparente Espectral** | $S_{spectral}$ | `45592` | — | $\sqrt{P^2 + Q^2 + D^2}$ |
+| **Potencia Aparente Lineal** | $S_{linear}$ | `45592` | — | $P + Q + D$ |
 
 - **Factor de Potencia Espectral ($PF_{spectral}$):** `1.000` *(Meta >= 0.70)*
 - **Factor de Potencia Lineal ($PF_{linear}$):** `1.000`

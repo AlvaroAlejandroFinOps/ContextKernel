@@ -30,7 +30,7 @@
     "-v"
   ],
   "contracts_ast_hash": "69ed47492abf4f3d28bb1e5aedc487fe8a7a056ef4203b82a0d337bdc2642325",
-  "inputs_hash": "b367f0faf195d30823e30f3ae9af0816288e88dd7cec74cb8307f1663f92056b",
+  "inputs_hash": "5b58fc499cb5e79fd13c13e7d6e7e264da99ab35e3d902d3e15d36db47ef1081",
   "modules": {
     "FWengine.py": {
       "cli_flags": [
@@ -386,6 +386,6 @@
     "./tests/test_v6.py::test_readme_validation_allows_absolute_paths_in_terminal_examples(tmp_path) -> Any",
     "./tests/test_v6.py::test_audit_runtime_upgrade_invalidates_consumer_metrics(tmp_path, monkeypatch) -> Any"
   ],
-  "topology_hash": "d7c52feb8142e1ea21cfab11b20af2c83baa8a7fe0509deba55d3eec053d4ea2",
+  "topology_hash": "59cf215db4b59aac5f5f65f2c64effdb59778ba03db07971255de0dea21a8691",
   "version": "6.0"
 }

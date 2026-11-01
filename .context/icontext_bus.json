@@ -3,44 +3,47 @@
   "layers": {
     "l0_idirectory": {
       "contracts_ast_hash": "69ed47492abf4f3d28bb1e5aedc487fe8a7a056ef4203b82a0d337bdc2642325",
-      "inputs_hash": "b367f0faf195d30823e30f3ae9af0816288e88dd7cec74cb8307f1663f92056b",
+      "inputs_hash": "5b58fc499cb5e79fd13c13e7d6e7e264da99ab35e3d902d3e15d36db47ef1081",
       "present": true,
-      "published_at": "2026-10-31T23:03:55.644931+00:00",
+      "published_at": "2026-11-01T14:55:38.648712+00:00",
       "state": "recorded",
       "version": "6.0.0"
     },
     "l1_thinkingseed": {
       "artifact_kind": "master",
-      "inputs_hash": "036bb1a2c4df56c3efb115150c61e96070af5246199807becf0ccc121fec8da2",
+      "inputs_hash": "ebb152506a5ef13a38364a3497f6893e03d4af8c788fe5b71f2a051e880445e4",
       "output_hash": "3b5faa595530012ac87a4e7c2e178ee325fe996fe2a2ec8f60051e650e4eb8ee",
       "present": true,
-      "published_at": "2026-10-31T23:00:45.774547+00:00",
+      "published_at": "2026-11-01T14:55:56.647028+00:00",
       "state": "validated",
       "version": "6.0.0"
     },
     "l2_metricsthinking": {
       "consolidated_score": 61.67,
+      "evaluation_hash": "9bb4927e2b3724a2b742014cca88218d33c6a934d762b51f2f9935b8de5a0003",
       "fpai_pf_spectral": 1.0,
-      "fpai_s_spectral": 45404.0,
-      "inputs_hash": "a8b81c7831236124c2eb3d1d8ee769286d68e32a40ae98bd147ee025370e9ac5",
+      "fpai_s_spectral": 45592.0,
+      "inputs_hash": "5b58fc499cb5e79fd13c13e7d6e7e264da99ab35e3d902d3e15d36db47ef1081",
+      "output_hash": "42dcd0f413bfaca75554a19f866374c4ee138e9416122788dadeb0cbe9941d8d",
       "present": true,
-      "published_at": "2026-11-01T13:53:00.946703+00:00",
+      "published_at": "2026-11-01T14:56:02.342483+00:00",
       "report_path": "artifacts/plans/metricsthinking/MetricsThinking.json",
       "security_gate": 1.0,
+      "security_gate_basis": "pii_scan_only",
       "state": "validated",
       "version": "6.0.0"
     },
     "l3_ireadme": {
       "artifact_kind": "readme",
-      "inputs_hash": "67f299cf248c45f0884606328e3243dcaa5f361e3d38a4e4a9f799bbe31cb435",
-      "output_hash": "a44b1be5c911e955376c05f67bed1432c57490204e0f118a6d4ec7fc89f8d4b2",
+      "inputs_hash": "ff16a478227fc7734dc2c8c2a9ca7bd5041fd7f04d18b0e34d68b5cd9b0b7e0d",
+      "output_hash": "7bf946c230b6e9006791bd731c46212cf3a889b6c29c69096b790e6be3a3e56d",
       "present": true,
-      "published_at": "2026-10-31T23:01:09.064106+00:00",
+      "published_at": "2026-11-01T14:56:18.933496+00:00",
       "state": "validated",
       "version": "6.0.0"
     }
   },
   "project": "ContextControl",
   "protocol_version": "6.0.0",
-  "updated_at": "2026-11-01T13:53:00.960265+00:00"
+  "updated_at": "2026-11-01T14:56:18.943657+00:00"
 }

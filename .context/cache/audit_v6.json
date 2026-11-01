@@ -5,20 +5,20 @@
     "pruning": "D:\\0001 HyperScale Thinking\\PROYECTOS CLOUD\\iContext\\ContextControl\\artifacts\\plans\\metricsthinking\\CONTEXT_PRUNING_PLAN.json",
     "roadmap": "D:\\0001 HyperScale Thinking\\PROYECTOS CLOUD\\iContext\\ContextControl\\artifacts\\plans\\metricsthinking\\INFERRED_ROADMAP.md"
   },
-  "key": "2045bb8caf86bece5f300b87e0c4008fcb21eb58d6857afb0383d72d0047f1a1",
+  "key": "9bb4927e2b3724a2b742014cca88218d33c6a934d762b51f2f9935b8de5a0003",
   "outputs": {
-    "json": "1e128028c80e16438542ccaad958be1f3fd4c119ed7910e31d007602380d36bd",
-    "markdown": "afe987ef2dba397f3f6f2ed1c45df42ad3283e85d269cf7af17d4390808f1ec0",
-    "pruning": "d1c0c72f387987c4a9e38f68acda0089d12bd6b7d28ac2277a2d19baf791c65f",
-    "roadmap": "abda20d27866eb92d40d72495dbbc25a1d1238ffe3cf5128d0cdcb3d5194ed70"
+    "json": "c339b72327010786344eb6c1fbda0dc2320121768466917ed6e82244845a4cd9",
+    "markdown": "1bc99f838506bb1a31fbf2d534f0208174d0886a6ef48820ca91f2e2e47f119e",
+    "pruning": "065c0e9699c480bc84a9ce86f568f0d346ab412d81cd2d9e3c489c63ee7f63e3",
+    "roadmap": "27ff4ed129ccb92a1e3d6fea2450a0f8d8a73884c0c41ad4b56205b2b997d17d"
   },
   "report": {
-    "audit_date": "2026-11-01 10:53:00",
+    "audit_date": "2026-11-01 11:56:02",
     "auditor": "MetricsThinking™ Universal Auditor",
     "domain_archetype": "software-engineering",
     "evidence_primitives": {
       "config": {
-        "file_count": 30,
+        "file_count": 31,
         "primitive_type": "config",
         "sample_paths": [
           ".agentignore",
@@ -27,7 +27,7 @@
           "02_foundation/.context.yaml",
           "02_foundation/engine/.context.yaml"
         ],
-        "total_lines": 423,
+        "total_lines": 435,
         "verified_valid": true
       },
       "implementation": {
@@ -83,17 +83,17 @@
       "distortion_ratio": 0.0,
       "divergence_ratio": 0.0,
       "gain_coefficient": 1.0,
-      "p_active": 45404.0,
+      "p_active": 45592.0,
       "power_factor_linear": 1.0,
       "power_factor_spectral": 1.0,
       "q_dead": 0.0,
       "q_dup": 0.0,
       "redundant_ratio": 0.0,
-      "s_linear": 45404.0,
-      "s_spectral": 45404.0
+      "s_linear": 45592.0,
+      "s_spectral": 45592.0
     },
-    "git_branch": null,
-    "git_commit": null,
+    "git_branch": "master",
+    "git_commit": "05f9474",
     "inspection_mode": "source_code",
     "modules": [
       {
@@ -188,7 +188,7 @@
           },
           {
             "criterion_id": "M03-C03",
-            "evidence_detail": "Gobernanza contextual iDirectory activa con 27 archivos de contexto (.context.yaml).",
+            "evidence_detail": "Gobernanza contextual iDirectory activa con 28 archivos de contexto (.context.yaml).",
             "evidence_path": "01_seed/.context.yaml",
             "fulfilled": true,
             "name": "Validación Estricta de Esquemas / Context",
@@ -220,7 +220,7 @@
           },
           {
             "criterion_id": "M04-C03",
-            "evidence_detail": "Fixtures y datos de prueba disponibles (2 archivos, e.g. 'src/data_generation/.context.yaml').",
+            "evidence_detail": "Fixtures y datos de prueba disponibles (3 archivos, e.g. 'src/data_generation/.context.yaml').",
             "evidence_path": "src/data_generation/.context.yaml",
             "fulfilled": true,
             "name": "Fixture Enterprise Disponible",
@@ -292,7 +292,7 @@
           },
           {
             "criterion_id": "M06-C03",
-            "evidence_detail": "Soporte de representación multi-formato verificado en el repositorio (.json, .md, .py, .toml, .yaml).",
+            "evidence_detail": "Soporte de representación multi-formato verificado en el repositorio (.code-workspace, .json, .md, .py, .toml).",
             "evidence_path": null,
             "fulfilled": true,
             "name": "Exportación Multi-Formato",
@@ -452,7 +452,7 @@
           },
           {
             "criterion_id": "M10-C04",
-            "evidence_detail": "Indicador FPAI estimado (distorsión no medida): PF_spectral=1.000 >= 0.70 (S_spectral=45392, S_linear=45392).",
+            "evidence_detail": "Indicador FPAI estimado (distorsión no medida): PF_spectral=1.000 >= 0.70 (S_spectral=45568, S_linear=45568).",
             "evidence_path": ".agentignore",
             "fulfilled": true,
             "name": "Eficiencia Contextual Espectral FPAI",
@@ -470,7 +470,7 @@
     "project_path": "D:\\0001 HyperScale Thinking\\PROYECTOS CLOUD\\iContext\\ContextControl",
     "pruning_plan": {
       "active_tokens_remaining": 1000,
-      "generated_at": "2026-11-01T13:53:00.933714+00:00",
+      "generated_at": "2026-11-01T14:56:02.276499+00:00",
       "items": [],
       "power_factor_target": 0.85,
       "target_path": "D:/0001 HyperScale Thinking/PROYECTOS CLOUD/iContext/ContextControl",
@@ -660,24 +660,24 @@
     "seed_detected": true,
     "seed_version": "6.0",
     "stats": {
-      "context_files_detected": 27,
+      "context_files_detected": 28,
       "context_measurement": {
         "dead": 0,
         "distortion": 0.0,
         "distortion_state": "not_measured",
         "duplicate": 0,
         "method": "exact_content_duplicates; heuristic_tokens; attention_not_measured",
-        "total": 45404
+        "total": 45592
       },
       "domain_archetype": "software-engineering",
       "inspection_mode": "source_code",
-      "is_git": false,
+      "is_git": true,
       "manifests_detected": 1,
       "schemas_detected": 9,
       "seeds_detected": 1,
       "source_files_detected": 3,
       "tests_detected": 1,
-      "total_files_scanned": 61
+      "total_files_scanned": 63
     }
   }
 }

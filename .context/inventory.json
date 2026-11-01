@@ -18,11 +18,11 @@
       ]
     },
     ".gitignore": {
-      "sha256": "35713b534536f0a8e24b9e8e1f3dee18bbd39e3c811995133119794f86ede520",
-      "size": 152,
+      "sha256": "f95bf97bd1140a0777c30981adea38d1bd3206400924bdfe5bd6a8d7a4400858",
+      "size": 250,
       "stat": [
-        152,
-        1793407283188580800
+        250,
+        1793544333493258400
       ]
     },
     "01_seed/.context.yaml": {
@@ -30,7 +30,7 @@
       "size": 451,
       "stat": [
         451,
-        1793487828448663600
+        1793544163081029900
       ]
     },
     "01_seed/seed-contextcontrol-master.md": {
@@ -54,7 +54,7 @@
       "size": 404,
       "stat": [
         404,
-        1793487828453655300
+        1793544163088075500
       ]
     },
     "02_foundation/engine/engine_readme.md": {
@@ -78,7 +78,7 @@
       "size": 350,
       "stat": [
         350,
-        1793487828467595700
+        1793544163104688300
       ]
     },
     "AGENTS.md": {
@@ -87,6 +87,14 @@
       "stat": [
         1262,
         1793473131778874500
+      ]
+    },
+    "Contex.code-workspace": {
+      "sha256": "a7d87ef11070c557fc66e2c84c0c92ba2dba7d24d5b7618fd0ab9b07cf0698fc",
+      "size": 375,
+      "stat": [
+        375,
+        1793543789437114300
       ]
     },
     "FWengine.py": {
@@ -138,12 +146,12 @@
       ]
     },
     "README_ES.md": {
-      "semantic_sha256": "0463d103725caa0ad95c9d84c0eab9e35c20a5f047f69bb628b0aaf5eb3cbb78",
-      "sha256": "31ba45c0c1e665e5c7fcae89b6afb584c3395b4be8dc5d95ec15aa6e3939de43",
-      "size": 13610,
+      "semantic_sha256": "b62f23afc25633a71ec6da062116201537ddc743673a4edb481a61563f966118",
+      "sha256": "6e482835b8fb861d8c4d421c6eeabd3113d2844677ba36f5eed1bb74ca87044b",
+      "size": 13611,
       "stat": [
-        13610,
-        1793487664634650600
+        13611,
+        1793542038649993200
       ]
     },
     "artifacts/.context.yaml": {
@@ -175,7 +183,7 @@
       "size": 387,
       "stat": [
         387,
-        1793487828494886100
+        1793544163139109700
       ]
     },
     "audit_federation.py": {
@@ -201,7 +209,7 @@
       "size": 403,
       "stat": [
         403,
-        1793487828525029600
+        1793544163180585100
       ]
     },
     "config/context_policy.json": {
@@ -233,7 +241,7 @@
       "size": 350,
       "stat": [
         350,
-        1793487828512991300
+        1793544163168303800
       ]
     },
     "docs/notes/.context.yaml": {
@@ -241,7 +249,7 @@
       "size": 351,
       "stat": [
         351,
-        1793487828521020500
+        1793544163177421200
       ]
     },
     "docs/specs/.context.yaml": {
@@ -249,7 +257,7 @@
       "size": 333,
       "stat": [
         333,
-        1793487828515983500
+        1793544163173140200
       ]
     },
     "docs/specs/icontext-v6.md": {
@@ -291,7 +299,7 @@
       "size": 368,
       "stat": [
         368,
-        1793487828545322300
+        1793544163217527300
       ]
     },
     "schemas/backlog.schema.json": {
@@ -371,7 +379,7 @@
       "size": 318,
       "stat": [
         318,
-        1793487828556292300
+        1793544163223585600
       ]
     },
     "skills/.context.yaml": {
@@ -458,7 +466,7 @@
       "size": 437,
       "stat": [
         437,
-        1793487828475939200
+        1793544163118780400
       ]
     },
     "src/core/.context.yaml": {
@@ -466,7 +474,7 @@
       "size": 335,
       "stat": [
         335,
-        1793487828484912500
+        1793544163131240700
       ]
     },
     "src/core/benchmark.py": {
@@ -621,7 +629,7 @@
       "size": 351,
       "stat": [
         351,
-        1793487828489899300
+        1793544163134580400
       ]
     },
     "src/data_generation/.context.yaml": {
@@ -629,7 +637,7 @@
       "size": 365,
       "stat": [
         365,
-        1793487828480927500
+        1793544163121820600
       ]
     },
     "tests/.context.yaml": {
@@ -637,7 +645,15 @@
       "size": 318,
       "stat": [
         318,
-        1793487828566495800
+        1793544163230633900
+      ]
+    },
+    "tests/fixtures/.context.yaml": {
+      "sha256": "acf10d7faaca5f887e0445662514bbff8670e1cd0579745e4fdb12b10ef84fad",
+      "size": 284,
+      "stat": [
+        284,
+        1793544163675428200
       ]
     },
     "tests/fixtures/golden_baseline_report.json": {
@@ -740,11 +756,11 @@
       "size": 288,
       "stat": [
         288,
-        1793487828571493600
+        1793544163234755900
       ]
     }
   },
-  "inputs_hash": "a8b81c7831236124c2eb3d1d8ee769286d68e32a40ae98bd147ee025370e9ac5",
-  "policy_hash": "e6e415c5dd5c4606e0d8361b23d27408c9f572af7b23385c62359facaaf14460",
+  "inputs_hash": "5b58fc499cb5e79fd13c13e7d6e7e264da99ab35e3d902d3e15d36db47ef1081",
+  "policy_hash": "f8569e08427ca7f397e12fec7bc456786e5d07ac055c32f37a57fe90bb0b0f19",
   "version": "6.0.0"
 }

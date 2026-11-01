@@ -1,9 +1,9 @@
 {
   "artifact_kind": "readme",
-  "inputs_hash": "67f299cf248c45f0884606328e3243dcaa5f361e3d38a4e4a9f799bbe31cb435",
-  "output_hash": "a44b1be5c911e955376c05f67bed1432c57490204e0f118a6d4ec7fc89f8d4b2",
+  "inputs_hash": "ff16a478227fc7734dc2c8c2a9ca7bd5041fd7f04d18b0e34d68b5cd9b0b7e0d",
+  "output_hash": "7bf946c230b6e9006791bd731c46212cf3a889b6c29c69096b790e6be3a3e56d",
   "present": true,
-  "published_at": "2026-10-31T23:01:09.064106+00:00",
+  "published_at": "2026-11-01T14:56:18.933496+00:00",
   "state": "validated",
   "version": "6.0.0"
 }

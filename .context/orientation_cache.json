@@ -3,7 +3,7 @@
     ".": {
       "beacon_chain_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
       "beacon_hash": "29e02afbcbc4a62b3d955593f853063b09bd47dfaac65d45221ae9ff2f1be606",
-      "fingerprint": "ea9b5496714377cdd023cd923bde3899bb9dea635e2cba8c5c7ba1a9f09d35cb",
+      "fingerprint": "a60b38d9e802ece008d700a699337c2413a923bd3fa42af5118b7fb8aa05d1b9",
       "pack": {
         "crawl": true,
         "edges": {
@@ -17,8 +17,8 @@
           "pyproject.toml(~220t)",
           "FWengine.py(~288t)",
           "icontext.py(~94t)",
-          "GEMINI.md(~60t)",
-          "ICONTEXT_FEDERATION_PROTOCOL_V5.md(~8266t)"
+          "Contex.code-workspace(~93t)",
+          "GEMINI.md(~60t)"
         ],
         "focus": ".",
         "idir_pack": "6.0",
@@ -32,7 +32,7 @@
     "01_seed": {
       "beacon_chain_hash": "2af7e2923ea49c1c31d10a3a63a25df1954280b522b6d4d376bed67ec74a83bb",
       "beacon_hash": "c380c8f421f2cf463bb7a7fb2a7105ff19e067d4ffbdb21c84444901d6aab569",
-      "fingerprint": "0663cb2c1954859593891e4805d0d7fecf0174daedc08943ce326c736c2057a4",
+      "fingerprint": "e591540e23939de2c53c2ed0cb96014137674393516508c56b7acb64fb8b4d7a",
       "pack": {
         "crawl": true,
         "edges": {},
@@ -51,7 +51,7 @@
     "02_foundation": {
       "beacon_chain_hash": "fe6840f08b73914d307975bec449a273fd381ebb153a35fdf54fab6413c409dc",
       "beacon_hash": "8dbb22b09a799714fcc14d4466e97eefc9e237fda424bb4aef9fbbcf99713e51",
-      "fingerprint": "9029f0f4a8c665cb8b61b752d139c0dd637e7290e9011bca821c7c5efe0aab97",
+      "fingerprint": "2b8624074bb0b363bd690efeb4cf35ed9e6d81e256c87fade8943821f609c713",
       "pack": {
         "crawl": true,
         "edges": {
@@ -70,7 +70,7 @@
     "02_foundation/engine": {
       "beacon_chain_hash": "9a8b4537d4cdeb3ca6d2ea0be413525a959153a7eaba3b0c6ea7a2bf0005712d",
       "beacon_hash": "525cd5a3d61fce6f40bdddf3acc87c26466f4fa368adfefff5a56d0861505229",
-      "fingerprint": "1721984332faa8899d5ba3d9b35ad4a39af9f6752ade35d8161a4df00e86d319",
+      "fingerprint": "915f673085a13abc0f7c7e775109230ea2e7a2d23d71a442a39dc9f0439e2588",
       "pack": {
         "crawl": true,
         "edges": {
@@ -92,7 +92,7 @@
     "03_research": {
       "beacon_chain_hash": "c35a0dd3e3352ab317a0da1a6ec183dfb38e0256d40f5fb17494af327a0b51f4",
       "beacon_hash": "e1cba28c622f8a679b10e72b032038fed9bd21f88453617f81ba21f7aad151ba",
-      "fingerprint": "1f0d048ff20ddf34d255f171866dfe8bc9145b72506adfea4d1e57f790dab260",
+      "fingerprint": "360e404344ec3f1bc63a6b7d91c753b99e77841536297d65886fe95a3e3e0b4d",
       "pack": {
         "crawl": true,
         "edges": {
@@ -111,7 +111,7 @@
     "03_research/prompts": {
       "beacon_chain_hash": "75d484d1d2df5976fe0ff9a6b81e51e46515195720f8f15d651697caf103b9ea",
       "beacon_hash": "d269ea009fcc9d12c4ca4b5c48842c1c39631611f98578d06d3a65477ca3622b",
-      "fingerprint": "cfe950d7855d4ae5b68e13268ec64c39446ddeec2c9c148e08be54d3ee5ca702",
+      "fingerprint": "d852355166ea9d275bc46959d88326e8c8230e2783163575dfe335a1098e049e",
       "pack": {
         "crawl": true,
         "edges": {
@@ -131,13 +131,15 @@
     "artifacts": {
       "beacon_chain_hash": "69f495596b2524ec0cb2f5ba38fcca560f164fabe0defb1400f123c3825ea961",
       "beacon_hash": "ecf87001343d9bfc9263ab9e61badc9c72c5e312a58fdf19e70353177dfaf341",
-      "fingerprint": "efec0deb7b5abcf4f73e4c7a2e20a89d939252d98aab3ad0f22c779ad2b7cda0",
+      "fingerprint": "fbd67f7eac2d5280529d4e2f5356926ef363f244db9520799def7acdef7b79f8",
       "pack": {
         "crawl": true,
         "edges": {
           "artifacts/plans": "child"
         },
-        "files": [],
+        "files": [
+          "benchmark_coverage_report.json(~78t)"
+        ],
         "focus": "artifacts",
         "idir_pack": "6.0",
         "instructions": "Sin lógica propia. Usar map --slice o leer el beacon del subdirectorio objetivo.",
@@ -150,7 +152,7 @@
     "artifacts/plans": {
       "beacon_chain_hash": "b33ba51561ce74ecd82ddc045e1e316134b351eb5721d6174876b40ce3faac5d",
       "beacon_hash": "8c240f3e1464c5ba911c0da867dcccbc80887b73680588326c0537346521f252",
-      "fingerprint": "027de0b2c70a8b4f52848170555f5c7a4eb7f396b291c6eabe41d5a707eeafcd",
+      "fingerprint": "824b682931bcb9a1cd82a5b8580718a56217800660fa08c19737cd66d08b735b",
       "pack": {
         "crawl": true,
         "edges": {
@@ -172,7 +174,7 @@
     "artifacts/plans/active": {
       "beacon_chain_hash": "c747b10163bcb09c13c59986a2962aa9c80479a491893458f5a8d643d93455e7",
       "beacon_hash": "3bc34475d902ad61421991904182a67b5024bb48120231e49a04c036ced33236",
-      "fingerprint": "2df0839a4843c4a4f38f524f256c9a7d6a8ffe299d0e11754809003a2177a36c",
+      "fingerprint": "19a4a5fc7365657d62bb1c9e0b7ddc752f84fec041985642311de7ede726b9eb",
       "pack": {
         "crawl": true,
         "edges": {
@@ -192,7 +194,7 @@
     "config": {
       "beacon_chain_hash": "a02d437178233f267b8ff5b029ac2fd8e4345126321785bc0c822f6a9b189f51",
       "beacon_hash": "ce7db4c43a255974e026bcf989fdb56ec687f7b1c598d7d20a41448f6977e382",
-      "fingerprint": "158f889f6f229417d801c2909e4ec13c5cc4cec79cbfe6ef92d1845cc1d6ecea",
+      "fingerprint": "56c677a4d82328f0c16d39378b771f825302c78bde00ae1467b94903d127828f",
       "pack": {
         "crawl": true,
         "edges": {},
@@ -211,7 +213,7 @@
     "data": {
       "beacon_chain_hash": "e518bbd9943d34dcd1e84f35d3828d460fb7a3935d4165acf54755145a0ff4d9",
       "beacon_hash": "3be8fdc0307105b6b32fe02217ac737fc7382b65525d178ec6790f7dff7bb04e",
-      "fingerprint": "25a6b23057490c6cc42ab92439d4502925e1cefd887307cdddc53b345e3b3430",
+      "fingerprint": "fdd033c5ea9dc4af9005d67cb71e8abe89a0ade6a405098cb0ae550fcc0c58f3",
       "pack": {
         "crawl": true,
         "edges": {},
@@ -228,7 +230,7 @@
     "docs": {
       "beacon_chain_hash": "d232e93a64d8d94f2a138ae294d1dff1ad86747117e5cba40090d0b41022d831",
       "beacon_hash": "51b490bf2f919c688e64e387fc88e2c855e8a1408197cc83f4af3f328df15943",
-      "fingerprint": "fd404bb921263ef7c4548a694068f26c8df8bb4caf55cfd0308e57a908d7af9f",
+      "fingerprint": "162d431c7f2136a302511abfd28bb40f26e5f7b312a831d836de67ae6591676f",
       "pack": {
         "crawl": true,
         "edges": {
@@ -249,7 +251,7 @@
     "docs/architecture": {
       "beacon_chain_hash": "a67857a8ec1425eb8d69614cc16b2a9b6ffb038943b7b8122eb057111a592e3f",
       "beacon_hash": "579ac3a434b5f233b8ab64811f475dcc1275ed6df7c60a959dc7dcd62e8e8d90",
-      "fingerprint": "203a699ac55c31a79b62235f0656a293786b80de217a1afa3171752d7b0d98e7",
+      "fingerprint": "ffb8b978e2b293777564fc43039bc1dcdc7c00ddcc1f70e85cf49798b1741241",
       "pack": {
         "crawl": true,
         "edges": {
@@ -269,7 +271,7 @@
     "docs/notes": {
       "beacon_chain_hash": "fdb18505c1a78f0ff1988314c0a598ced86da2d3e7fe99456b0edb4d36e3cad7",
       "beacon_hash": "0f908d7156270d3f06214795029bafbef351231876d83e1341f0d353fbb1f704",
-      "fingerprint": "9599a441fff59eba6d49c86dac0ba0aaf15739c11467b70a45ca75f0d8bf09e3",
+      "fingerprint": "45bb168ef69ac4bbcfd284f836ded0410640d71381eb4f2a1e4fac7f0855f8f3",
       "pack": {
         "crawl": true,
         "edges": {
@@ -289,7 +291,7 @@
     "docs/specs": {
       "beacon_chain_hash": "45245293fd7b7bc78967c7b70e4308a6a4463fdeb662a15ed58ef08bbdecc9d4",
       "beacon_hash": "d399e0fc46ebb7ba355d1446f1807e77fd98f1e6837057a5c0ea09116293f465",
-      "fingerprint": "d02fb21116ef7d9b58a15ac470318bd1634f4417428a1ea91c84143e57bd255e",
+      "fingerprint": "6f7eeddd6d7fb487aa324fa7030e638cf9bbb7bad7f218d452e948b58a997fbb",
       "pack": {
         "crawl": true,
         "edges": {
@@ -316,7 +318,7 @@
     "schemas": {
       "beacon_chain_hash": "2209a3d179669ada8610d1bc4385ee75a777ed80cbd67678bb80f1ebb7df8009",
       "beacon_hash": "7de72434b0ffd7567b5faf10cd364ce01e6c776532cf3ef0bee378527d4b07ae",
-      "fingerprint": "14cb87c5a718b2945f14a46ff4c35ce1d9015381aa0b8c7fd540f58c68a82328",
+      "fingerprint": "887e514386340f704636368c88d07f22eaddd7db14adc4814aaea8e650c81f4a",
       "pack": {
         "crawl": true,
         "edges": {},
@@ -340,7 +342,7 @@
     "scripts": {
       "beacon_chain_hash": "bec0aa7880deb21e2f5162064cbba140e70b67f80090b9f2f7246ef5de003210",
       "beacon_hash": "d236725ac174c56326279ba8de0c15bdd98f853bd2fd5ba329fc73f8ac8a39f1",
-      "fingerprint": "66b18e18e42b95235b85eeea076f9ae665898d5d5502605bd3d884ba75334b5f",
+      "fingerprint": "3b702ce30fc5b348af89be149cf4d2bab37a11b4efc7b68d1b2f0375f010e36c",
       "pack": {
         "crawl": true,
         "edges": {},
@@ -357,7 +359,7 @@
     "skills": {
       "beacon_chain_hash": "33097dd9fd3745aeb07167b4211b971463c2efb044acf918dd613c1738952ce2",
       "beacon_hash": "30e51476b593c7baad42407b3eb8f70adba2b6a25f3516679bdea069a6671ef0",
-      "fingerprint": "7cca89e1dfce2181fe1d66b9e818422a186d920ab867bfcc53710d7c1d89b55b",
+      "fingerprint": "b893e29c5ab879f384653223cb2b8986c35c25183ec525eb59a0d9b141a4a29b",
       "pack": {
         "crawl": true,
         "edges": {
@@ -376,7 +378,7 @@
     "skills/v6": {
       "beacon_chain_hash": "79bb34c7f3f43df5ad440f9be3501080322f8bc2a7612bad32a6021ba19d3a14",
       "beacon_hash": "75a0c31a0f6a7a3cf224c317d118caeb81e447716146322e1f476755902e2fa6",
-      "fingerprint": "9bcaaef0958f27fe0b3e0c2a2cd983d0c607fe78fb0a5efe800245ad8a1a498b",
+      "fingerprint": "8076e03da56967338cbb896b96b3ff3da2671023c12d6c83c12a2e9029ee5bbb",
       "pack": {
         "crawl": true,
         "edges": {
@@ -397,7 +399,7 @@
     "skills/v6/icontext": {
       "beacon_chain_hash": "d0eb1703fad958908c6b6736affc40508c0e47917b0f0d7bb684015e4aaf14a8",
       "beacon_hash": "51e513c59a635fee5f000b9e4a0483b4bdf6d048af2909e20b8d49399906425a",
-      "fingerprint": "ebb9c402f6ec744e82e7f1c8fb6137bb69cdc2a33ca8339fc31546a60f7f3b14",
+      "fingerprint": "c64c5861c595611fd17cfff8ae6676ea97a27225ae873a2fa7f50d19aa3a6a69",
       "pack": {
         "crawl": true,
         "edges": {
@@ -421,7 +423,7 @@
     "skills/v6/icontext/scripts": {
       "beacon_chain_hash": "ffd726c4f2778ff0d63683de8c748840ea92fb862e889bc38ec2ee987d3c576f",
       "beacon_hash": "5d20044c75bb260c890d83c72dc470a20113ffef2bd1f7948de4ceef7dc90e2b",
-      "fingerprint": "a2e793b2646598d959e3c58cf81f18ffca01d77c69370d242a395259bde0dae2",
+      "fingerprint": "c9bd5f95d6491807eba9a13a759f209deab7cf6160ac999e344ae4b88bdf05bb",
       "pack": {
         "crawl": true,
         "edges": {
@@ -443,7 +445,7 @@
     "src": {
       "beacon_chain_hash": "1af93970ea8e5efe296a71d800cfd221a80af4084b3194741b8c08efe79468dc",
       "beacon_hash": "c05e4aaad49fab9e8746fe857b21433fdce9b1d6ef2caa7460fe294d76be9b15",
-      "fingerprint": "770cd5f514c7842a4c76864c8f4d2416f47ca08c436e95c40878b7385bd6422c",
+      "fingerprint": "5660d4a4977970212b9e91af5f83b87450d496de316b2d17ab062802be4cc8ff",
       "pack": {
         "crawl": true,
         "edges": {
@@ -465,7 +467,7 @@
     "src/cloud_jobs": {
       "beacon_chain_hash": "8437962b7aebd6d6fc416d0c782c09f549d7bb265c4aa92e6caadeaa9f764e3b",
       "beacon_hash": "080114eb7b268bb0a43fdd06716b57d9c7e5ab7b7efe1b130a76fc28372c1ffc",
-      "fingerprint": "9bdb950a8d2135c76dc9e520051a4748f30ba937e06fb07a59c68e0e3c89c8cc",
+      "fingerprint": "372d3074f2bccb593cc42f397f25b34fd1c26655e105fe8ee5d2e38c2d1d1e34",
       "pack": {
         "crawl": true,
         "edges": {
@@ -485,7 +487,7 @@
     "src/core": {
       "beacon_chain_hash": "ba0cb906004cfc32cb0e26b5ac022e3985f42448aab188ef13621fdbf15963d6",
       "beacon_hash": "216ca5fb1a473346db22eef1a7dbdc12a2503b316191de44b943c7b932f0044c",
-      "fingerprint": "e29c9d13eb529722899fe7ed9c47e1d410677c38f889dae40b170ed7a272bd2d",
+      "fingerprint": "7d7889e495e3b2200fd0d821ad63737d9c6185d5c1b83afdb5643d8e135b918b",
       "pack": {
         "crawl": true,
         "edges": {
@@ -509,7 +511,7 @@
     "src/dashboards": {
       "beacon_chain_hash": "5477a854109b76223ee1a22de0488f29cc949380d95ac210c7064fa8437a7e40",
       "beacon_hash": "e11d8ac04924a0027fc5cf235deb40a8ba9b69fcf4b80ec0a2f06dfd63cb2ccd",
-      "fingerprint": "5f8e92fd25738d8cb0522bbd1376b6c46a9651e60f67e245ed622ff3bdfc768b",
+      "fingerprint": "aea2491d73825ae006e4ab399f9b3036624def96ba3d8d646ff4a3786ebb595d",
       "pack": {
         "crawl": true,
         "edges": {
@@ -529,7 +531,7 @@
     "src/data_generation": {
       "beacon_chain_hash": "0bee5ab928d21bba1fd8c9747db1086bb1592dd7965c3473aa1b3a2caeeaee3b",
       "beacon_hash": "9c31c842c29dc16990acf7880e6fa7b502ddfdfb4ff20f7f57ab1195bd593611",
-      "fingerprint": "cbe5039f50d89360ba297c8a8fea86429efd1ccaafea5e4a5e9255137be52cbf",
+      "fingerprint": "87f213dad0ec8262b5bd5eda2d06cb168d3b2c36b2f3367243d1aad02f91c754",
       "pack": {
         "crawl": true,
         "edges": {
@@ -549,10 +551,12 @@
     "tests": {
       "beacon_chain_hash": "aae40b2cfe5b9735d23cd69fd2a9f23197625aceb5900b25cbb949c9de4f7b2a",
       "beacon_hash": "7e91a77a62b63ae5520c615174a49a5545610e1dd472efcac76c7e86bcd1079a",
-      "fingerprint": "03037fa872838cc0a9270376da293e997dc02f3102fdd16f6bdfd112c17ee430",
+      "fingerprint": "a4681fd05ee50b177372329d9e3c5d49c68061e645fb917832a0427179784410",
       "pack": {
         "crawl": true,
-        "edges": {},
+        "edges": {
+          "tests/fixtures": "child"
+        },
         "files": [
           "test_v6.py(~4747t)"
         ],
@@ -565,10 +569,32 @@
         "tier": "1a"
       }
     },
+    "tests/fixtures": {
+      "beacon_chain_hash": "f8f4e5827354851ef0c1a6da056ca17df5a0cb80d113566feafdb8d22694b9c2",
+      "beacon_hash": "5a4128c44455b7da7f4e720de7c16c7f3620f7a29e3adf494d057c8e37f6277c",
+      "fingerprint": "90e404b97c0728d093c0f058ef8f9936fb4bc9e922919c80e563c75f5ab05e95",
+      "pack": {
+        "crawl": true,
+        "edges": {
+          "tests": "parent"
+        },
+        "files": [
+          "golden_baseline_report.json(~40t)"
+        ],
+        "focus": "tests/fixtures",
+        "idir_pack": "6.0",
+        "inherited_from": "tests",
+        "instructions": "Hereda directivas de tests/.",
+        "prio": "p1",
+        "role": "test_suites",
+        "seed_ref": "optional",
+        "tier": "1a"
+      }
+    },
     "tools": {
       "beacon_chain_hash": "90bcd7d5452969ee4a591aa285654eab0a5a894156fe801316dd0b82c78222e9",
       "beacon_hash": "e5fc97b97c72967c1dbe6b05656ee616dc7e6b6cafdce126aba4fb8981dff6e5",
-      "fingerprint": "8a50df41676610ab1f99c937baa1862ac777a4b93445bd76c59bd7b4211667b3",
+      "fingerprint": "56de7237826aa1e8aed52cac785bbc59cd2946e67a008dd42f25d7106a88199d",
       "pack": {
         "crawl": true,
         "edges": {},
@@ -583,17 +609,17 @@
       }
     }
   },
-  "generation": "b367f0faf195d308",
+  "generation": "5b58fc499cb5e79f",
   "policy_stamp": [
     [
       ".agentignore",
-      322,
-      1793473614836516100
+      370,
+      1793541179285795000
     ],
     [
       ".gitignore",
-      152,
-      1793407283188580800
+      250,
+      1793544333493258400
     ],
     [
       "config/context_policy.json",

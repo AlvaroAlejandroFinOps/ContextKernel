@@ -11,7 +11,7 @@ version: "5.0"
 > **Arquetipo de Dominio:** `software-engineering` | **Modo:** `source_code`  
 > **Estado Consolidado:** `61.7% / 100.0%` — **Construcción Activa / Madurez Media (50.0% - 74.9%)**  
 > **Cuello de Botella Activo:** `M01: Descubrimiento y Alcance (66.7% completado)`  
-> **Fecha de Emisión:** `2026-11-01 10:53:00`  
+> **Fecha de Emisión:** `2026-11-01 11:56:02`  
 
 Este documento representa el **Roadmap Operacional y de Ejecución Técnica** derivado por ingeniería inversa a partir de la evidencia física (Ground Truth) del repositorio. Sirve como guía de trabajo para el equipo de arquitectura y desarrollo.
 
@@ -52,7 +52,7 @@ Este documento representa el **Roadmap Operacional y de Ejecución Técnica** de
 ### Checklists de Implementación
 - [ ] **Detección y Marcado de PII** (`M03-C01`): Integrar etiquetado o enmascarado de PII en los modelos de datos.
 - [ ] **Reglas de Calidad Formales (cQS)** (`M03-C02`): Implementar reglas de calidad de datos o código cQS.
-- [x] **Validación Estricta de Esquemas / Context** (`M03-C03`): Gobernanza contextual iDirectory activa con 27 archivos de contexto (.context.yaml). *(Evidencia: `01_seed/.context.yaml`)*
+- [x] **Validación Estricta de Esquemas / Context** (`M03-C03`): Gobernanza contextual iDirectory activa con 28 archivos de contexto (.context.yaml). *(Evidencia: `01_seed/.context.yaml`)*
 
 ### Entregables Tangibles Esperados
 - 🎯 Cierre de brechas pendientes: Detección y Marcado de PII, Reglas de Calidad Formales (cQS).
@@ -66,7 +66,7 @@ Este documento representa el **Roadmap Operacional y de Ejecución Técnica** de
 ### Checklists de Implementación
 - [x] **Entorno Reproducible** (`M04-C01`): Manifiesto de empaquetado y entorno reproducible verificado en 'pyproject.toml'. *(Evidencia: `pyproject.toml`)*
 - [x] **Dependencias Versionadas** (`M04-C02`): Especificación estricta de versiones de dependencias verificada en 'pyproject.toml'. *(Evidencia: `pyproject.toml`)*
-- [x] **Fixture Enterprise Disponible** (`M04-C03`): Fixtures y datos de prueba disponibles (2 archivos, e.g. 'src/data_generation/.context.yaml'). *(Evidencia: `src/data_generation/.context.yaml`)*
+- [x] **Fixture Enterprise Disponible** (`M04-C03`): Fixtures y datos de prueba disponibles (3 archivos, e.g. 'src/data_generation/.context.yaml'). *(Evidencia: `src/data_generation/.context.yaml`)*
 
 ### Entregables Tangibles Esperados
 - ✅ Todos los artefactos y contratos físicos de **M04** han sido verificados satisfactoriamente en disco.
@@ -94,7 +94,7 @@ Este documento representa el **Roadmap Operacional y de Ejecución Técnica** de
 ### Checklists de Implementación
 - [ ] **Emisores de Dialecto Nativo** (`M06-C01`): Crear emisores hacia tecnologías destino en src/core/emitter o similar.
 - [x] **Escritura Atómica y Safe-Encoding** (`M06-C02`): Manejo seguro de codificación UTF-8 / serialización protegida en 'src/core/benchmark.py'. *(Evidencia: `src/core/benchmark.py`)*
-- [x] **Exportación Multi-Formato** (`M06-C03`): Soporte de representación multi-formato verificado en el repositorio (.json, .md, .py, .toml, .yaml).
+- [x] **Exportación Multi-Formato** (`M06-C03`): Soporte de representación multi-formato verificado en el repositorio (.code-workspace, .json, .md, .py, .toml).
 - [ ] **Resiliencia de Sistemas y Mitigación de SPOF** (`M06-C04`): Garantizar acoplamiento desacoplado y ausencia de cuellos de botella únicos.
 - [x] **Patrones de Tolerancia a Fallos y Fallback** (`M06-C05`): Patrones de tolerancia a fallos verificados: {'timeout': 3, 'retry': 0, 'circuit_breaker': 0, 'fallback': 0} (cobertura=37.5%).
 
@@ -154,7 +154,7 @@ Este documento representa el **Roadmap Operacional y de Ejecución Técnica** de
 - [x] **Documentación Técnica Exhaustiva (Seed)** (`M10-C01`): Memoria técnica formal (ThinkingSeed) identificada en '01_seed/seed-contextcontrol-master.md'. *(Evidencia: `01_seed/seed-contextcontrol-master.md`)*
 - [x] **CLI Help Documentado** (`M10-C02`): Instrucciones operativas y ayuda de comandos documentadas en 'README.md'. *(Evidencia: `README.md`)*
 - [x] **Adaptadores Multicanal / Roadmap** (`M10-C03`): Roadmap formal de extensibilidad y capacidades futuras documentado en 'ICONTEXT_FEDERATION_PROTOCOL_V5.md'. *(Evidencia: `ICONTEXT_FEDERATION_PROTOCOL_V5.md`)*
-- [x] **Eficiencia Contextual Espectral FPAI** (`M10-C04`): Indicador FPAI estimado (distorsión no medida): PF_spectral=1.000 >= 0.70 (S_spectral=45392, S_linear=45392). *(Evidencia: `.agentignore`)*
+- [x] **Eficiencia Contextual Espectral FPAI** (`M10-C04`): Indicador FPAI estimado (distorsión no medida): PF_spectral=1.000 >= 0.70 (S_spectral=45568, S_linear=45568). *(Evidencia: `.agentignore`)*
 
 ### Entregables Tangibles Esperados
 - ✅ Todos los artefactos y contratos físicos de **M10** han sido verificados satisfactoriamente en disco.
