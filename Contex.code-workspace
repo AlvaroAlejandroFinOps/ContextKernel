@@ -1,0 +1,25 @@
+{
+	"folders": [
+		{
+			"name": "ContextControl (Controller)",
+			"path": "."
+		},
+		{
+			"name": "iDirectory (L0)",
+			"path": "../iDirectory"
+		},
+		{
+			"name": "ThinkingSeed (L1)",
+			"path": "../ThinkingSeed"
+		},
+		{
+			"name": "MetricsThinking (L2)",
+			"path": "../MetricsThinking"
+		},
+		{
+			"name": "iReadme (L3)",
+			"path": "../iReadme"
+		}
+	],
+	"settings": {}
+}
