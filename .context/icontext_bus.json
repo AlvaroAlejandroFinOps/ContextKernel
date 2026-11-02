@@ -2,31 +2,34 @@
   "$schema": "../schemas/icontext_bus.schema.json",
   "layers": {
     "l0_idirectory": {
+      "active_nodes_count": 20,
       "contracts_ast_hash": "b2eb3e9c14171e817c325762f35ac52fe144471d9e12cd356e08c840cc4b333c",
-      "inputs_hash": "dab2c0f3b321a8b562c4db406e048f7e8aa9c32095be1f3f8b66a6800c4f8fb1",
+      "inputs_hash": "3fddd4cb5403ca20a614b123e5727c09a046fb9312b2522ddcd965a1da48129c",
       "present": true,
-      "published_at": "2026-11-02T00:05:48.240290+00:00",
+      "pruned_nodes_count": 8,
+      "published_at": "2026-11-02T00:33:09.824148+00:00",
       "state": "recorded",
+      "topology_hash": "dfdd910f5220fb7f684ec0fb5bf79d7cb49261a825cf4825bbd3e7d367a6f0bc",
       "version": "6.0.0"
     },
     "l1_thinkingseed": {
       "artifact_kind": "master",
-      "inputs_hash": "c5bf8f00d7b6c45e0208b3d254c25bab7e270150b114deeb1c03d0f5cad0c8c8",
+      "inputs_hash": "ecf6c65b50dd64ab9067da241dff3f2b95212eec4df01923742955569c83bab9",
       "output_hash": "58c574b1cf3db2052f2eb3e3aa83c8be46bfc886dea0dff1440a81a38e6b2445",
       "present": true,
-      "published_at": "2026-11-02T00:06:17.569457+00:00",
+      "published_at": "2026-11-02T00:31:14.976734+00:00",
       "state": "validated",
       "version": "6.0.0"
     },
     "l2_metricsthinking": {
       "consolidated_score": 80.5,
-      "evaluation_hash": "0691483a13079ee6a4b2872530d1122bf02122a9fd6f5bfd2f43a8cf8df641db",
+      "evaluation_hash": "aef9dd84dbb715e400724b0249cd756d7ce79e12b8303bee7d66d2408cdccc0a",
       "fpai_pf_spectral": 0.9778,
-      "fpai_s_spectral": 572168.427,
-      "inputs_hash": "dab2c0f3b321a8b562c4db406e048f7e8aa9c32095be1f3f8b66a6800c4f8fb1",
-      "output_hash": "c0a019ae9b66d03f09be826b80133657a24919f311219f6d2732a620380b8558",
+      "fpai_s_spectral": 572155.715,
+      "inputs_hash": "3fddd4cb5403ca20a614b123e5727c09a046fb9312b2522ddcd965a1da48129c",
+      "output_hash": "1eb7326c20f23a54daef85422f9400cdd42463a265ad80e0795c7f691880bd56",
       "present": true,
-      "published_at": "2026-11-02T00:07:02.485117+00:00",
+      "published_at": "2026-11-02T00:31:59.749702+00:00",
       "report_path": "artifacts/plans/metricsthinking/MetricsThinking.json",
       "security_gate": 0.0,
       "security_gate_basis": "pii_scan_only",
@@ -35,15 +38,15 @@
     },
     "l3_ireadme": {
       "artifact_kind": "readme",
-      "inputs_hash": "334d8e2d64e85d1a2730b8ce0588e067e7812b4f3d598040787150a24cebb86b",
+      "inputs_hash": "c8c89d0838a65a356cbb6e1894835f7d32ecb1b43991f17d3ec893ccce9880b5",
       "output_hash": "aab5f8353d0c45e1c411a28dd77a34b2fa7d8ad4fe2b6c24196a651e1764e71e",
       "present": true,
-      "published_at": "2026-11-02T00:07:23.649738+00:00",
+      "published_at": "2026-11-02T00:32:13.871399+00:00",
       "state": "validated",
       "version": "6.0.0"
     }
   },
   "project": "ContextControl",
   "protocol_version": "6.0.0",
-  "updated_at": "2026-11-02T00:07:23.664304+00:00"
+  "updated_at": "2026-11-02T00:33:09.837113+00:00"
 }

@@ -30,7 +30,7 @@
       "size": 487,
       "stat": [
         487,
-        1793577779449721900
+        1793579582733582300
       ]
     },
     "01_seed/seed-contextkernel-master.md": {
@@ -54,7 +54,7 @@
       "size": 404,
       "stat": [
         404,
-        1793577779455704400
+        1793579582737570600
       ]
     },
     "02_foundation/engine/engine_readme.md": {
@@ -78,7 +78,7 @@
       "size": 350,
       "stat": [
         350,
-        1793577779469676800
+        1793579582745549800
       ]
     },
     "AGENTS.md": {
@@ -183,7 +183,7 @@
       "size": 387,
       "stat": [
         387,
-        1793577779515544000
+        1793579582769485600
       ]
     },
     "audit_federation.py": {
@@ -209,7 +209,7 @@
       "size": 403,
       "stat": [
         403,
-        1793577779617485400
+        1793579582799404800
       ]
     },
     "config/context_policy.json": {
@@ -241,7 +241,7 @@
       "size": 350,
       "stat": [
         350,
-        1793577779554550700
+        1793579582785442000
       ]
     },
     "docs/notes/.context.yaml": {
@@ -249,7 +249,7 @@
       "size": 351,
       "stat": [
         351,
-        1793577779603419800
+        1793579582794424300
       ]
     },
     "docs/specs/.context.yaml": {
@@ -257,7 +257,7 @@
       "size": 333,
       "stat": [
         333,
-        1793577779563526800
+        1793579582790431500
       ]
     },
     "docs/specs/icontext-v6.md": {
@@ -2493,7 +2493,7 @@
       "size": 435,
       "stat": [
         435,
-        1793576026545717700
+        1793579141110685500
       ]
     },
     "packages/metricsthinking/.context.yaml": {
@@ -2737,11 +2737,11 @@
       ]
     },
     "packages/metricsthinking/artifacts/benchmark_coverage_report.json": {
-      "sha256": "ccda7aaa17d6196d385e5c2e19acabd9b65b8671df87ee56bd8c78721d766611",
-      "size": 282,
+      "sha256": "66b5745a00baaee3a9544f868e4076327969d4ab4b41e02d49daae8c0ac8eebe",
+      "size": 281,
       "stat": [
-        282,
-        1793576007768893000
+        281,
+        1793579127727372700
       ]
     },
     "packages/metricsthinking/artifacts/benchmark_seed_coverage.md": {
@@ -2785,35 +2785,35 @@
       ]
     },
     "packages/metricsthinking/artifacts/plans/metricsthinking/CONTEXT_PRUNING_PLAN.json": {
-      "sha256": "52244e39585b58c7b09e7967e52968eefa76213432517f3c9ad61c53ebc0bff8",
+      "sha256": "f8f8b8abc9b131f275b8a99b0bef1c2b8131d3e9bf59019a30b7117f25fecede",
       "size": 1234,
       "stat": [
         1234,
-        1793576032823587600
+        1793579146419313300
       ]
     },
     "packages/metricsthinking/artifacts/plans/metricsthinking/INFERRED_ROADMAP.md": {
-      "sha256": "a1e73dc481daf56638c4b05549743f234a73868a056f6a9e8730e114625925e4",
-      "size": 11419,
+      "sha256": "6e1e3b3e57b0be001caa23298109cb36f4b9059bc63db6ae3c09e38223dd3c22",
+      "size": 11411,
       "stat": [
-        11419,
-        1793576032816606200
+        11411,
+        1793579146413330300
       ]
     },
     "packages/metricsthinking/artifacts/plans/metricsthinking/MetricsThinking.json": {
-      "sha256": "b9a88cf7cbfc6c1c999f28e09894455bb25379bcf4f7d33ba5d97c68a8037958",
-      "size": 31142,
+      "sha256": "4e635fb79017d794046d64b37ee516bebcc12dbc699524894569e357b2da7857",
+      "size": 31119,
       "stat": [
-        31142,
-        1793576032829570500
+        31119,
+        1793579146426298400
       ]
     },
     "packages/metricsthinking/artifacts/plans/metricsthinking/MetricsThinking.md": {
-      "sha256": "010692cc1f01c3336e525ee39525d2eebdc65f3150b618836254753f247fd4fe",
-      "size": 18323,
+      "sha256": "dcc52ab9d114d72fc239a85c46365d8e02d6e38f5086cc97ad1d299e7658d57a",
+      "size": 18304,
       "stat": [
-        18323,
-        1793576032806634200
+        18304,
+        1793579146370448100
       ]
     },
     "packages/metricsthinking/config/.context.yaml": {
@@ -3057,11 +3057,11 @@
       ]
     },
     "packages/metricsthinking/data/processed/telemetry/gold_metrics.json": {
-      "sha256": "f26ecfa21b997ab100c7bc957eee9c288f0a53386bcf01f38761b95b14759ad8",
+      "sha256": "100fb48c8fe97b6eb4343b867b3460dacdc952c9ab530983a06ea7b02996d631",
       "size": 225,
       "stat": [
         225,
-        1793576026561673500
+        1793579141120658100
       ]
     },
     "packages/metricsthinking/data/processed/telemetry/silver_events.jsonl": {
@@ -3069,7 +3069,7 @@
       "size": 0,
       "stat": [
         0,
-        1793576026558681800
+        1793579141119660200
       ]
     },
     "packages/metricsthinking/data/raw/.context.yaml": {
@@ -4425,11 +4425,11 @@
       ]
     },
     "packages/metricsthinking/tests/fixtures/golden_baseline_report.json": {
-      "sha256": "5505caf1a12a184e2e374f6ee78b40334a54377ada1e120d746707d3c64fd65c",
+      "sha256": "44648a177cd9c1010f63c36d136794976667f8bed29c488183a30b75dc61cecc",
       "size": 141,
       "stat": [
         141,
-        1793576008804317200
+        1793579128568895400
       ]
     },
     "packages/metricsthinking/tests/fixtures/sample_golden_audit.json": {
@@ -5502,7 +5502,7 @@
       "size": 368,
       "stat": [
         368,
-        1793577779667325200
+        1793579582815382500
       ]
     },
     "schemas/backlog.schema.json": {
@@ -5582,7 +5582,7 @@
       "size": 318,
       "stat": [
         318,
-        1793577779678296700
+        1793579582820352700
       ]
     },
     "skills/.context.yaml": {
@@ -5992,7 +5992,7 @@
       "size": 437,
       "stat": [
         437,
-        1793577779486622600
+        1793579582752530500
       ]
     },
     "src/core/.context.yaml": {
@@ -6000,7 +6000,7 @@
       "size": 335,
       "stat": [
         335,
-        1793577779503578400
+        1793579582760508800
       ]
     },
     "src/core/benchmark.py": {
@@ -6155,7 +6155,7 @@
       "size": 351,
       "stat": [
         351,
-        1793577779508566800
+        1793579582764498600
       ]
     },
     "src/data_generation/.context.yaml": {
@@ -6163,7 +6163,7 @@
       "size": 365,
       "stat": [
         365,
-        1793577779497595000
+        1793579582756520200
       ]
     },
     "tests/.context.yaml": {
@@ -6171,7 +6171,7 @@
       "size": 318,
       "stat": [
         318,
-        1793577779705326400
+        1793579582824338300
       ]
     },
     "tests/fixtures/.context.yaml": {
@@ -6282,11 +6282,11 @@
       "size": 288,
       "stat": [
         288,
-        1793577779712309300
+        1793579582828327700
       ]
     }
   },
-  "inputs_hash": "dab2c0f3b321a8b562c4db406e048f7e8aa9c32095be1f3f8b66a6800c4f8fb1",
+  "inputs_hash": "3fddd4cb5403ca20a614b123e5727c09a046fb9312b2522ddcd965a1da48129c",
   "policy_hash": "c632ce6939e22ed540df4a9eb84b179b656b6f3ee7412ce1d6c23cc30067b59d",
   "version": "6.0.0"
 }

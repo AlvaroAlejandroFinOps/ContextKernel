@@ -8,7 +8,7 @@
       "name": "Problem Statement Formalizado",
       "remediation_hint": "Declarar formalmente el Problem Statement en 01_seed o README.md."
     },
-    "fingerprint": "3d1380915fe912e34854901596da5c56823e3d2c8e979ac89d47fc533c9b6465"
+    "fingerprint": "292e4225c1670079ea9f854a49b4b360607c5f913d26c7be78ed789777b26bc2"
   },
   "M01:M01-C02": {
     "criterion": {
@@ -19,7 +19,7 @@
       "name": "Límites y Scope Declarados",
       "remediation_hint": "Definir secciones 'In Scope' y 'Out of Scope' explícitas."
     },
-    "fingerprint": "1f0bcf56c062dc17520f705fc6b96db5aea4dfdab5501b17647e443f48850a2e"
+    "fingerprint": "c11c358b2c94b2c19527c4b5c5c14d57ae97ef05072a8d4341d6b59756052d1e"
   },
   "M01:M01-C03": {
     "criterion": {
@@ -30,7 +30,7 @@
       "name": "Casos de Uso Formales",
       "remediation_hint": "Documentar casos de uso o perfiles de consumidores formales."
     },
-    "fingerprint": "5ccffc5c3090ecd2efaab5ab70a7cd7a827f84fe517004515917052bf62dfaa9"
+    "fingerprint": "eb819e4da24f2d168d22bc6bca6de2971980baa381cb2e6fad578c0351cfc69f"
   },
   "M02:M02-C01": {
     "criterion": {
@@ -52,7 +52,7 @@
       "name": "ADRs Documentados",
       "remediation_hint": "Registrar ADRs formales en docs/notes o docs/architecture."
     },
-    "fingerprint": "e0b1ffc232cb8dd165591dbcd23ec87bef96cf3ad491ed786a2b7538c96f3f40"
+    "fingerprint": "4ce273c857374fddcc36c0723fbb9d45fdabbe684be81f7e2ac7478c6cfa5747"
   },
   "M02:M02-C03": {
     "criterion": {
@@ -85,7 +85,7 @@
       "name": "Detección y Marcado de PII",
       "remediation_hint": "Integrar etiquetado o enmascarado de PII en los modelos de datos."
     },
-    "fingerprint": "42fca00fa7f0bb1fad5b276aca6abeefd3f3b963a1a8d23ef14486af40b096b1"
+    "fingerprint": "a23d48e2b06c78185dbbaf91d97b75795859eeb1c0fdb3449d6e21f6010b40d9"
   },
   "M03:M03-C02": {
     "criterion": {
@@ -96,7 +96,7 @@
       "name": "Reglas de Calidad Formales (cQS)",
       "remediation_hint": "Implementar reglas de calidad de datos o código cQS."
     },
-    "fingerprint": "c2625c6ef23f82dfc60fe3c572fff88a005d52c4d785187f31b9650f4e035a3c"
+    "fingerprint": "8647b44096eb69d4835cf6998484868dcdc9b5e9f72588ad1beb6dfe7eb08d03"
   },
   "M03:M03-C03": {
     "criterion": {
@@ -129,7 +129,7 @@
       "name": "Dependencias Versionadas",
       "remediation_hint": "Fijar versiones estrictas en el manifiesto de dependencias."
     },
-    "fingerprint": "0be189a37691dbbf69b33fe77d4182aeacd4758f34b545d4f3d68ea4198ea7a0"
+    "fingerprint": "4ce76bfdf96129e1fa0438cad1c62621acdf99415cf0fdaefd3c4a3add72a436"
   },
   "M04:M04-C03": {
     "criterion": {
@@ -206,7 +206,7 @@
       "name": "Escritura Atómica y Safe-Encoding",
       "remediation_hint": "Usar atomic write y UTF-8 seguro para serializar artefactos."
     },
-    "fingerprint": "9931bfe38586fdc73476434e2eda2cc5ae223ca68decb7d1313f5a22b53e8e08"
+    "fingerprint": "ae2e20d25496b83ff339ece61447770946c279fbfc0321fcac4f0014608dfc6f"
   },
   "M06:M06-C03": {
     "criterion": {
@@ -228,7 +228,7 @@
       "name": "Resiliencia de Sistemas y Mitigación de SPOF",
       "remediation_hint": "Garantizar acoplamiento desacoplado y ausencia de cuellos de botella únicos."
     },
-    "fingerprint": "fea1098b02752cdd5054fce87d4577c9d1cd2b5617e3d3204ffd8f382a279cd1"
+    "fingerprint": "bfd69fab7a837b0616e5aabdcf9b705eb05e593edb7a2c300e2d185f43504953"
   },
   "M06:M06-C05": {
     "criterion": {
@@ -316,7 +316,7 @@
       "name": "Seguridad Zero-Tolerance contra Secretos y Credenciales",
       "remediation_hint": "Limpiar cualquier credencial o clave expuesta en el repositorio."
     },
-    "fingerprint": "f2e2ddca5f0374b80ab6578bcb68ca86ff93e4ca84706312db37b2b74551b787"
+    "fingerprint": "27627cfb4e1a14f7c371d80e88508c8a5d82e7b6e1c743692e8cab30a7879482"
   },
   "M08:M08-C05": {
     "criterion": {
@@ -327,7 +327,7 @@
       "name": "Control de Entropía de Shannon e Inyecciones de Prompt",
       "remediation_hint": "Evitar tokens de alta entropía descontrolados e inyecciones de prompt."
     },
-    "fingerprint": "1ea2e2968213e597d65f3681547bf2c399b9e0ae4fb27b32ca22ce29d8d442fb"
+    "fingerprint": "cec80b04930d9c568812473ff4834934aa988eb73fae7fed2a2f92f9fa769197"
   },
   "M09:M09-C01": {
     "criterion": {
@@ -349,7 +349,7 @@
       "name": "Empaquetado y Distribución Estandarizada",
       "remediation_hint": "Configurar empaquetado buildable o .pre-commit-config.yaml."
     },
-    "fingerprint": "c244bf7f0215cd650302a1850d4a2092fed11caeb049785e3dc058da7753cea5"
+    "fingerprint": "07e0a1edd86bccb5f9ad1ee499a5d7be9f51b46ce1af31020904d949fee41bb2"
   },
   "M10:M10-C01": {
     "criterion": {
@@ -371,7 +371,7 @@
       "name": "CLI Help Documentado",
       "remediation_hint": "Documentar comandos CLI y opciones en README o help."
     },
-    "fingerprint": "219e2fe004a8945a1b140ea6f638bccb8645f2fd6e8ab1dde98963c0ba69ee73"
+    "fingerprint": "958c2c1620aa99a04aa7d41815cf3a74fca9855ccd4df63caa36be859c56fa9d"
   },
   "M10:M10-C03": {
     "criterion": {
@@ -382,7 +382,7 @@
       "name": "Adaptadores Multicanal / Roadmap",
       "remediation_hint": "Documentar roadmap y adaptadores futuros en el plan maestro."
     },
-    "fingerprint": "82d5fe975c615d6fbad3900e7d804d1f943fc696039339ecb9a16fa115e86588"
+    "fingerprint": "af45f90a581ba81af9ffc1a503a4ebe5b31c7b95f7b4100a691af15389693104"
   },
   "M10:M10-C04": {
     "criterion": {

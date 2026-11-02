@@ -3,12 +3,12 @@
 > **Motor Evaluador:** MetricsThinking™ v6.0 Universal  
 > **Proyecto Auditado:** `ContextControl`  
 > **Ubicación:** `./`  
-> **Fecha de Auditoría:** `2026-11-01 21:07:02`  
+> **Fecha de Auditoría:** `2026-11-01 21:31:59`  
 > **Auditor Responsable:** `MetricsThinking™ Universal Auditor`  
 > **Perfil Aplicado:** `default` (`software-engineering`)  
 > **Modo de Inspección:** `source_code`  
 > **ThinkingSeed:** `Detectado (v6.1)`  
-> **Git Commit / Branch:** `f989198` / `master`  
+> **Git Commit / Branch:** `170abd8` / `master`  
 > **Score Consolidado:** **`80.5% / 100.0%`**  
 > **Banda de Madurez:** **Madurez Avanzada / Pre-producción (75.0% - 89.9%)**
 
@@ -232,12 +232,12 @@ Métrica canónica de densidad cognitiva y preservación de potencia activa $P$:
 
 | Componente de Potencia | Símbolo | Tokens | Ratio | Estado |
 |:---|:---:|:---:|:---:|:---|
-| **Potencia Activa** (Working Set) | $P$ | `559491` | `82.4%` | 🟢 Preservada |
+| **Potencia Activa** (Working Set) | $P$ | `559478` | `82.4%` | 🟢 Preservada |
 | **Potencia Reactiva Inerte** | $Q_{dead}$ | `0` | `0.0%` | ⚪ Inerte |
 | **Potencia Reactiva Redundante** | $Q_{dup}$ | `119777` | `17.6%` | 🟡 Duplicada |
 | **Distorsión Estructural** | $D$ | `0` | `0.0%` | 🔴 Conflicto |
-| **Potencia Aparente Espectral** | $S_{spectral}$ | `572168` | — | $\sqrt{P^2 + Q^2 + D^2}$ |
-| **Potencia Aparente Lineal** | $S_{linear}$ | `679268` | — | $P + Q + D$ |
+| **Potencia Aparente Espectral** | $S_{spectral}$ | `572156` | — | $\sqrt{P^2 + Q^2 + D^2}$ |
+| **Potencia Aparente Lineal** | $S_{linear}$ | `679255` | — | $P + Q + D$ |
 
 - **Factor de Potencia Espectral ($PF_{spectral}$):** `0.978` *(Meta >= 0.70)*
 - **Factor de Potencia Lineal ($PF_{linear}$):** `0.824`

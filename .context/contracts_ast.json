@@ -90,7 +90,7 @@
     "-v"
   ],
   "contracts_ast_hash": "b2eb3e9c14171e817c325762f35ac52fe144471d9e12cd356e08c840cc4b333c",
-  "inputs_hash": "dab2c0f3b321a8b562c4db406e048f7e8aa9c32095be1f3f8b66a6800c4f8fb1",
+  "inputs_hash": "3fddd4cb5403ca20a614b123e5727c09a046fb9312b2522ddcd965a1da48129c",
   "modules": {
     "FWengine.py": {
       "cli_flags": [

@@ -5,15 +5,15 @@
     "pruning": "D:\\0001 HyperScale Thinking\\PROYECTOS CLOUD\\iContext\\ContextControl\\artifacts\\plans\\metricsthinking\\CONTEXT_PRUNING_PLAN.json",
     "roadmap": "D:\\0001 HyperScale Thinking\\PROYECTOS CLOUD\\iContext\\ContextControl\\artifacts\\plans\\metricsthinking\\INFERRED_ROADMAP.md"
   },
-  "key": "0691483a13079ee6a4b2872530d1122bf02122a9fd6f5bfd2f43a8cf8df641db",
+  "key": "aef9dd84dbb715e400724b0249cd756d7ce79e12b8303bee7d66d2408cdccc0a",
   "outputs": {
-    "json": "16a82790854e109a8208afebc48f1405e40a7989cae5d1fb8115bd349055bfd9",
-    "markdown": "f60b88e9bcd2ed26bad566e0753eed17b81fae1f6ca8d5fc191111722c9e5ca4",
-    "pruning": "7e157ed8700b5d54319c8c25344c92ead454d0af09915d653a34dc8c4aa1ccbe",
-    "roadmap": "6aa7431345ae0e17e0c12f08915143b15f2511626e50762260e5cce9c5999024"
+    "json": "0f053913aa6994c7a7e546d66c1ba4a3f13b114921cb5f61d4eead0c51effa19",
+    "markdown": "2a56ecc070a5c2f32f2101edab6547c1d95413f025d9d37efba377029a273e51",
+    "pruning": "18a56dae3738db633839033aaf2c0f9878712d01d52f79774aa32e40558eb299",
+    "roadmap": "1adeef7a39fbe4ccecdf6e7166f72c6bbf044bb354317a8608882ce1fe4487b4"
   },
   "report": {
-    "audit_date": "2026-11-01 21:07:02",
+    "audit_date": "2026-11-01 21:31:59",
     "auditor": "MetricsThinking™ Universal Auditor",
     "domain_archetype": "software-engineering",
     "evidence_primitives": {
@@ -91,17 +91,17 @@
       "distortion_ratio": 0.0,
       "divergence_ratio": 0.1577,
       "gain_coefficient": 1.0,
-      "p_active": 559491.0,
+      "p_active": 559478.0,
       "power_factor_linear": 0.8237,
       "power_factor_spectral": 0.9778,
       "q_dead": 0.0,
       "q_dup": 119777.0,
       "redundant_ratio": 0.1763,
-      "s_linear": 679268.0,
-      "s_spectral": 572168.427
+      "s_linear": 679255.0,
+      "s_spectral": 572155.715
     },
     "git_branch": "master",
-    "git_commit": "f989198",
+    "git_commit": "170abd8",
     "inspection_mode": "source_code",
     "modules": [
       {
@@ -478,7 +478,7 @@
     "project_path": "D:\\0001 HyperScale Thinking\\PROYECTOS CLOUD\\iContext\\ContextControl",
     "pruning_plan": {
       "active_tokens_remaining": 1000,
-      "generated_at": "2026-11-02T00:07:02.331197+00:00",
+      "generated_at": "2026-11-02T00:31:59.683884+00:00",
       "items": [
         {
           "file_path": "packages/metricsthinking/tests/other/.context.yaml",
@@ -911,7 +911,7 @@
         "distortion_state": "not_measured",
         "duplicate": 119777,
         "method": "exact_content_duplicates; heuristic_tokens; attention_not_measured",
-        "total": 679268
+        "total": 679255
       },
       "domain_archetype": "software-engineering",
       "inspection_mode": "source_code",
