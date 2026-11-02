@@ -1,0 +1,219 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://metricsthinking.io/schemas/project_audit_report.schema.json",
+  "title": "ProjectAuditReport",
+  "description": "Validation contract for complete MetricsThinking v4.0 Universal project audit reports.",
+  "type": "object",
+  "properties": {
+    "project_name": {
+      "type": "string"
+    },
+    "project_path": {
+      "type": "string"
+    },
+    "audit_date": {
+      "type": "string"
+    },
+    "auditor": {
+      "type": "string"
+    },
+    "profile_used": {
+      "type": "string"
+    },
+    "domain_archetype": {
+      "type": "string",
+      "enum": [
+        "software-engineering",
+        "mlops",
+        "llmops",
+        "dataops",
+        "gitops",
+        "platform-eng",
+        "devsecops",
+        "dual-track",
+        "team-topologies",
+        "chaos-eng",
+        "sdd",
+        "data-platform",
+        "web-app",
+        "agent-skill",
+        "custom"
+      ]
+    },
+    "inspection_mode": {
+      "type": "string",
+      "enum": [
+        "source_code",
+        "declarative_config",
+        "pipeline_orchestration",
+        "governance_spec",
+        "polyglot_hybrid"
+      ]
+    },
+    "git_commit": {
+      "type": ["string", "null"]
+    },
+    "git_branch": {
+      "type": ["string", "null"]
+    },
+    "seed_detected": {
+      "type": "boolean"
+    },
+    "seed_version": {
+      "type": ["string", "null"]
+    },
+    "evidence_primitives": {
+      "type": "object"
+    },
+    "consolidated_score": {
+      "type": "number",
+      "minimum": 0.0,
+      "maximum": 100.0
+    },
+    "maturity_band": {
+      "type": "string"
+    },
+    "active_bottleneck": {
+      "type": "string"
+    },
+    "modules": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "module_id": { "type": "string" },
+          "name": { "type": "string" },
+          "weight": { "type": "number" },
+          "stage_group": { "type": "string" },
+          "phase_completion_pct": { "type": "number" },
+          "weighted_contribution_pct": { "type": "number" },
+          "status": { "type": "string" },
+          "criteria": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "criterion_id": { "type": "string" },
+                "name": { "type": "string" },
+                "fulfilled": { "type": "boolean" },
+                "evidence_path": { "type": ["string", "null"] },
+                "evidence_detail": { "type": "string" },
+                "remediation_hint": { "type": ["string", "null"] }
+              },
+              "required": ["criterion_id", "name", "fulfilled"]
+            }
+          }
+        },
+        "required": ["module_id", "name", "weight", "criteria"]
+      },
+      "minItems": 10,
+      "maxItems": 10
+    },
+    "remediation_plan": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "priority": { "type": "string" },
+          "module_id": { "type": "string" },
+          "criterion_id": { "type": "string" },
+          "action": { "type": "string" },
+          "impact_score": { "type": "number" },
+          "files_to_touch": {
+            "type": "array",
+            "items": { "type": "string" }
+          }
+        },
+        "required": ["priority", "module_id", "criterion_id", "action", "impact_score"]
+      }
+    },
+    "stats": {
+      "type": "object"
+    },
+    "fpai": {
+      "type": ["object", "null"],
+      "properties": {
+        "p_active": { "type": "number" },
+        "q_dead": { "type": "number" },
+        "q_dup": { "type": "number" },
+        "d_structural": { "type": "number" },
+        "s_spectral": { "type": "number" },
+        "s_linear": { "type": "number" },
+        "divergence_ratio": { "type": "number" },
+        "power_factor_spectral": { "type": "number" },
+        "power_factor_linear": { "type": "number" },
+        "active_ratio": { "type": "number" },
+        "dead_ratio": { "type": "number" },
+        "redundant_ratio": { "type": "number" },
+        "distortion_ratio": { "type": "number" },
+        "calibration_state": { "type": "string" },
+        "gain_coefficient": { "type": "number" }
+      },
+      "required": [
+        "p_active", "q_dead", "q_dup", "d_structural",
+        "s_spectral", "s_linear", "divergence_ratio",
+        "power_factor_spectral", "power_factor_linear",
+        "active_ratio", "calibration_state", "gain_coefficient"
+      ]
+    },
+    "security": {
+      "type": ["object", "null"],
+      "properties": {
+        "shannon_entropy_max": { "type": "number" },
+        "entropy_findings": { "type": "array" },
+        "pii_matches_count": { "type": "integer" },
+        "pii_findings": { "type": "array" },
+        "prompt_injection_surface_count": { "type": "integer" },
+        "prompt_injection_findings": { "type": "array" },
+        "supply_chain_lockfile_pinned": { "type": "boolean" },
+        "attack_surface_index": { "type": "number" }
+      },
+      "required": [
+        "shannon_entropy_max", "pii_matches_count",
+        "prompt_injection_surface_count", "supply_chain_lockfile_pinned",
+        "attack_surface_index"
+      ]
+    },
+    "resilience": {
+      "type": ["object", "null"],
+      "properties": {
+        "afferent_coupling_ca": { "type": "object" },
+        "efferent_coupling_ce": { "type": "object" },
+        "instability_i": { "type": "object" },
+        "spof_nodes": { "type": "array" },
+        "resilience_patterns_count": { "type": "object" },
+        "resilience_coverage_ratio": { "type": "number" }
+      },
+      "required": [
+        "afferent_coupling_ca", "efferent_coupling_ce",
+        "instability_i", "spof_nodes",
+        "resilience_patterns_count", "resilience_coverage_ratio"
+      ]
+    },
+    "pruning_plan": {
+      "type": ["object", "null"],
+      "properties": {
+        "target_path": { "type": "string" },
+        "items": { "type": "array" },
+        "total_tokens_recovered": { "type": "integer" },
+        "active_tokens_remaining": { "type": "integer" },
+        "power_factor_target": { "type": "number" },
+        "generated_at": { "type": "string" }
+      },
+      "required": [
+        "target_path", "items", "total_tokens_recovered",
+        "active_tokens_remaining", "power_factor_target", "generated_at"
+      ]
+    }
+  },
+  "required": [
+    "project_name",
+    "project_path",
+    "audit_date",
+    "profile_used",
+    "domain_archetype",
+    "inspection_mode",
+    "modules"
+  ],
+  "additionalProperties": true
+}

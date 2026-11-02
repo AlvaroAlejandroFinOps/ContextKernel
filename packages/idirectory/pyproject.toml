@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "idirectory"
+version = "6.1.0"
+description = "Portable topology governance and bounded context packs (L0)"
+requires-python = ">=3.10"
+
+[project.scripts]
+idir = "idirectory.fwengine:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = [".", "src"]

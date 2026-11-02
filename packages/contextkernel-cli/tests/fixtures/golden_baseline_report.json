@@ -1,0 +1,7 @@
+{
+  "total_files": 60,
+  "detected_archetype": "orchestrator-command-plane",
+  "is_git": false,
+  "has_seeds": true,
+  "has_schemas": true
+}

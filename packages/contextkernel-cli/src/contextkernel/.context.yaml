@@ -1,0 +1,12 @@
+version: 1.0
+directory: "packages/contextkernel-cli/src/contextkernel"
+role: namespace
+purpose: "Subdominio contextkernel bajo packages/contextkernel-cli/src/."
+relevance: medium
+crawl: true
+read_priority: p2
+seed_reference: optional
+tier1_preload: false
+inherited: true
+token_density: sparse
+instructions: "Hereda directivas de packages/contextkernel-cli/src/."

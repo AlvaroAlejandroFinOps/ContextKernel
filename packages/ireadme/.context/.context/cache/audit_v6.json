@@ -1,0 +1,567 @@
+{
+  "artifacts": {
+    "json": "D:\\0001 HyperScale Thinking\\PROYECTOS CLOUD\\iContext\\iReadme\\artifacts\\plans\\metricsthinking\\MetricsThinking.json",
+    "markdown": "D:\\0001 HyperScale Thinking\\PROYECTOS CLOUD\\iContext\\iReadme\\artifacts\\plans\\metricsthinking\\MetricsThinking.md",
+    "pruning": "D:\\0001 HyperScale Thinking\\PROYECTOS CLOUD\\iContext\\iReadme\\artifacts\\plans\\metricsthinking\\CONTEXT_PRUNING_PLAN.json",
+    "roadmap": "D:\\0001 HyperScale Thinking\\PROYECTOS CLOUD\\iContext\\iReadme\\artifacts\\plans\\metricsthinking\\INFERRED_ROADMAP.md"
+  },
+  "key": "35f7916c9a620039dd2b17a0eff3fe32add28f982347f707ff14238fe2b5d11b",
+  "outputs": {
+    "json": "1d2538d965e6b13fbb3f148857fdedb711e7fd01a98329e9667d0a535ad5485c",
+    "markdown": "1735709e53f9baaa8f15491082ac3d6b85d06b3855d83af574e16f89c1e1dc23",
+    "pruning": "43a382ae9c633d4682c22b3abf718450f216674d1ca022ac5f08adc67c21ee96",
+    "roadmap": "e5ce2a252387df7dd28efa71480d5707ae8e1b84ea95992b53963e20c6314099"
+  },
+  "report": {
+    "audit_date": "2026-10-31 20:03:31",
+    "auditor": "MetricsThinking™ Universal Auditor",
+    "domain_archetype": "agent-skill",
+    "evidence_primitives": {
+      "config": {
+        "file_count": 38,
+        "primitive_type": "config",
+        "sample_paths": [
+          ".agentignore",
+          ".cursorrules",
+          "pyproject.toml",
+          ".github/workflows/ci.yml",
+          "01_seed/.context.yaml"
+        ],
+        "total_lines": 627,
+        "verified_valid": true
+      },
+      "implementation": {
+        "file_count": 16,
+        "primitive_type": "implementation",
+        "sample_paths": [
+          "Propuesta Skill.md",
+          "01_seed/seed-iReadme-master.md",
+          "02_foundation/.context.yaml",
+          "02_foundation/engine/.context.yaml",
+          "03_research/prompts/.context.yaml"
+        ],
+        "total_lines": 745,
+        "verified_valid": true
+      },
+      "pipeline": {
+        "file_count": 2,
+        "primitive_type": "pipeline",
+        "sample_paths": [
+          ".github/workflows/ci.yml",
+          "scripts/install_skill.py"
+        ],
+        "total_lines": 146,
+        "verified_valid": true
+      },
+      "spec": {
+        "file_count": 26,
+        "primitive_type": "spec",
+        "sample_paths": [
+          ".agentignore",
+          ".cursorrules",
+          "AGENTS.md",
+          "CLAUDE.md",
+          "GEMINI.md"
+        ],
+        "total_lines": 1243,
+        "verified_valid": true
+      },
+      "verification": {
+        "file_count": 7,
+        "primitive_type": "verification",
+        "sample_paths": [
+          "artifacts/benchmark_coverage_report.md",
+          "artifacts/benchmark_seed_coverage.md",
+          "tests/__init__.py",
+          "tests/test_atomic_write.py",
+          "tests/test_golden_regression.py"
+        ],
+        "total_lines": 344,
+        "verified_valid": true
+      }
+    },
+    "fpai": {
+      "active_ratio": 1.0,
+      "calibration_state": "DETERMINISTIC",
+      "d_structural": 0.0,
+      "dead_ratio": 0.0,
+      "distortion_ratio": 0.0,
+      "divergence_ratio": 0.0,
+      "gain_coefficient": 1.0,
+      "p_active": 65623.0,
+      "power_factor_linear": 1.0,
+      "power_factor_spectral": 1.0,
+      "q_dead": 0.0,
+      "q_dup": 0.0,
+      "redundant_ratio": 0.0,
+      "s_linear": 65623.0,
+      "s_spectral": 65623.0
+    },
+    "git_branch": "master",
+    "git_commit": "20e43ea",
+    "inspection_mode": "governance_spec",
+    "modules": [
+      {
+        "criteria": [
+          {
+            "criterion_id": "M01-C01",
+            "evidence_detail": "Frontmatter canónico y metadatos de skill verificados en 'Propuesta Skill.md'.",
+            "evidence_path": "Propuesta Skill.md",
+            "fulfilled": true,
+            "name": "Skill Frontmatter & Problem Statement",
+            "remediation_hint": "Definir frontmatter YAML canónico con 'name' y 'description' en SKILL.md o declarar el propósito en README.md."
+          },
+          {
+            "criterion_id": "M01-C02",
+            "evidence_detail": "Límites de alcance y fronteras del sistema identificados en '01_seed/seed-iReadme-master.md'.",
+            "evidence_path": "01_seed/seed-iReadme-master.md",
+            "fulfilled": true,
+            "name": "Límites de Autonomía y Scope del Agente",
+            "remediation_hint": "Declarar cuándo activar la skill y los límites de intervención del asistente en SKILL.md o README.md."
+          },
+          {
+            "criterion_id": "M01-C03",
+            "evidence_detail": "Catálogo de comandos de activación documentado en 'Propuesta Skill.md'.",
+            "evidence_path": "Propuesta Skill.md",
+            "fulfilled": true,
+            "name": "Triggers, Slash Commands & Modos de Uso",
+            "remediation_hint": "Documentar comandos slash y triggers de activación en SKILL.md o docs."
+          }
+        ],
+        "module_id": "M01",
+        "name": "Definición y Alcance de la Skill",
+        "stage_group": "Fundamentos",
+        "weight": 0.05
+      },
+      {
+        "criteria": [
+          {
+            "criterion_id": "M02-C01",
+            "evidence_detail": "Estructura modular de skill detectada (10 skills, e.g. 'Propuesta Skill.md').",
+            "evidence_path": "Propuesta Skill.md",
+            "fulfilled": true,
+            "name": "Estructura Modular de la Skill",
+            "remediation_hint": "Estructurar la skill bajo .agents/skills/<nombre>/ o carpetas canónicas 01_seed y scripts/."
+          },
+          {
+            "criterion_id": "M02-C02",
+            "evidence_detail": "Especificaciones multi-asistente encontradas (5 archivos, e.g. '.agentignore').",
+            "evidence_path": ".agentignore",
+            "fulfilled": true,
+            "name": "Instrucciones Multi-Provider / Multi-Agente",
+            "remediation_hint": "Añadir archivos de instrucción multi-agente (AGENTS.md, GEMINI.md, CLAUDE.md o .cursorrules)."
+          },
+          {
+            "criterion_id": "M02-C03",
+            "evidence_detail": "Contratos formales de datos / esquemas presentes (9 esquemas, e.g. 'schemas/backlog.schema.json').",
+            "evidence_path": "schemas/backlog.schema.json",
+            "fulfilled": true,
+            "name": "Contratos de Datos y Esquemas de Contexto",
+            "remediation_hint": "Definir esquemas o contratos de salida en schemas/ o plantillas de datos."
+          },
+          {
+            "criterion_id": "M02-C04",
+            "evidence_detail": "Modelado topológico o de grafos presente en 'docs/architecture/system_topology.md'.",
+            "evidence_path": "docs/architecture/system_topology.md",
+            "fulfilled": true,
+            "name": "Topología de Contexto e iDirectory",
+            "remediation_hint": "Configurar gobernanza .context.yaml o mapa topológico de dependencias."
+          }
+        ],
+        "module_id": "M02",
+        "name": "Arquitectura de Contexto e Instrucciones",
+        "stage_group": "Fundamentos",
+        "weight": 0.1
+      },
+      {
+        "criteria": [
+          {
+            "criterion_id": "M03-C01",
+            "evidence_detail": "Guardrails operacionales y políticas anti-alucinación declarados en 'skills/v6/readme/SKILL.md'.",
+            "evidence_path": "skills/v6/readme/SKILL.md",
+            "fulfilled": true,
+            "name": "Guardrails Operacionales & Anti-Alucinación",
+            "remediation_hint": "Establecer guardrails estrictos y directivas de no-alucinación en SKILL.md o AGENTS.md."
+          },
+          {
+            "criterion_id": "M03-C02",
+            "evidence_detail": "Políticas de privacidad y clasificación PII documentadas en '01_seed/seed-iReadme-master.md'.",
+            "evidence_path": "01_seed/seed-iReadme-master.md",
+            "fulfilled": true,
+            "name": "Políticas de Privacidad y Manejo de PII",
+            "remediation_hint": "Documentar políticas de seguridad de credenciales y no-divulgación de datos sensibles."
+          },
+          {
+            "criterion_id": "M03-C03",
+            "evidence_detail": "Gobernanza contextual iDirectory activa con 33 archivos de contexto (.context.yaml).",
+            "evidence_path": "01_seed/.context.yaml",
+            "fulfilled": true,
+            "name": "Validación Estricta de Contexto",
+            "remediation_hint": "Asegurar presencia de archivos de gobierno de contexto (.context.yaml)."
+          }
+        ],
+        "module_id": "M03",
+        "name": "Gobernanza de Contexto y Guardrails",
+        "stage_group": "Fundamentos",
+        "weight": 0.05
+      },
+      {
+        "criteria": [
+          {
+            "criterion_id": "M04-C01",
+            "evidence_detail": "Script de instalación y despliegue portable verificado en 'scripts/install_skill.py'.",
+            "evidence_path": "scripts/install_skill.py",
+            "fulfilled": true,
+            "name": "Script de Instalación Portable",
+            "remediation_hint": "Proveer script de instalación y distribución en scripts/install_skills.py."
+          },
+          {
+            "criterion_id": "M04-C02",
+            "evidence_detail": "Manifiesto de empaquetado y entorno reproducible verificado en 'pyproject.toml'.",
+            "evidence_path": "pyproject.toml",
+            "fulfilled": true,
+            "name": "Entorno de Ejecución Reproducible",
+            "remediation_hint": "Definir pyproject.toml, requirements.txt o dependencias en scripts."
+          },
+          {
+            "criterion_id": "M04-C03",
+            "evidence_detail": "Plantillas maestras de prompt/contexto detectadas (2 archivos, e.g. '01_seed/seed-iReadme-master.md').",
+            "evidence_path": "01_seed/seed-iReadme-master.md",
+            "fulfilled": true,
+            "name": "Plantillas Maestras / Golden Fixtures",
+            "remediation_hint": "Proveer plantillas maestras completas en la raíz, prompts/ o templates/."
+          }
+        ],
+        "module_id": "M04",
+        "name": "Tooling e Instalador Portable",
+        "stage_group": "Fundamentos",
+        "weight": 0.05
+      },
+      {
+        "criteria": [
+          {
+            "criterion_id": "M05-C01",
+            "evidence_detail": "Plantillas de prompt exhaustivas y directivas estructuradas verificadas en 'Propuesta Skill.md'.",
+            "evidence_path": "Propuesta Skill.md",
+            "fulfilled": true,
+            "name": "Plantillas de Prompt Exhaustivas y Completas",
+            "remediation_hint": "Completar todas las secciones de plantillas de prompts e instrucciones del agente."
+          },
+          {
+            "criterion_id": "M05-C02",
+            "evidence_detail": "Motor de extracción y lógica de soporte verificado en 'src/ireadme/generator.py'.",
+            "evidence_path": "src/ireadme/generator.py",
+            "fulfilled": true,
+            "name": "Motor de Extracción y Análisis de ADN",
+            "remediation_hint": "Implementar lógica de extracción o scripts de soporte en scripts/ o Tools/."
+          },
+          {
+            "criterion_id": "M05-C03",
+            "evidence_detail": "Formateadores y estructuración canónica de metadatos comprobados en '01_seed/seed-iReadme-master.md'.",
+            "evidence_path": "01_seed/seed-iReadme-master.md",
+            "fulfilled": true,
+            "name": "Estructuración y Formateo Canónico",
+            "remediation_hint": "Asegurar formateadores y resolutores de metadatos en el motor."
+          },
+          {
+            "criterion_id": "M05-C04",
+            "evidence_detail": "Capacidad de emisión de artefactos de contexto y memoria técnica verificada en '01_seed/seed-iReadme-master.md'.",
+            "evidence_path": "01_seed/seed-iReadme-master.md",
+            "fulfilled": true,
+            "name": "Generación de Artefactos de Salida",
+            "remediation_hint": "Verificar capacidad de emisión de artefactos de contexto y memoria técnica."
+          }
+        ],
+        "module_id": "M05",
+        "name": "Motor Central de la Skill y Prompts",
+        "stage_group": "Construcción",
+        "weight": 0.25
+      },
+      {
+        "criteria": [
+          {
+            "criterion_id": "M06-C01",
+            "evidence_detail": "Especificaciones multi-asistente encontradas (5 archivos, e.g. '.agentignore').",
+            "evidence_path": ".agentignore",
+            "fulfilled": true,
+            "name": "Compatibilidad Cruzada de Plataformas",
+            "remediation_hint": "Asegurar compatibilidad cruzada mediante AGENTS.md y configuraciones multi-asistente."
+          },
+          {
+            "criterion_id": "M06-C02",
+            "evidence_detail": "Herramientas de soporte y utilidades identificadas (4 archivos, e.g. 'scripts/.context.yaml').",
+            "evidence_path": "scripts/.context.yaml",
+            "fulfilled": true,
+            "name": "Integración de Herramientas y Scripts",
+            "remediation_hint": "Incluir herramientas operacionales o scripts de utilidad."
+          },
+          {
+            "criterion_id": "M06-C03",
+            "evidence_detail": "Manejo seguro de codificación UTF-8 / serialización protegida en 'src/ireadme/generator.py'.",
+            "evidence_path": "src/ireadme/generator.py",
+            "fulfilled": true,
+            "name": "Serialización y Manejo Seguro UTF-8",
+            "remediation_hint": "Asegurar lectura y escritura UTF-8 segura en scripts y plantillas."
+          },
+          {
+            "criterion_id": "M06-C04",
+            "evidence_detail": "Grafo de dependencias evaluado: 11 módulos analizados, acoplamiento estable.",
+            "evidence_path": null,
+            "fulfilled": true,
+            "name": "Resiliencia de Sistemas y Mitigación de SPOF",
+            "remediation_hint": "Garantizar acoplamiento desacoplado y ausencia de cuellos de botella únicos."
+          },
+          {
+            "criterion_id": "M06-C05",
+            "evidence_detail": "Patrones de tolerancia a fallos verificados: {'timeout': 0, 'retry': 1, 'circuit_breaker': 0, 'fallback': 0} (cobertura=9.1%).",
+            "evidence_path": null,
+            "fulfilled": true,
+            "name": "Patrones de Tolerancia a Fallos y Fallback",
+            "remediation_hint": "Implementar fallbacks defensivos y patrones de tolerancia a fallos."
+          }
+        ],
+        "module_id": "M06",
+        "name": "Interoperabilidad Multi-Agente",
+        "stage_group": "Construcción",
+        "weight": 0.15
+      },
+      {
+        "criteria": [
+          {
+            "criterion_id": "M07-C01",
+            "evidence_detail": "Suite de validación y test script verificado en 'tests/__init__.py'.",
+            "evidence_path": "tests/__init__.py",
+            "fulfilled": true,
+            "name": "Scripts de Prueba y Validación Funcional",
+            "remediation_hint": "Añadir scripts de prueba o verificación funcional de la skill."
+          },
+          {
+            "criterion_id": "M07-C02",
+            "evidence_detail": "Reporte de benchmark y cobertura documentado en 'artifacts/benchmark_coverage_report.md'.",
+            "evidence_path": "artifacts/benchmark_coverage_report.md",
+            "fulfilled": true,
+            "name": "Reporte de Benchmarks y Cobertura",
+            "remediation_hint": "Generar reporte de benchmark de cobertura en artifacts/."
+          },
+          {
+            "criterion_id": "M07-C03",
+            "evidence_detail": "Directivas de rigor técnico y verificación estricta comprobadas en 'Propuesta Skill.md'.",
+            "evidence_path": "Propuesta Skill.md",
+            "fulfilled": true,
+            "name": "Directivas Antifraude y Rigor Técnico",
+            "remediation_hint": "Revisar instrucciones para asegurar rigor técnico y ausencia de ambigüedades."
+          }
+        ],
+        "module_id": "M07",
+        "name": "Validación de Cobertura y Benchmarking",
+        "stage_group": "Pruebas",
+        "weight": 0.1
+      },
+      {
+        "criteria": [
+          {
+            "criterion_id": "M08-C01",
+            "evidence_detail": "Documentación y guía de usuario presentes (2 archivos, e.g. 'README.md').",
+            "evidence_path": "README.md",
+            "fulfilled": true,
+            "name": "Guía de Usuario y Documentación Formal",
+            "remediation_hint": "Completar README.md y README_ES.md con guía de usuario y ejemplos de ejecución."
+          },
+          {
+            "criterion_id": "M08-C02",
+            "evidence_detail": "Catálogo de comandos de activación documentado en 'Propuesta Skill.md'.",
+            "evidence_path": "Propuesta Skill.md",
+            "fulfilled": true,
+            "name": "Catálogo de Comandos y Ejemplos de Invocación",
+            "remediation_hint": "Documentar ejemplos de invocación interactiva de la skill."
+          },
+          {
+            "criterion_id": "M08-C03",
+            "evidence_detail": "Diagramas visuales y recursos gráficos detectados (1 imágenes, e.g. 'docs/architecture/topology.svg').",
+            "evidence_path": "docs/architecture/topology.svg",
+            "fulfilled": true,
+            "name": "Diagramas Visuales y Topología",
+            "remediation_hint": "Incluir diagramas de arquitectura en la documentación o carpeta Tools/."
+          },
+          {
+            "criterion_id": "M08-C04",
+            "evidence_detail": "Zero-Tolerance verificado: Ninguna credencial ni clave activa expuesta en el repositorio.",
+            "evidence_path": ".agentignore",
+            "fulfilled": true,
+            "name": "Seguridad Zero-Tolerance contra Secretos y Credenciales",
+            "remediation_hint": "Limpiar cualquier credencial o clave expuesta en el repositorio."
+          },
+          {
+            "criterion_id": "M08-C05",
+            "evidence_detail": "Superficie de seguridad verificada: Max H=3.89 <= 4.5, inyecciones=0, ataque=10.0.",
+            "evidence_path": null,
+            "fulfilled": true,
+            "name": "Control de Entropía de Shannon e Inyecciones de Prompt",
+            "remediation_hint": "Evitar tokens de alta entropía descontrolados e inyecciones de prompt."
+          }
+        ],
+        "module_id": "M08",
+        "name": "Documentación de Operación y Ejemplos",
+        "stage_group": "Operaciones",
+        "weight": 0.1
+      },
+      {
+        "criteria": [
+          {
+            "criterion_id": "M09-C01",
+            "evidence_detail": "Automatización de sincronización multi-entorno soportada en 'scripts/install_skill.py'.",
+            "evidence_path": "scripts/install_skill.py",
+            "fulfilled": true,
+            "name": "Sincronización Automatizada de Skills",
+            "remediation_hint": "Implementar comando de sincronización e instalación multi-entorno."
+          },
+          {
+            "criterion_id": "M09-C02",
+            "evidence_detail": "Archivos de control de empaquetado y distribución verificados (3 archivos, e.g. '.agentignore').",
+            "evidence_path": ".agentignore",
+            "fulfilled": true,
+            "name": "Empaquetado Limpio y Control de Distribución",
+            "remediation_hint": "Incluir .agentignore, .gitignore y LICENSE para distribución limpia."
+          }
+        ],
+        "module_id": "M09",
+        "name": "Automatización, Sincronización y CI/CD",
+        "stage_group": "Operaciones",
+        "weight": 0.1
+      },
+      {
+        "criteria": [
+          {
+            "criterion_id": "M10-C01",
+            "evidence_detail": "Memoria técnica formal (ThinkingSeed) identificada en '01_seed/seed-iReadme-master.md'.",
+            "evidence_path": "01_seed/seed-iReadme-master.md",
+            "fulfilled": true,
+            "name": "Memoria Técnica (ThinkingSeed Propio)",
+            "remediation_hint": "Generar o actualizar el ThinkingSeed en 01_seed/."
+          },
+          {
+            "criterion_id": "M10-C02",
+            "evidence_detail": "Instrucciones operativas y ayuda de comandos documentadas en '01_seed/seed-iReadme-master.md'.",
+            "evidence_path": "01_seed/seed-iReadme-master.md",
+            "fulfilled": true,
+            "name": "Referencia de Comandos y Ayuda Rápida",
+            "remediation_hint": "Incluir cheatsheet o referencia rápida en la documentación."
+          },
+          {
+            "criterion_id": "M10-C03",
+            "evidence_detail": "Roadmap formal de extensibilidad y capacidades futuras documentado en 'artifacts/MetricsThinking.md'.",
+            "evidence_path": "artifacts/MetricsThinking.md",
+            "fulfilled": true,
+            "name": "Roadmap Operacional y Nuevos Asistentes",
+            "remediation_hint": "Definir roadmap de evolución futura e integración con nuevos modelos de IA."
+          },
+          {
+            "criterion_id": "M10-C04",
+            "evidence_detail": "Indicador FPAI estimado (distorsión no medida): PF_spectral=1.000 >= 0.70 (S_spectral=65623, S_linear=65623).",
+            "evidence_path": ".agentignore",
+            "fulfilled": true,
+            "name": "Eficiencia Contextual Espectral FPAI",
+            "remediation_hint": "Mantener eficiencia espectral >= 0.70 eliminando tokens muertos o redundantes."
+          }
+        ],
+        "module_id": "M10",
+        "name": "Memoria Técnica y Roadmap de Extensibilidad",
+        "stage_group": "Cierre",
+        "weight": 0.05
+      }
+    ],
+    "profile_used": "agent-skill",
+    "project_name": "iReadme",
+    "project_path": "D:\\0001 HyperScale Thinking\\PROYECTOS CLOUD\\iContext\\iReadme",
+    "pruning_plan": {
+      "active_tokens_remaining": 1000,
+      "generated_at": "2026-10-31T23:03:31.849506+00:00",
+      "items": [],
+      "power_factor_target": 0.85,
+      "target_path": "D:/0001 HyperScale Thinking/PROYECTOS CLOUD/iContext/iReadme",
+      "total_tokens_recovered": 0
+    },
+    "remediation_plan": [],
+    "resilience": {
+      "afferent_coupling_ca": {
+        "FWengine": 0,
+        "scripts.init_readme": 1,
+        "scripts.install_skill": 0,
+        "skills.v6.readme.scripts.run": 1,
+        "src.ireadme.__init__": 0,
+        "src.ireadme.generator": 2,
+        "tests.__init__": 0,
+        "tests.test_atomic_write": 0,
+        "tests.test_golden_regression": 0,
+        "tests.test_incremental_v6": 0,
+        "tests.test_invariants": 0
+      },
+      "efferent_coupling_ce": {
+        "FWengine": 0,
+        "scripts.init_readme": 1,
+        "scripts.install_skill": 0,
+        "skills.v6.readme.scripts.run": 0,
+        "src.ireadme.__init__": 0,
+        "src.ireadme.generator": 1,
+        "tests.__init__": 0,
+        "tests.test_atomic_write": 1,
+        "tests.test_golden_regression": 0,
+        "tests.test_incremental_v6": 1,
+        "tests.test_invariants": 0
+      },
+      "instability_i": {
+        "FWengine": 0.0,
+        "scripts.init_readme": 0.5,
+        "scripts.install_skill": 0.0,
+        "skills.v6.readme.scripts.run": 0.0,
+        "src.ireadme.__init__": 0.0,
+        "src.ireadme.generator": 0.333,
+        "tests.__init__": 0.0,
+        "tests.test_atomic_write": 1.0,
+        "tests.test_golden_regression": 0.0,
+        "tests.test_incremental_v6": 1.0,
+        "tests.test_invariants": 0.0
+      },
+      "resilience_coverage_ratio": 0.091,
+      "resilience_patterns_count": {
+        "circuit_breaker": 0,
+        "fallback": 0,
+        "retry": 1,
+        "timeout": 0
+      },
+      "spof_nodes": []
+    },
+    "security": {
+      "attack_surface_index": 10.0,
+      "entropy_findings": [],
+      "pii_findings": [],
+      "pii_matches_count": 0,
+      "prompt_injection_findings": [],
+      "prompt_injection_surface_count": 0,
+      "shannon_entropy_max": 3.892,
+      "supply_chain_lockfile_pinned": false
+    },
+    "seed_detected": true,
+    "seed_version": "6.0",
+    "stats": {
+      "context_files_detected": 33,
+      "context_measurement": {
+        "dead": 0,
+        "distortion": 0.0,
+        "distortion_state": "not_measured",
+        "duplicate": 0,
+        "method": "exact_content_duplicates; heuristic_tokens; attention_not_measured",
+        "total": 65623
+      },
+      "domain_archetype": "agent-skill",
+      "inspection_mode": "governance_spec",
+      "is_git": true,
+      "manifests_detected": 1,
+      "schemas_detected": 9,
+      "seeds_detected": 1,
+      "source_files_detected": 2,
+      "tests_detected": 5,
+      "total_files_scanned": 85
+    }
+  }
+}

@@ -9,54 +9,51 @@ version: "5.0"
 
 > **Framework de Gobernanza:** MetricsThinking™ v5.0 Universal (SOFTWARE-ENGINEERING / Stage-Gate)  
 > **Arquetipo de Dominio:** `software-engineering` | **Modo:** `source_code`  
-> **Estado Consolidado:** `61.7% / 100.0%` — **Construcción Activa / Madurez Media (50.0% - 74.9%)**  
-> **Cuello de Botella Activo:** `M01: Descubrimiento y Alcance (66.7% completado)`  
-> **Fecha de Emisión:** `2026-11-01 11:56:02`  
+> **Estado Consolidado:** `80.5% / 100.0%` — **Madurez Avanzada / Pre-producción (75.0% - 89.9%)**  
+> **Cuello de Botella Activo:** `M05: Construcción Núcleo (Core Engine) (50.0% completado)`  
+> **Fecha de Emisión:** `2026-11-01 21:07:02`  
 
 Este documento representa el **Roadmap Operacional y de Ejecución Técnica** derivado por ingeniería inversa a partir de la evidencia física (Ground Truth) del repositorio. Sirve como guía de trabajo para el equipo de arquitectura y desarrollo.
 
 ---
 
 ## M01: Descubrimiento y Alcance
-**Avance:** `66.7%` | **Peso en Ciclo:** `5%` | **Estado:** 🔵 EN CONSTRUCCIÓN
+**Avance:** `100.0%` | **Peso en Ciclo:** `5%` | **Estado:** 🟢 COMPLETADO
 
 ### Checklists de Implementación
-- [ ] **Problem Statement Formalizado** (`M01-C01`): Declarar formalmente el Problem Statement en 01_seed o README.md.
-- [x] **Límites y Scope Declarados** (`M01-C02`): Límites de alcance y fronteras del sistema identificados en '01_seed/seed-contextcontrol-master.md'. *(Evidencia: `01_seed/seed-contextcontrol-master.md`)*
-- [x] **Casos de Uso Formales** (`M01-C03`): Casos de uso y perfiles formalizados en 'ICONTEXT_FEDERATION_PROTOCOL_V5.md'. *(Evidencia: `ICONTEXT_FEDERATION_PROTOCOL_V5.md`)*
+- [x] **Problem Statement Formalizado** (`M01-C01`): Problem statement formalizado en 'packages/idirectory/01_seed/seed-idirectory-master.md'. *(Evidencia: `packages/idirectory/01_seed/seed-idirectory-master.md`)*
+- [x] **Límites y Scope Declarados** (`M01-C02`): Límites de alcance y fronteras del sistema identificados en '01_seed/seed-contextkernel-master.md'. *(Evidencia: `01_seed/seed-contextkernel-master.md`)*
+- [x] **Casos de Uso Formales** (`M01-C03`): Perfiles de uso y casos definidos en 'packages/idirectory/01_seed/seed-idirectory-master.md'. *(Evidencia: `packages/idirectory/01_seed/seed-idirectory-master.md`)*
 
 ### Entregables Tangibles Esperados
-- 🎯 Cierre de brechas pendientes: Problem Statement Formalizado.
-- 📁 Materialización de especificaciones formales, código nuclear, contratos de validación o pruebas automatizadas asociadas.
+- ✅ Todos los artefactos y contratos físicos de **M01** han sido verificados satisfactoriamente en disco.
 
 ---
 
 ## M02: Arquitectura y Diseño Técnico
-**Avance:** `75.0%` | **Peso en Ciclo:** `10%` | **Estado:** 🔵 EN CONSTRUCCIÓN
+**Avance:** `100.0%` | **Peso en Ciclo:** `10%` | **Estado:** 🟢 COMPLETADO
 
 ### Checklists de Implementación
-- [x] **AST / Modelos Canónicos Desacoplados** (`M02-C01`): Modelos declarativos estructurados en esquemas (9 esquemas, e.g. 'schemas/backlog.schema.json'). *(Evidencia: `schemas/backlog.schema.json`)*
-- [ ] **ADRs Documentados** (`M02-C02`): Registrar ADRs formales en docs/notes o docs/architecture.
-- [x] **Contratos JSON Schema Validados** (`M02-C03`): Contratos formales de datos / esquemas presentes (9 esquemas, e.g. 'schemas/backlog.schema.json'). *(Evidencia: `schemas/backlog.schema.json`)*
-- [x] **Topología y Grafos Formales** (`M02-C04`): Modelado topológico o de grafos presente en 'schemas/tree.schema.json'. *(Evidencia: `schemas/tree.schema.json`)*
+- [x] **AST / Modelos Canónicos Desacoplados** (`M02-C01`): Modelos declarativos estructurados en esquemas (34 esquemas, e.g. 'packages/idirectory/schemas/backlog.schema.json'). *(Evidencia: `packages/idirectory/schemas/backlog.schema.json`)*
+- [x] **ADRs Documentados** (`M02-C02`): Registro formal de decisiones arquitectónicas (ADRs) documentado en 'packages/idirectory/01_seed/seed-idirectory-master.md'. *(Evidencia: `packages/idirectory/01_seed/seed-idirectory-master.md`)*
+- [x] **Contratos JSON Schema Validados** (`M02-C03`): Contratos formales de datos / esquemas presentes (34 esquemas, e.g. 'packages/idirectory/schemas/backlog.schema.json'). *(Evidencia: `packages/idirectory/schemas/backlog.schema.json`)*
+- [x] **Topología y Grafos Formales** (`M02-C04`): Modelado topológico o de grafos presente en 'packages/idirectory/schemas/tree.schema.json'. *(Evidencia: `packages/idirectory/schemas/tree.schema.json`)*
 
 ### Entregables Tangibles Esperados
-- 🎯 Cierre de brechas pendientes: ADRs Documentados.
-- 📁 Materialización de especificaciones formales, código nuclear, contratos de validación o pruebas automatizadas asociadas.
+- ✅ Todos los artefactos y contratos físicos de **M02** han sido verificados satisfactoriamente en disco.
 
 ---
 
 ## M03: Gobernanza y Cumplimiento
-**Avance:** `33.3%` | **Peso en Ciclo:** `5%` | **Estado:** 🔵 EN CONSTRUCCIÓN
+**Avance:** `100.0%` | **Peso en Ciclo:** `5%` | **Estado:** 🟢 COMPLETADO
 
 ### Checklists de Implementación
-- [ ] **Detección y Marcado de PII** (`M03-C01`): Integrar etiquetado o enmascarado de PII en los modelos de datos.
-- [ ] **Reglas de Calidad Formales (cQS)** (`M03-C02`): Implementar reglas de calidad de datos o código cQS.
-- [x] **Validación Estricta de Esquemas / Context** (`M03-C03`): Gobernanza contextual iDirectory activa con 28 archivos de contexto (.context.yaml). *(Evidencia: `01_seed/.context.yaml`)*
+- [x] **Detección y Marcado de PII** (`M03-C01`): Políticas de privacidad y clasificación PII documentadas en '01_seed/seed-contextkernel-master.md'. *(Evidencia: `01_seed/seed-contextkernel-master.md`)*
+- [x] **Reglas de Calidad Formales (cQS)** (`M03-C02`): Catálogo de criterios y reglas formales de calidad especificados en 'packages/metricsthinking/artifacts/benchmark/FlowAgentic_INFERRED_ROADMAP.md'. *(Evidencia: `packages/metricsthinking/artifacts/benchmark/FlowAgentic_INFERRED_ROADMAP.md`)*
+- [x] **Validación Estricta de Esquemas / Context** (`M03-C03`): Gobernanza contextual iDirectory activa con 142 archivos de contexto (.context.yaml). *(Evidencia: `01_seed/.context.yaml`)*
 
 ### Entregables Tangibles Esperados
-- 🎯 Cierre de brechas pendientes: Detección y Marcado de PII, Reglas de Calidad Formales (cQS).
-- 📁 Materialización de especificaciones formales, código nuclear, contratos de validación o pruebas automatizadas asociadas.
+- ✅ Todos los artefactos y contratos físicos de **M03** han sido verificados satisfactoriamente en disco.
 
 ---
 
@@ -66,7 +63,7 @@ Este documento representa el **Roadmap Operacional y de Ejecución Técnica** de
 ### Checklists de Implementación
 - [x] **Entorno Reproducible** (`M04-C01`): Manifiesto de empaquetado y entorno reproducible verificado en 'pyproject.toml'. *(Evidencia: `pyproject.toml`)*
 - [x] **Dependencias Versionadas** (`M04-C02`): Especificación estricta de versiones de dependencias verificada en 'pyproject.toml'. *(Evidencia: `pyproject.toml`)*
-- [x] **Fixture Enterprise Disponible** (`M04-C03`): Fixtures y datos de prueba disponibles (3 archivos, e.g. 'src/data_generation/.context.yaml'). *(Evidencia: `src/data_generation/.context.yaml`)*
+- [x] **Fixture Enterprise Disponible** (`M04-C03`): Fixtures y datos de prueba disponibles (15 archivos, e.g. 'packages/contextkernel-cli/tests/fixtures/.context.yaml'). *(Evidencia: `packages/contextkernel-cli/tests/fixtures/.context.yaml`)*
 
 ### Entregables Tangibles Esperados
 - ✅ Todos los artefactos y contratos físicos de **M04** han sido verificados satisfactoriamente en disco.
@@ -77,7 +74,7 @@ Este documento representa el **Roadmap Operacional y de Ejecución Técnica** de
 **Avance:** `50.0%` | **Peso en Ciclo:** `25%` | **Estado:** 🔵 EN CONSTRUCCIÓN
 
 ### Checklists de Implementación
-- [x] **Parsers Funcionales** (`M05-C01`): Módulos de procesamiento e implementación activos (16 archivos, e.g. '.agents/skills/icontext/SKILL.md'). *(Evidencia: `.agents/skills/icontext/SKILL.md`)*
+- [x] **Parsers Funcionales** (`M05-C01`): Módulos de procesamiento e implementación activos (72 archivos, e.g. '.agents/skills/icontext/SKILL.md'). *(Evidencia: `.agents/skills/icontext/SKILL.md`)*
 - [x] **Inferencia Operativa de Roles** (`M05-C02`): Motor nuclear de procesamiento y lógica operativa verificado en 'src/core/benchmark.py'. *(Evidencia: `src/core/benchmark.py`)*
 - [ ] **Resolución de Relaciones y Ciclos** (`M05-C03`): Asegurar algoritmos para resolver dependencias o relaciones.
 - [ ] **Generador Canónico de Métricas / Lógica** (`M05-C04`): Implementar generador de código o síntesis de medidas.
@@ -89,32 +86,31 @@ Este documento representa el **Roadmap Operacional y de Ejecución Técnica** de
 ---
 
 ## M06: Integración e Interoperabilidad
-**Avance:** `60.0%` | **Peso en Ciclo:** `15%` | **Estado:** 🔵 EN CONSTRUCCIÓN
+**Avance:** `80.0%` | **Peso en Ciclo:** `15%` | **Estado:** 🔵 EN CONSTRUCCIÓN
 
 ### Checklists de Implementación
 - [ ] **Emisores de Dialecto Nativo** (`M06-C01`): Crear emisores hacia tecnologías destino en src/core/emitter o similar.
 - [x] **Escritura Atómica y Safe-Encoding** (`M06-C02`): Manejo seguro de codificación UTF-8 / serialización protegida en 'src/core/benchmark.py'. *(Evidencia: `src/core/benchmark.py`)*
-- [x] **Exportación Multi-Formato** (`M06-C03`): Soporte de representación multi-formato verificado en el repositorio (.code-workspace, .json, .md, .py, .toml).
-- [ ] **Resiliencia de Sistemas y Mitigación de SPOF** (`M06-C04`): Garantizar acoplamiento desacoplado y ausencia de cuellos de botella únicos.
-- [x] **Patrones de Tolerancia a Fallos y Fallback** (`M06-C05`): Patrones de tolerancia a fallos verificados: {'timeout': 3, 'retry': 0, 'circuit_breaker': 0, 'fallback': 0} (cobertura=37.5%).
+- [x] **Exportación Multi-Formato** (`M06-C03`): Soporte de representación multi-formato verificado en el repositorio (.code-workspace, .json, .jsonl, .md, .mdc).
+- [x] **Resiliencia de Sistemas y Mitigación de SPOF** (`M06-C04`): Grafo de dependencias evaluado: 96 módulos analizados, acoplamiento estable.
+- [x] **Patrones de Tolerancia a Fallos y Fallback** (`M06-C05`): Patrones de tolerancia a fallos verificados: {'timeout': 33, 'retry': 32, 'circuit_breaker': 4, 'fallback': 28} (cobertura=100.0%).
 
 ### Entregables Tangibles Esperados
-- 🎯 Cierre de brechas pendientes: Emisores de Dialecto Nativo, Resiliencia de Sistemas y Mitigación de SPOF.
+- 🎯 Cierre de brechas pendientes: Emisores de Dialecto Nativo.
 - 📁 Materialización de especificaciones formales, código nuclear, contratos de validación o pruebas automatizadas asociadas.
 
 ---
 
 ## M07: Aseguramiento de Calidad (QA & Stress)
-**Avance:** `66.7%` | **Peso en Ciclo:** `10%` | **Estado:** 🔵 EN CONSTRUCCIÓN
+**Avance:** `100.0%` | **Peso en Ciclo:** `10%` | **Estado:** 🟢 COMPLETADO
 
 ### Checklists de Implementación
-- [x] **Cobertura y Tasa de Éxito de Pruebas** (`M07-C01`): Suite de pruebas presente (1 archivos de prueba en tests/, e.g. 'tests/test_v6.py'). *(Evidencia: `tests/test_v6.py`)*
-- [x] **Golden Regression Tests Validados** (`M07-C02`): Pruebas de regresión deterministas (Golden files/Snapshots) identificadas en 'tests/fixtures/golden_baseline_report.json'. *(Evidencia: `tests/fixtures/golden_baseline_report.json`)*
-- [ ] **Suites de Estrés / Benchmark Masivo** (`M07-C03`): Implementar benchmarks o stress tests en tests/ o scripts/.
+- [x] **Cobertura y Tasa de Éxito de Pruebas** (`M07-C01`): Suite de pruebas presente (34 archivos de prueba en tests/, e.g. 'packages/contextkernel-cli/tests/test_v6.py'). *(Evidencia: `packages/contextkernel-cli/tests/test_v6.py`)*
+- [x] **Golden Regression Tests Validados** (`M07-C02`): Pruebas de regresión deterministas (Golden files/Snapshots) identificadas en 'packages/ireadme/tests/test_golden_regression.py'. *(Evidencia: `packages/ireadme/tests/test_golden_regression.py`)*
+- [x] **Suites de Estrés / Benchmark Masivo** (`M07-C03`): Suites de estrés o benchmarks masivos verificados en 'packages/metricsthinking/tests/test_benchmarks_stress.py'. *(Evidencia: `packages/metricsthinking/tests/test_benchmarks_stress.py`)*
 
 ### Entregables Tangibles Esperados
-- 🎯 Cierre de brechas pendientes: Suites de Estrés / Benchmark Masivo.
-- 📁 Materialización de especificaciones formales, código nuclear, contratos de validación o pruebas automatizadas asociadas.
+- ✅ Todos los artefactos y contratos físicos de **M07** han sido verificados satisfactoriamente en disco.
 
 ---
 
@@ -126,7 +122,7 @@ Este documento representa el **Roadmap Operacional y de Ejecución Técnica** de
 - [ ] **Leadership Cockpit / Tableros Ejecutivos** (`M08-C02`): Proveer dashboard o cockpit de resumen ejecutivo.
 - [x] **CLI de Diagnóstico y Exploración** (`M08-C03`): Interfaz CLI de exploración y diagnóstico verificada en 'src/core/icontext_cli.py'. *(Evidencia: `src/core/icontext_cli.py`)*
 - [x] **Seguridad Zero-Tolerance contra Secretos y Credenciales** (`M08-C04`): Zero-Tolerance verificado: Ninguna credencial ni clave activa expuesta en el repositorio. *(Evidencia: `.agentignore`)*
-- [x] **Control de Entropía de Shannon e Inyecciones de Prompt** (`M08-C05`): Superficie de seguridad verificada: Max H=3.92 <= 4.5, inyecciones=0, ataque=10.0.
+- [x] **Control de Entropía de Shannon e Inyecciones de Prompt** (`M08-C05`): Superficie de seguridad verificada: Max H=4.06 <= 4.5, inyecciones=0, ataque=20.0.
 
 ### Entregables Tangibles Esperados
 - 🎯 Cierre de brechas pendientes: Proyecciones por Rol (Persona Lenses), Leadership Cockpit / Tableros Ejecutivos.
@@ -135,15 +131,14 @@ Este documento representa el **Roadmap Operacional y de Ejecución Técnica** de
 ---
 
 ## M09: Despliegue y Automatización (CI/CD)
-**Avance:** `50.0%` | **Peso en Ciclo:** `10%` | **Estado:** 🔵 EN CONSTRUCCIÓN
+**Avance:** `100.0%` | **Peso en Ciclo:** `10%` | **Estado:** 🟢 COMPLETADO
 
 ### Checklists de Implementación
-- [ ] **Pipeline CI/CD Automatizado** (`M09-C01`): Configurar workflow de CI en .github/workflows/ci.yml.
+- [x] **Pipeline CI/CD Automatizado** (`M09-C01`): Pipeline de integración continua automatizado verificado en 'packages/idirectory/.github/workflows/ci.yml'. *(Evidencia: `packages/idirectory/.github/workflows/ci.yml`)*
 - [x] **Empaquetado y Distribución Estandarizada** (`M09-C02`): Configuración de empaquetado estándar/entry points verificada en 'pyproject.toml'. *(Evidencia: `pyproject.toml`)*
 
 ### Entregables Tangibles Esperados
-- 🎯 Cierre de brechas pendientes: Pipeline CI/CD Automatizado.
-- 📁 Materialización de especificaciones formales, código nuclear, contratos de validación o pruebas automatizadas asociadas.
+- ✅ Todos los artefactos y contratos físicos de **M09** han sido verificados satisfactoriamente en disco.
 
 ---
 
@@ -151,10 +146,10 @@ Este documento representa el **Roadmap Operacional y de Ejecución Técnica** de
 **Avance:** `100.0%` | **Peso en Ciclo:** `5%` | **Estado:** 🟢 COMPLETADO
 
 ### Checklists de Implementación
-- [x] **Documentación Técnica Exhaustiva (Seed)** (`M10-C01`): Memoria técnica formal (ThinkingSeed) identificada en '01_seed/seed-contextcontrol-master.md'. *(Evidencia: `01_seed/seed-contextcontrol-master.md`)*
-- [x] **CLI Help Documentado** (`M10-C02`): Instrucciones operativas y ayuda de comandos documentadas en 'README.md'. *(Evidencia: `README.md`)*
-- [x] **Adaptadores Multicanal / Roadmap** (`M10-C03`): Roadmap formal de extensibilidad y capacidades futuras documentado en 'ICONTEXT_FEDERATION_PROTOCOL_V5.md'. *(Evidencia: `ICONTEXT_FEDERATION_PROTOCOL_V5.md`)*
-- [x] **Eficiencia Contextual Espectral FPAI** (`M10-C04`): Indicador FPAI estimado (distorsión no medida): PF_spectral=1.000 >= 0.70 (S_spectral=45568, S_linear=45568). *(Evidencia: `.agentignore`)*
+- [x] **Documentación Técnica Exhaustiva (Seed)** (`M10-C01`): Memoria técnica formal (ThinkingSeed) identificada en '01_seed/seed-contextkernel-master.md'. *(Evidencia: `01_seed/seed-contextkernel-master.md`)*
+- [x] **CLI Help Documentado** (`M10-C02`): Instrucciones operativas y ayuda de comandos documentadas en 'README_ES.md'. *(Evidencia: `README_ES.md`)*
+- [x] **Adaptadores Multicanal / Roadmap** (`M10-C03`): Roadmap formal de extensibilidad y capacidades futuras documentado en 'packages/idirectory/01_seed/seed-idirectory-master.md'. *(Evidencia: `packages/idirectory/01_seed/seed-idirectory-master.md`)*
+- [x] **Eficiencia Contextual Espectral FPAI** (`M10-C04`): Indicador FPAI estimado (distorsión no medida): PF_spectral=0.978 >= 0.70 (S_spectral=572168, S_linear=679268). *(Evidencia: `.agentignore`)*
 
 ### Entregables Tangibles Esperados
 - ✅ Todos los artefactos y contratos físicos de **M10** han sido verificados satisfactoriamente en disco.

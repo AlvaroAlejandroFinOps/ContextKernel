@@ -1,7 +1,7 @@
 {
-  "version": "6.0.0",
-  "project": "ContextControl",
-  "architecture": "Gravity HyperScale Thinking — Federated Adaptive Context Engineering v6.0",
+  "version": "6.1.0",
+  "project": "ContextKernel",
+  "architecture": "Gravity HyperScale Thinking — Federated Adaptive Context Engineering v6.1",
   "federation_protocol": {
     "version": "6.0.0",
     "bus_path": ".context/icontext_bus.json",
@@ -62,7 +62,7 @@
     "2. Canonical policy (config/context_policy.json) & Federated Bus (.context/icontext_bus.json)",
     "3. Verified satellite (.context/tree.json), AST cache (.context/contracts_ast.json) & local beacons (.context.yaml)",
     "4. Active attentional checkpoint (.context/checkpoint.json)",
-    "5. Architectural DNA (01_seed/seed-contextcontrol-master.md)",
+    "5. Architectural DNA (01_seed/seed-contextkernel-master.md)",
     "6. Active plans with status=approved|executing (artifacts/plans/active/)"
   ],
   "supported_adapters": [

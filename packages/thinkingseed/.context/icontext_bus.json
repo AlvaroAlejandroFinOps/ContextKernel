@@ -1,0 +1,49 @@
+{
+  "$schema": "../schemas/icontext_bus.schema.json",
+  "layers": {
+    "l0_idirectory": {
+      "contracts_ast_hash": "b26d1d8564e1d6e11101e13c4862baba5e34049f86a9bd241fe3fae3593908ed",
+      "inputs_hash": "b5b9874be4a922a44b00fb40a5e79dd5ef242a81b72fd70bb4dd7efa50115727",
+      "present": true,
+      "published_at": "2026-10-31T23:02:55.574632+00:00",
+      "state": "recorded",
+      "version": "6.0.0"
+    },
+    "l1_thinkingseed": {
+      "artifact_kind": "master",
+      "inputs_hash": "79a1320b0c833a5c6b35a5dd7e663466e4d8f787e8e818196f06d2dd2cbb1a3d",
+      "output_hash": "64502187365367605869f82e0f8dcaa4bd0e57c883c4b487e135ab8d246f065b",
+      "present": true,
+      "published_at": "2026-10-31T22:21:37.236751+00:00",
+      "state": "validated",
+      "version": "6.0.0"
+    },
+    "l2_metricsthinking": {
+      "consolidated_score": 97.0,
+      "evaluation_hash": "792792e70953d72a38e5106a8e094f0ceef1b054ac5799749a32431c39bb9a2e",
+      "fpai_pf_spectral": 0.9735,
+      "fpai_s_spectral": 70502.9474,
+      "inputs_hash": "b5b9874be4a922a44b00fb40a5e79dd5ef242a81b72fd70bb4dd7efa50115727",
+      "output_hash": "caa88e3f1d2f883454b0af5195afb932bd57bb949e12e352b3ddea75984d9807",
+      "present": true,
+      "published_at": "2026-10-31T23:02:42.445594+00:00",
+      "report_path": "artifacts/plans/metricsthinking/MetricsThinking.json",
+      "security_gate": 1.0,
+      "security_gate_basis": "pii_scan_only",
+      "state": "validated",
+      "version": "6.0.0"
+    },
+    "l3_ireadme": {
+      "artifact_kind": "readme",
+      "inputs_hash": "b632e7013b544d907452a2fd67c26744c34b5b0bec8b4aa462eec3abcd674e1e",
+      "output_hash": "cbecbb07cabbc2221f7f42c0d78a5364fe4ce6a8e43f65ef4c6c789e3ee0eae1",
+      "present": true,
+      "published_at": "2026-10-31T23:02:43.364952+00:00",
+      "state": "validated",
+      "version": "6.0.0"
+    }
+  },
+  "project": "ThinkingSeed",
+  "protocol_version": "6.0.0",
+  "updated_at": "2026-10-31T23:02:55.588293+00:00"
+}

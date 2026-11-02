@@ -1,0 +1,87 @@
+{
+  "audit_fixture": "governed files in temporary clone; no Git internals",
+  "audit_samples": 3,
+  "baseline_v5": {
+    "context_pack_tokens_common_estimator": 88,
+    "method": "v5 HEAD kernel, Tier 1A root query on same current project; no model inference",
+    "query_p50_ms": 231.21580015867949,
+    "query_p95_ms": 248.98240016773343,
+    "samples": 7,
+    "source_commit": "0ea360e3e5f510d7251eb1c0632afa60a87c4b67",
+    "source_file_sha256": "3d9d6fb8bd3d17e9ac2ec2742e804f8dba63855b5787217e95f5054a3d6c6f94",
+    "version": "5.0"
+  },
+  "bootstrap_rule_characters": {
+    "after": 1538,
+    "before": 3415,
+    "excludes_global_personal_rules": true,
+    "reduction_pct": 54.963396778916554
+  },
+  "context_pack_estimated_tokens": [
+    147,
+    147,
+    147,
+    147,
+    147,
+    147,
+    147
+  ],
+  "full_ast_parses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "full_audit_p50_ms": 3052.833900321275,
+  "full_audit_p95_ms": 3463.813600130379,
+  "full_files_read": [
+    160,
+    160,
+    160,
+    160,
+    160,
+    160,
+    160
+  ],
+  "full_inventory_p50_ms": 325.2520002424717,
+  "full_inventory_p95_ms": 334.09469993785024,
+  "includes_llm_inference": false,
+  "incremental_ast_parses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "incremental_audit_goal_met": true,
+  "incremental_audit_p50_ms": 264.9846998974681,
+  "incremental_audit_p95_ms": 266.8839995749295,
+  "incremental_audit_reduction_pct": 91.32004201507388,
+  "incremental_files_read": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "incremental_inventory_p50_ms": 239.174900110811,
+  "incremental_inventory_p95_ms": 244.4221000187099,
+  "process_query_goal_met": true,
+  "process_query_p50_ms": 293.1658998131752,
+  "process_query_p95_ms": 336.226100102067,
+  "project": "MetricsThinking",
+  "query_engine_reduction_pct": 97.11992002934755,
+  "query_goal_met": true,
+  "query_p50_ms": 6.659199949353933,
+  "query_p95_ms": 10.587800294160843,
+  "samples": 7,
+  "state": "measured",
+  "token_method": "heuristic, not provider token accounting"
+}

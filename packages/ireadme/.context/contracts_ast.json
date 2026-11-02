@@ -1,0 +1,319 @@
+{
+  "$schema": "../schemas/contracts_ast.schema.json",
+  "analyzer_version": "6.0.0:3",
+  "cli_flags": [
+    "--all",
+    "--antigravity",
+    "--claude",
+    "--codex",
+    "--dry-run",
+    "--expand",
+    "--pack",
+    "--target",
+    "--target-dir",
+    "--tier",
+    "--update-golden"
+  ],
+  "contracts_ast_hash": "2c0c4306a7785dad7b350fca194c02d5ea54bfc68c50ffd7f8b1a405e1bfb07c",
+  "inputs_hash": "b58c4d71a5abeddf335c21fabb5db003f7f48d001eabb437ac922779ad2ff6cd",
+  "modules": {
+    "FWengine.py": {
+      "cli_flags": [
+        "--expand",
+        "--pack",
+        "--tier"
+      ],
+      "imports": [
+        "argparse",
+        "icontext_cli",
+        "pathlib",
+        "sys"
+      ],
+      "signatures": [],
+      "symbols": []
+    },
+    "scripts/init_readme.py": {
+      "cli_flags": [],
+      "imports": [
+        "ireadme.generator",
+        "os",
+        "pathlib",
+        "random",
+        "sys",
+        "tempfile",
+        "threading",
+        "time",
+        "uuid"
+      ],
+      "signatures": [
+        "./scripts/init_readme.py::atomic_write_text(file_path: Path, content: str, encoding: str='utf-8') -> None",
+        "./scripts/init_readme.py::generate_readmes(root_dir: Path=ROOT_DIR, update_golden: bool=False) -> Any"
+      ],
+      "symbols": [
+        "atomic_write_text",
+        "generate_readmes"
+      ]
+    },
+    "scripts/install_skill.py": {
+      "cli_flags": [
+        "--all",
+        "--antigravity",
+        "--claude",
+        "--codex",
+        "--target-dir"
+      ],
+      "imports": [
+        "argparse",
+        "os",
+        "pathlib",
+        "shutil",
+        "skill_installer",
+        "sys"
+      ],
+      "signatures": [
+        "./scripts/install_skill.py::get_home_dir() -> Path",
+        "./scripts/install_skill.py::install_to_antigravity() -> bool",
+        "./scripts/install_skill.py::install_to_codex() -> bool",
+        "./scripts/install_skill.py::install_to_claude() -> bool",
+        "./scripts/install_skill.py::install_to_directory(dest_path: Path) -> bool",
+        "./scripts/install_skill.py::main() -> Any"
+      ],
+      "symbols": [
+        "get_home_dir",
+        "install_to_antigravity",
+        "install_to_codex",
+        "install_to_claude",
+        "install_to_directory",
+        "main"
+      ]
+    },
+    "skills/v6/readme/scripts/run.py": {
+      "cli_flags": [],
+      "imports": [
+        "icontext_cli",
+        "json",
+        "pathlib",
+        "sys"
+      ],
+      "signatures": [
+        "./skills/v6/readme/scripts/run.py::matches_version(path) -> Any"
+      ],
+      "symbols": [
+        "matches_version"
+      ]
+    },
+    "src/ireadme/__init__.py": {
+      "cli_flags": [],
+      "imports": [],
+      "signatures": [],
+      "symbols": []
+    },
+    "src/ireadme/generator.py": {
+      "cli_flags": [
+        "--dry-run",
+        "--target",
+        "--update-golden"
+      ],
+      "imports": [
+        "argparse",
+        "ireadme.runtime",
+        "json",
+        "os",
+        "pathlib",
+        "random",
+        "re",
+        "sys",
+        "threading",
+        "time",
+        "typing",
+        "uuid"
+      ],
+      "signatures": [
+        "./src/ireadme/generator.py::detect_icontext_layers(repo_path: Path) -> Dict[str, Dict[str, Any]]",
+        "./src/ireadme/generator.py::render_badges_block(layers: Dict[str, Dict[str, Any]], custom_badges: Optional[List[str]]=None) -> str",
+        "./src/ireadme/generator.py::render_federation_section(layers: Dict[str, Dict[str, Any]], lang: str='en') -> str",
+        "./src/ireadme/generator.py::atomic_write_text(target: Path, content: str, encoding: str='utf-8') -> None",
+        "./src/ireadme/generator.py::extract_project_metadata(repo_path: Path) -> Dict[str, Any]",
+        "./src/ireadme/generator.py::generate_universal_readmes(repo_path: Path, write_to_disk: bool=True, update_golden: bool=False) -> Tuple[str, str]",
+        "./src/ireadme/generator.py::main() -> Any"
+      ],
+      "symbols": [
+        "detect_icontext_layers",
+        "render_badges_block",
+        "render_federation_section",
+        "atomic_write_text",
+        "extract_project_metadata",
+        "generate_universal_readmes",
+        "main"
+      ]
+    },
+    "tests/__init__.py": {
+      "cli_flags": [],
+      "imports": [],
+      "signatures": [],
+      "symbols": []
+    },
+    "tests/test_atomic_write.py": {
+      "cli_flags": [],
+      "imports": [
+        "pathlib",
+        "pytest",
+        "scripts.init_readme"
+      ],
+      "signatures": [
+        "./tests/test_atomic_write.py::test_atomic_write_creates_file(tmp_path: Path) -> Any",
+        "./tests/test_atomic_write.py::test_atomic_write_utf8_encoding_preservation(tmp_path: Path) -> Any",
+        "./tests/test_atomic_write.py::test_atomic_write_safely_overwrites(tmp_path: Path) -> Any",
+        "./tests/test_atomic_write.py::test_generate_readmes_to_custom_dir(tmp_path: Path) -> Any"
+      ],
+      "symbols": [
+        "test_atomic_write_creates_file",
+        "test_atomic_write_utf8_encoding_preservation",
+        "test_atomic_write_safely_overwrites",
+        "test_generate_readmes_to_custom_dir"
+      ]
+    },
+    "tests/test_golden_regression.py": {
+      "cli_flags": [],
+      "imports": [
+        "pathlib",
+        "pytest",
+        "re"
+      ],
+      "signatures": [
+        "./tests/test_golden_regression.py::authored_content(text) -> Any",
+        "./tests/test_golden_regression.py::test_readme_en_golden_regression() -> Any",
+        "./tests/test_golden_regression.py::test_readme_es_golden_regression() -> Any"
+      ],
+      "symbols": [
+        "authored_content",
+        "test_readme_en_golden_regression",
+        "test_readme_es_golden_regression"
+      ]
+    },
+    "tests/test_incremental_v6.py": {
+      "cli_flags": [],
+      "imports": [
+        "importlib.util",
+        "ireadme.generator",
+        "pathlib",
+        "sys"
+      ],
+      "signatures": [
+        "./tests/test_incremental_v6.py::docs(root) -> Any",
+        "./tests/test_incremental_v6.py::test_preserves_authored_sections_and_never_rewrites_golden_implicitly(tmp_path) -> Any",
+        "./tests/test_incremental_v6.py::test_dry_run_does_not_create_files_or_context(tmp_path) -> Any",
+        "./tests/test_incremental_v6.py::test_explicit_golden_update(tmp_path) -> Any"
+      ],
+      "symbols": [
+        "docs",
+        "test_preserves_authored_sections_and_never_rewrites_golden_implicitly",
+        "test_dry_run_does_not_create_files_or_context",
+        "test_explicit_golden_update"
+      ]
+    },
+    "tests/test_invariants.py": {
+      "cli_flags": [],
+      "imports": [
+        "pathlib",
+        "pytest",
+        "re"
+      ],
+      "signatures": [
+        "./tests/test_invariants.py::readme_en() -> Any",
+        "./tests/test_invariants.py::readme_es() -> Any",
+        "./tests/test_invariants.py::test_path_portability(readme_en, readme_es) -> Any",
+        "./tests/test_invariants.py::test_zero_emojis(readme_en, readme_es) -> Any",
+        "./tests/test_invariants.py::test_language_header_parity(readme_en, readme_es) -> Any",
+        "./tests/test_invariants.py::test_canonical_sections_parity(readme_en, readme_es) -> Any",
+        "./tests/test_invariants.py::test_katex_latex_balance(readme_en, readme_es) -> Any",
+        "./tests/test_invariants.py::test_bibtex_citation_block(readme_en, readme_es) -> Any"
+      ],
+      "symbols": [
+        "readme_en",
+        "readme_es",
+        "test_path_portability",
+        "test_zero_emojis",
+        "test_language_header_parity",
+        "test_canonical_sections_parity",
+        "test_katex_latex_balance",
+        "test_bibtex_citation_block"
+      ]
+    }
+  },
+  "project": "iReadme",
+  "public_symbols": [
+    "atomic_write_text",
+    "authored_content",
+    "detect_icontext_layers",
+    "docs",
+    "extract_project_metadata",
+    "generate_readmes",
+    "generate_universal_readmes",
+    "get_home_dir",
+    "install_to_antigravity",
+    "install_to_claude",
+    "install_to_codex",
+    "install_to_directory",
+    "main",
+    "matches_version",
+    "readme_en",
+    "readme_es",
+    "render_badges_block",
+    "render_federation_section",
+    "test_atomic_write_creates_file",
+    "test_atomic_write_safely_overwrites",
+    "test_atomic_write_utf8_encoding_preservation",
+    "test_bibtex_citation_block",
+    "test_canonical_sections_parity",
+    "test_dry_run_does_not_create_files_or_context",
+    "test_explicit_golden_update",
+    "test_generate_readmes_to_custom_dir",
+    "test_katex_latex_balance",
+    "test_language_header_parity",
+    "test_path_portability",
+    "test_preserves_authored_sections_and_never_rewrites_golden_implicitly",
+    "test_readme_en_golden_regression",
+    "test_readme_es_golden_regression",
+    "test_zero_emojis"
+  ],
+  "signatures_1line": [
+    "./scripts/init_readme.py::atomic_write_text(file_path: Path, content: str, encoding: str='utf-8') -> None",
+    "./scripts/init_readme.py::generate_readmes(root_dir: Path=ROOT_DIR, update_golden: bool=False) -> Any",
+    "./scripts/install_skill.py::get_home_dir() -> Path",
+    "./scripts/install_skill.py::install_to_antigravity() -> bool",
+    "./scripts/install_skill.py::install_to_codex() -> bool",
+    "./scripts/install_skill.py::install_to_claude() -> bool",
+    "./scripts/install_skill.py::install_to_directory(dest_path: Path) -> bool",
+    "./scripts/install_skill.py::main() -> Any",
+    "./skills/v6/readme/scripts/run.py::matches_version(path) -> Any",
+    "./src/ireadme/generator.py::detect_icontext_layers(repo_path: Path) -> Dict[str, Dict[str, Any]]",
+    "./src/ireadme/generator.py::render_badges_block(layers: Dict[str, Dict[str, Any]], custom_badges: Optional[List[str]]=None) -> str",
+    "./src/ireadme/generator.py::render_federation_section(layers: Dict[str, Dict[str, Any]], lang: str='en') -> str",
+    "./src/ireadme/generator.py::atomic_write_text(target: Path, content: str, encoding: str='utf-8') -> None",
+    "./src/ireadme/generator.py::extract_project_metadata(repo_path: Path) -> Dict[str, Any]",
+    "./src/ireadme/generator.py::generate_universal_readmes(repo_path: Path, write_to_disk: bool=True, update_golden: bool=False) -> Tuple[str, str]",
+    "./src/ireadme/generator.py::main() -> Any",
+    "./tests/test_atomic_write.py::test_atomic_write_creates_file(tmp_path: Path) -> Any",
+    "./tests/test_atomic_write.py::test_atomic_write_utf8_encoding_preservation(tmp_path: Path) -> Any",
+    "./tests/test_atomic_write.py::test_atomic_write_safely_overwrites(tmp_path: Path) -> Any",
+    "./tests/test_atomic_write.py::test_generate_readmes_to_custom_dir(tmp_path: Path) -> Any",
+    "./tests/test_golden_regression.py::authored_content(text) -> Any",
+    "./tests/test_golden_regression.py::test_readme_en_golden_regression() -> Any",
+    "./tests/test_golden_regression.py::test_readme_es_golden_regression() -> Any",
+    "./tests/test_incremental_v6.py::docs(root) -> Any",
+    "./tests/test_incremental_v6.py::test_preserves_authored_sections_and_never_rewrites_golden_implicitly(tmp_path) -> Any",
+    "./tests/test_incremental_v6.py::test_dry_run_does_not_create_files_or_context(tmp_path) -> Any",
+    "./tests/test_incremental_v6.py::test_explicit_golden_update(tmp_path) -> Any",
+    "./tests/test_invariants.py::readme_en() -> Any",
+    "./tests/test_invariants.py::readme_es() -> Any",
+    "./tests/test_invariants.py::test_path_portability(readme_en, readme_es) -> Any",
+    "./tests/test_invariants.py::test_zero_emojis(readme_en, readme_es) -> Any",
+    "./tests/test_invariants.py::test_language_header_parity(readme_en, readme_es) -> Any",
+    "./tests/test_invariants.py::test_canonical_sections_parity(readme_en, readme_es) -> Any",
+    "./tests/test_invariants.py::test_katex_latex_balance(readme_en, readme_es) -> Any",
+    "./tests/test_invariants.py::test_bibtex_citation_block(readme_en, readme_es) -> Any"
+  ],
+  "topology_hash": "3536ffa2fc04ccf934e4dd6d543640ee33e7c61642446c4a460b159252c60e91",
+  "version": "6.0"
+}

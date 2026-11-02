@@ -1,0 +1,9 @@
+{
+  "artifact_kind": "readme",
+  "inputs_hash": "b054e79542a840c068dd0eaf27b1dd42840eb1a7ce87a827c6a3c11ce1e0c6c8",
+  "output_hash": "ebbb8151a419ab12c841302718bf1fe088b598439b908a98c74cb822ca548445",
+  "present": true,
+  "published_at": "2026-10-31T23:03:10.849362+00:00",
+  "state": "validated",
+  "version": "6.0.0"
+}

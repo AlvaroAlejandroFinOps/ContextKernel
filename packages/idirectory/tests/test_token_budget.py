@@ -1,0 +1,189 @@
+#!/usr/bin/env python3
+"""
+Token Budget Benchmarking & Stress Test Suite for iDirectory v3.0.
+Verifies quantitative context token savings (>85%-92%) and topological satellite scaling.
+Zero-dependency test suite using Python standard library unittest.
+"""
+
+import os
+import sys
+import json
+import time
+import shutil
+import tempfile
+import unittest
+from pathlib import Path
+
+# Add project root to sys.path
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+if str(PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(PROJECT_ROOT))
+
+from FWengine import (
+    generate_tree_json,
+    compute_context_budget,
+    init_project,
+    FOLDER_METADATA,
+    iter_beacon_files,
+    generate_sliced_tree,
+    format_sliced_tree,
+    build_context_pack,
+    estimate_tokens_v4,
+    is_ignored_path,
+    load_ignore_patterns,
+)
+
+
+def estimate_tokens(text: str) -> int:
+    """Standard heuristic: ~4 characters per token in technical text/code."""
+    return max(1, len(text) // 4)
+
+
+class TestTokenBudgetBenchmark(unittest.TestCase):
+    """Benchmarks satellite topology token footprint against recursive filesystem dumping."""
+
+    def setUp(self):
+        self.project_path = PROJECT_ROOT
+
+    def test_satellite_tree_token_efficiency(self):
+        """Verifies that .context/tree.json uses < 500 tokens and saves > 85% vs naive recursion."""
+        tree_file = self.project_path / ".context" / "tree.json"
+        self.assertTrue(tree_file.exists(), "El satélite .context/tree.json debe existir.")
+
+        tree_content = tree_file.read_text(encoding="utf-8")
+        satellite_tokens = estimate_tokens(tree_content)
+
+        # Baseline: simulate naive recursive directory dump (what an agent sees without iDirectory)
+        recursive_dump_lines = []
+        for root, dirs, files in os.walk(self.project_path):
+            # Exclude only git internals
+            dirs[:] = [d for d in dirs if d != ".git"]
+            for f in files:
+                rel_p = Path(root).relative_to(self.project_path) / f
+                recursive_dump_lines.append(f"{rel_p.as_posix()} (size: {os.path.getsize(Path(root) / f)} bytes)")
+
+        naive_dump = "\n".join(recursive_dump_lines)
+        naive_tokens = estimate_tokens(naive_dump)
+
+        # Calculate reduction percentage
+        savings_pct = (1.0 - (satellite_tokens / naive_tokens)) * 100.0
+
+        print(f"\n[BENCHMARK] Token Budget Efficiency Report:")
+        print(f"  - Naive Recursive Dump:   ~{naive_tokens:,} tokens ({len(recursive_dump_lines)} files)")
+        print(f"  - iDirectory Tree Satellite: ~{satellite_tokens:,} tokens")
+        print(f"  - Context Token Savings:    {savings_pct:.1f}%")
+
+        # Invariants
+        self.assertLessEqual(satellite_tokens, 1000, "El satélite topológico debe mantenerse ultraligero (<1000 tokens).")
+        self.assertGreaterEqual(savings_pct, 85.0, "iDirectory debe ahorrar al menos 85% de tokens de contexto.")
+
+    def test_compact_context_string_is_dense(self):
+        """Verifies that the compact context prompt string is under 200 tokens."""
+        tree = generate_tree_json(self.project_path)
+        nodes_summary = "; ".join([f"{k}:{v['role']}({v['prio']})" for k, v in tree["nodes"].items() if v["crawl"]])
+        compact_str = f"IDIR_TOPOLOGY: [{nodes_summary}]"
+
+        compact_tokens = estimate_tokens(compact_str)
+        print(f"  - Compact Prompt Injection: ~{compact_tokens} tokens")
+        self.assertLessEqual(compact_tokens, 250, "El formato compacto para prompts debe ser menor a 250 tokens.")
+
+    def test_beacon_token_density_threshold(self):
+        """Ningún .context.yaml del repositorio debe superar ~150 tokens (600 chars)."""
+        beacons = iter_beacon_files(self.project_path)
+        self.assertGreater(len(beacons), 10)
+        for beacon in beacons:
+            tokens = estimate_tokens(beacon.read_text(encoding="utf-8"))
+            self.assertLessEqual(tokens, 150, f"Beacon inflado: {beacon}")
+
+    def test_tree_slicing_token_budget(self):
+        """El subgrafo focalizado debe consumir < 150 tokens y ahorrar > 70% vs tree.json completo."""
+        full_tokens = estimate_tokens((self.project_path / ".context" / "tree.json").read_text(encoding="utf-8"))
+        for target in ("src/core", "src", "docs"):
+            sliced = format_sliced_tree(generate_sliced_tree(self.project_path, target))
+            slice_tokens = estimate_tokens(sliced)
+            print(f"\n[BENCHMARK] Slice '{target}': ~{slice_tokens} tokens (full tree ~{full_tokens})")
+            self.assertLess(slice_tokens, 150)
+            self.assertLess(slice_tokens, full_tokens * 0.3)
+
+    def test_three_baseline_token_benchmark(self):
+        """[Opt-7] Compares iDirectory v4.0 orientation against Naive Unfiltered and Modern Ignore-Aware baselines."""
+        patterns = load_ignore_patterns(self.project_path)
+        naive_lines = []
+        modern_lines = []
+
+        for root, dirs, files in os.walk(self.project_path):
+            cur = Path(root)
+            dirs[:] = [d for d in dirs if d != ".git"]
+            for f in files:
+                rel_p = (cur / f).relative_to(self.project_path).as_posix()
+                line = f"{rel_p} ({os.path.getsize(cur / f)}b)"
+                naive_lines.append(line)
+                if not is_ignored_path(cur, self.project_path, patterns) and not f.startswith("."):
+                    modern_lines.append(line)
+
+        naive_tokens = estimate_tokens("\n".join(naive_lines))
+        modern_tokens = estimate_tokens("\n".join(modern_lines))
+        tier1a_pack_str = json.dumps(
+            build_context_pack(self.project_path, "src/core", tier="1a"),
+            ensure_ascii=False,
+            separators=(",", ":"),
+        )
+        tier1a_tokens = estimate_tokens(tier1a_pack_str)
+
+        print(f"\n[TRI-BASELINE] Naive={naive_tokens}t | ModernIgnore={modern_tokens}t | Tier1A_Pack={tier1a_tokens}t")
+        self.assertLess(tier1a_tokens, 220)
+        self.assertLess(tier1a_tokens, modern_tokens * 0.35)
+        self.assertLess(tier1a_tokens, naive_tokens * 0.05)
+
+    def test_multimodal_token_estimator_excludes_binaries(self):
+        """[Opt-1] estimate_tokens_v4 must return 0 for binary extensions like .png or .parquet."""
+        png_path = self.project_path / "iDirectory.png"
+        if png_path.exists():
+            self.assertEqual(estimate_tokens_v4(png_path), 0)
+        self.assertGreater(estimate_tokens_v4("$$E = mc^2$$ ```mermaid\ngraph TD\n```"), 5)
+
+
+class TestTopologicalScalingStress(unittest.TestCase):
+    """Stress tests satellite generation and budget calculation under high directory volume."""
+
+    def setUp(self):
+        self.test_dir = tempfile.mkdtemp(prefix="idir_stress_")
+        self.test_path = Path(self.test_dir)
+        init_project(str(self.test_path))
+
+        # Synthesize heavy mock directory tree (50 subdirectories, 200 mock files)
+        for i in range(50):
+            sub = self.test_path / f"src/module_{i:02d}"
+            sub.mkdir(parents=True, exist_ok=True)
+            for j in range(4):
+                mock_file = sub / f"component_{j}.py"
+                mock_file.write_text(f"# Mock component {i}_{j}\ndef execute(): pass\n", encoding="utf-8")
+
+    def tearDown(self):
+        if self.test_path.exists():
+            shutil.rmtree(self.test_path, ignore_errors=True)
+
+    def test_satellite_generation_latency(self):
+        """Verifies that satellite generation executes in sub-second time even with hundreds of files."""
+        start_time = time.perf_counter()
+        tree = generate_tree_json(self.test_path)
+        elapsed_ms = (time.perf_counter() - start_time) * 1000.0
+
+        print(f"\n[STRESS] Satellite Generation Latency: {elapsed_ms:.2f} ms")
+        self.assertLessEqual(elapsed_ms, 150.0, "La generación de tree.json debe ser sub-150ms.")
+        self.assertIn("nodes", tree)
+
+    def test_budget_computation_stability(self):
+        """Verifies that compute_context_budget processes the entire hierarchy deterministically."""
+        start_time = time.perf_counter()
+        budget = compute_context_budget(self.test_path)
+        elapsed_ms = (time.perf_counter() - start_time) * 1000.0
+
+        print(f"[STRESS] Context Budget Scan Latency: {elapsed_ms:.2f} ms")
+        self.assertIsInstance(budget, list)
+        self.assertGreater(len(budget), 10)
+        self.assertLessEqual(elapsed_ms, 500.0, "El cálculo del presupuesto de tokens debe ser sub-500ms.")
+
+
+if __name__ == "__main__":
+    unittest.main()

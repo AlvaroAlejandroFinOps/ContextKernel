@@ -52,8 +52,16 @@ raise SystemExit(main())
 def source_bundles(eco):
     result = {}
     for name, (repo, relative) in SKILLS.items():
-        source = Path(eco) / repo / relative
-        result[name] = source if (source / "bundle.json").is_file() else Path(__file__).resolve().parent / "skill_bundles" / name
+        candidates = [
+            Path(eco) / repo / relative,
+            Path(eco) / "skills/v6" / name,
+            Path(eco) / "packages" / repo.lower() / relative,
+            Path(__file__).resolve().parent / "skill_bundles" / name,
+            Path(__file__).resolve().parents[1] / "skills/v6" / name,
+            Path(__file__).resolve().parents[2] / "skills/v6" / name,
+        ]
+        found = next((p for p in candidates if (p / "bundle.json").is_file()), Path(__file__).resolve().parent / "skill_bundles" / name)
+        result[name] = found
     return result
 
 

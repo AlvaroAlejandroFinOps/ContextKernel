@@ -1,0 +1,18 @@
+version: 1.0
+directory: scripts
+role: ops_automation
+purpose: Adaptadores de generación e instalación v6.
+relevance: medium
+crawl: true
+read_priority: p2
+seed_reference: optional
+token_density: sparse
+instructions: Delega en el núcleo; conserva contenido y golden.
+key_files:
+  - "init_readme.py: generate_readmes(root_dir) -> None"
+  - "install_skill.py: install_to_antigravity(), install_to_claude()"
+imports_from:
+  - "config"
+  - "src/ireadme"
+exported_to:
+  - "tests"

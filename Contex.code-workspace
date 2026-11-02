@@ -1,24 +1,28 @@
 {
 	"folders": [
 		{
-			"name": "ContextControl (Controller)",
+			"name": "ContextKernel (Monorepo Root)",
 			"path": "."
 		},
 		{
-			"name": "iDirectory (L0)",
-			"path": "../iDirectory"
+			"name": "packages/contextkernel-cli",
+			"path": "packages/contextkernel-cli"
 		},
 		{
-			"name": "ThinkingSeed (L1)",
-			"path": "../ThinkingSeed"
+			"name": "packages/idirectory (L0)",
+			"path": "packages/idirectory"
 		},
 		{
-			"name": "MetricsThinking (L2)",
-			"path": "../MetricsThinking"
+			"name": "packages/thinkingseed (L1)",
+			"path": "packages/thinkingseed"
 		},
 		{
-			"name": "iReadme (L3)",
-			"path": "../iReadme"
+			"name": "packages/metricsthinking (L2)",
+			"path": "packages/metricsthinking"
+		},
+		{
+			"name": "packages/ireadme (L3)",
+			"path": "packages/ireadme"
 		}
 	],
 	"settings": {}

@@ -1,0 +1,238 @@
+![Gravity HyperScale Thinking](image.png)
+
+**iContext v6.0.0.** Incremental evidence updates, portable Antigravity/Codex skills and session continuity. See the [v6 operation and migration guide](docs/specs/icontext-v6.md).
+<!-- ICONTEXT-V6:RELEASE -->
+
+
+# GHT-SEED: Gravity HyperScale Thinking Seed Specification
+
+**Language:** [English](README.md) | [Español](README_ES.md)
+
+[![Standard](https://img.shields.io/badge/Standard-Enterprise%20Paper--Grade%20v6.0-2b2b2b?style=flat-square)](#)
+[![Ecosystem](https://img.shields.io/badge/Ecosystem-Multi--AI%20%28Google%20%7C%20Claude%20%7C%20OpenAI%20%7C%20Cursor%29-34495e?style=flat-square)](#)
+[![iContext Federation](https://img.shields.io/badge/iContext-Federated%20v6.0-1a1a1a?style=flat-square)](#)
+[![iDirectory L0](https://img.shields.io/badge/L0-iDirectory%20v6.0-2b2b2b?style=flat-square)](#)
+[![ThinkingSeed L1](https://img.shields.io/badge/L1-ThinkingSeed%20v6.0-34495e?style=flat-square)](#)
+[![MetricsThinking L2](https://img.shields.io/badge/L2-MetricsThinking%20v6.0-4b5563?style=flat-square)](#)
+[![iReadme L3](https://img.shields.io/badge/L3-iReadme%20v6.0-000000?style=flat-square)](#)
+![Status](https://img.shields.io/badge/Seed_Deployment-GravityHyperScaleThinking-1a1a1a?style=flat-square)
+
+---
+
+## 1. Executive Abstract
+
+The **Gravity HyperScale Thinking (GHT) Seed Protocol** is an engineering framework designed to bridge the operational gap between complex enterprise software repositories and the cognitive context boundaries of Large Language Models (LLMs) and autonomous reasoning agents. In modern software engineering workflows, model inference efficiency degrades exponentially as workspace context expands, introducing critical context loss, hallucinated structural contracts, and redundant token consumption.
+
+GHT Seed standardizes the generation of an immutable, self-contained architectural payload: `01_seed/seed-[project].md`. Functioning as a deterministic contract and cognitive state vector, the Seed encapsulates topology, state invariants, data schemas, and execution boundaries. Integrated with the **iDirectory v6.0** context architecture (Capa L0 del protocolo **iContext Federation v6.0**), GHT Seed establishes an interoperable technical memory layer across heterogeneous AI environments.
+
+---
+
+## 2. System Architecture & Topology
+
+The GHT Seed architecture operates across three distinct operational phases: Reconnaissance, Payload Generation, and Cognitive Handoff.
+
+```
++-------------------------------------------------------------------------------+
+|                         GHT REPOSITORY AGNOSTIC WORKFLOW                      |
++-------------------------------------------------------------------------------+
+|                                                                               |
+|  [ Source Repository ]                                                        |
+|         │                                                                     |
+|         ├── Master Specs (GHT_SPEC / Skill Rules)                             |
+|         └── Code Base & Governance (AGENTS.md / GEMINI.md / CLAUDE.md)        |
+|         │                                                                     |
+|         v                                                                     |
+|  [ Inspection & Verification Engine ]                                         |
+|         │                                                                     |
+|         ├── Epistemic Classification ([CONFIRMADO] / [INFERIDO] / [FALTANTE]) |
+|         └── Security Redaction Sanitizer (<REDACTED>)                         |
+|         │                                                                     |
+|         v                                                                     |
+|  [ Seed Artifact Generator ]                                                  |
+|         │                                                                     |
+|         ├── /seed (Agile Hybrid Core)  ───> 01_seed/seed-[project].md         |
+|         └── /seedMaster (Deep Master Audit) ─> 01_seed/seed-[project]-master.md
+|         │                                                                     |
+|         v                                                                     |
+|  [ Multi-Agent Handoff Layer ]                                                |
+|         │                                                                     |
+|         └── Cross-Inference (Claude / Gemini / GPT / DeepSeek / Local LLMs)   |
+|                                                                               |
++-------------------------------------------------------------------------------+
+```
+
+### Federated Governance & Context Engineering (iContext v6.0)
+
+This project formally implements the **iContext Federation Protocol v6.0**, incorporating **4 of the 4 canonical projects** (iDirectory, ThinkingSeed, MetricsThinking, and iReadme) for autonomous agentic governance and attentional optimization designed by Gravity HyperScale Thinking:
+
+| Layer | Component | Primary Engineering Function in this Repository | Status |
+| :--- | :--- | :--- | :--- |
+| `L0` | **iDirectory (L0)** — Topological Control Plane & Adaptive Context Engineering | Enforces deterministic all-lowercase directory topology, boundary beacons (.context.yaml), cryptographic tree satellite (.context/tree.json), token budgeting, and subagent capsule isolation (<450 tokens). | `ACTIVE (v6.0)` |
+| `L1` | **ThinkingSeed (L1)** — Symbolic Architectural DNA & Zero-Source-Code Vector | Preserves architectural technical memory and AST symbolic contracts with zero implementation code leakage (Zero Source Code), strictly certified across 6 deterministic validation gates. | `ACTIVE (v6.0)` |
+| `L2` | **MetricsThinking (L2)** — Forensic Technology Audit & Spectral FPIA Governance | Computes ground-truth maturity scores across 10 canonical modules, AST semantic drift detection, FPIA spectral efficiency (S_spectral, PF_spectral), and Zero-Tolerance security scanning. | `ACTIVE (v6.0)` |
+| `L3` | **iReadme (L3)** — Institutional Paper-Grade Dual Documentation Synthesizer | Synchronizes dual English/Spanish documentation under the Enterprise Paper-Grade standard, guaranteeing structural parity phi = 1.0, formal KaTeX formulations, and zero local path leakages. | `ACTIVE (v6.0)` |
+
+Interoperability across these tools is orchestrated in a non-blocking fashion via the **Federated Cognitive Bus** (`./.context/icontext_bus.json`), securing attentional continuity, zero satellite drift, and strict hallucination mitigation across autonomous AI agents.
+
+---
+
+## 3. Mathematical Formulation & Analytical Engines
+
+### 3.1. Context Optimization & Token Reduction Dynamics
+
+Let $R$ represent the complete set of tokens in a target repository code base $R = \{t_1, t_2, \dots, t_N\}$, where $N$ denotes total workspace volume. The cognitive payload size required for standard raw ingestion scales as $O(N)$.
+
+Under the GHT Seed protocol, an empirical mapping function $\Phi: R \to S$ compresses $R$ into a deterministic representation $S = \{k_1, k_2, \dots, k_M\}$ where $M \ll N$. The token reduction efficiency $\eta$ is formulated as:
+
+$$\eta = \left( 1 - \frac{|S|}{|R|} \right) \times 100\%$$
+
+Where $|S|$ represents the high-density Seed payload token count. Operating invariants guarantee that $\Phi(R)$ preserves architectural entropy while reducing noise, maintaining a compression ratio of $\eta \ge 85\%$ across large multi-tier projects.
+
+### 3.2. Epistemic Certainty Vector
+
+Every architectural assertion $A_i \in S$ is assigned an empirical status indicator based on verification state $V(A_i)$:
+
+$$V(A_i) = \begin{cases} 
+\text{CONFIRMADO}, & \text{if } A_i \text{ is directly observed in code or manifests} \\
+\text{INFERIDO}, & \text{if } A_i \text{ is logically deduced from operational contracts} \\
+\text{FALTANTE}, & \text{if } A_i \text{ is expected by system design but absent in workspace}
+\end{cases}$$
+
+---
+
+## 4. Empirical Performance & Benchmarks
+
+<!-- ICONTEXT-V6:TELEMETRY:START -->
+| Evidence / Evidencia | Recorded value / Valor registrado |
+| :--- | :--- |
+| Metrics score | 97.0 |
+| Estimated spectral factor (auxiliary) | 0.9735 |
+| Query latency p95 (ms) | 8.10740003362298 |
+| Validity | Recorded evidence; verify freshness with icontext audit |
+<!-- ICONTEXT-V6:TELEMETRY:END -->
+
+Version 6 adds incremental evidence, content-backed invalidation and read-only queries. Release measurements are recorded in `.context/benchmark_v6.json`, including engine/process p50/p95, file reads and comparison against a full inventory. Token counts are explicitly estimated. Model attention outcomes require observed host sessions and are not inferred from FPAI.
+
+## 5. Repository Structure & Artifacts
+
+```
+ThinkingSeed/
+├── .agents/
+│   └── skills/
+│       ├── seed/                    # Agile hybrid seed generation skill (/seed)
+│       │   └── SKILL.md
+│       └── seedMaster/              # Deep audit master seed generation skill (/seedMaster)
+│           └── SKILL.md
+├── .context/                        # Context engineering telemetry & satellite maps
+├── .github/
+│   └── copilot-instructions.md      # GitHub Copilot context instructions
+├── 01_seed/                         # [p0] Canonical destination for generated seed snapshots
+│   ├── .context.yaml
+│   └── seed-ThinkingSeed-master.md  # Repository technical DNA & ground truth
+├── 02_foundation/                   # [p1] Governance engine & framework foundation
+│   └── engine/
+│       ├── .context.yaml
+│       └── engine_readme.md         # iDirectory v6.0 governance specification
+├── 03_research/                     # [p1-p2] Research, experiments, notebooks & prompt catalog
+│   ├── experiments/
+│   ├── notebooks/
+│   └── prompts/
+├── artifacts/                       # [p1-p3] Capacity plans and architectural decisions
+│   └── plans/
+│       ├── active/
+│       └── archive/
+├── config/                          # [p1] Decoupled environment parameters
+├── data/                            # [p3] Data tiering zone (raw / processed / sandbox)
+├── docs/                            # [p1-p2] Engineering docs (architecture / notes / specs)
+├── logs/                            # [p3] Local execution traces & audit logs
+├── schemas/                         # [p1] Contract definitions (Avro / JSON Schema / DDL)
+├── scripts/                         # [p2] Operational scripts & universal installer
+│   ├── .context.yaml
+│   └── install_skills.py            # Multi-platform universal installer (CLI / IDE)
+├── src/                             # [p1-p2] Implementation modules (cloud_jobs / core / dashboards)
+├── tests/                           # [p1] Test suites & minimal test specifications
+│   ├── .context.yaml
+│   └── ThinkingSeed_Mini.md
+├── tools/                           # [p2] Utility tools & architectural visual assets
+├── AGENTS.md                        # Universal agent directive specification
+├── CLAUDE.md                        # Anthropic Claude Code integration directives
+├── GEMINI.md                        # Google Antigravity & Gemini CLI directives
+├── .cursorrules                     # Cursor IDE workspace directives
+├── .windsurfrules                   # Windsurf IDE (Codeium) directives
+├── README.md                        # Master engineering documentation (English)
+├── README_ES.md                     # Master engineering documentation (Spanish)
+├── ThinkingSeed Master.md           # Master Seed generation template standard
+└── ThinkingSeed_MasterHybrid.md     # Hybrid Seed generation template standard
+```
+
+---
+
+## 6. Execution & Verification Protocol
+
+### 6.1. Environment Setup & Prerequisites
+
+ThinkingSeed tools require Python 3.10+ and standard shell environments (Bash / PowerShell).
+
+```bash
+# Clone the repository
+git clone https://github.com/AlvaroAlejandroFinOps/Thinking-Seed.git
+cd Thinking-Seed
+```
+
+### 6.2. Universal Multi-Agent Skill Installation
+
+To register `/seed` and `/seedMaster` commands across local development environments and multi-agent platforms:
+
+```bash
+# Option A: Global installation (Registers skills globally for Antigravity & Claude Code)
+python scripts/install_skills.py --global-install
+
+# Option B: Target project injection (Injects directives into a specific target repository)
+python scripts/install_skills.py --target /path/to/target-project
+```
+
+### 6.3. Seed Snapshot Generation & Git Lifecycle
+
+Run the generation protocols directly within the interactive agent session:
+
+```bash
+# Generate high-density agile seed snapshot
+/seed
+
+# Generate deep audit master seed snapshot
+/seedMaster
+
+# Version control the architectural snapshot
+git add 01_seed/
+git commit -m "docs(seed): update architectural snapshot for [version/feature]"
+git push
+```
+
+---
+
+## 7. Domain Glossary
+
+* **ThinkingSeed (GHT Payload):** The architectural DNA and technical memory snapshot of a software project, decoupled from raw source implementation files.
+* **Cognitive Handoff:** The process of transferring high-density project context to external LLM inference engines via a structured contract.
+* **Epistemic Rigor:** Explicit categorization of project findings into confirmed facts (`[CONFIRMADO]`), logical deductions (`[INFERIDO]`), and missing components (`[FALTANTE]`).
+* **Sanitization Invariant:** Mandatory stripping of API keys, tokens, and private infrastructure credentials, enforced via `<REDACTED>` tags.
+
+---
+
+## 8. Academic & Engineering References
+
+1. DeepMind Technologies. *Retrieval-Augmented Generation and Context Management in Large-Scale Code Synthesis Systems*. ACM Computing Surveys, 2024.
+2. IEEE Software Engineering Standards Committee. *IEEE Std 1471-2000: Recommended Practice for Architectural Description of Software-Intensive Systems*. IEEE, 2000.
+
+### BibTeX Citation
+
+```bibtex
+@software{ght_thinking_seed_2026,
+  author = {Alvaro Alejandro},
+  title = {GHT-SEED: Gravity HyperScale Thinking Seed Specification},
+  year = {2026},
+  publisher = {GitHub},
+  journal = {GitHub Repository},
+  url = {https://github.com/AlvaroAlejandroFinOps/Thinking-Seed}
+}
+```

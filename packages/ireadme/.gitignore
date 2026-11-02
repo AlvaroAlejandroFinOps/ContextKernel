@@ -1,0 +1,20 @@
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Ignorar datos locales y logs
+*.csv
+*.parquet
+logs/
+data/raw/
+data/processed/
+data/sandbox/
+
+# Lock files & testing caches
+.context/*.lock
+.context/.*.lock
+*.lock
+.pytest_cache/
+.coverage
+htmlcov/

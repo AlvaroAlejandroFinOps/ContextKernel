@@ -1,0 +1,52 @@
+{
+  "$schema": "../schemas/icontext_bus.schema.json",
+  "layers": {
+    "l0_idirectory": {
+      "active_nodes_count": 21,
+      "contracts_ast_hash": "40aaca70d008e37bfc843975ec0c9505fc25c69fdf0591c4195133259ac1c6c5",
+      "inputs_hash": "5ce9b0d3a0e34c6077dd51ed0db4fd1b4a6068666b1da01f76930cf04945d97b",
+      "present": true,
+      "pruned_nodes_count": 8,
+      "published_at": "2026-11-01T23:21:07.109674+00:00",
+      "state": "recorded",
+      "topology_hash": "94d53ea33efe97ba4bfa2cc28cc4a39316a26d181f2f75bb186861866647103c",
+      "version": "6.0.0"
+    },
+    "l1_thinkingseed": {
+      "artifact_kind": "master",
+      "inputs_hash": "a40b7d931368a34b7801140ddf88393e192c5bd4425e747b38db9937f63aebb2",
+      "output_hash": "3e0b9d8e53d4592510a5b89c1a72dd693f68fa28792f1833739d5dea48f7349d",
+      "present": true,
+      "published_at": "2026-10-31T23:02:23.588692+00:00",
+      "state": "validated",
+      "version": "6.0.0"
+    },
+    "l2_metricsthinking": {
+      "consolidated_score": 73.5,
+      "evaluation_hash": "6c84ad4f46aa655669cf10ea3fe6690d30e2269a77331b781b1d49545b3b288d",
+      "fpai_pf_spectral": 1.0,
+      "fpai_s_spectral": 136077.0,
+      "inputs_hash": "9dbc74eab9d5ac783effcd2b6be9e71a981b1172ecaacc0c83b0ba65fa40e76f",
+      "output_hash": "1db75ae36d9959610de74f3fbff7399c5223436a4554b25c3675ed57876a0cbb",
+      "present": true,
+      "published_at": "2026-10-31T23:02:27.733626+00:00",
+      "report_path": "artifacts/plans/metricsthinking/MetricsThinking.json",
+      "security_gate": 1.0,
+      "security_gate_basis": "pii_scan_only",
+      "state": "validated",
+      "version": "6.0.0"
+    },
+    "l3_ireadme": {
+      "artifact_kind": "readme",
+      "inputs_hash": "e94f45046f2662d801238ea1c6b57d9d0f1f0a8124c95e14c94db58174abe113",
+      "output_hash": "f948d7a799653d878fe684d7e6a3b67ebd74634b78707fe89490da42479fe0b7",
+      "present": true,
+      "published_at": "2026-10-31T23:02:28.151959+00:00",
+      "state": "validated",
+      "version": "6.0.0"
+    }
+  },
+  "project": "idirectory",
+  "protocol_version": "6.0.0",
+  "updated_at": "2026-11-01T23:21:07.124624+00:00"
+}

@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "contextkernel-cli"
+version = "6.1.0"
+description = "ContextKernel is a context and attention control plane for AI engineering agents"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "Gravity HyperScale Thinking" }]
+dependencies = [
+    "pydantic>=2.0",
+    "pyyaml>=6.0",
+]
+
+[project.scripts]
+ck = "contextkernel.cli:main"
+contextkernel = "contextkernel.cli:main"
+icontext = "contextkernel.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = [".", "src", "../../tools/icontext_runtime"]

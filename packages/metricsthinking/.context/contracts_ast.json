@@ -1,0 +1,1475 @@
+{
+  "$schema": "../schemas/contracts_ast.schema.json",
+  "analyzer_version": "6.0.0:3",
+  "cli_flags": [
+    "--all",
+    "--apply",
+    "--archetype",
+    "--compact",
+    "--dest",
+    "--dry-run",
+    "--expand",
+    "--full",
+    "--global",
+    "--hint",
+    "--index-dir",
+    "--json",
+    "--list-profiles",
+    "--medallion",
+    "--no-reconcile-plans",
+    "--out-dir",
+    "--pack",
+    "--prefix",
+    "--probe",
+    "--processed-dir",
+    "--profile",
+    "--prune",
+    "--quiet",
+    "--raw-dir",
+    "--target",
+    "--tier",
+    "-a",
+    "-d",
+    "-g",
+    "-o",
+    "-p",
+    "-q",
+    "-t"
+  ],
+  "contracts_ast_hash": "f8fb84e9b8c4abb89e786f5c6aac53ade7d23d5a4a64883c3e5eb2a3b0deff96",
+  "inputs_hash": "5fcc7525bd631ae0eea3ad3cf1748371029624adb9ea415f52338ea10bcdb573",
+  "modules": {
+    "FWengine.py": {
+      "cli_flags": [
+        "--expand",
+        "--pack",
+        "--tier"
+      ],
+      "imports": [
+        "argparse",
+        "icontext_cli",
+        "pathlib",
+        "sys"
+      ],
+      "signatures": [],
+      "symbols": []
+    },
+    "scripts/hnsw_index_rebuild.py": {
+      "cli_flags": [
+        "--compact",
+        "--dry-run",
+        "--index-dir"
+      ],
+      "imports": [
+        "argparse",
+        "json",
+        "logging",
+        "pathlib",
+        "sys"
+      ],
+      "signatures": [
+        "./scripts/hnsw_index_rebuild.py::rebuild_hnsw_index(index_dir: str, compact: bool=True, dry_run: bool=False) -> dict[str, int]",
+        "./scripts/hnsw_index_rebuild.py::main() -> Any"
+      ],
+      "symbols": [
+        "rebuild_hnsw_index",
+        "main"
+      ]
+    },
+    "scripts/install_skill.py": {
+      "cli_flags": [
+        "--all",
+        "--dest",
+        "--dry-run",
+        "--global",
+        "--target",
+        "-a",
+        "-d",
+        "-g",
+        "-t"
+      ],
+      "imports": [
+        "argparse",
+        "json",
+        "os",
+        "pathlib",
+        "re",
+        "shutil",
+        "skill_installer",
+        "sys"
+      ],
+      "signatures": [
+        "./scripts/install_skill.py::get_user_home() -> Path",
+        "./scripts/install_skill.py::install_antigravity(dest_root: Path, is_global: bool=False, dry_run: bool=False) -> list[Path]",
+        "./scripts/install_skill.py::install_codex(dest_root: Path, is_global: bool=False, dry_run: bool=False) -> list[Path]",
+        "./scripts/install_skill.py::install_claude(dest_root: Path, dry_run: bool=False) -> list[Path]",
+        "./scripts/install_skill.py::install_cursor(dest_root: Path, dry_run: bool=False) -> list[Path]",
+        "./scripts/install_skill.py::install_copilot(dest_root: Path, dry_run: bool=False) -> list[Path]",
+        "./scripts/install_skill.py::install_mcp_config(dest_root: Path, dry_run: bool=False) -> list[Path]",
+        "./scripts/install_skill.py::run_installer(target: str='all', dest: str='.', is_global: bool=False, dry_run: bool=False) -> Any",
+        "./scripts/install_skill.py::main() -> Any"
+      ],
+      "symbols": [
+        "get_user_home",
+        "install_antigravity",
+        "install_codex",
+        "install_claude",
+        "install_cursor",
+        "install_copilot",
+        "install_mcp_config",
+        "run_installer",
+        "main"
+      ]
+    },
+    "scripts/run_benchmark.py": {
+      "cli_flags": [],
+      "imports": [
+        "json",
+        "pathlib",
+        "shutil"
+      ],
+      "signatures": [
+        "./scripts/run_benchmark.py::main() -> Any"
+      ],
+      "symbols": [
+        "main"
+      ]
+    },
+    "skills/v6/metrics/scripts/run.py": {
+      "cli_flags": [],
+      "imports": [
+        "icontext_cli",
+        "json",
+        "pathlib",
+        "sys"
+      ],
+      "signatures": [
+        "./skills/v6/metrics/scripts/run.py::matches_version(path) -> Any"
+      ],
+      "symbols": [
+        "matches_version"
+      ]
+    },
+    "src/__init__.py": {
+      "cli_flags": [],
+      "imports": [],
+      "signatures": [],
+      "symbols": []
+    },
+    "src/metricsthinking/__init__.py": {
+      "cli_flags": [],
+      "imports": [
+        "collector",
+        "engine",
+        "evaluator",
+        "models",
+        "renderer",
+        "scorer"
+      ],
+      "signatures": [],
+      "symbols": []
+    },
+    "src/metricsthinking/backends/__init__.py": {
+      "cli_flags": [],
+      "imports": [
+        "",
+        "_core_rs",
+        "logging",
+        "typing"
+      ],
+      "signatures": [
+        "./src/metricsthinking/backends/__init__.py::get_active_backend() -> str",
+        "./src/metricsthinking/backends/__init__.py::scan_directory(path, ignore_patterns=None, include_content=True, cache_path=None, persist=False, full=False) -> Any",
+        "./src/metricsthinking/backends/__init__.py::fast_shannon_entropy(data: str) -> float",
+        "./src/metricsthinking/backends/__init__.py::calculate_shingling_jaccard(a: str, b: str, k: int=3) -> float",
+        "./src/metricsthinking/backends/__init__.py::compute_ast_coupling(python_files: dict[str, str]) -> dict[str, Any]"
+      ],
+      "symbols": [
+        "get_active_backend",
+        "scan_directory",
+        "fast_shannon_entropy",
+        "calculate_shingling_jaccard",
+        "compute_ast_coupling"
+      ]
+    },
+    "src/metricsthinking/backends/python_fallback.py": {
+      "cli_flags": [],
+      "imports": [
+        "collections",
+        "hashlib",
+        "json",
+        "math",
+        "os",
+        "pathlib",
+        "re",
+        "runtime",
+        "typing"
+      ],
+      "signatures": [
+        "./src/metricsthinking/backends/python_fallback.py::fast_shannon_entropy(data: str) -> float",
+        "./src/metricsthinking/backends/python_fallback.py::calculate_shingling_jaccard(a: str, b: str, k: int=3) -> float",
+        "./src/metricsthinking/backends/python_fallback.py::scan_directory(path, ignore_patterns=None, include_content=True, cache_path=None, persist=False, full=False) -> Any",
+        "./src/metricsthinking/backends/python_fallback.py::compute_ast_coupling(python_files: dict[str, str]) -> dict[str, Any]"
+      ],
+      "symbols": [
+        "fast_shannon_entropy",
+        "calculate_shingling_jaccard",
+        "scan_directory",
+        "compute_ast_coupling"
+      ]
+    },
+    "src/metricsthinking/cli.py": {
+      "cli_flags": [
+        "--all",
+        "--apply",
+        "--archetype",
+        "--dest",
+        "--dry-run",
+        "--full",
+        "--global",
+        "--hint",
+        "--json",
+        "--list-profiles",
+        "--medallion",
+        "--no-reconcile-plans",
+        "--out-dir",
+        "--prefix",
+        "--probe",
+        "--processed-dir",
+        "--profile",
+        "--prune",
+        "--quiet",
+        "--raw-dir",
+        "--target",
+        "-a",
+        "-d",
+        "-g",
+        "-o",
+        "-p",
+        "-q",
+        "-t"
+      ],
+      "imports": [
+        "argparse",
+        "detector",
+        "engine",
+        "fpai.compensation",
+        "fpai.medallion",
+        "importlib.util",
+        "json",
+        "mcp_server",
+        "metricsthinking.engine",
+        "pathlib",
+        "scripts.install_skill",
+        "sys",
+        "yaml"
+      ],
+      "signatures": [
+        "./src/metricsthinking/cli.py::list_available_profiles() -> None",
+        "./src/metricsthinking/cli.py::main() -> Any"
+      ],
+      "symbols": [
+        "list_available_profiles",
+        "main"
+      ]
+    },
+    "src/metricsthinking/collector.py": {
+      "cli_flags": [],
+      "imports": [
+        "backends",
+        "detector",
+        "metricsthinking.backends",
+        "metricsthinking.detector",
+        "metricsthinking.models",
+        "models",
+        "os",
+        "pathlib",
+        "re",
+        "subprocess",
+        "sys",
+        "typing",
+        "yaml"
+      ],
+      "signatures": [
+        "./src/metricsthinking/collector.py::ProjectEvidence(class)",
+        "./src/metricsthinking/collector.py::ProjectCollector(class)"
+      ],
+      "symbols": [
+        "ProjectEvidence",
+        "ProjectCollector"
+      ]
+    },
+    "src/metricsthinking/detector.py": {
+      "cli_flags": [],
+      "imports": [
+        "dataclasses",
+        "json",
+        "os",
+        "pathlib",
+        "re",
+        "typing",
+        "yaml"
+      ],
+      "signatures": [
+        "./src/metricsthinking/detector.py::ArchetypeScore(class)",
+        "./src/metricsthinking/detector.py::ArchetypeDetectionResult(class)",
+        "./src/metricsthinking/detector.py::ArchetypeDetector(class)",
+        "./src/metricsthinking/detector.py::probe_archetype(target_path: str='.', custom_profiles_dir: Path | None=None) -> ArchetypeDetectionResult"
+      ],
+      "symbols": [
+        "ArchetypeScore",
+        "ArchetypeDetectionResult",
+        "ArchetypeDetector",
+        "probe_archetype"
+      ]
+    },
+    "src/metricsthinking/engine.py": {
+      "cli_flags": [],
+      "imports": [
+        "collector",
+        "detector",
+        "evaluator",
+        "functools",
+        "metricsthinking.collector",
+        "metricsthinking.detector",
+        "metricsthinking.evaluator",
+        "metricsthinking.fpai.compensation",
+        "metricsthinking.fpai.medallion",
+        "metricsthinking.lifecycle",
+        "metricsthinking.models",
+        "metricsthinking.renderer",
+        "metricsthinking.runtime",
+        "metricsthinking.scorer",
+        "models",
+        "pathlib",
+        "renderer",
+        "scorer",
+        "sys"
+      ],
+      "signatures": [
+        "./src/metricsthinking/engine.py::resolve_profile_name(hint_or_name: str | None) -> str",
+        "./src/metricsthinking/engine.py::probe_project(target_path: str='.', custom_profiles_dir: Path | None=None) -> ArchetypeDetectionResult",
+        "./src/metricsthinking/engine.py::run_audit(target_path: str='.', profile_name: str='default', archetype: str | None=None, out_dir: str | None=None, prefix: str='MetricsThinking', quiet: bool=False, prune: bool=False, medallion: bool=False, reconcile_plans: bool=True, full: bool=False) -> tuple[ProjectAuditReport, dict[str, Path]]"
+      ],
+      "symbols": [
+        "resolve_profile_name",
+        "probe_project",
+        "run_audit"
+      ]
+    },
+    "src/metricsthinking/evaluator.py": {
+      "cli_flags": [],
+      "imports": [
+        "collector",
+        "fpai.gatekeeper",
+        "fpai.spectral_engine",
+        "incremental",
+        "metricsthinking.collector",
+        "metricsthinking.fpai.gatekeeper",
+        "metricsthinking.fpai.spectral_engine",
+        "metricsthinking.models",
+        "models",
+        "pathlib",
+        "re",
+        "runtime",
+        "sys",
+        "typing",
+        "yaml"
+      ],
+      "signatures": [
+        "./src/metricsthinking/evaluator.py::CriteriaEvaluator(class)"
+      ],
+      "symbols": [
+        "CriteriaEvaluator"
+      ]
+    },
+    "src/metricsthinking/fpai/__init__.py": {
+      "cli_flags": [],
+      "imports": [
+        "ablation",
+        "attribution",
+        "compensation",
+        "confidence",
+        "drift_auditor",
+        "gatekeeper",
+        "medallion",
+        "spectral_engine"
+      ],
+      "signatures": [],
+      "symbols": []
+    },
+    "src/metricsthinking/fpai/ablation.py": {
+      "cli_flags": [],
+      "imports": [
+        "math",
+        "re",
+        "typing"
+      ],
+      "signatures": [
+        "./src/metricsthinking/fpai/ablation.py::run_ablation_sampling(chunks: list[dict[str, Any]], sample_ratio: float=0.05) -> dict[str, Any]"
+      ],
+      "symbols": [
+        "run_ablation_sampling"
+      ]
+    },
+    "src/metricsthinking/fpai/attribution.py": {
+      "cli_flags": [],
+      "imports": [
+        "re",
+        "typing"
+      ],
+      "signatures": [
+        "./src/metricsthinking/fpai/attribution.py::resolve_context_attribution(query: str, chunks: list[dict[str, Any]]) -> list[dict[str, Any]]"
+      ],
+      "symbols": [
+        "resolve_context_attribution"
+      ]
+    },
+    "src/metricsthinking/fpai/compensation.py": {
+      "cli_flags": [],
+      "imports": [
+        "datetime",
+        "hashlib",
+        "metricsthinking.models",
+        "pathlib",
+        "typing"
+      ],
+      "signatures": [
+        "./src/metricsthinking/fpai/compensation.py::generate_pruning_plan(target_path: str, dead_files: list[str], redundant_files: list[str], structural_files: list[str], file_sizes: dict[str, int]) -> ContextPruningPlan",
+        "./src/metricsthinking/fpai/compensation.py::apply_pruning_plan(plan: ContextPruningPlan, repo_root: str, update_agentignore: bool=True) -> dict[str, Any]"
+      ],
+      "symbols": [
+        "generate_pruning_plan",
+        "apply_pruning_plan"
+      ]
+    },
+    "src/metricsthinking/fpai/confidence.py": {
+      "cli_flags": [],
+      "imports": [
+        "math",
+        "typing"
+      ],
+      "signatures": [
+        "./src/metricsthinking/fpai/confidence.py::calculate_confidence_envelope(sample_values: list[float], confidence_level: float=0.95) -> dict[str, float | int]"
+      ],
+      "symbols": [
+        "calculate_confidence_envelope"
+      ]
+    },
+    "src/metricsthinking/fpai/drift_auditor.py": {
+      "cli_flags": [],
+      "imports": [
+        "ast",
+        "pathlib",
+        "re",
+        "typing"
+      ],
+      "signatures": [
+        "./src/metricsthinking/fpai/drift_auditor.py::audit_seed_to_code_drift(seed_path: str, repo_files: dict[str, str]) -> dict[str, Any]"
+      ],
+      "symbols": [
+        "audit_seed_to_code_drift"
+      ]
+    },
+    "src/metricsthinking/fpai/gatekeeper.py": {
+      "cli_flags": [],
+      "imports": [
+        "collections",
+        "math",
+        "metricsthinking.models",
+        "re",
+        "typing"
+      ],
+      "signatures": [
+        "./src/metricsthinking/fpai/gatekeeper.py::calculate_shannon_entropy(data: str) -> float",
+        "./src/metricsthinking/fpai/gatekeeper.py::is_safe_placeholder(text: str) -> bool",
+        "./src/metricsthinking/fpai/gatekeeper.py::scan_file_security(file_path: str, content: str, entropy_threshold: float=4.5) -> dict[str, Any]",
+        "./src/metricsthinking/fpai/gatekeeper.py::scan_repository_security(file_contents: dict[str, str], lockfile_present: bool=True, entropy_threshold: float=4.5, ignore_tests: bool=True) -> SecurityVulnerabilityReport"
+      ],
+      "symbols": [
+        "calculate_shannon_entropy",
+        "is_safe_placeholder",
+        "scan_file_security",
+        "scan_repository_security"
+      ]
+    },
+    "src/metricsthinking/fpai/medallion.py": {
+      "cli_flags": [],
+      "imports": [
+        "collections",
+        "datetime",
+        "json",
+        "pathlib",
+        "typing"
+      ],
+      "signatures": [
+        "./src/metricsthinking/fpai/medallion.py::run_local_medallion_pipeline(raw_telemetry_dir: str='data/raw/telemetry', processed_dir: str='data/processed/telemetry') -> dict[str, Any]"
+      ],
+      "symbols": [
+        "run_local_medallion_pipeline"
+      ]
+    },
+    "src/metricsthinking/fpai/spectral_engine.py": {
+      "cli_flags": [],
+      "imports": [
+        "math",
+        "metricsthinking.models"
+      ],
+      "signatures": [
+        "./src/metricsthinking/fpai/spectral_engine.py::compute_spectral_vector(p_active: float, q_dead: float, q_dup: float, d_structural: float, gain_coefficient: float=1.0) -> FPAISpectralVector"
+      ],
+      "symbols": [
+        "compute_spectral_vector"
+      ]
+    },
+    "src/metricsthinking/incremental.py": {
+      "cli_flags": [],
+      "imports": [
+        "hashlib",
+        "inspect",
+        "json",
+        "pathlib",
+        "re",
+        "runtime"
+      ],
+      "signatures": [
+        "./src/metricsthinking/incremental.py::rule_fingerprint(evaluator, function, config, evidence, attribute_cache) -> Any",
+        "./src/metricsthinking/incremental.py::observed_context(evidence) -> Any"
+      ],
+      "symbols": [
+        "rule_fingerprint",
+        "observed_context"
+      ]
+    },
+    "src/metricsthinking/lifecycle.py": {
+      "cli_flags": [],
+      "imports": [
+        "__future__",
+        "datetime",
+        "json",
+        "os",
+        "pathlib",
+        "re",
+        "typing",
+        "yaml"
+      ],
+      "signatures": [
+        "./src/metricsthinking/lifecycle.py::extract_plan_metadata(plan_path: Path) -> dict[str, Any]",
+        "./src/metricsthinking/lifecycle.py::update_plan_frontmatter(plan_path: Path, updates: dict[str, Any]) -> None",
+        "./src/metricsthinking/lifecycle.py::evaluate_plan_completion(plan_path: Path, checkpoint_data: dict[str, Any] | None=None) -> tuple[bool, str]",
+        "./src/metricsthinking/lifecycle.py::sync_backlog_queue(repo_root: Path, archived_plan_ids: list[str]) -> int",
+        "./src/metricsthinking/lifecycle.py::reconcile_active_plans(repo_root: Path | str='.', check_only: bool=False) -> dict[str, Any]"
+      ],
+      "symbols": [
+        "extract_plan_metadata",
+        "update_plan_frontmatter",
+        "evaluate_plan_completion",
+        "sync_backlog_queue",
+        "reconcile_active_plans"
+      ]
+    },
+    "src/metricsthinking/mcp_server.py": {
+      "cli_flags": [],
+      "imports": [
+        "detector",
+        "engine",
+        "fpai.compensation",
+        "json",
+        "metricsthinking.engine",
+        "metricsthinking.fpai.compensation",
+        "pathlib",
+        "sys",
+        "typing"
+      ],
+      "signatures": [
+        "./src/metricsthinking/mcp_server.py::handle_list_tools() -> list[dict[str, Any]]",
+        "./src/metricsthinking/mcp_server.py::handle_call_tool(name: str, arguments: dict[str, Any]) -> list[dict[str, Any]]",
+        "./src/metricsthinking/mcp_server.py::run_mcp_server() -> Any"
+      ],
+      "symbols": [
+        "handle_list_tools",
+        "handle_call_tool",
+        "run_mcp_server"
+      ]
+    },
+    "src/metricsthinking/models.py": {
+      "cli_flags": [],
+      "imports": [
+        "enum",
+        "pydantic",
+        "typing"
+      ],
+      "signatures": [
+        "./src/metricsthinking/models.py::DomainArchetype(class)",
+        "./src/metricsthinking/models.py::InspectionMode(class)",
+        "./src/metricsthinking/models.py::EvidencePrimitiveSummary(class)",
+        "./src/metricsthinking/models.py::ModuleStatus(class)",
+        "./src/metricsthinking/models.py::MaturityBand(class)",
+        "./src/metricsthinking/models.py::AuditCriterion(class)",
+        "./src/metricsthinking/models.py::CanonicalModuleEvaluation(class)",
+        "./src/metricsthinking/models.py::RemediationItem(class)",
+        "./src/metricsthinking/models.py::FPAISpectralVector(class)",
+        "./src/metricsthinking/models.py::SecurityVulnerabilityReport(class)",
+        "./src/metricsthinking/models.py::SystemsResilienceReport(class)",
+        "./src/metricsthinking/models.py::PruningActionItem(class)",
+        "./src/metricsthinking/models.py::ContextPruningPlan(class)",
+        "./src/metricsthinking/models.py::ProjectAuditReport(class)"
+      ],
+      "symbols": [
+        "DomainArchetype",
+        "InspectionMode",
+        "EvidencePrimitiveSummary",
+        "ModuleStatus",
+        "MaturityBand",
+        "AuditCriterion",
+        "CanonicalModuleEvaluation",
+        "RemediationItem",
+        "FPAISpectralVector",
+        "SecurityVulnerabilityReport",
+        "SystemsResilienceReport",
+        "PruningActionItem",
+        "ContextPruningPlan",
+        "ProjectAuditReport"
+      ]
+    },
+    "src/metricsthinking/renderer.py": {
+      "cli_flags": [],
+      "imports": [
+        "json",
+        "metricsthinking.models",
+        "metricsthinking.runtime",
+        "models",
+        "pathlib",
+        "sys"
+      ],
+      "signatures": [
+        "./src/metricsthinking/renderer.py::ReportRenderer(class)"
+      ],
+      "symbols": [
+        "ReportRenderer"
+      ]
+    },
+    "src/metricsthinking/scorer.py": {
+      "cli_flags": [],
+      "imports": [
+        "collector",
+        "datetime",
+        "fpai.compensation",
+        "fpai.gatekeeper",
+        "fpai.spectral_engine",
+        "incremental",
+        "metricsthinking.collector",
+        "metricsthinking.fpai.compensation",
+        "metricsthinking.fpai.gatekeeper",
+        "metricsthinking.fpai.spectral_engine",
+        "metricsthinking.models",
+        "models",
+        "pathlib",
+        "sys",
+        "typing"
+      ],
+      "signatures": [
+        "./src/metricsthinking/scorer.py::AuditScorer(class)"
+      ],
+      "symbols": [
+        "AuditScorer"
+      ]
+    },
+    "tests/__init__.py": {
+      "cli_flags": [],
+      "imports": [],
+      "signatures": [],
+      "symbols": []
+    },
+    "tests/test_archetype_detector.py": {
+      "cli_flags": [],
+      "imports": [
+        "json",
+        "metricsthinking.collector",
+        "metricsthinking.detector",
+        "metricsthinking.engine",
+        "pathlib",
+        "pytest"
+      ],
+      "signatures": [
+        "./tests/test_archetype_detector.py::test_sdd_archetype_detection(tmp_path) -> Any",
+        "./tests/test_archetype_detector.py::test_data_platform_archetype_detection(tmp_path) -> Any",
+        "./tests/test_archetype_detector.py::test_web_app_archetype_detection(tmp_path) -> Any",
+        "./tests/test_archetype_detector.py::test_mlops_archetype_detection(tmp_path) -> Any",
+        "./tests/test_archetype_detector.py::test_llmops_archetype_detection(tmp_path) -> Any",
+        "./tests/test_archetype_detector.py::test_gitops_archetype_detection(tmp_path) -> Any",
+        "./tests/test_archetype_detector.py::test_devsecops_archetype_detection(tmp_path) -> Any",
+        "./tests/test_archetype_detector.py::test_agent_skill_pure_detection(tmp_path) -> Any",
+        "./tests/test_archetype_detector.py::test_prevent_agents_md_false_positive(tmp_path) -> Any",
+        "./tests/test_archetype_detector.py::test_custom_profile_extensibility(tmp_path) -> Any",
+        "./tests/test_archetype_detector.py::test_emerging_domain_fallback(tmp_path) -> Any"
+      ],
+      "symbols": [
+        "test_sdd_archetype_detection",
+        "test_data_platform_archetype_detection",
+        "test_web_app_archetype_detection",
+        "test_mlops_archetype_detection",
+        "test_llmops_archetype_detection",
+        "test_gitops_archetype_detection",
+        "test_devsecops_archetype_detection",
+        "test_agent_skill_pure_detection",
+        "test_prevent_agents_md_false_positive",
+        "test_custom_profile_extensibility",
+        "test_emerging_domain_fallback"
+      ]
+    },
+    "tests/test_backends_collector_v4.py": {
+      "cli_flags": [],
+      "imports": [
+        "metricsthinking.backends",
+        "metricsthinking.collector",
+        "pathlib"
+      ],
+      "signatures": [
+        "./tests/test_backends_collector_v4.py::test_active_backend_availability() -> Any",
+        "./tests/test_backends_collector_v4.py::test_rust_crate_structure() -> Any",
+        "./tests/test_backends_collector_v4.py::test_scan_directory_and_incremental_cache(tmp_path) -> Any",
+        "./tests/test_backends_collector_v4.py::test_shingling_jaccard_backend() -> Any",
+        "./tests/test_backends_collector_v4.py::test_ast_coupling_calculation() -> Any",
+        "./tests/test_backends_collector_v4.py::test_single_pass_collector_integration() -> Any"
+      ],
+      "symbols": [
+        "test_active_backend_availability",
+        "test_rust_crate_structure",
+        "test_scan_directory_and_incremental_cache",
+        "test_shingling_jaccard_backend",
+        "test_ast_coupling_calculation",
+        "test_single_pass_collector_integration"
+      ]
+    },
+    "tests/test_benchmarks_stress.py": {
+      "cli_flags": [],
+      "imports": [
+        "datetime",
+        "json",
+        "metricsthinking.backends",
+        "metricsthinking.collector",
+        "pathlib",
+        "time"
+      ],
+      "signatures": [
+        "./tests/test_benchmarks_stress.py::test_volumetric_scale_benchmark(tmp_path) -> Any",
+        "./tests/test_benchmarks_stress.py::test_ast_coupling_stress_benchmark() -> Any",
+        "./tests/test_benchmarks_stress.py::test_golden_baseline_regression_snapshot() -> Any"
+      ],
+      "symbols": [
+        "test_volumetric_scale_benchmark",
+        "test_ast_coupling_stress_benchmark",
+        "test_golden_baseline_regression_snapshot"
+      ]
+    },
+    "tests/test_calibration.py": {
+      "cli_flags": [],
+      "imports": [
+        "metricsthinking.collector",
+        "metricsthinking.engine",
+        "metricsthinking.evaluator",
+        "metricsthinking.models",
+        "metricsthinking.scorer",
+        "pathlib",
+        "pytest"
+      ],
+      "signatures": [
+        "./tests/test_calibration.py::test_self_audit_with_sdd_profile() -> Any",
+        "./tests/test_calibration.py::test_gitops_synthetic_repo_calibration(tmp_path) -> Any",
+        "./tests/test_calibration.py::test_mlops_synthetic_repo_calibration(tmp_path) -> Any",
+        "./tests/test_calibration.py::test_llmops_synthetic_repo_calibration(tmp_path) -> Any"
+      ],
+      "symbols": [
+        "test_self_audit_with_sdd_profile",
+        "test_gitops_synthetic_repo_calibration",
+        "test_mlops_synthetic_repo_calibration",
+        "test_llmops_synthetic_repo_calibration"
+      ]
+    },
+    "tests/test_cli.py": {
+      "cli_flags": [],
+      "imports": [
+        "metricsthinking.cli",
+        "metricsthinking.engine",
+        "pathlib",
+        "sys"
+      ],
+      "signatures": [
+        "./tests/test_cli.py::test_engine_run_audit(tmp_path: Path) -> Any",
+        "./tests/test_cli.py::test_cli_main_invocation(tmp_path: Path, monkeypatch) -> Any"
+      ],
+      "symbols": [
+        "test_engine_run_audit",
+        "test_cli_main_invocation"
+      ]
+    },
+    "tests/test_cli_mcp_renderer_v4.py": {
+      "cli_flags": [],
+      "imports": [
+        "json",
+        "metricsthinking.collector",
+        "metricsthinking.engine",
+        "metricsthinking.evaluator",
+        "metricsthinking.mcp_server",
+        "metricsthinking.renderer",
+        "metricsthinking.scorer",
+        "pathlib"
+      ],
+      "signatures": [
+        "./tests/test_cli_mcp_renderer_v4.py::test_renderer_materializes_four_artifacts(tmp_path) -> Any",
+        "./tests/test_cli_mcp_renderer_v4.py::test_engine_run_audit_with_prune_and_medallion(tmp_path) -> Any",
+        "./tests/test_cli_mcp_renderer_v4.py::test_mcp_server_six_tools() -> Any",
+        "./tests/test_cli_mcp_renderer_v4.py::test_mcp_server_tool_calls() -> Any"
+      ],
+      "symbols": [
+        "test_renderer_materializes_four_artifacts",
+        "test_engine_run_audit_with_prune_and_medallion",
+        "test_mcp_server_six_tools",
+        "test_mcp_server_tool_calls"
+      ]
+    },
+    "tests/test_collector.py": {
+      "cli_flags": [],
+      "imports": [
+        "metricsthinking.collector",
+        "pathlib"
+      ],
+      "signatures": [
+        "./tests/test_collector.py::test_collector_basic_scan(tmp_path: Path) -> Any",
+        "./tests/test_collector.py::test_collector_anti_fraud_seed_filtering(tmp_path: Path) -> Any",
+        "./tests/test_collector.py::test_collector_detects_ci_and_tests(tmp_path: Path) -> Any"
+      ],
+      "symbols": [
+        "test_collector_basic_scan",
+        "test_collector_anti_fraud_seed_filtering",
+        "test_collector_detects_ci_and_tests"
+      ]
+    },
+    "tests/test_drift_compensation_v4.py": {
+      "cli_flags": [],
+      "imports": [
+        "metricsthinking.fpai.compensation",
+        "metricsthinking.fpai.drift_auditor",
+        "pathlib"
+      ],
+      "signatures": [
+        "./tests/test_drift_compensation_v4.py::test_seed_to_code_drift_detection(tmp_path) -> Any",
+        "./tests/test_drift_compensation_v4.py::test_pruning_plan_generation() -> Any",
+        "./tests/test_drift_compensation_v4.py::test_apply_pruning_plan_reversibility(tmp_path) -> Any"
+      ],
+      "symbols": [
+        "test_seed_to_code_drift_detection",
+        "test_pruning_plan_generation",
+        "test_apply_pruning_plan_reversibility"
+      ]
+    },
+    "tests/test_evaluator.py": {
+      "cli_flags": [],
+      "imports": [
+        "metricsthinking.collector",
+        "metricsthinking.evaluator",
+        "pathlib"
+      ],
+      "signatures": [
+        "./tests/test_evaluator.py::test_evaluator_default_profile(tmp_path: Path) -> Any",
+        "./tests/test_evaluator.py::test_evaluator_detects_empty_repository(tmp_path: Path) -> Any"
+      ],
+      "symbols": [
+        "test_evaluator_default_profile",
+        "test_evaluator_detects_empty_repository"
+      ]
+    },
+    "tests/test_evaluator_v4.py": {
+      "cli_flags": [],
+      "imports": [
+        "metricsthinking.collector",
+        "metricsthinking.evaluator",
+        "metricsthinking.scorer",
+        "pathlib"
+      ],
+      "signatures": [
+        "./tests/test_evaluator_v4.py::test_v4_evaluation_rules_on_current_repo() -> Any",
+        "./tests/test_evaluator_v4.py::test_scorer_populates_v4_vectors() -> Any"
+      ],
+      "symbols": [
+        "test_v4_evaluation_rules_on_current_repo",
+        "test_scorer_populates_v4_vectors"
+      ]
+    },
+    "tests/test_gatekeeper_v4.py": {
+      "cli_flags": [],
+      "imports": [
+        "metricsthinking.fpai.gatekeeper",
+        "pathlib",
+        "yaml"
+      ],
+      "signatures": [
+        "./tests/test_gatekeeper_v4.py::test_shannon_entropy_calculation() -> Any",
+        "./tests/test_gatekeeper_v4.py::test_secret_detection_and_safe_placeholder() -> Any",
+        "./tests/test_gatekeeper_v4.py::test_pii_detection() -> Any",
+        "./tests/test_gatekeeper_v4.py::test_prompt_injection_detection() -> Any",
+        "./tests/test_gatekeeper_v4.py::test_scan_repository_security() -> Any",
+        "./tests/test_gatekeeper_v4.py::test_fpai_governance_yaml_contract() -> Any"
+      ],
+      "symbols": [
+        "test_shannon_entropy_calculation",
+        "test_secret_detection_and_safe_placeholder",
+        "test_pii_detection",
+        "test_prompt_injection_detection",
+        "test_scan_repository_security",
+        "test_fpai_governance_yaml_contract"
+      ]
+    },
+    "tests/test_hygiene_v4.py": {
+      "cli_flags": [],
+      "imports": [
+        "json",
+        "metricsthinking",
+        "pathlib",
+        "tomllib"
+      ],
+      "signatures": [
+        "./tests/test_hygiene_v4.py::test_requirements_hygiene() -> Any",
+        "./tests/test_hygiene_v4.py::test_pyproject_version_and_deps() -> Any",
+        "./tests/test_hygiene_v4.py::test_package_and_mcp_version_sync() -> Any",
+        "./tests/test_hygiene_v4.py::test_skeleton_directories_removed() -> Any",
+        "./tests/test_hygiene_v4.py::test_generated_runtime_has_a_manifest() -> Any",
+        "./tests/test_hygiene_v4.py::test_engine_readme_seed_link() -> Any",
+        "./tests/test_hygiene_v4.py::test_tree_json_hygiene() -> Any"
+      ],
+      "symbols": [
+        "test_requirements_hygiene",
+        "test_pyproject_version_and_deps",
+        "test_package_and_mcp_version_sync",
+        "test_skeleton_directories_removed",
+        "test_generated_runtime_has_a_manifest",
+        "test_engine_readme_seed_link",
+        "test_tree_json_hygiene"
+      ]
+    },
+    "tests/test_incremental_v6.py": {
+      "cli_flags": [],
+      "imports": [
+        "metricsthinking.collector",
+        "metricsthinking.engine",
+        "metricsthinking.incremental",
+        "pathlib",
+        "pytest"
+      ],
+      "signatures": [
+        "./tests/test_incremental_v6.py::snapshot(root) -> Any",
+        "./tests/test_incremental_v6.py::test_incremental_audit_reuses_outputs_without_changing_timestamps(tmp_path) -> Any",
+        "./tests/test_incremental_v6.py::test_collector_is_read_only_and_honors_ancestor_beacons(tmp_path) -> Any",
+        "./tests/test_incremental_v6.py::test_duplicate_estimate_uses_actual_duplicate_content(tmp_path) -> Any",
+        "./tests/test_incremental_v6.py::test_invalid_audit_target_is_not_created(tmp_path) -> Any"
+      ],
+      "symbols": [
+        "snapshot",
+        "test_incremental_audit_reuses_outputs_without_changing_timestamps",
+        "test_collector_is_read_only_and_honors_ancestor_beacons",
+        "test_duplicate_estimate_uses_actual_duplicate_content",
+        "test_invalid_audit_target_is_not_created"
+      ]
+    },
+    "tests/test_installer.py": {
+      "cli_flags": [],
+      "imports": [
+        "json",
+        "metricsthinking.mcp_server",
+        "pathlib",
+        "scripts.install_skill"
+      ],
+      "signatures": [
+        "./tests/test_installer.py::test_install_antigravity_local(tmp_path: Path) -> Any",
+        "./tests/test_installer.py::test_install_codex_local(tmp_path: Path) -> Any",
+        "./tests/test_installer.py::test_install_claude(tmp_path: Path) -> Any",
+        "./tests/test_installer.py::test_install_cursor(tmp_path: Path) -> Any",
+        "./tests/test_installer.py::test_install_copilot(tmp_path: Path) -> Any",
+        "./tests/test_installer.py::test_install_mcp_config(tmp_path: Path) -> Any",
+        "./tests/test_installer.py::test_run_installer_all(tmp_path: Path) -> Any",
+        "./tests/test_installer.py::test_mcp_server_tools(tmp_path: Path) -> Any"
+      ],
+      "symbols": [
+        "test_install_antigravity_local",
+        "test_install_codex_local",
+        "test_install_claude",
+        "test_install_cursor",
+        "test_install_copilot",
+        "test_install_mcp_config",
+        "test_run_installer_all",
+        "test_mcp_server_tools"
+      ]
+    },
+    "tests/test_medallion_ablation_v4.py": {
+      "cli_flags": [],
+      "imports": [
+        "json",
+        "metricsthinking.fpai.ablation",
+        "metricsthinking.fpai.attribution",
+        "metricsthinking.fpai.medallion",
+        "pathlib",
+        "scripts.hnsw_index_rebuild"
+      ],
+      "signatures": [
+        "./tests/test_medallion_ablation_v4.py::test_local_medallion_pipeline(tmp_path) -> Any",
+        "./tests/test_medallion_ablation_v4.py::test_ablation_sampling() -> Any",
+        "./tests/test_medallion_ablation_v4.py::test_context_attribution() -> Any",
+        "./tests/test_medallion_ablation_v4.py::test_hnsw_index_rebuild_script(tmp_path) -> Any"
+      ],
+      "symbols": [
+        "test_local_medallion_pipeline",
+        "test_ablation_sampling",
+        "test_context_attribution",
+        "test_hnsw_index_rebuild_script"
+      ]
+    },
+    "tests/test_models_schemas_v4.py": {
+      "cli_flags": [],
+      "imports": [
+        "json",
+        "jsonschema",
+        "metricsthinking",
+        "pathlib"
+      ],
+      "signatures": [
+        "./tests/test_models_schemas_v4.py::test_models_instantiation() -> Any",
+        "./tests/test_models_schemas_v4.py::test_fpai_manifest_and_telemetry_schemas_valid() -> Any"
+      ],
+      "symbols": [
+        "test_models_instantiation",
+        "test_fpai_manifest_and_telemetry_schemas_valid"
+      ]
+    },
+    "tests/test_plan_lifecycle.py": {
+      "cli_flags": [],
+      "imports": [
+        "json",
+        "metricsthinking.lifecycle",
+        "pathlib"
+      ],
+      "signatures": [
+        "./tests/test_plan_lifecycle.py::test_extract_and_update_plan_frontmatter(tmp_path) -> Any",
+        "./tests/test_plan_lifecycle.py::test_evaluate_plan_completion_by_status(tmp_path) -> Any",
+        "./tests/test_plan_lifecycle.py::test_evaluate_plan_completion_by_checkboxes(tmp_path) -> Any",
+        "./tests/test_plan_lifecycle.py::test_sync_backlog_queue(tmp_path) -> Any",
+        "./tests/test_plan_lifecycle.py::test_reconcile_active_plans_full_workflow(tmp_path) -> Any"
+      ],
+      "symbols": [
+        "test_extract_and_update_plan_frontmatter",
+        "test_evaluate_plan_completion_by_status",
+        "test_evaluate_plan_completion_by_checkboxes",
+        "test_sync_backlog_queue",
+        "test_reconcile_active_plans_full_workflow"
+      ]
+    },
+    "tests/test_renderer.py": {
+      "cli_flags": [],
+      "imports": [
+        "metricsthinking.models",
+        "metricsthinking.renderer",
+        "pathlib"
+      ],
+      "signatures": [
+        "./tests/test_renderer.py::test_renderer_mermaid_syntax(tmp_path: Path) -> Any",
+        "./tests/test_renderer.py::test_renderer_generates_markdown_and_roadmap(tmp_path: Path) -> Any",
+        "./tests/test_renderer.py::test_golden_snapshot_regression() -> Any"
+      ],
+      "symbols": [
+        "test_renderer_mermaid_syntax",
+        "test_renderer_generates_markdown_and_roadmap",
+        "test_golden_snapshot_regression"
+      ]
+    },
+    "tests/test_scorer.py": {
+      "cli_flags": [],
+      "imports": [
+        "metricsthinking.collector",
+        "metricsthinking.models",
+        "metricsthinking.scorer",
+        "pathlib"
+      ],
+      "signatures": [
+        "./tests/test_scorer.py::test_scorer_overall_score_calculation(tmp_path: Path) -> Any"
+      ],
+      "symbols": [
+        "test_scorer_overall_score_calculation"
+      ]
+    },
+    "tests/test_spectral_engine_v4.py": {
+      "cli_flags": [],
+      "imports": [
+        "math",
+        "metricsthinking.fpai.confidence",
+        "metricsthinking.fpai.spectral_engine"
+      ],
+      "signatures": [
+        "./tests/test_spectral_engine_v4.py::test_spectral_vector_orthogonality_and_invariants() -> Any",
+        "./tests/test_spectral_engine_v4.py::test_spectral_vector_decoupled_gain() -> Any",
+        "./tests/test_spectral_engine_v4.py::test_spectral_vector_zero_tokens() -> Any",
+        "./tests/test_spectral_engine_v4.py::test_confidence_envelope() -> Any"
+      ],
+      "symbols": [
+        "test_spectral_vector_orthogonality_and_invariants",
+        "test_spectral_vector_decoupled_gain",
+        "test_spectral_vector_zero_tokens",
+        "test_confidence_envelope"
+      ]
+    },
+    "tests/test_v3_archetypes.py": {
+      "cli_flags": [],
+      "imports": [
+        "metricsthinking.collector",
+        "metricsthinking.engine",
+        "metricsthinking.evaluator",
+        "metricsthinking.models",
+        "metricsthinking.scorer",
+        "pathlib",
+        "pytest",
+        "yaml"
+      ],
+      "signatures": [
+        "./tests/test_v3_archetypes.py::test_profile_structure_and_weights(profile_name) -> Any",
+        "./tests/test_v3_archetypes.py::test_profile_rule_dispatch(profile_name) -> Any",
+        "./tests/test_v3_archetypes.py::test_thinking_seed_v3_detection(tmp_path) -> Any",
+        "./tests/test_v3_archetypes.py::test_universal_evidence_primitives(tmp_path) -> Any",
+        "./tests/test_v3_archetypes.py::test_agent_skill_auto_detection(tmp_path) -> Any",
+        "./tests/test_v3_archetypes.py::test_profile_alias_resolution() -> Any"
+      ],
+      "symbols": [
+        "test_profile_structure_and_weights",
+        "test_profile_rule_dispatch",
+        "test_thinking_seed_v3_detection",
+        "test_universal_evidence_primitives",
+        "test_agent_skill_auto_detection",
+        "test_profile_alias_resolution"
+      ]
+    }
+  },
+  "project": "MetricsThinking",
+  "public_symbols": [
+    "ArchetypeDetectionResult",
+    "ArchetypeDetector",
+    "ArchetypeScore",
+    "AuditCriterion",
+    "AuditScorer",
+    "CanonicalModuleEvaluation",
+    "ContextPruningPlan",
+    "CriteriaEvaluator",
+    "DomainArchetype",
+    "EvidencePrimitiveSummary",
+    "FPAISpectralVector",
+    "InspectionMode",
+    "MaturityBand",
+    "ModuleStatus",
+    "ProjectAuditReport",
+    "ProjectCollector",
+    "ProjectEvidence",
+    "PruningActionItem",
+    "RemediationItem",
+    "ReportRenderer",
+    "SecurityVulnerabilityReport",
+    "SystemsResilienceReport",
+    "apply_pruning_plan",
+    "audit_seed_to_code_drift",
+    "calculate_confidence_envelope",
+    "calculate_shannon_entropy",
+    "calculate_shingling_jaccard",
+    "compute_ast_coupling",
+    "compute_spectral_vector",
+    "evaluate_plan_completion",
+    "extract_plan_metadata",
+    "fast_shannon_entropy",
+    "generate_pruning_plan",
+    "get_active_backend",
+    "get_user_home",
+    "handle_call_tool",
+    "handle_list_tools",
+    "install_antigravity",
+    "install_claude",
+    "install_codex",
+    "install_copilot",
+    "install_cursor",
+    "install_mcp_config",
+    "is_safe_placeholder",
+    "list_available_profiles",
+    "main",
+    "matches_version",
+    "observed_context",
+    "probe_archetype",
+    "probe_project",
+    "rebuild_hnsw_index",
+    "reconcile_active_plans",
+    "resolve_context_attribution",
+    "resolve_profile_name",
+    "rule_fingerprint",
+    "run_ablation_sampling",
+    "run_audit",
+    "run_installer",
+    "run_local_medallion_pipeline",
+    "run_mcp_server",
+    "scan_directory",
+    "scan_file_security",
+    "scan_repository_security",
+    "snapshot",
+    "sync_backlog_queue",
+    "test_ablation_sampling",
+    "test_active_backend_availability",
+    "test_agent_skill_auto_detection",
+    "test_agent_skill_pure_detection",
+    "test_apply_pruning_plan_reversibility",
+    "test_ast_coupling_calculation",
+    "test_ast_coupling_stress_benchmark",
+    "test_cli_main_invocation",
+    "test_collector_anti_fraud_seed_filtering",
+    "test_collector_basic_scan",
+    "test_collector_detects_ci_and_tests",
+    "test_collector_is_read_only_and_honors_ancestor_beacons",
+    "test_confidence_envelope",
+    "test_context_attribution",
+    "test_custom_profile_extensibility",
+    "test_data_platform_archetype_detection",
+    "test_devsecops_archetype_detection",
+    "test_duplicate_estimate_uses_actual_duplicate_content",
+    "test_emerging_domain_fallback",
+    "test_engine_readme_seed_link",
+    "test_engine_run_audit",
+    "test_engine_run_audit_with_prune_and_medallion",
+    "test_evaluate_plan_completion_by_checkboxes",
+    "test_evaluate_plan_completion_by_status",
+    "test_evaluator_default_profile",
+    "test_evaluator_detects_empty_repository",
+    "test_extract_and_update_plan_frontmatter",
+    "test_fpai_governance_yaml_contract",
+    "test_fpai_manifest_and_telemetry_schemas_valid",
+    "test_generated_runtime_has_a_manifest",
+    "test_gitops_archetype_detection",
+    "test_gitops_synthetic_repo_calibration",
+    "test_golden_baseline_regression_snapshot",
+    "test_golden_snapshot_regression",
+    "test_hnsw_index_rebuild_script",
+    "test_incremental_audit_reuses_outputs_without_changing_timestamps",
+    "test_install_antigravity_local",
+    "test_install_claude",
+    "test_install_codex_local",
+    "test_install_copilot",
+    "test_install_cursor",
+    "test_install_mcp_config",
+    "test_invalid_audit_target_is_not_created",
+    "test_llmops_archetype_detection",
+    "test_llmops_synthetic_repo_calibration",
+    "test_local_medallion_pipeline",
+    "test_mcp_server_six_tools",
+    "test_mcp_server_tool_calls",
+    "test_mcp_server_tools",
+    "test_mlops_archetype_detection",
+    "test_mlops_synthetic_repo_calibration",
+    "test_models_instantiation",
+    "test_package_and_mcp_version_sync",
+    "test_pii_detection",
+    "test_prevent_agents_md_false_positive",
+    "test_profile_alias_resolution",
+    "test_profile_rule_dispatch",
+    "test_profile_structure_and_weights",
+    "test_prompt_injection_detection",
+    "test_pruning_plan_generation",
+    "test_pyproject_version_and_deps",
+    "test_reconcile_active_plans_full_workflow",
+    "test_renderer_generates_markdown_and_roadmap",
+    "test_renderer_materializes_four_artifacts",
+    "test_renderer_mermaid_syntax",
+    "test_requirements_hygiene",
+    "test_run_installer_all",
+    "test_rust_crate_structure",
+    "test_scan_directory_and_incremental_cache",
+    "test_scan_repository_security",
+    "test_scorer_overall_score_calculation",
+    "test_scorer_populates_v4_vectors",
+    "test_sdd_archetype_detection",
+    "test_secret_detection_and_safe_placeholder",
+    "test_seed_to_code_drift_detection",
+    "test_self_audit_with_sdd_profile",
+    "test_shannon_entropy_calculation",
+    "test_shingling_jaccard_backend",
+    "test_single_pass_collector_integration",
+    "test_skeleton_directories_removed",
+    "test_spectral_vector_decoupled_gain",
+    "test_spectral_vector_orthogonality_and_invariants",
+    "test_spectral_vector_zero_tokens",
+    "test_sync_backlog_queue",
+    "test_thinking_seed_v3_detection",
+    "test_tree_json_hygiene",
+    "test_universal_evidence_primitives",
+    "test_v4_evaluation_rules_on_current_repo",
+    "test_volumetric_scale_benchmark",
+    "test_web_app_archetype_detection",
+    "update_plan_frontmatter"
+  ],
+  "signatures_1line": [
+    "./scripts/hnsw_index_rebuild.py::rebuild_hnsw_index(index_dir: str, compact: bool=True, dry_run: bool=False) -> dict[str, int]",
+    "./scripts/hnsw_index_rebuild.py::main() -> Any",
+    "./scripts/install_skill.py::get_user_home() -> Path",
+    "./scripts/install_skill.py::install_antigravity(dest_root: Path, is_global: bool=False, dry_run: bool=False) -> list[Path]",
+    "./scripts/install_skill.py::install_codex(dest_root: Path, is_global: bool=False, dry_run: bool=False) -> list[Path]",
+    "./scripts/install_skill.py::install_claude(dest_root: Path, dry_run: bool=False) -> list[Path]",
+    "./scripts/install_skill.py::install_cursor(dest_root: Path, dry_run: bool=False) -> list[Path]",
+    "./scripts/install_skill.py::install_copilot(dest_root: Path, dry_run: bool=False) -> list[Path]",
+    "./scripts/install_skill.py::install_mcp_config(dest_root: Path, dry_run: bool=False) -> list[Path]",
+    "./scripts/install_skill.py::run_installer(target: str='all', dest: str='.', is_global: bool=False, dry_run: bool=False) -> Any",
+    "./scripts/install_skill.py::main() -> Any",
+    "./scripts/run_benchmark.py::main() -> Any",
+    "./skills/v6/metrics/scripts/run.py::matches_version(path) -> Any",
+    "./src/metricsthinking/cli.py::list_available_profiles() -> None",
+    "./src/metricsthinking/cli.py::main() -> Any",
+    "./src/metricsthinking/collector.py::ProjectEvidence(class)",
+    "./src/metricsthinking/collector.py::ProjectCollector(class)",
+    "./src/metricsthinking/detector.py::ArchetypeScore(class)",
+    "./src/metricsthinking/detector.py::ArchetypeDetectionResult(class)",
+    "./src/metricsthinking/detector.py::ArchetypeDetector(class)",
+    "./src/metricsthinking/detector.py::probe_archetype(target_path: str='.', custom_profiles_dir: Path | None=None) -> ArchetypeDetectionResult",
+    "./src/metricsthinking/engine.py::resolve_profile_name(hint_or_name: str | None) -> str",
+    "./src/metricsthinking/engine.py::probe_project(target_path: str='.', custom_profiles_dir: Path | None=None) -> ArchetypeDetectionResult",
+    "./src/metricsthinking/engine.py::run_audit(target_path: str='.', profile_name: str='default', archetype: str | None=None, out_dir: str | None=None, prefix: str='MetricsThinking', quiet: bool=False, prune: bool=False, medallion: bool=False, reconcile_plans: bool=True, full: bool=False) -> tuple[ProjectAuditReport, dict[str, Path]]",
+    "./src/metricsthinking/evaluator.py::CriteriaEvaluator(class)",
+    "./src/metricsthinking/incremental.py::rule_fingerprint(evaluator, function, config, evidence, attribute_cache) -> Any",
+    "./src/metricsthinking/incremental.py::observed_context(evidence) -> Any",
+    "./src/metricsthinking/lifecycle.py::extract_plan_metadata(plan_path: Path) -> dict[str, Any]",
+    "./src/metricsthinking/lifecycle.py::update_plan_frontmatter(plan_path: Path, updates: dict[str, Any]) -> None",
+    "./src/metricsthinking/lifecycle.py::evaluate_plan_completion(plan_path: Path, checkpoint_data: dict[str, Any] | None=None) -> tuple[bool, str]",
+    "./src/metricsthinking/lifecycle.py::sync_backlog_queue(repo_root: Path, archived_plan_ids: list[str]) -> int",
+    "./src/metricsthinking/lifecycle.py::reconcile_active_plans(repo_root: Path | str='.', check_only: bool=False) -> dict[str, Any]",
+    "./src/metricsthinking/mcp_server.py::handle_list_tools() -> list[dict[str, Any]]",
+    "./src/metricsthinking/mcp_server.py::handle_call_tool(name: str, arguments: dict[str, Any]) -> list[dict[str, Any]]",
+    "./src/metricsthinking/mcp_server.py::run_mcp_server() -> Any",
+    "./src/metricsthinking/models.py::DomainArchetype(class)",
+    "./src/metricsthinking/models.py::InspectionMode(class)",
+    "./src/metricsthinking/models.py::EvidencePrimitiveSummary(class)",
+    "./src/metricsthinking/models.py::ModuleStatus(class)",
+    "./src/metricsthinking/models.py::MaturityBand(class)",
+    "./src/metricsthinking/models.py::AuditCriterion(class)",
+    "./src/metricsthinking/models.py::CanonicalModuleEvaluation(class)",
+    "./src/metricsthinking/models.py::RemediationItem(class)",
+    "./src/metricsthinking/models.py::FPAISpectralVector(class)",
+    "./src/metricsthinking/models.py::SecurityVulnerabilityReport(class)",
+    "./src/metricsthinking/models.py::SystemsResilienceReport(class)",
+    "./src/metricsthinking/models.py::PruningActionItem(class)",
+    "./src/metricsthinking/models.py::ContextPruningPlan(class)",
+    "./src/metricsthinking/models.py::ProjectAuditReport(class)",
+    "./src/metricsthinking/renderer.py::ReportRenderer(class)",
+    "./src/metricsthinking/scorer.py::AuditScorer(class)",
+    "./src/metricsthinking/backends/__init__.py::get_active_backend() -> str",
+    "./src/metricsthinking/backends/__init__.py::scan_directory(path, ignore_patterns=None, include_content=True, cache_path=None, persist=False, full=False) -> Any",
+    "./src/metricsthinking/backends/__init__.py::fast_shannon_entropy(data: str) -> float",
+    "./src/metricsthinking/backends/__init__.py::calculate_shingling_jaccard(a: str, b: str, k: int=3) -> float",
+    "./src/metricsthinking/backends/__init__.py::compute_ast_coupling(python_files: dict[str, str]) -> dict[str, Any]",
+    "./src/metricsthinking/backends/python_fallback.py::fast_shannon_entropy(data: str) -> float",
+    "./src/metricsthinking/backends/python_fallback.py::calculate_shingling_jaccard(a: str, b: str, k: int=3) -> float",
+    "./src/metricsthinking/backends/python_fallback.py::scan_directory(path, ignore_patterns=None, include_content=True, cache_path=None, persist=False, full=False) -> Any",
+    "./src/metricsthinking/backends/python_fallback.py::compute_ast_coupling(python_files: dict[str, str]) -> dict[str, Any]",
+    "./src/metricsthinking/fpai/ablation.py::run_ablation_sampling(chunks: list[dict[str, Any]], sample_ratio: float=0.05) -> dict[str, Any]",
+    "./src/metricsthinking/fpai/attribution.py::resolve_context_attribution(query: str, chunks: list[dict[str, Any]]) -> list[dict[str, Any]]",
+    "./src/metricsthinking/fpai/compensation.py::generate_pruning_plan(target_path: str, dead_files: list[str], redundant_files: list[str], structural_files: list[str], file_sizes: dict[str, int]) -> ContextPruningPlan",
+    "./src/metricsthinking/fpai/compensation.py::apply_pruning_plan(plan: ContextPruningPlan, repo_root: str, update_agentignore: bool=True) -> dict[str, Any]",
+    "./src/metricsthinking/fpai/confidence.py::calculate_confidence_envelope(sample_values: list[float], confidence_level: float=0.95) -> dict[str, float | int]",
+    "./src/metricsthinking/fpai/drift_auditor.py::audit_seed_to_code_drift(seed_path: str, repo_files: dict[str, str]) -> dict[str, Any]",
+    "./src/metricsthinking/fpai/gatekeeper.py::calculate_shannon_entropy(data: str) -> float",
+    "./src/metricsthinking/fpai/gatekeeper.py::is_safe_placeholder(text: str) -> bool",
+    "./src/metricsthinking/fpai/gatekeeper.py::scan_file_security(file_path: str, content: str, entropy_threshold: float=4.5) -> dict[str, Any]",
+    "./src/metricsthinking/fpai/gatekeeper.py::scan_repository_security(file_contents: dict[str, str], lockfile_present: bool=True, entropy_threshold: float=4.5, ignore_tests: bool=True) -> SecurityVulnerabilityReport",
+    "./src/metricsthinking/fpai/medallion.py::run_local_medallion_pipeline(raw_telemetry_dir: str='data/raw/telemetry', processed_dir: str='data/processed/telemetry') -> dict[str, Any]",
+    "./src/metricsthinking/fpai/spectral_engine.py::compute_spectral_vector(p_active: float, q_dead: float, q_dup: float, d_structural: float, gain_coefficient: float=1.0) -> FPAISpectralVector",
+    "./tests/test_archetype_detector.py::test_sdd_archetype_detection(tmp_path) -> Any",
+    "./tests/test_archetype_detector.py::test_data_platform_archetype_detection(tmp_path) -> Any",
+    "./tests/test_archetype_detector.py::test_web_app_archetype_detection(tmp_path) -> Any",
+    "./tests/test_archetype_detector.py::test_mlops_archetype_detection(tmp_path) -> Any",
+    "./tests/test_archetype_detector.py::test_llmops_archetype_detection(tmp_path) -> Any",
+    "./tests/test_archetype_detector.py::test_gitops_archetype_detection(tmp_path) -> Any",
+    "./tests/test_archetype_detector.py::test_devsecops_archetype_detection(tmp_path) -> Any",
+    "./tests/test_archetype_detector.py::test_agent_skill_pure_detection(tmp_path) -> Any",
+    "./tests/test_archetype_detector.py::test_prevent_agents_md_false_positive(tmp_path) -> Any",
+    "./tests/test_archetype_detector.py::test_custom_profile_extensibility(tmp_path) -> Any",
+    "./tests/test_archetype_detector.py::test_emerging_domain_fallback(tmp_path) -> Any",
+    "./tests/test_backends_collector_v4.py::test_active_backend_availability() -> Any",
+    "./tests/test_backends_collector_v4.py::test_rust_crate_structure() -> Any",
+    "./tests/test_backends_collector_v4.py::test_scan_directory_and_incremental_cache(tmp_path) -> Any",
+    "./tests/test_backends_collector_v4.py::test_shingling_jaccard_backend() -> Any",
+    "./tests/test_backends_collector_v4.py::test_ast_coupling_calculation() -> Any",
+    "./tests/test_backends_collector_v4.py::test_single_pass_collector_integration() -> Any",
+    "./tests/test_benchmarks_stress.py::test_volumetric_scale_benchmark(tmp_path) -> Any",
+    "./tests/test_benchmarks_stress.py::test_ast_coupling_stress_benchmark() -> Any",
+    "./tests/test_benchmarks_stress.py::test_golden_baseline_regression_snapshot() -> Any",
+    "./tests/test_calibration.py::test_self_audit_with_sdd_profile() -> Any",
+    "./tests/test_calibration.py::test_gitops_synthetic_repo_calibration(tmp_path) -> Any",
+    "./tests/test_calibration.py::test_mlops_synthetic_repo_calibration(tmp_path) -> Any",
+    "./tests/test_calibration.py::test_llmops_synthetic_repo_calibration(tmp_path) -> Any",
+    "./tests/test_cli.py::test_engine_run_audit(tmp_path: Path) -> Any",
+    "./tests/test_cli.py::test_cli_main_invocation(tmp_path: Path, monkeypatch) -> Any",
+    "./tests/test_cli_mcp_renderer_v4.py::test_renderer_materializes_four_artifacts(tmp_path) -> Any",
+    "./tests/test_cli_mcp_renderer_v4.py::test_engine_run_audit_with_prune_and_medallion(tmp_path) -> Any",
+    "./tests/test_cli_mcp_renderer_v4.py::test_mcp_server_six_tools() -> Any",
+    "./tests/test_cli_mcp_renderer_v4.py::test_mcp_server_tool_calls() -> Any",
+    "./tests/test_collector.py::test_collector_basic_scan(tmp_path: Path) -> Any",
+    "./tests/test_collector.py::test_collector_anti_fraud_seed_filtering(tmp_path: Path) -> Any",
+    "./tests/test_collector.py::test_collector_detects_ci_and_tests(tmp_path: Path) -> Any",
+    "./tests/test_drift_compensation_v4.py::test_seed_to_code_drift_detection(tmp_path) -> Any",
+    "./tests/test_drift_compensation_v4.py::test_pruning_plan_generation() -> Any",
+    "./tests/test_drift_compensation_v4.py::test_apply_pruning_plan_reversibility(tmp_path) -> Any",
+    "./tests/test_evaluator.py::test_evaluator_default_profile(tmp_path: Path) -> Any",
+    "./tests/test_evaluator.py::test_evaluator_detects_empty_repository(tmp_path: Path) -> Any",
+    "./tests/test_evaluator_v4.py::test_v4_evaluation_rules_on_current_repo() -> Any",
+    "./tests/test_evaluator_v4.py::test_scorer_populates_v4_vectors() -> Any",
+    "./tests/test_gatekeeper_v4.py::test_shannon_entropy_calculation() -> Any",
+    "./tests/test_gatekeeper_v4.py::test_secret_detection_and_safe_placeholder() -> Any",
+    "./tests/test_gatekeeper_v4.py::test_pii_detection() -> Any",
+    "./tests/test_gatekeeper_v4.py::test_prompt_injection_detection() -> Any",
+    "./tests/test_gatekeeper_v4.py::test_scan_repository_security() -> Any",
+    "./tests/test_gatekeeper_v4.py::test_fpai_governance_yaml_contract() -> Any",
+    "./tests/test_hygiene_v4.py::test_requirements_hygiene() -> Any",
+    "./tests/test_hygiene_v4.py::test_pyproject_version_and_deps() -> Any",
+    "./tests/test_hygiene_v4.py::test_package_and_mcp_version_sync() -> Any",
+    "./tests/test_hygiene_v4.py::test_skeleton_directories_removed() -> Any",
+    "./tests/test_hygiene_v4.py::test_generated_runtime_has_a_manifest() -> Any",
+    "./tests/test_hygiene_v4.py::test_engine_readme_seed_link() -> Any",
+    "./tests/test_hygiene_v4.py::test_tree_json_hygiene() -> Any",
+    "./tests/test_incremental_v6.py::snapshot(root) -> Any",
+    "./tests/test_incremental_v6.py::test_incremental_audit_reuses_outputs_without_changing_timestamps(tmp_path) -> Any",
+    "./tests/test_incremental_v6.py::test_collector_is_read_only_and_honors_ancestor_beacons(tmp_path) -> Any",
+    "./tests/test_incremental_v6.py::test_duplicate_estimate_uses_actual_duplicate_content(tmp_path) -> Any",
+    "./tests/test_incremental_v6.py::test_invalid_audit_target_is_not_created(tmp_path) -> Any",
+    "./tests/test_installer.py::test_install_antigravity_local(tmp_path: Path) -> Any",
+    "./tests/test_installer.py::test_install_codex_local(tmp_path: Path) -> Any",
+    "./tests/test_installer.py::test_install_claude(tmp_path: Path) -> Any",
+    "./tests/test_installer.py::test_install_cursor(tmp_path: Path) -> Any",
+    "./tests/test_installer.py::test_install_copilot(tmp_path: Path) -> Any",
+    "./tests/test_installer.py::test_install_mcp_config(tmp_path: Path) -> Any",
+    "./tests/test_installer.py::test_run_installer_all(tmp_path: Path) -> Any",
+    "./tests/test_installer.py::test_mcp_server_tools(tmp_path: Path) -> Any",
+    "./tests/test_medallion_ablation_v4.py::test_local_medallion_pipeline(tmp_path) -> Any",
+    "./tests/test_medallion_ablation_v4.py::test_ablation_sampling() -> Any",
+    "./tests/test_medallion_ablation_v4.py::test_context_attribution() -> Any",
+    "./tests/test_medallion_ablation_v4.py::test_hnsw_index_rebuild_script(tmp_path) -> Any",
+    "./tests/test_models_schemas_v4.py::test_models_instantiation() -> Any",
+    "./tests/test_models_schemas_v4.py::test_fpai_manifest_and_telemetry_schemas_valid() -> Any",
+    "./tests/test_plan_lifecycle.py::test_extract_and_update_plan_frontmatter(tmp_path) -> Any",
+    "./tests/test_plan_lifecycle.py::test_evaluate_plan_completion_by_status(tmp_path) -> Any",
+    "./tests/test_plan_lifecycle.py::test_evaluate_plan_completion_by_checkboxes(tmp_path) -> Any",
+    "./tests/test_plan_lifecycle.py::test_sync_backlog_queue(tmp_path) -> Any",
+    "./tests/test_plan_lifecycle.py::test_reconcile_active_plans_full_workflow(tmp_path) -> Any",
+    "./tests/test_renderer.py::test_renderer_mermaid_syntax(tmp_path: Path) -> Any",
+    "./tests/test_renderer.py::test_renderer_generates_markdown_and_roadmap(tmp_path: Path) -> Any",
+    "./tests/test_renderer.py::test_golden_snapshot_regression() -> Any",
+    "./tests/test_scorer.py::test_scorer_overall_score_calculation(tmp_path: Path) -> Any",
+    "./tests/test_spectral_engine_v4.py::test_spectral_vector_orthogonality_and_invariants() -> Any",
+    "./tests/test_spectral_engine_v4.py::test_spectral_vector_decoupled_gain() -> Any",
+    "./tests/test_spectral_engine_v4.py::test_spectral_vector_zero_tokens() -> Any",
+    "./tests/test_spectral_engine_v4.py::test_confidence_envelope() -> Any",
+    "./tests/test_v3_archetypes.py::test_profile_structure_and_weights(profile_name) -> Any",
+    "./tests/test_v3_archetypes.py::test_profile_rule_dispatch(profile_name) -> Any",
+    "./tests/test_v3_archetypes.py::test_thinking_seed_v3_detection(tmp_path) -> Any",
+    "./tests/test_v3_archetypes.py::test_universal_evidence_primitives(tmp_path) -> Any",
+    "./tests/test_v3_archetypes.py::test_agent_skill_auto_detection(tmp_path) -> Any",
+    "./tests/test_v3_archetypes.py::test_profile_alias_resolution() -> Any"
+  ],
+  "topology_hash": "799aaf6b3d5614523ee273e18cd7544b1f730a78ab1b0e48028f4879b47149ac",
+  "version": "6.0"
+}

@@ -2,112 +2,112 @@
   "M01:M01-C01": {
     "criterion": {
       "criterion_id": "M01-C01",
-      "evidence_detail": "No se detectó declaración explícita de Problem Statement.",
-      "evidence_path": null,
-      "fulfilled": false,
+      "evidence_detail": "Problem statement formalizado en 'packages/idirectory/01_seed/seed-idirectory-master.md'.",
+      "evidence_path": "packages/idirectory/01_seed/seed-idirectory-master.md",
+      "fulfilled": true,
       "name": "Problem Statement Formalizado",
       "remediation_hint": "Declarar formalmente el Problem Statement en 01_seed o README.md."
     },
-    "fingerprint": "4131f700a4edc707ab7a3a861e40c14e51e236b1525ffd3249bfc9767db94db3"
+    "fingerprint": "3d1380915fe912e34854901596da5c56823e3d2c8e979ac89d47fc533c9b6465"
   },
   "M01:M01-C02": {
     "criterion": {
       "criterion_id": "M01-C02",
-      "evidence_detail": "Límites de alcance y fronteras del sistema identificados en '01_seed/seed-contextcontrol-master.md'.",
-      "evidence_path": "01_seed/seed-contextcontrol-master.md",
+      "evidence_detail": "Límites de alcance y fronteras del sistema identificados en '01_seed/seed-contextkernel-master.md'.",
+      "evidence_path": "01_seed/seed-contextkernel-master.md",
       "fulfilled": true,
       "name": "Límites y Scope Declarados",
       "remediation_hint": "Definir secciones 'In Scope' y 'Out of Scope' explícitas."
     },
-    "fingerprint": "2ab8c7bc92a5cafda678971130bc6fcba5733c38ebcf0c6827d1b8e9fb4614b8"
+    "fingerprint": "1f0bcf56c062dc17520f705fc6b96db5aea4dfdab5501b17647e443f48850a2e"
   },
   "M01:M01-C03": {
     "criterion": {
       "criterion_id": "M01-C03",
-      "evidence_detail": "Casos de uso y perfiles formalizados en 'ICONTEXT_FEDERATION_PROTOCOL_V5.md'.",
-      "evidence_path": "ICONTEXT_FEDERATION_PROTOCOL_V5.md",
+      "evidence_detail": "Perfiles de uso y casos definidos en 'packages/idirectory/01_seed/seed-idirectory-master.md'.",
+      "evidence_path": "packages/idirectory/01_seed/seed-idirectory-master.md",
       "fulfilled": true,
       "name": "Casos de Uso Formales",
       "remediation_hint": "Documentar casos de uso o perfiles de consumidores formales."
     },
-    "fingerprint": "f8d56ac5dfdf55782edf4a4cb56a6fdf0ef0b0717ac2e9f204ef27cfa9b134ee"
+    "fingerprint": "5ccffc5c3090ecd2efaab5ab70a7cd7a827f84fe517004515917052bf62dfaa9"
   },
   "M02:M02-C01": {
     "criterion": {
       "criterion_id": "M02-C01",
-      "evidence_detail": "Modelos declarativos estructurados en esquemas (9 esquemas, e.g. 'schemas/backlog.schema.json').",
-      "evidence_path": "schemas/backlog.schema.json",
+      "evidence_detail": "Modelos declarativos estructurados en esquemas (34 esquemas, e.g. 'packages/idirectory/schemas/backlog.schema.json').",
+      "evidence_path": "packages/idirectory/schemas/backlog.schema.json",
       "fulfilled": true,
       "name": "AST / Modelos Canónicos Desacoplados",
       "remediation_hint": "Crear modelos de datos/AST neutrales en src/metricsthinking/models.py o similar."
     },
-    "fingerprint": "b8f600f0500fb0826963eda965df7733464c99c7f7deffdb441872e064557168"
+    "fingerprint": "3dc409a4c8319ae15ac307940bccedd0b0510e79a15ef004b50e1bc6aaba20c3"
   },
   "M02:M02-C02": {
     "criterion": {
       "criterion_id": "M02-C02",
-      "evidence_detail": "No se encontraron registros formales de decisiones arquitectónicas (ADRs).",
-      "evidence_path": null,
-      "fulfilled": false,
+      "evidence_detail": "Registro formal de decisiones arquitectónicas (ADRs) documentado en 'packages/idirectory/01_seed/seed-idirectory-master.md'.",
+      "evidence_path": "packages/idirectory/01_seed/seed-idirectory-master.md",
+      "fulfilled": true,
       "name": "ADRs Documentados",
       "remediation_hint": "Registrar ADRs formales en docs/notes o docs/architecture."
     },
-    "fingerprint": "f377b9ef8f393c92fa07715a917bc2d44c9147a6a171152aea16e91686ab9f0e"
+    "fingerprint": "e0b1ffc232cb8dd165591dbcd23ec87bef96cf3ad491ed786a2b7538c96f3f40"
   },
   "M02:M02-C03": {
     "criterion": {
       "criterion_id": "M02-C03",
-      "evidence_detail": "Contratos formales de datos / esquemas presentes (9 esquemas, e.g. 'schemas/backlog.schema.json').",
-      "evidence_path": "schemas/backlog.schema.json",
+      "evidence_detail": "Contratos formales de datos / esquemas presentes (34 esquemas, e.g. 'packages/idirectory/schemas/backlog.schema.json').",
+      "evidence_path": "packages/idirectory/schemas/backlog.schema.json",
       "fulfilled": true,
       "name": "Contratos JSON Schema Validados",
       "remediation_hint": "Añadir esquemas JSON Schema o Pydantic validados en schemas/."
     },
-    "fingerprint": "5491ad7e299e4fe2cab626a84c75c5cfa7c7d0b609b3105ea159434c9ce256de"
+    "fingerprint": "096b79dd47000b0de1292ae13756aef981828c5e0f713cb821bed7a9e8d2b953"
   },
   "M02:M02-C04": {
     "criterion": {
       "criterion_id": "M02-C04",
-      "evidence_detail": "Modelado topológico o de grafos presente en 'schemas/tree.schema.json'.",
-      "evidence_path": "schemas/tree.schema.json",
+      "evidence_detail": "Modelado topológico o de grafos presente en 'packages/idirectory/schemas/tree.schema.json'.",
+      "evidence_path": "packages/idirectory/schemas/tree.schema.json",
       "fulfilled": true,
       "name": "Topología y Grafos Formales",
       "remediation_hint": "Implementar análisis de dependencias/grafos en core o .context/tree.json."
     },
-    "fingerprint": "6ce4c9fb93ccbf8f8407143dbca1d3f647285d6a8ba04c2b769ffeee768a1725"
+    "fingerprint": "1c81cf1dce4202d7c1a813fb0d09cf3761df8e271862caa33c420d97332cf582"
   },
   "M03:M03-C01": {
     "criterion": {
       "criterion_id": "M03-C01",
-      "evidence_detail": "No se detectó clasificación de PII ni reglas explícitas de privacidad.",
-      "evidence_path": null,
-      "fulfilled": false,
+      "evidence_detail": "Políticas de privacidad y clasificación PII documentadas en '01_seed/seed-contextkernel-master.md'.",
+      "evidence_path": "01_seed/seed-contextkernel-master.md",
+      "fulfilled": true,
       "name": "Detección y Marcado de PII",
       "remediation_hint": "Integrar etiquetado o enmascarado de PII en los modelos de datos."
     },
-    "fingerprint": "4acc9de4e46a2e563245924bd29da9ec450df4ce23be4c0152a3099521267f89"
+    "fingerprint": "42fca00fa7f0bb1fad5b276aca6abeefd3f3b963a1a8d23ef14486af40b096b1"
   },
   "M03:M03-C02": {
     "criterion": {
       "criterion_id": "M03-C02",
-      "evidence_detail": "No se encontraron reglas cuantitativas de calidad formal (cQS).",
-      "evidence_path": null,
-      "fulfilled": false,
+      "evidence_detail": "Catálogo de criterios y reglas formales de calidad especificados en 'packages/metricsthinking/artifacts/benchmark/FlowAgentic_INFERRED_ROADMAP.md'.",
+      "evidence_path": "packages/metricsthinking/artifacts/benchmark/FlowAgentic_INFERRED_ROADMAP.md",
+      "fulfilled": true,
       "name": "Reglas de Calidad Formales (cQS)",
       "remediation_hint": "Implementar reglas de calidad de datos o código cQS."
     },
-    "fingerprint": "3cb2948cd0a137e4ae612e470124fe857d36fd97376288e951dac82278a325fd"
+    "fingerprint": "c2625c6ef23f82dfc60fe3c572fff88a005d52c4d785187f31b9650f4e035a3c"
   },
   "M03:M03-C03": {
     "criterion": {
       "criterion_id": "M03-C03",
-      "evidence_detail": "Gobernanza contextual iDirectory activa con 28 archivos de contexto (.context.yaml).",
+      "evidence_detail": "Gobernanza contextual iDirectory activa con 142 archivos de contexto (.context.yaml).",
       "evidence_path": "01_seed/.context.yaml",
       "fulfilled": true,
       "name": "Validación Estricta de Esquemas / Context",
       "remediation_hint": "Asegurar validadores estrictos o gobernanza .context.yaml."
     },
-    "fingerprint": "0cec8b3cae6460dcd0edc83ed72c71220f9e6f3e405423aa872b1bb989186121"
+    "fingerprint": "d8adf6dcf90ad430dce6b3ae00e003e3fd5caa68fb4bb5532546d761070b94cd"
   },
   "M04:M04-C01": {
     "criterion": {
@@ -118,7 +118,7 @@
       "name": "Entorno Reproducible",
       "remediation_hint": "Definir pyproject.toml o package.json formal."
     },
-    "fingerprint": "0b3081e4ce5f02c785d7db4477aa6f1537dde84ed86d053fe76345d016da5088"
+    "fingerprint": "01e6d0389e43fac361819beb27cad68ae6175c18fbe26274c739c8af800229f6"
   },
   "M04:M04-C02": {
     "criterion": {
@@ -129,29 +129,29 @@
       "name": "Dependencias Versionadas",
       "remediation_hint": "Fijar versiones estrictas en el manifiesto de dependencias."
     },
-    "fingerprint": "c58f9d4ecbad66808fd8e2403a288ba918c211bc8e7ba411f3dd88f8bbf0e189"
+    "fingerprint": "0be189a37691dbbf69b33fe77d4182aeacd4758f34b545d4f3d68ea4198ea7a0"
   },
   "M04:M04-C03": {
     "criterion": {
       "criterion_id": "M04-C03",
-      "evidence_detail": "Fixtures y datos de prueba disponibles (3 archivos, e.g. 'src/data_generation/.context.yaml').",
-      "evidence_path": "src/data_generation/.context.yaml",
+      "evidence_detail": "Fixtures y datos de prueba disponibles (15 archivos, e.g. 'packages/contextkernel-cli/tests/fixtures/.context.yaml').",
+      "evidence_path": "packages/contextkernel-cli/tests/fixtures/.context.yaml",
       "fulfilled": true,
       "name": "Fixture Enterprise Disponible",
       "remediation_hint": "Proveer fixtures o esquemas de prueba deterministas en tests/fixtures o data/."
     },
-    "fingerprint": "d3dead59639c39de9bd6b86c27dadbbe6f7af9edacdbc2eba70267e077811e12"
+    "fingerprint": "93ef7c79d9ea3ae8d9196307c51bd028b660277336b1dd10606f13651969d739"
   },
   "M05:M05-C01": {
     "criterion": {
       "criterion_id": "M05-C01",
-      "evidence_detail": "Módulos de procesamiento e implementación activos (16 archivos, e.g. '.agents/skills/icontext/SKILL.md').",
+      "evidence_detail": "Módulos de procesamiento e implementación activos (72 archivos, e.g. '.agents/skills/icontext/SKILL.md').",
       "evidence_path": ".agents/skills/icontext/SKILL.md",
       "fulfilled": true,
       "name": "Parsers Funcionales",
       "remediation_hint": "Implementar parsers para lectura de especificaciones de entrada."
     },
-    "fingerprint": "e8dd6539d6a6bb72e65d8147356cd01484f27e54de0ec1ebe4b12fc8d2a944a2"
+    "fingerprint": "501f8a884de0e2c60de416920daf0cbcfeb48aaaa78e2cfd88217fbef757ac21"
   },
   "M05:M05-C02": {
     "criterion": {
@@ -162,7 +162,7 @@
       "name": "Inferencia Operativa de Roles",
       "remediation_hint": "Desarrollar lógica central de inferencia o transformación."
     },
-    "fingerprint": "91002a224ea35eff88996729780a95309a0184e18e9dddf26d982eee759334ea"
+    "fingerprint": "6259ebd9e7aed6039263319753bfa11c40c03318cd6c59a947a597f374946094"
   },
   "M05:M05-C03": {
     "criterion": {
@@ -206,73 +206,73 @@
       "name": "Escritura Atómica y Safe-Encoding",
       "remediation_hint": "Usar atomic write y UTF-8 seguro para serializar artefactos."
     },
-    "fingerprint": "ace3d297ea42e711fb959e0998bb724da5a044fd47747372107e349f8428d90b"
+    "fingerprint": "9931bfe38586fdc73476434e2eda2cc5ae223ca68decb7d1313f5a22b53e8e08"
   },
   "M06:M06-C03": {
     "criterion": {
       "criterion_id": "M06-C03",
-      "evidence_detail": "Soporte de representación multi-formato verificado en el repositorio (.code-workspace, .json, .md, .py, .toml).",
+      "evidence_detail": "Soporte de representación multi-formato verificado en el repositorio (.code-workspace, .json, .jsonl, .md, .mdc).",
       "evidence_path": null,
       "fulfilled": true,
       "name": "Exportación Multi-Formato",
       "remediation_hint": "Ofrecer serialización a JSON, Markdown o diagramas."
     },
-    "fingerprint": "1c872e4cba9437318aa92b3d825f5a14939442c56da3684d4f36f1d59f8dba43"
+    "fingerprint": "80fc57809ac0cc1d6ede7d320d01a3f348cb1ee35f6248813c2bf317e2d3df5f"
   },
   "M06:M06-C04": {
     "criterion": {
       "criterion_id": "M06-C04",
-      "evidence_detail": "Alerta de resiliencia: 1 SPOFs detectados en módulos críticos (icontext).",
+      "evidence_detail": "Grafo de dependencias evaluado: 96 módulos analizados, acoplamiento estable.",
       "evidence_path": null,
-      "fulfilled": false,
+      "fulfilled": true,
       "name": "Resiliencia de Sistemas y Mitigación de SPOF",
       "remediation_hint": "Garantizar acoplamiento desacoplado y ausencia de cuellos de botella únicos."
     },
-    "fingerprint": "2e2d2cac978f5592f747a4b83e2c150bb919f5748e87fd8727919852170c0880"
+    "fingerprint": "fea1098b02752cdd5054fce87d4577c9d1cd2b5617e3d3204ffd8f382a279cd1"
   },
   "M06:M06-C05": {
     "criterion": {
       "criterion_id": "M06-C05",
-      "evidence_detail": "Patrones de tolerancia a fallos verificados: {'timeout': 3, 'retry': 0, 'circuit_breaker': 0, 'fallback': 0} (cobertura=37.5%).",
+      "evidence_detail": "Patrones de tolerancia a fallos verificados: {'timeout': 33, 'retry': 32, 'circuit_breaker': 4, 'fallback': 28} (cobertura=100.0%).",
       "evidence_path": null,
       "fulfilled": true,
       "name": "Patrones de Tolerancia a Fallos y Fallback",
       "remediation_hint": "Implementar fallbacks defensivos y patrones de tolerancia a fallos."
     },
-    "fingerprint": "ad9641e8d842a8a98dd6835402f7c2eb55ca2ef26ff818aa1edc132b6d932ff1"
+    "fingerprint": "7cbb61eb187823ea756ef8a661736a8f06f4c0482003eacba42f056d476b742e"
   },
   "M07:M07-C01": {
     "criterion": {
       "criterion_id": "M07-C01",
-      "evidence_detail": "Suite de pruebas presente (1 archivos de prueba en tests/, e.g. 'tests/test_v6.py').",
-      "evidence_path": "tests/test_v6.py",
+      "evidence_detail": "Suite de pruebas presente (34 archivos de prueba en tests/, e.g. 'packages/contextkernel-cli/tests/test_v6.py').",
+      "evidence_path": "packages/contextkernel-cli/tests/test_v6.py",
       "fulfilled": true,
       "name": "Cobertura y Tasa de Éxito de Pruebas",
       "remediation_hint": "Desarrollar suite de tests en tests/."
     },
-    "fingerprint": "94209ca933a30152be8cb4392d533945d953391b0354f52d4fc1adf8149817b0"
+    "fingerprint": "083df8470628edd39dda6566d16cde131e0d7e71cc548ad29c264172a76396b9"
   },
   "M07:M07-C02": {
     "criterion": {
       "criterion_id": "M07-C02",
-      "evidence_detail": "Pruebas de regresión deterministas (Golden files/Snapshots) identificadas en 'tests/fixtures/golden_baseline_report.json'.",
-      "evidence_path": "tests/fixtures/golden_baseline_report.json",
+      "evidence_detail": "Pruebas de regresión deterministas (Golden files/Snapshots) identificadas en 'packages/ireadme/tests/test_golden_regression.py'.",
+      "evidence_path": "packages/ireadme/tests/test_golden_regression.py",
       "fulfilled": true,
       "name": "Golden Regression Tests Validados",
       "remediation_hint": "Añadir tests de regresión con archivos golden / snapshots esperados."
     },
-    "fingerprint": "e54bf9f27be56ade05a31882f6cf7710bcab51a47b33c47835b65de04cf2dde5"
+    "fingerprint": "0300d640fe2427739a220e1f99dd395fec231ddc059f2920dbd76d403b1bb755"
   },
   "M07:M07-C03": {
     "criterion": {
       "criterion_id": "M07-C03",
-      "evidence_detail": "No se detectaron suites de benchmarking ni pruebas de estrés por tiers.",
-      "evidence_path": null,
-      "fulfilled": false,
+      "evidence_detail": "Suites de estrés o benchmarks masivos verificados en 'packages/metricsthinking/tests/test_benchmarks_stress.py'.",
+      "evidence_path": "packages/metricsthinking/tests/test_benchmarks_stress.py",
+      "fulfilled": true,
       "name": "Suites de Estrés / Benchmark Masivo",
       "remediation_hint": "Implementar benchmarks o stress tests en tests/ o scripts/."
     },
-    "fingerprint": "70e58c4f0bf207f4fe16fb82e2eee51bd9c096dc966ddf741ad26b3b29c23d59"
+    "fingerprint": "c4a8126cb956c2ad3c8297e1787fdf01f29895374a378b44b936535481c76e96"
   },
   "M08:M08-C01": {
     "criterion": {
@@ -283,7 +283,7 @@
       "name": "Proyecciones por Rol (Persona Lenses)",
       "remediation_hint": "Implementar proyecciones adaptadas a diferentes perfiles (lenses/personas)."
     },
-    "fingerprint": "6953811767a477a7e909d47fc66230e0a64cda0cec8495592cbb305068ee131b"
+    "fingerprint": "4b5045082af8294a087620f288d75279a59235608e07f2eb296f6e3727a5d50a"
   },
   "M08:M08-C02": {
     "criterion": {
@@ -305,7 +305,7 @@
       "name": "CLI de Diagnóstico y Exploración",
       "remediation_hint": "Exponer comandos CLI de diagnóstico o auditoría."
     },
-    "fingerprint": "00d8b61d6a0bb9f28a03d2d7146a3f688f10bad8e34a71aafff3e2b6bba99728"
+    "fingerprint": "3d362677d86c3bcc469078c05886a23ebe216181ea4d8e5ec01617d8a3772352"
   },
   "M08:M08-C04": {
     "criterion": {
@@ -316,29 +316,29 @@
       "name": "Seguridad Zero-Tolerance contra Secretos y Credenciales",
       "remediation_hint": "Limpiar cualquier credencial o clave expuesta en el repositorio."
     },
-    "fingerprint": "7ff9f202aa218ce58b7a74c8b7903bb21ac1af38dc19ffd20f5e313737cee27d"
+    "fingerprint": "f2e2ddca5f0374b80ab6578bcb68ca86ff93e4ca84706312db37b2b74551b787"
   },
   "M08:M08-C05": {
     "criterion": {
       "criterion_id": "M08-C05",
-      "evidence_detail": "Superficie de seguridad verificada: Max H=3.92 <= 4.5, inyecciones=0, ataque=10.0.",
+      "evidence_detail": "Superficie de seguridad verificada: Max H=4.06 <= 4.5, inyecciones=0, ataque=20.0.",
       "evidence_path": null,
       "fulfilled": true,
       "name": "Control de Entropía de Shannon e Inyecciones de Prompt",
       "remediation_hint": "Evitar tokens de alta entropía descontrolados e inyecciones de prompt."
     },
-    "fingerprint": "f33eedde92116ba3defc89d1eb7538e937794b445b423e73f5ed4cb28132eb0f"
+    "fingerprint": "1ea2e2968213e597d65f3681547bf2c399b9e0ae4fb27b32ca22ce29d8d442fb"
   },
   "M09:M09-C01": {
     "criterion": {
       "criterion_id": "M09-C01",
-      "evidence_detail": "No se encontró pipeline de CI/CD automatizado (.github/workflows/).",
-      "evidence_path": null,
-      "fulfilled": false,
+      "evidence_detail": "Pipeline de integración continua automatizado verificado en 'packages/idirectory/.github/workflows/ci.yml'.",
+      "evidence_path": "packages/idirectory/.github/workflows/ci.yml",
+      "fulfilled": true,
       "name": "Pipeline CI/CD Automatizado",
       "remediation_hint": "Configurar workflow de CI en .github/workflows/ci.yml."
     },
-    "fingerprint": "c6be4d0d3deee7d04ad2da6a5f2210643558e289424425ae885d4b2570fab83b"
+    "fingerprint": "1cecbe046571876b58d8a1e4501423c875129fe31997d0b85fd2cfed763caedd"
   },
   "M09:M09-C02": {
     "criterion": {
@@ -349,50 +349,50 @@
       "name": "Empaquetado y Distribución Estandarizada",
       "remediation_hint": "Configurar empaquetado buildable o .pre-commit-config.yaml."
     },
-    "fingerprint": "c4cbedd5bce5d4c30ab4450e15e0b82357e61b965397b503fd9aad9df313a4c7"
+    "fingerprint": "c244bf7f0215cd650302a1850d4a2092fed11caeb049785e3dc058da7753cea5"
   },
   "M10:M10-C01": {
     "criterion": {
       "criterion_id": "M10-C01",
-      "evidence_detail": "Memoria técnica formal (ThinkingSeed) identificada en '01_seed/seed-contextcontrol-master.md'.",
-      "evidence_path": "01_seed/seed-contextcontrol-master.md",
+      "evidence_detail": "Memoria técnica formal (ThinkingSeed) identificada en '01_seed/seed-contextkernel-master.md'.",
+      "evidence_path": "01_seed/seed-contextkernel-master.md",
       "fulfilled": true,
       "name": "Documentación Técnica Exhaustiva (Seed)",
       "remediation_hint": "Generar ThinkingSeed Master completo en 01_seed/."
     },
-    "fingerprint": "37d0f24195168d0d31350683d0dbaeeecc10bfa024a8294350bb50093f0b8e75"
+    "fingerprint": "015b267b949507fc4d0affed2022b92c9497a3933d5329417fa9601b3f572547"
   },
   "M10:M10-C02": {
     "criterion": {
       "criterion_id": "M10-C02",
-      "evidence_detail": "Instrucciones operativas y ayuda de comandos documentadas en 'README.md'.",
-      "evidence_path": "README.md",
+      "evidence_detail": "Instrucciones operativas y ayuda de comandos documentadas en 'README_ES.md'.",
+      "evidence_path": "README_ES.md",
       "fulfilled": true,
       "name": "CLI Help Documentado",
       "remediation_hint": "Documentar comandos CLI y opciones en README o help."
     },
-    "fingerprint": "d90b92a15285e3511f0722980006e7fd4d06a6897be2666f023f70251b760350"
+    "fingerprint": "219e2fe004a8945a1b140ea6f638bccb8645f2fd6e8ab1dde98963c0ba69ee73"
   },
   "M10:M10-C03": {
     "criterion": {
       "criterion_id": "M10-C03",
-      "evidence_detail": "Roadmap formal de extensibilidad y capacidades futuras documentado en 'ICONTEXT_FEDERATION_PROTOCOL_V5.md'.",
-      "evidence_path": "ICONTEXT_FEDERATION_PROTOCOL_V5.md",
+      "evidence_detail": "Roadmap formal de extensibilidad y capacidades futuras documentado en 'packages/idirectory/01_seed/seed-idirectory-master.md'.",
+      "evidence_path": "packages/idirectory/01_seed/seed-idirectory-master.md",
       "fulfilled": true,
       "name": "Adaptadores Multicanal / Roadmap",
       "remediation_hint": "Documentar roadmap y adaptadores futuros en el plan maestro."
     },
-    "fingerprint": "3b56cd9a8b202131d2231f7a7065e72b99e887da661ca8a6622769d79574d66b"
+    "fingerprint": "82d5fe975c615d6fbad3900e7d804d1f943fc696039339ecb9a16fa115e86588"
   },
   "M10:M10-C04": {
     "criterion": {
       "criterion_id": "M10-C04",
-      "evidence_detail": "Indicador FPAI estimado (distorsión no medida): PF_spectral=1.000 >= 0.70 (S_spectral=45568, S_linear=45568).",
+      "evidence_detail": "Indicador FPAI estimado (distorsión no medida): PF_spectral=0.978 >= 0.70 (S_spectral=572168, S_linear=679268).",
       "evidence_path": ".agentignore",
       "fulfilled": true,
       "name": "Eficiencia Contextual Espectral FPAI",
       "remediation_hint": "Mantener eficiencia espectral >= 0.70 eliminando tokens muertos o redundantes."
     },
-    "fingerprint": "48914f8037a9440cba6eaffae6b350994a20dc99d0a12017a6dd57851a8be248"
+    "fingerprint": "00aee57ed32901a321f702e60e389acbb775e17de8209e034b12fb37f8054c64"
   }
 }

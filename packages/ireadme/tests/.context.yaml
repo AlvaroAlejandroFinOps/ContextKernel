@@ -1,0 +1,19 @@
+version: 1.0
+directory: tests
+role: test_suites
+purpose: "Suite de verificación formal, regresión golden y validación de invariantes."
+relevance: high
+crawl: true
+read_priority: p1
+seed_reference: optional
+token_density: medium
+instructions: "Ejecutar con pytest. Valida paridad dual, balance KaTeX e invariantes."
+key_files:
+  - "test_invariants.py"
+  - "test_atomic_write.py"
+  - "test_golden_regression.py"
+  - "test_incremental_v6.py"
+imports_from:
+  - "scripts"
+  - "tests/golden"
+  - "src/ireadme"

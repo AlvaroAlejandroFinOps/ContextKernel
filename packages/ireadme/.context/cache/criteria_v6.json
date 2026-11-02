@@ -1,0 +1,398 @@
+{
+  "M01:M01-C01": {
+    "criterion": {
+      "criterion_id": "M01-C01",
+      "evidence_detail": "Frontmatter canónico y metadatos de skill verificados en 'Propuesta Skill.md'.",
+      "evidence_path": "Propuesta Skill.md",
+      "fulfilled": true,
+      "name": "Skill Frontmatter & Problem Statement",
+      "remediation_hint": "Definir frontmatter YAML canónico con 'name' y 'description' en SKILL.md o declarar el propósito en README.md."
+    },
+    "fingerprint": "b2ca19c1aa5edbeeeb01d3e6f5325d99c7055105dd5d6afe4c3001b9362f23a7"
+  },
+  "M01:M01-C02": {
+    "criterion": {
+      "criterion_id": "M01-C02",
+      "evidence_detail": "Límites de alcance y fronteras del sistema identificados en '01_seed/seed-iReadme-master.md'.",
+      "evidence_path": "01_seed/seed-iReadme-master.md",
+      "fulfilled": true,
+      "name": "Límites de Autonomía y Scope del Agente",
+      "remediation_hint": "Declarar cuándo activar la skill y los límites de intervención del asistente en SKILL.md o README.md."
+    },
+    "fingerprint": "7c56358c01c8370381dc7297c38a26398693832d7f8bdf48677b69f4c502c7c6"
+  },
+  "M01:M01-C03": {
+    "criterion": {
+      "criterion_id": "M01-C03",
+      "evidence_detail": "Catálogo de comandos de activación documentado en 'Propuesta Skill.md'.",
+      "evidence_path": "Propuesta Skill.md",
+      "fulfilled": true,
+      "name": "Triggers, Slash Commands & Modos de Uso",
+      "remediation_hint": "Documentar comandos slash y triggers de activación en SKILL.md o docs."
+    },
+    "fingerprint": "9c2b6b94f1c4892b125b1111bb25755a8d37e2d2001efbb8c58860b989ddd1be"
+  },
+  "M02:M02-C01": {
+    "criterion": {
+      "criterion_id": "M02-C01",
+      "evidence_detail": "Estructura modular de skill detectada (10 skills, e.g. 'Propuesta Skill.md').",
+      "evidence_path": "Propuesta Skill.md",
+      "fulfilled": true,
+      "name": "Estructura Modular de la Skill",
+      "remediation_hint": "Estructurar la skill bajo .agents/skills/<nombre>/ o carpetas canónicas 01_seed y scripts/."
+    },
+    "fingerprint": "754dedc71cbe8379dc8fc740248f565d5aa5bc8085fe6217ca029e158d2808b5"
+  },
+  "M02:M02-C02": {
+    "criterion": {
+      "criterion_id": "M02-C02",
+      "evidence_detail": "Especificaciones multi-asistente encontradas (5 archivos, e.g. '.agentignore').",
+      "evidence_path": ".agentignore",
+      "fulfilled": true,
+      "name": "Instrucciones Multi-Provider / Multi-Agente",
+      "remediation_hint": "Añadir archivos de instrucción multi-agente (AGENTS.md, GEMINI.md, CLAUDE.md o .cursorrules)."
+    },
+    "fingerprint": "e5aebb5bfab925bb2a519106a78eb22aec07ce7a44cb71670354286059ed86b5"
+  },
+  "M02:M02-C03": {
+    "criterion": {
+      "criterion_id": "M02-C03",
+      "evidence_detail": "Contratos formales de datos / esquemas presentes (9 esquemas, e.g. 'schemas/backlog.schema.json').",
+      "evidence_path": "schemas/backlog.schema.json",
+      "fulfilled": true,
+      "name": "Contratos de Datos y Esquemas de Contexto",
+      "remediation_hint": "Definir esquemas o contratos de salida en schemas/ o plantillas de datos."
+    },
+    "fingerprint": "927fb29d9b489ccee6c31be02696ac383fc8ae396ee7fa5c7d937e9eb550923d"
+  },
+  "M02:M02-C04": {
+    "criterion": {
+      "criterion_id": "M02-C04",
+      "evidence_detail": "Modelado topológico o de grafos presente en 'docs/architecture/system_topology.md'.",
+      "evidence_path": "docs/architecture/system_topology.md",
+      "fulfilled": true,
+      "name": "Topología de Contexto e iDirectory",
+      "remediation_hint": "Configurar gobernanza .context.yaml o mapa topológico de dependencias."
+    },
+    "fingerprint": "b4dad84ab5e37ec1ecac438a9c84573589d9c2b200322a77cc5cc21cba042f41"
+  },
+  "M03:M03-C01": {
+    "criterion": {
+      "criterion_id": "M03-C01",
+      "evidence_detail": "Guardrails operacionales y políticas anti-alucinación declarados en 'skills/v6/readme/SKILL.md'.",
+      "evidence_path": "skills/v6/readme/SKILL.md",
+      "fulfilled": true,
+      "name": "Guardrails Operacionales & Anti-Alucinación",
+      "remediation_hint": "Establecer guardrails estrictos y directivas de no-alucinación en SKILL.md o AGENTS.md."
+    },
+    "fingerprint": "631b5e977691eca307fb35a65abd1dd27638a0f6439fa95892684768f03f3696"
+  },
+  "M03:M03-C02": {
+    "criterion": {
+      "criterion_id": "M03-C02",
+      "evidence_detail": "Políticas de privacidad y clasificación PII documentadas en '01_seed/seed-iReadme-master.md'.",
+      "evidence_path": "01_seed/seed-iReadme-master.md",
+      "fulfilled": true,
+      "name": "Políticas de Privacidad y Manejo de PII",
+      "remediation_hint": "Documentar políticas de seguridad de credenciales y no-divulgación de datos sensibles."
+    },
+    "fingerprint": "04ddfa1ee93eebb0619dfa247b592470409c6bef2ad3ec93bb2110a4996e95ba"
+  },
+  "M03:M03-C03": {
+    "criterion": {
+      "criterion_id": "M03-C03",
+      "evidence_detail": "Gobernanza contextual iDirectory activa con 33 archivos de contexto (.context.yaml).",
+      "evidence_path": "01_seed/.context.yaml",
+      "fulfilled": true,
+      "name": "Validación Estricta de Contexto",
+      "remediation_hint": "Asegurar presencia de archivos de gobierno de contexto (.context.yaml)."
+    },
+    "fingerprint": "c476efaa39182519eb09cccef10e99367e6930c032615ab213e0ba612cac45d9"
+  },
+  "M04:M04-C01": {
+    "criterion": {
+      "criterion_id": "M04-C01",
+      "evidence_detail": "Script de instalación y despliegue portable verificado en 'scripts/install_skill.py'.",
+      "evidence_path": "scripts/install_skill.py",
+      "fulfilled": true,
+      "name": "Script de Instalación Portable",
+      "remediation_hint": "Proveer script de instalación y distribución en scripts/install_skills.py."
+    },
+    "fingerprint": "12245c0edee83f03e3e678473f40df7246bcff9453c0b933b2de38b35d2f13a8"
+  },
+  "M04:M04-C02": {
+    "criterion": {
+      "criterion_id": "M04-C02",
+      "evidence_detail": "Manifiesto de empaquetado y entorno reproducible verificado en 'pyproject.toml'.",
+      "evidence_path": "pyproject.toml",
+      "fulfilled": true,
+      "name": "Entorno de Ejecución Reproducible",
+      "remediation_hint": "Definir pyproject.toml, requirements.txt o dependencias en scripts."
+    },
+    "fingerprint": "6cac91f1206de756a8756464615cc93dc766432628947d35fbf886de55c67701"
+  },
+  "M04:M04-C03": {
+    "criterion": {
+      "criterion_id": "M04-C03",
+      "evidence_detail": "Plantillas maestras de prompt/contexto detectadas (2 archivos, e.g. '01_seed/seed-iReadme-master.md').",
+      "evidence_path": "01_seed/seed-iReadme-master.md",
+      "fulfilled": true,
+      "name": "Plantillas Maestras / Golden Fixtures",
+      "remediation_hint": "Proveer plantillas maestras completas en la raíz, prompts/ o templates/."
+    },
+    "fingerprint": "7658d1f0cbfae10634c99f83a18a0d322b9a5afa736d9ef4df9dc50c52d748e5"
+  },
+  "M05:M05-C01": {
+    "criterion": {
+      "criterion_id": "M05-C01",
+      "evidence_detail": "Plantillas de prompt exhaustivas y directivas estructuradas verificadas en 'Propuesta Skill.md'.",
+      "evidence_path": "Propuesta Skill.md",
+      "fulfilled": true,
+      "name": "Plantillas de Prompt Exhaustivas y Completas",
+      "remediation_hint": "Completar todas las secciones de plantillas de prompts e instrucciones del agente."
+    },
+    "fingerprint": "1e8ba6baa9ef6f221bccdf95003f03dea1ca888009ac5161434bf581f77b1466"
+  },
+  "M05:M05-C02": {
+    "criterion": {
+      "criterion_id": "M05-C02",
+      "evidence_detail": "Motor de extracción y lógica de soporte verificado en 'src/ireadme/generator.py'.",
+      "evidence_path": "src/ireadme/generator.py",
+      "fulfilled": true,
+      "name": "Motor de Extracción y Análisis de ADN",
+      "remediation_hint": "Implementar lógica de extracción o scripts de soporte en scripts/ o Tools/."
+    },
+    "fingerprint": "7fd3ad68e394177ee854c14b43867cf8a01e3fd7835c31fa5cad73bccaead71a"
+  },
+  "M05:M05-C03": {
+    "criterion": {
+      "criterion_id": "M05-C03",
+      "evidence_detail": "Formateadores y estructuración canónica de metadatos comprobados en '01_seed/seed-iReadme-master.md'.",
+      "evidence_path": "01_seed/seed-iReadme-master.md",
+      "fulfilled": true,
+      "name": "Estructuración y Formateo Canónico",
+      "remediation_hint": "Asegurar formateadores y resolutores de metadatos en el motor."
+    },
+    "fingerprint": "624dd8ba13a55feb1bc8cbb84a6247876d37130a80f114098fba097e2ffdac4e"
+  },
+  "M05:M05-C04": {
+    "criterion": {
+      "criterion_id": "M05-C04",
+      "evidence_detail": "Capacidad de emisión de artefactos de contexto y memoria técnica verificada en '01_seed/seed-iReadme-master.md'.",
+      "evidence_path": "01_seed/seed-iReadme-master.md",
+      "fulfilled": true,
+      "name": "Generación de Artefactos de Salida",
+      "remediation_hint": "Verificar capacidad de emisión de artefactos de contexto y memoria técnica."
+    },
+    "fingerprint": "c5dc3b64a2795f653c73c805ec63cd78811d5da786aaefa1e4c8fef73c705555"
+  },
+  "M06:M06-C01": {
+    "criterion": {
+      "criterion_id": "M06-C01",
+      "evidence_detail": "Especificaciones multi-asistente encontradas (5 archivos, e.g. '.agentignore').",
+      "evidence_path": ".agentignore",
+      "fulfilled": true,
+      "name": "Compatibilidad Cruzada de Plataformas",
+      "remediation_hint": "Asegurar compatibilidad cruzada mediante AGENTS.md y configuraciones multi-asistente."
+    },
+    "fingerprint": "f20a085f1625e7a870522a9b11d8ca85735f79895539d1f2305522ead7fe1009"
+  },
+  "M06:M06-C02": {
+    "criterion": {
+      "criterion_id": "M06-C02",
+      "evidence_detail": "Herramientas de soporte y utilidades identificadas (4 archivos, e.g. 'scripts/.context.yaml').",
+      "evidence_path": "scripts/.context.yaml",
+      "fulfilled": true,
+      "name": "Integración de Herramientas y Scripts",
+      "remediation_hint": "Incluir herramientas operacionales o scripts de utilidad."
+    },
+    "fingerprint": "6609ca00735e8e1e7f0809887ed401ffa8e8d109769eeba66dc0e8d59cf59c6d"
+  },
+  "M06:M06-C03": {
+    "criterion": {
+      "criterion_id": "M06-C03",
+      "evidence_detail": "Manejo seguro de codificación UTF-8 / serialización protegida en 'src/ireadme/generator.py'.",
+      "evidence_path": "src/ireadme/generator.py",
+      "fulfilled": true,
+      "name": "Serialización y Manejo Seguro UTF-8",
+      "remediation_hint": "Asegurar lectura y escritura UTF-8 segura en scripts y plantillas."
+    },
+    "fingerprint": "6ed91e3e899094978b00b468fccc4a25aad528a04c9e60d51c0bd6eb88ecb0f3"
+  },
+  "M06:M06-C04": {
+    "criterion": {
+      "criterion_id": "M06-C04",
+      "evidence_detail": "Grafo de dependencias evaluado: 11 módulos analizados, acoplamiento estable.",
+      "evidence_path": null,
+      "fulfilled": true,
+      "name": "Resiliencia de Sistemas y Mitigación de SPOF",
+      "remediation_hint": "Garantizar acoplamiento desacoplado y ausencia de cuellos de botella únicos."
+    },
+    "fingerprint": "3896aeea127a308a5f7b9a3aaf6604304884a6909170f60590c15522c60fe2c1"
+  },
+  "M06:M06-C05": {
+    "criterion": {
+      "criterion_id": "M06-C05",
+      "evidence_detail": "Patrones de tolerancia a fallos verificados: {'timeout': 0, 'retry': 1, 'circuit_breaker': 0, 'fallback': 0} (cobertura=9.1%).",
+      "evidence_path": null,
+      "fulfilled": true,
+      "name": "Patrones de Tolerancia a Fallos y Fallback",
+      "remediation_hint": "Implementar fallbacks defensivos y patrones de tolerancia a fallos."
+    },
+    "fingerprint": "efdbed46ceec049d6877f92f05038bbf9f691b0eb458fa1446395bd364ab252c"
+  },
+  "M07:M07-C01": {
+    "criterion": {
+      "criterion_id": "M07-C01",
+      "evidence_detail": "Suite de validación y test script verificado en 'tests/__init__.py'.",
+      "evidence_path": "tests/__init__.py",
+      "fulfilled": true,
+      "name": "Scripts de Prueba y Validación Funcional",
+      "remediation_hint": "Añadir scripts de prueba o verificación funcional de la skill."
+    },
+    "fingerprint": "e3d860c39d0b7d53ea130d1cb7e0082878af3d7eef5681f0bcfda71c68237a54"
+  },
+  "M07:M07-C02": {
+    "criterion": {
+      "criterion_id": "M07-C02",
+      "evidence_detail": "Reporte de benchmark y cobertura documentado en 'artifacts/benchmark_coverage_report.md'.",
+      "evidence_path": "artifacts/benchmark_coverage_report.md",
+      "fulfilled": true,
+      "name": "Reporte de Benchmarks y Cobertura",
+      "remediation_hint": "Generar reporte de benchmark de cobertura en artifacts/."
+    },
+    "fingerprint": "80842e0abfb30bb99490a959233b03b393f8b03dd7561b106b8f64a2ca46df25"
+  },
+  "M07:M07-C03": {
+    "criterion": {
+      "criterion_id": "M07-C03",
+      "evidence_detail": "Directivas de rigor técnico y verificación estricta comprobadas en 'Propuesta Skill.md'.",
+      "evidence_path": "Propuesta Skill.md",
+      "fulfilled": true,
+      "name": "Directivas Antifraude y Rigor Técnico",
+      "remediation_hint": "Revisar instrucciones para asegurar rigor técnico y ausencia de ambigüedades."
+    },
+    "fingerprint": "5d2230a3df8673ec000cce541ca8d53c3d29812b30be57d4c15616794fa5ffed"
+  },
+  "M08:M08-C01": {
+    "criterion": {
+      "criterion_id": "M08-C01",
+      "evidence_detail": "Documentación y guía de usuario presentes (2 archivos, e.g. 'README.md').",
+      "evidence_path": "README.md",
+      "fulfilled": true,
+      "name": "Guía de Usuario y Documentación Formal",
+      "remediation_hint": "Completar README.md y README_ES.md con guía de usuario y ejemplos de ejecución."
+    },
+    "fingerprint": "5b5828843b0521a1697cc4760320936578740c0803b2dd215e978c51e6c95c4a"
+  },
+  "M08:M08-C02": {
+    "criterion": {
+      "criterion_id": "M08-C02",
+      "evidence_detail": "Catálogo de comandos de activación documentado en 'Propuesta Skill.md'.",
+      "evidence_path": "Propuesta Skill.md",
+      "fulfilled": true,
+      "name": "Catálogo de Comandos y Ejemplos de Invocación",
+      "remediation_hint": "Documentar ejemplos de invocación interactiva de la skill."
+    },
+    "fingerprint": "8fff7d1d5bdb68b0f6e6970763bb403a10f282fd7b2486eea04bde8eb9b45207"
+  },
+  "M08:M08-C03": {
+    "criterion": {
+      "criterion_id": "M08-C03",
+      "evidence_detail": "Diagramas visuales y recursos gráficos detectados (1 imágenes, e.g. 'docs/architecture/topology.svg').",
+      "evidence_path": "docs/architecture/topology.svg",
+      "fulfilled": true,
+      "name": "Diagramas Visuales y Topología",
+      "remediation_hint": "Incluir diagramas de arquitectura en la documentación o carpeta Tools/."
+    },
+    "fingerprint": "03b4da601694d83e14a546f7f9bce98a00ea7a3618d052cee098cd4bbeaabcaa"
+  },
+  "M08:M08-C04": {
+    "criterion": {
+      "criterion_id": "M08-C04",
+      "evidence_detail": "Zero-Tolerance verificado: Ninguna credencial ni clave activa expuesta en el repositorio.",
+      "evidence_path": ".agentignore",
+      "fulfilled": true,
+      "name": "Seguridad Zero-Tolerance contra Secretos y Credenciales",
+      "remediation_hint": "Limpiar cualquier credencial o clave expuesta en el repositorio."
+    },
+    "fingerprint": "c8d87dc88f18f39585a79cdf019a9e07ee02b16e0e5631fba75e848a082e9544"
+  },
+  "M08:M08-C05": {
+    "criterion": {
+      "criterion_id": "M08-C05",
+      "evidence_detail": "Superficie de seguridad verificada: Max H=3.89 <= 4.5, inyecciones=0, ataque=10.0.",
+      "evidence_path": null,
+      "fulfilled": true,
+      "name": "Control de Entropía de Shannon e Inyecciones de Prompt",
+      "remediation_hint": "Evitar tokens de alta entropía descontrolados e inyecciones de prompt."
+    },
+    "fingerprint": "bc1622947445e74e6d92b08077b316a98e46fe2681465a740ff6b8389e059a2f"
+  },
+  "M09:M09-C01": {
+    "criterion": {
+      "criterion_id": "M09-C01",
+      "evidence_detail": "Automatización de sincronización multi-entorno soportada en 'scripts/install_skill.py'.",
+      "evidence_path": "scripts/install_skill.py",
+      "fulfilled": true,
+      "name": "Sincronización Automatizada de Skills",
+      "remediation_hint": "Implementar comando de sincronización e instalación multi-entorno."
+    },
+    "fingerprint": "fee6bc0384f6eb5f8d6b15bf40f4f4fe136e67df5c344ff6242206d01a68adb0"
+  },
+  "M09:M09-C02": {
+    "criterion": {
+      "criterion_id": "M09-C02",
+      "evidence_detail": "Archivos de control de empaquetado y distribución verificados (3 archivos, e.g. '.agentignore').",
+      "evidence_path": ".agentignore",
+      "fulfilled": true,
+      "name": "Empaquetado Limpio y Control de Distribución",
+      "remediation_hint": "Incluir .agentignore, .gitignore y LICENSE para distribución limpia."
+    },
+    "fingerprint": "024cb4131ec119c85dc60aa07f015995cf1893a91d1de6b4775f2e4e4675f961"
+  },
+  "M10:M10-C01": {
+    "criterion": {
+      "criterion_id": "M10-C01",
+      "evidence_detail": "Memoria técnica formal (ThinkingSeed) identificada en '01_seed/seed-iReadme-master.md'.",
+      "evidence_path": "01_seed/seed-iReadme-master.md",
+      "fulfilled": true,
+      "name": "Memoria Técnica (ThinkingSeed Propio)",
+      "remediation_hint": "Generar o actualizar el ThinkingSeed en 01_seed/."
+    },
+    "fingerprint": "8af42f311da68153050b5be4a6fb43f05a74a0c78008f8df36f21516a6691a40"
+  },
+  "M10:M10-C02": {
+    "criterion": {
+      "criterion_id": "M10-C02",
+      "evidence_detail": "Instrucciones operativas y ayuda de comandos documentadas en '01_seed/seed-iReadme-master.md'.",
+      "evidence_path": "01_seed/seed-iReadme-master.md",
+      "fulfilled": true,
+      "name": "Referencia de Comandos y Ayuda Rápida",
+      "remediation_hint": "Incluir cheatsheet o referencia rápida en la documentación."
+    },
+    "fingerprint": "d2e0186d7666a7c0daccb73743c70d6c1e4782f38fccb6715ee334de1fffc5d7"
+  },
+  "M10:M10-C03": {
+    "criterion": {
+      "criterion_id": "M10-C03",
+      "evidence_detail": "Roadmap formal de extensibilidad y capacidades futuras documentado en 'artifacts/MetricsThinking.md'.",
+      "evidence_path": "artifacts/MetricsThinking.md",
+      "fulfilled": true,
+      "name": "Roadmap Operacional y Nuevos Asistentes",
+      "remediation_hint": "Definir roadmap de evolución futura e integración con nuevos modelos de IA."
+    },
+    "fingerprint": "6e6236970e43ec9b2f611efb16678e35756dcbea5d23f164a80b509b187fcbb3"
+  },
+  "M10:M10-C04": {
+    "criterion": {
+      "criterion_id": "M10-C04",
+      "evidence_detail": "Indicador FPAI estimado (distorsión no medida): PF_spectral=1.000 >= 0.70 (S_spectral=65623, S_linear=65623).",
+      "evidence_path": ".agentignore",
+      "fulfilled": true,
+      "name": "Eficiencia Contextual Espectral FPAI",
+      "remediation_hint": "Mantener eficiencia espectral >= 0.70 eliminando tokens muertos o redundantes."
+    },
+    "fingerprint": "c06532f4dded30be964c9758fdef132336bc90cdf1cc3bded689c77e5dc02299"
+  }
+}

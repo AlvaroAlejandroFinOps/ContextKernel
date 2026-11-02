@@ -1,0 +1,11 @@
+version: 1.0
+directory: packages
+role: namespace
+purpose: Contenedor modular de los componentes aislados de ContextKernel.
+relevance: high
+crawl: true
+read_priority: p1
+seed_reference: optional
+tier1_preload: false
+token_density: sparse
+instructions: "Usar map --slice o el context pack del subpaquete objetivo."

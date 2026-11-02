@@ -1,0 +1,2252 @@
+{
+  "analyzer_version": "6.0.0:3",
+  "files": {
+    ".agentignore": {
+      "sha256": "b0e831c3eb81b4b69715cbde1cd6024230ec021a9585999f05588debb7fb682f",
+      "size": 435,
+      "stat": [
+        435,
+        1793579141110685500
+      ]
+    },
+    ".context.yaml": {
+      "sha256": "e7dd0692338189d681daa3186c4d3e41dd8fe6f94988f9e230f2e419edfc04d1",
+      "size": 307,
+      "stat": [
+        307,
+        1793577782870195400
+      ]
+    },
+    ".cursor/rules/metrics.mdc": {
+      "sha256": "c237c43a43ee2205dc954aa05745d665893035fc1b3c6825cbcb3cefea41daa5",
+      "size": 1785,
+      "stat": [
+        1785,
+        1792676683803671200
+      ]
+    },
+    ".github/copilot-instructions.md": {
+      "sha256": "b27a7eaafd5f7fc19f230077655a5e271b94030b40181466a72fe0decb4de0b3",
+      "size": 1398,
+      "stat": [
+        1398,
+        1793469271344156700
+      ]
+    },
+    ".github/workflows/ci.yml": {
+      "sha256": "df80091c2c47d54670c9226a7bdd971c7a6937ef2a31ef35b1a1a62637fc1e77",
+      "size": 901,
+      "stat": [
+        901,
+        1792610063747816900
+      ]
+    },
+    ".gitignore": {
+      "sha256": "7f45c845859fade830231075c5662385360aed84a207cd1f4f3ec96ca461d1f1",
+      "size": 312,
+      "stat": [
+        312,
+        1793544408154392500
+      ]
+    },
+    "01_seed/.context.yaml": {
+      "sha256": "872a8461f6cc90373f0553baf10bf0e4ef8bc7c7dc433079a4c780673e43d939",
+      "size": 431,
+      "stat": [
+        431,
+        1793487794923681500
+      ]
+    },
+    "01_seed/seed-metricsthinking-master.md": {
+      "sha256": "c8f0727f8d3f4c53fbaa92beb2666efbd33a3cedca87fd9b08bb4759ef223b8d",
+      "size": 45045,
+      "stat": [
+        45045,
+        1793485141760464900
+      ]
+    },
+    "02_foundation/.context.yaml": {
+      "sha256": "2637c17b145539cd43d629c4285f8085395e25a4f5b7b935f8c01060750ee3e1",
+      "size": 344,
+      "stat": [
+        344,
+        1793233028083553400
+      ]
+    },
+    "02_foundation/engine/.context.yaml": {
+      "sha256": "91d2b15b6ce915671565770cce1d0ea73fb39f540390bdfe9de79cef971ea59d",
+      "size": 404,
+      "stat": [
+        404,
+        1793487794932138300
+      ]
+    },
+    "02_foundation/engine/engine_readme.md": {
+      "sha256": "63432c780727e85932080ef4c206459b263d2be0026ac2243e105ed12502b896",
+      "size": 3723,
+      "stat": [
+        3723,
+        1792606034744127900
+      ]
+    },
+    "03_research/.context.yaml": {
+      "sha256": "94310235703d158e92b81d1c8cde14116b192c4cad4d8b6b6c4e36840a9c51a5",
+      "size": 340,
+      "stat": [
+        340,
+        1793233028093684300
+      ]
+    },
+    "03_research/prompts/.context.yaml": {
+      "sha256": "db006f937bff731d5c030613c1f6b0f47f199d8c1b8a2af7fc56cc4cbdd17c65",
+      "size": 350,
+      "stat": [
+        350,
+        1793487794944829300
+      ]
+    },
+    "AGENTS.md": {
+      "sha256": "3f87f314b1efea20c257ee9a4642f83bbc1280db7226229efedac81b05adae58",
+      "size": 1311,
+      "stat": [
+        1311,
+        1793473131732262700
+      ]
+    },
+    "CLAUDE.md": {
+      "sha256": "587ae2d5fecab65c8cd034a9c711ba9b669a7bc288532b4a3ec3e899a31a3224",
+      "size": 3083,
+      "stat": [
+        3083,
+        1793469259357439200
+      ]
+    },
+    "GEMINI.md": {
+      "sha256": "eeb6db99d76a4959495c02353e1e89d9981bf945d26a6bcc674b850db716feea",
+      "size": 240,
+      "stat": [
+        240,
+        1793473131736252400
+      ]
+    },
+    "README.md": {
+      "semantic_sha256": "0bd332feb5fb0ea997c110480df096063caf8521dad0e906ddbccf995c5c6046",
+      "sha256": "d98ae55a5ab39e10556055170634d7b7c6b66136b98d92048100e21fba9c6379",
+      "size": 10973,
+      "stat": [
+        10973,
+        1793486240408576300
+      ]
+    },
+    "README_ES.md": {
+      "semantic_sha256": "9bcc1aa3666ea662df4cfefe75782bc78a6326b1bf1c37c0e969070059b13202",
+      "sha256": "96033cfd2f2c7493d05d5bddc26bcf09633f6940acf336527e7a788a41938774",
+      "size": 11435,
+      "stat": [
+        11435,
+        1793486240413903000
+      ]
+    },
+    "artifacts/.context.yaml": {
+      "sha256": "429d77ed7c25a3487d1123da8a3e41d5d191d9da88c30d9d00c0c9d6641a4499",
+      "size": 336,
+      "stat": [
+        336,
+        1793233028104085600
+      ]
+    },
+    "artifacts/benchmark_coverage_report.json": {
+      "sha256": "66b5745a00baaee3a9544f868e4076327969d4ab4b41e02d49daae8c0ac8eebe",
+      "size": 281,
+      "stat": [
+        281,
+        1793579127727372700
+      ]
+    },
+    "artifacts/benchmark_seed_coverage.md": {
+      "sha256": "5c1ff1d304d3e7f82f4a43fad3541389114cd5035cd6bc167fdf58f0ad6efc14",
+      "size": 4036,
+      "stat": [
+        4036,
+        1793294747029188000
+      ]
+    },
+    "artifacts/plans/.context.yaml": {
+      "sha256": "0f0ecf4a001b63bd3d55f61920b562dec2bfe3f76405b6c72cb82415da2144db",
+      "size": 348,
+      "stat": [
+        348,
+        1793233028179302300
+      ]
+    },
+    "artifacts/plans/active/.context.yaml": {
+      "sha256": "e7f8d4e12facdd212311da5a9cce3fd0e729ace62c429524444fa026295ca982",
+      "size": 380,
+      "stat": [
+        380,
+        1793487794957353600
+      ]
+    },
+    "artifacts/plans/active/implementation_plan.md": {
+      "sha256": "a485b7e07189b8eb3b0ea0e8ee99ea56f45e1dd4f8648e0e4a3a108c721bbb6d",
+      "size": 101856,
+      "stat": [
+        101856,
+        1792611983557370400
+      ]
+    },
+    "config/.context.yaml": {
+      "sha256": "f333894f1692daa265a80998d463f4418c8f8156cb5af75102134fc47bdf2951",
+      "size": 377,
+      "stat": [
+        377,
+        1793487795016780800
+      ]
+    },
+    "config/context_policy.json": {
+      "sha256": "c441eee0299ab2d9ac75700eecee5d8a8fce57768a1f7896afb076d2e3b5499d",
+      "size": 3085,
+      "stat": [
+        3085,
+        1793477321782243900
+      ]
+    },
+    "config/fpai_governance.yaml": {
+      "sha256": "455d75d178cb8b696519c6e87721f8eca81cfe8a4b20b939edc10f93e7334d07",
+      "size": 727,
+      "stat": [
+        727,
+        1792608024718677100
+      ]
+    },
+    "config/profiles/.context.yaml": {
+      "sha256": "db13e688939175790c8e38b0f4a2efc5f942378cf6a225b98042ea72b24293bd",
+      "size": 289,
+      "stat": [
+        289,
+        1793233028191469200
+      ]
+    },
+    "config/profiles/agent-skill.yaml": {
+      "sha256": "e4321b62c851c0e8e16a2c7053cc91d2da10e65ed9924f65147d50e21c7cf87b",
+      "size": 12745,
+      "stat": [
+        12745,
+        1792608899155003200
+      ]
+    },
+    "config/profiles/chaos-eng.yaml": {
+      "sha256": "0e0eb6a4230aa12b89d6da9a4ed6f7c7f5d6fc9844b9d4307d8c2edbb167bfad",
+      "size": 11936,
+      "stat": [
+        11936,
+        1790602890991326600
+      ]
+    },
+    "config/profiles/data-platform.yaml": {
+      "sha256": "2ed1d851c67b86e3d7de67e07aa375396a824766192561a678bc0c38fbc3e901",
+      "size": 10340,
+      "stat": [
+        10340,
+        1790099895440553900
+      ]
+    },
+    "config/profiles/dataops.yaml": {
+      "sha256": "434da96d75470a05b4aa9dd43e74acd54e2e80d31b77944ff3815356fddb92d1",
+      "size": 11180,
+      "stat": [
+        11180,
+        1790602786130477800
+      ]
+    },
+    "config/profiles/default.yaml": {
+      "sha256": "eab3eff7b672be4a0052c2c7337eb3c6fa6e94aacd46d2501b7c42efa0c4c43d",
+      "size": 11638,
+      "stat": [
+        11638,
+        1792608899042737900
+      ]
+    },
+    "config/profiles/devsecops.yaml": {
+      "sha256": "f6190825f0e989989b2641d5ead4e81bd9fa6f5407793b120c12fa0044d77a77",
+      "size": 11611,
+      "stat": [
+        11611,
+        1790602844322875000
+      ]
+    },
+    "config/profiles/dual-track.yaml": {
+      "sha256": "0bd7f4cbc969b85775223a2020dff5636716af7404771d20151279e19e6ea8cb",
+      "size": 11567,
+      "stat": [
+        11567,
+        1790602860273842300
+      ]
+    },
+    "config/profiles/gitops.yaml": {
+      "sha256": "125782bcaf3c5fd182708ef4ed733abe3861c1778d218f85f49e9fe50036d8d6",
+      "size": 11273,
+      "stat": [
+        11273,
+        1790602812636155900
+      ]
+    },
+    "config/profiles/llmops.yaml": {
+      "sha256": "e3b444d0f83e64a0af7054e2b7833b47f8979e330151be1629908bf801dfe292",
+      "size": 11269,
+      "stat": [
+        11269,
+        1790602771381579300
+      ]
+    },
+    "config/profiles/mlops.yaml": {
+      "sha256": "539dd6f6a8ff40ed412614d98be85246221d0983b281d54fe1452eac3664d1a9",
+      "size": 11056,
+      "stat": [
+        11056,
+        1790602754423735100
+      ]
+    },
+    "config/profiles/platform-eng.yaml": {
+      "sha256": "b8b3289adcdf1d0a7f82389383bfc990136255a78604bf3dc2d432e1e8215777",
+      "size": 11404,
+      "stat": [
+        11404,
+        1790602829429311000
+      ]
+    },
+    "config/profiles/sdd.yaml": {
+      "sha256": "e7477f2f8bb2a42f23e4e4d0efc8afdb99dcf1af0bb80ffbbe4402e089cebdf7",
+      "size": 12407,
+      "stat": [
+        12407,
+        1790602907369926800
+      ]
+    },
+    "config/profiles/team-topologies.yaml": {
+      "sha256": "5b12b056fc457b71354ad333a67e246fd81c71e3f1d44fe79a521ac3e52a6401",
+      "size": 11741,
+      "stat": [
+        11741,
+        1790602875863894700
+      ]
+    },
+    "config/profiles/web-app.yaml": {
+      "sha256": "68a62ba3cddafdeddffc0a453775687d14026416b2470879096c88d64efd69e1",
+      "size": 10893,
+      "stat": [
+        10893,
+        1790603277369064200
+      ]
+    },
+    "crates/.context.yaml": {
+      "sha256": "aa856b6d08acb6d5610689b35b7393cac5b424d2ddef721d61c09fea0ea3d0ec",
+      "size": 311,
+      "stat": [
+        311,
+        1793233028113199900
+      ]
+    },
+    "crates/metricsthinking_rs/.context.yaml": {
+      "sha256": "8880fbdb1361c5764216f102841234b54052857a64ed1f32557050e6c9627e0b",
+      "size": 312,
+      "stat": [
+        312,
+        1793233028208603500
+      ]
+    },
+    "crates/metricsthinking_rs/Cargo.toml": {
+      "sha256": "3f5d74a06e0cdca711813bc3744959a4d9f494c4477be837b7e1b8378efe3b49",
+      "size": 485,
+      "stat": [
+        485,
+        1792608294529013400
+      ]
+    },
+    "crates/metricsthinking_rs/src/.context.yaml": {
+      "sha256": "4db8d58243bc98e4cc52b85bc85e045f1b1a1bc0cf06bc15a4ab55c456de9821",
+      "size": 339,
+      "stat": [
+        339,
+        1793233028226106500
+      ]
+    },
+    "crates/metricsthinking_rs/src/ast_graph.rs": {
+      "sha256": "4c8cfca4f019998f13757173cd59c1bd76eca9c884dab6495275c256f904c72c",
+      "size": 2709,
+      "stat": [
+        2709,
+        1792608322425189900
+      ]
+    },
+    "crates/metricsthinking_rs/src/ballast_tokens.rs": {
+      "sha256": "8564af416784a5b6dbe1353da7c6b8e2e4b891ab78e76d561aa7e338df60ec1b",
+      "size": 1052,
+      "stat": [
+        1052,
+        1792608306975304100
+      ]
+    },
+    "crates/metricsthinking_rs/src/entropy_sec.rs": {
+      "sha256": "d06cf1d008529ed0b795d5a6b6c7110a9cdaa045c886e37dca8f8a408d44788e",
+      "size": 836,
+      "stat": [
+        836,
+        1792609169258683300
+      ]
+    },
+    "crates/metricsthinking_rs/src/lib.rs": {
+      "sha256": "3af19cfc2692ee0e06483aad6a160b6ee3e53285db1b61efe6cb09c2c5e89a32",
+      "size": 2187,
+      "stat": [
+        2187,
+        1792608340325606600
+      ]
+    },
+    "crates/metricsthinking_rs/src/walker.rs": {
+      "sha256": "9b31d4c3c61618609adf27253ae0bc2b3e91f9cb3c5194f8efb31f456895bba6",
+      "size": 3174,
+      "stat": [
+        3174,
+        1792608589873782000
+      ]
+    },
+    "data/.context.yaml": {
+      "sha256": "1f5bb6c07952f245d8c55385c245acfbf58a58f65052e095fb81706fa7d595f9",
+      "size": 333,
+      "stat": [
+        333,
+        1793577783084083800
+      ]
+    },
+    "integrations/.context.yaml": {
+      "sha256": "4efafa576c6bc9b561af4f226ef221d748431fd5cb27dee5b4ecbc31fbeb63ef",
+      "size": 323,
+      "stat": [
+        323,
+        1793233028146445500
+      ]
+    },
+    "integrations/claude/.context.yaml": {
+      "sha256": "da7a46a820612c48e97be44faa388ec034a9465c9c14afa83ce88929f85ea5c3",
+      "size": 306,
+      "stat": [
+        306,
+        1793233028240500800
+      ]
+    },
+    "integrations/claude/CLAUDE.md": {
+      "sha256": "bb4537e8cf5023e6b70e12182d4bb88f552ac636c0791cc23ae90d20a74d5f0b",
+      "size": 3030,
+      "stat": [
+        3030,
+        1792676668311111700
+      ]
+    },
+    "integrations/codex/.context.yaml": {
+      "sha256": "c2d2807a5de7f2bea82b5d05cdad598e7045aeea89286173c747a5df1a429d1f",
+      "size": 304,
+      "stat": [
+        304,
+        1793233028257594500
+      ]
+    },
+    "integrations/codex/CODEX.md": {
+      "sha256": "600ae5e05d1209484eea5ff0050f23f13b4f1034d54f7618e1f12648c8cd0bf0",
+      "size": 2646,
+      "stat": [
+        2646,
+        1793151106344460800
+      ]
+    },
+    "integrations/copilot/.context.yaml": {
+      "sha256": "b7955baae4a8ebdac8ca4065fb8e589a1a733400073900d13a6c51fec2741e5a",
+      "size": 308,
+      "stat": [
+        308,
+        1793233028273078200
+      ]
+    },
+    "integrations/copilot/copilot-instructions.md": {
+      "sha256": "2d9a52e7be77301661f171cf776a5cb44ba0ed0f63bccf7935210b1c7d5d9b72",
+      "size": 1398,
+      "stat": [
+        1398,
+        1792676697867837500
+      ]
+    },
+    "integrations/cursor/.context.yaml": {
+      "sha256": "bd86d7f9b39287f46a0e7771c9a1ff34b1cdba1fd73ede800e92d1c7eb038496",
+      "size": 306,
+      "stat": [
+        306,
+        1793233028286195200
+      ]
+    },
+    "integrations/cursor/metrics.mdc": {
+      "sha256": "c237c43a43ee2205dc954aa05745d665893035fc1b3c6825cbcb3cefea41daa5",
+      "size": 1785,
+      "stat": [
+        1785,
+        1792676683803671200
+      ]
+    },
+    "mcp_metricsthinking.json": {
+      "sha256": "8fee2ed27b1c79c1e009c6f09f350ed0bc0099346202894f1a338e5305235e93",
+      "size": 168,
+      "stat": [
+        168,
+        1793148854425979100
+      ]
+    },
+    "pyproject.toml": {
+      "sha256": "9ff7f4d2d198fd41ed51c050400fcc0cff155200e417423432f4778b93ff5268",
+      "size": 1998,
+      "stat": [
+        1998,
+        1793472108051838900
+      ]
+    },
+    "requirements.txt": {
+      "sha256": "d1f4a73247e793a5769c075df62d00c32687f93afe52c0828802822898cc14c3",
+      "size": 73,
+      "stat": [
+        73,
+        1792605847675292400
+      ]
+    },
+    "schemas/.context.yaml": {
+      "sha256": "0360e24966cfb776e436d1a29d5c8b7eedc6fc50e3fe030a23e8196dfbdf4fc7",
+      "size": 368,
+      "stat": [
+        368,
+        1793487795041138400
+      ]
+    },
+    "schemas/audit_criterion.schema.json": {
+      "sha256": "b65aa8b098f701e71652005ddca45739315874ea14b30ba56fa6e8a3f892754f",
+      "size": 1177,
+      "stat": [
+        1177,
+        1790099895457861300
+      ]
+    },
+    "schemas/backlog.schema.json": {
+      "sha256": "a5d392ea7768d984781da5f61ede127f53d6469c08617f62ce0124bc73179ea9",
+      "size": 1561,
+      "stat": [
+        1561,
+        1793202765137720900
+      ]
+    },
+    "schemas/beacon.schema.json": {
+      "sha256": "d42d69bebda3b414376fa8c48c06cd8863301e35bf506d643fbfb9608150c686",
+      "size": 1872,
+      "stat": [
+        1872,
+        1793046439790988100
+      ]
+    },
+    "schemas/canonical_module.schema.json": {
+      "sha256": "f961a4462786dc2fa5514add10c10f5a222ba48ea7e7d3dd3586924de375241d",
+      "size": 1440,
+      "stat": [
+        1440,
+        1790099895459548000
+      ]
+    },
+    "schemas/checkpoint.schema.json": {
+      "sha256": "c81210ffaa333b9176313486ba14b4a012f8888706e9f0536308c158e3c9dd59",
+      "size": 2212,
+      "stat": [
+        2212,
+        1793473806476986800
+      ]
+    },
+    "schemas/contracts_ast.schema.json": {
+      "sha256": "30d2107109780341dd10d8befbba1defe9e61befe0381985c833f43dc514e2f8",
+      "size": 3223,
+      "stat": [
+        3223,
+        1793473806478980500
+      ]
+    },
+    "schemas/evidence_primitives.schema.json": {
+      "sha256": "df2496bfa7fbcd6fde01bbc011d5fe7a69375e94b8a585bdff58862523a4e559",
+      "size": 1028,
+      "stat": [
+        1028,
+        1790602694653742700
+      ]
+    },
+    "schemas/icontext_bus.schema.json": {
+      "sha256": "a82c2abd66a6d04272605764bb9c64cfb20da0d5b799a475d408bbf48b8b6a41",
+      "size": 6183,
+      "stat": [
+        6183,
+        1793473806481143700
+      ]
+    },
+    "schemas/inventory.schema.json": {
+      "sha256": "aa5f4d9e42f2ccdd88ab086686f2ae66e0bace9d702c73fa8dba36e8bbd04cdf",
+      "size": 604,
+      "stat": [
+        604,
+        1793473806483139400
+      ]
+    },
+    "schemas/plan_metadata.schema.json": {
+      "sha256": "059aa7e208d67d464c8615bdb4abb29235f45c01c76f209537b5952e1356e505",
+      "size": 892,
+      "stat": [
+        892,
+        1793046444704324500
+      ]
+    },
+    "schemas/project_audit_report.schema.json": {
+      "sha256": "af90b5c6f83cd30df37b7867ee631bc77f56d027eaa81f24f7bdfaac53f9f441",
+      "size": 6574,
+      "stat": [
+        6574,
+        1792606870068722200
+      ]
+    },
+    "schemas/repo_fpai_manifest.v2.json": {
+      "sha256": "6369161d8cfb015e9cdabf7ddfa60d06a75f77147082a78c4f924d1a477356fa",
+      "size": 4225,
+      "stat": [
+        4225,
+        1792606845790878500
+      ]
+    },
+    "schemas/telemetry_event.v2.json": {
+      "sha256": "6afd5c60462dfb60f6bc89491707aef468299ccda2c348a6103b265ed996a425",
+      "size": 7243,
+      "stat": [
+        7243,
+        1792606845793873200
+      ]
+    },
+    "schemas/thinking_seed_v3.schema.json": {
+      "sha256": "8e4b58388bce67478719a35e023f097a8b380008aaf120f4f87ae23b29b09e57",
+      "size": 1842,
+      "stat": [
+        1842,
+        1790602682763303500
+      ]
+    },
+    "schemas/toolchain.schema.json": {
+      "sha256": "1906661dc8e0cd43e79477362692ee306d1bc66211792f2b3b56e042558cfdcb",
+      "size": 552,
+      "stat": [
+        552,
+        1793473806486131100
+      ]
+    },
+    "schemas/tree.schema.json": {
+      "sha256": "590f8fb62ed341b87acb75686999cc1df64a9f6105df24cf233772133522fc91",
+      "size": 3564,
+      "stat": [
+        3564,
+        1793202775316109600
+      ]
+    },
+    "scripts/.context.yaml": {
+      "sha256": "80ce3be199164168bc7a07c6990288db2485c2b8b1d749c2094296f3c860abb1",
+      "size": 318,
+      "stat": [
+        318,
+        1793487795048119600
+      ]
+    },
+    "scripts/hnsw_index_rebuild.py": {
+      "contracts": {
+        "cli_flags": [
+          "--compact",
+          "--dry-run",
+          "--index-dir"
+        ],
+        "imports": [
+          "argparse",
+          "json",
+          "logging",
+          "pathlib",
+          "sys"
+        ],
+        "signatures": [
+          "./scripts/hnsw_index_rebuild.py::rebuild_hnsw_index(index_dir: str, compact: bool=True, dry_run: bool=False) -> dict[str, int]",
+          "./scripts/hnsw_index_rebuild.py::main() -> Any"
+        ],
+        "symbols": [
+          "rebuild_hnsw_index",
+          "main"
+        ]
+      },
+      "sha256": "8105c0bae9fc3377b99235128eef4d3777b9bc9e3c8f60a5f7f07a8b0dcf5db0",
+      "size": 2870,
+      "stat": [
+        2870,
+        1792608223838714500
+      ]
+    },
+    "scripts/install_skill.py": {
+      "contracts": {
+        "cli_flags": [
+          "--all",
+          "--dest",
+          "--dry-run",
+          "--global",
+          "--target",
+          "-a",
+          "-d",
+          "-g",
+          "-t"
+        ],
+        "imports": [
+          "argparse",
+          "json",
+          "os",
+          "pathlib",
+          "re",
+          "shutil",
+          "skill_installer",
+          "sys"
+        ],
+        "signatures": [
+          "./scripts/install_skill.py::get_user_home() -> Path",
+          "./scripts/install_skill.py::install_antigravity(dest_root: Path, is_global: bool=False, dry_run: bool=False) -> list[Path]",
+          "./scripts/install_skill.py::install_codex(dest_root: Path, is_global: bool=False, dry_run: bool=False) -> list[Path]",
+          "./scripts/install_skill.py::install_claude(dest_root: Path, dry_run: bool=False) -> list[Path]",
+          "./scripts/install_skill.py::install_cursor(dest_root: Path, dry_run: bool=False) -> list[Path]",
+          "./scripts/install_skill.py::install_copilot(dest_root: Path, dry_run: bool=False) -> list[Path]",
+          "./scripts/install_skill.py::install_mcp_config(dest_root: Path, dry_run: bool=False) -> list[Path]",
+          "./scripts/install_skill.py::run_installer(target: str='all', dest: str='.', is_global: bool=False, dry_run: bool=False) -> Any",
+          "./scripts/install_skill.py::main() -> Any"
+        ],
+        "symbols": [
+          "get_user_home",
+          "install_antigravity",
+          "install_codex",
+          "install_claude",
+          "install_cursor",
+          "install_copilot",
+          "install_mcp_config",
+          "run_installer",
+          "main"
+        ]
+      },
+      "sha256": "44875944388c477d872a0f83c98e903da5e56a427cd6e08f12d3ed51a7e0ea7c",
+      "size": 8040,
+      "stat": [
+        8040,
+        1793473080578023000
+      ]
+    },
+    "scripts/run_benchmark.py": {
+      "contracts": {
+        "cli_flags": [],
+        "imports": [
+          "json",
+          "pathlib",
+          "shutil"
+        ],
+        "signatures": [
+          "./scripts/run_benchmark.py::main() -> Any"
+        ],
+        "symbols": [
+          "main"
+        ]
+      },
+      "sha256": "f39c86a457e8abd65558e538b2a145a708cb770a250fe34ee228bca80179420e",
+      "size": 9402,
+      "stat": [
+        9402,
+        1792679625618980400
+      ]
+    },
+    "src/.context.yaml": {
+      "sha256": "79c9f9eeff5906de30a46912164c35259be19fd4d9d63643aaef95f01285a048",
+      "size": 322,
+      "stat": [
+        322,
+        1793233028156479600
+      ]
+    },
+    "src/__init__.py": {
+      "contracts": {
+        "cli_flags": [],
+        "imports": [],
+        "signatures": [],
+        "symbols": []
+      },
+      "sha256": "c2663a83f00adf503d2f48033cf27bab993624100df36f695967cb6ba98d3202",
+      "size": 44,
+      "stat": [
+        44,
+        1790099895466561500
+      ]
+    },
+    "src/metricsthinking/.context.yaml": {
+      "sha256": "388dfd7b5089065d3643250204e189254636ffaa14acfa7bee21c5a86946c5e8",
+      "size": 292,
+      "stat": [
+        292,
+        1793233028300609300
+      ]
+    },
+    "src/metricsthinking/__init__.py": {
+      "contracts": {
+        "cli_flags": [],
+        "imports": [
+          "collector",
+          "engine",
+          "evaluator",
+          "models",
+          "renderer",
+          "scorer"
+        ],
+        "signatures": [],
+        "symbols": []
+      },
+      "sha256": "2e1eabcb3c67c5c0d5884b661a01751d036cf760f1bb15afaa7ddc8435988df9",
+      "size": 1224,
+      "stat": [
+        1224,
+        1793473435695935700
+      ]
+    },
+    "src/metricsthinking/backends/.context.yaml": {
+      "sha256": "02ba18b3eed42ab79c3352763116a366077733ff759f1822161d7f0ef9009ebf",
+      "size": 326,
+      "stat": [
+        326,
+        1793233028317271200
+      ]
+    },
+    "src/metricsthinking/backends/__init__.py": {
+      "contracts": {
+        "cli_flags": [],
+        "imports": [
+          "",
+          "_core_rs",
+          "logging",
+          "typing"
+        ],
+        "signatures": [
+          "./src/metricsthinking/backends/__init__.py::get_active_backend() -> str",
+          "./src/metricsthinking/backends/__init__.py::scan_directory(path, ignore_patterns=None, include_content=True, cache_path=None, persist=False, full=False) -> Any",
+          "./src/metricsthinking/backends/__init__.py::fast_shannon_entropy(data: str) -> float",
+          "./src/metricsthinking/backends/__init__.py::calculate_shingling_jaccard(a: str, b: str, k: int=3) -> float",
+          "./src/metricsthinking/backends/__init__.py::compute_ast_coupling(python_files: dict[str, str]) -> dict[str, Any]"
+        ],
+        "symbols": [
+          "get_active_backend",
+          "scan_directory",
+          "fast_shannon_entropy",
+          "calculate_shingling_jaccard",
+          "compute_ast_coupling"
+        ]
+      },
+      "sha256": "5fd9126a95a14e33bc4e9099e5fb54c2fd02fb924043584d33620242c5f2f15f",
+      "size": 2209,
+      "stat": [
+        2209,
+        1793472108004026200
+      ]
+    },
+    "src/metricsthinking/backends/python_fallback.py": {
+      "contracts": {
+        "cli_flags": [],
+        "imports": [
+          "collections",
+          "hashlib",
+          "json",
+          "math",
+          "os",
+          "pathlib",
+          "re",
+          "runtime",
+          "typing"
+        ],
+        "signatures": [
+          "./src/metricsthinking/backends/python_fallback.py::fast_shannon_entropy(data: str) -> float",
+          "./src/metricsthinking/backends/python_fallback.py::calculate_shingling_jaccard(a: str, b: str, k: int=3) -> float",
+          "./src/metricsthinking/backends/python_fallback.py::scan_directory(path, ignore_patterns=None, include_content=True, cache_path=None, persist=False, full=False) -> Any",
+          "./src/metricsthinking/backends/python_fallback.py::compute_ast_coupling(python_files: dict[str, str]) -> dict[str, Any]"
+        ],
+        "symbols": [
+          "fast_shannon_entropy",
+          "calculate_shingling_jaccard",
+          "scan_directory",
+          "compute_ast_coupling"
+        ]
+      },
+      "sha256": "57a0e9a1d87592b29e7acacb9fcfb2dfc2923dd95206a42cefc3f4694c929851",
+      "size": 6559,
+      "stat": [
+        6559,
+        1793472108003030200
+      ]
+    },
+    "src/metricsthinking/cli.py": {
+      "contracts": {
+        "cli_flags": [
+          "--all",
+          "--apply",
+          "--archetype",
+          "--dest",
+          "--dry-run",
+          "--full",
+          "--global",
+          "--hint",
+          "--json",
+          "--list-profiles",
+          "--medallion",
+          "--no-reconcile-plans",
+          "--out-dir",
+          "--prefix",
+          "--probe",
+          "--processed-dir",
+          "--profile",
+          "--prune",
+          "--quiet",
+          "--raw-dir",
+          "--target",
+          "-a",
+          "-d",
+          "-g",
+          "-o",
+          "-p",
+          "-q",
+          "-t"
+        ],
+        "imports": [
+          "argparse",
+          "detector",
+          "engine",
+          "fpai.compensation",
+          "fpai.medallion",
+          "importlib.util",
+          "json",
+          "mcp_server",
+          "metricsthinking.engine",
+          "pathlib",
+          "scripts.install_skill",
+          "sys",
+          "yaml"
+        ],
+        "signatures": [
+          "./src/metricsthinking/cli.py::list_available_profiles() -> None",
+          "./src/metricsthinking/cli.py::main() -> Any"
+        ],
+        "symbols": [
+          "list_available_profiles",
+          "main"
+        ]
+      },
+      "sha256": "6c3d3ec3c9f260bba9f5e2427138b6d0dfcca9a16dbc7e9a5775c314ee3a26b8",
+      "size": 13242,
+      "stat": [
+        13242,
+        1793472108050843100
+      ]
+    },
+    "src/metricsthinking/collector.py": {
+      "contracts": {
+        "cli_flags": [],
+        "imports": [
+          "backends",
+          "detector",
+          "metricsthinking.backends",
+          "metricsthinking.detector",
+          "metricsthinking.models",
+          "models",
+          "os",
+          "pathlib",
+          "re",
+          "subprocess",
+          "sys",
+          "typing",
+          "yaml"
+        ],
+        "signatures": [
+          "./src/metricsthinking/collector.py::ProjectEvidence(class)",
+          "./src/metricsthinking/collector.py::ProjectCollector(class)"
+        ],
+        "symbols": [
+          "ProjectEvidence",
+          "ProjectCollector"
+        ]
+      },
+      "sha256": "791ffe583fbc70db92a933bf6b2db12d65b6ccad85dc5dbd0184e9450eadf6c9",
+      "size": 19714,
+      "stat": [
+        19714,
+        1793472108040679200
+      ]
+    },
+    "src/metricsthinking/detector.py": {
+      "contracts": {
+        "cli_flags": [],
+        "imports": [
+          "dataclasses",
+          "json",
+          "os",
+          "pathlib",
+          "re",
+          "typing",
+          "yaml"
+        ],
+        "signatures": [
+          "./src/metricsthinking/detector.py::ArchetypeScore(class)",
+          "./src/metricsthinking/detector.py::ArchetypeDetectionResult(class)",
+          "./src/metricsthinking/detector.py::ArchetypeDetector(class)",
+          "./src/metricsthinking/detector.py::probe_archetype(target_path: str='.', custom_profiles_dir: Path | None=None) -> ArchetypeDetectionResult"
+        ],
+        "symbols": [
+          "ArchetypeScore",
+          "ArchetypeDetectionResult",
+          "ArchetypeDetector",
+          "probe_archetype"
+        ]
+      },
+      "sha256": "daacb9a5614843127c80a7a3a368c6e9514baf2158a541705a71d5157e54e133",
+      "size": 21791,
+      "stat": [
+        21791,
+        1793148727909990300
+      ]
+    },
+    "src/metricsthinking/engine.py": {
+      "contracts": {
+        "cli_flags": [],
+        "imports": [
+          "collector",
+          "detector",
+          "evaluator",
+          "functools",
+          "metricsthinking.collector",
+          "metricsthinking.detector",
+          "metricsthinking.evaluator",
+          "metricsthinking.fpai.compensation",
+          "metricsthinking.fpai.medallion",
+          "metricsthinking.lifecycle",
+          "metricsthinking.models",
+          "metricsthinking.renderer",
+          "metricsthinking.runtime",
+          "metricsthinking.scorer",
+          "models",
+          "pathlib",
+          "renderer",
+          "scorer",
+          "sys"
+        ],
+        "signatures": [
+          "./src/metricsthinking/engine.py::resolve_profile_name(hint_or_name: str | None) -> str",
+          "./src/metricsthinking/engine.py::probe_project(target_path: str='.', custom_profiles_dir: Path | None=None) -> ArchetypeDetectionResult",
+          "./src/metricsthinking/engine.py::run_audit(target_path: str='.', profile_name: str='default', archetype: str | None=None, out_dir: str | None=None, prefix: str='MetricsThinking', quiet: bool=False, prune: bool=False, medallion: bool=False, reconcile_plans: bool=True, full: bool=False) -> tuple[ProjectAuditReport, dict[str, Path]]"
+        ],
+        "symbols": [
+          "resolve_profile_name",
+          "probe_project",
+          "run_audit"
+        ]
+      },
+      "sha256": "d601741dd39ac99b5abe4e70bc3b1e862bf820931cf1e047bce75191e1de0b1f",
+      "size": 14985,
+      "stat": [
+        14985,
+        1793477105143773600
+      ]
+    },
+    "src/metricsthinking/evaluator.py": {
+      "contracts": {
+        "cli_flags": [],
+        "imports": [
+          "collector",
+          "fpai.gatekeeper",
+          "fpai.spectral_engine",
+          "incremental",
+          "metricsthinking.collector",
+          "metricsthinking.fpai.gatekeeper",
+          "metricsthinking.fpai.spectral_engine",
+          "metricsthinking.models",
+          "models",
+          "pathlib",
+          "re",
+          "runtime",
+          "sys",
+          "typing",
+          "yaml"
+        ],
+        "signatures": [
+          "./src/metricsthinking/evaluator.py::CriteriaEvaluator(class)"
+        ],
+        "symbols": [
+          "CriteriaEvaluator"
+        ]
+      },
+      "sha256": "22a9946163d73d8a7d331ab01cd862d055ef3d9271d48d2cd8dac6aa25a245cf",
+      "size": 129157,
+      "stat": [
+        129157,
+        1793472108044668400
+      ]
+    },
+    "src/metricsthinking/fpai/.context.yaml": {
+      "sha256": "9f3247b609bcc40a2bb65ca7e5de0400277d17cf0c03a85835a68fbaa311d99c",
+      "size": 318,
+      "stat": [
+        318,
+        1793233028335550200
+      ]
+    },
+    "src/metricsthinking/fpai/__init__.py": {
+      "contracts": {
+        "cli_flags": [],
+        "imports": [
+          "ablation",
+          "attribution",
+          "compensation",
+          "confidence",
+          "drift_auditor",
+          "gatekeeper",
+          "medallion",
+          "spectral_engine"
+        ],
+        "signatures": [],
+        "symbols": []
+      },
+      "sha256": "b066f295077324f2b33772d2780645520d205fe2d26f6bf511c4e435144a93d1",
+      "size": 1040,
+      "stat": [
+        1040,
+        1792608229855609000
+      ]
+    },
+    "src/metricsthinking/fpai/ablation.py": {
+      "contracts": {
+        "cli_flags": [],
+        "imports": [
+          "math",
+          "re",
+          "typing"
+        ],
+        "signatures": [
+          "./src/metricsthinking/fpai/ablation.py::run_ablation_sampling(chunks: list[dict[str, Any]], sample_ratio: float=0.05) -> dict[str, Any]"
+        ],
+        "symbols": [
+          "run_ablation_sampling"
+        ]
+      },
+      "sha256": "30a2d528af8f3ce1a7e9ab473a97ab121e05d695269d8c7cb1bbced02bc65937",
+      "size": 2734,
+      "stat": [
+        2734,
+        1792608201782937700
+      ]
+    },
+    "src/metricsthinking/fpai/attribution.py": {
+      "contracts": {
+        "cli_flags": [],
+        "imports": [
+          "re",
+          "typing"
+        ],
+        "signatures": [
+          "./src/metricsthinking/fpai/attribution.py::resolve_context_attribution(query: str, chunks: list[dict[str, Any]]) -> list[dict[str, Any]]"
+        ],
+        "symbols": [
+          "resolve_context_attribution"
+        ]
+      },
+      "sha256": "86261e42cc6c22a33b9e9337e1b1ae46f272994dd737567966e7cc4a9bedd340",
+      "size": 3305,
+      "stat": [
+        3305,
+        1792608213860705400
+      ]
+    },
+    "src/metricsthinking/fpai/compensation.py": {
+      "contracts": {
+        "cli_flags": [],
+        "imports": [
+          "datetime",
+          "hashlib",
+          "metricsthinking.models",
+          "pathlib",
+          "typing"
+        ],
+        "signatures": [
+          "./src/metricsthinking/fpai/compensation.py::generate_pruning_plan(target_path: str, dead_files: list[str], redundant_files: list[str], structural_files: list[str], file_sizes: dict[str, int]) -> ContextPruningPlan",
+          "./src/metricsthinking/fpai/compensation.py::apply_pruning_plan(plan: ContextPruningPlan, repo_root: str, update_agentignore: bool=True) -> dict[str, Any]"
+        ],
+        "symbols": [
+          "generate_pruning_plan",
+          "apply_pruning_plan"
+        ]
+      },
+      "sha256": "2812d1d379439ab896105eaf01ec9f2fb671a303fa785a4e02bbbd0b91748fde",
+      "size": 5076,
+      "stat": [
+        5076,
+        1792608117374237400
+      ]
+    },
+    "src/metricsthinking/fpai/confidence.py": {
+      "contracts": {
+        "cli_flags": [],
+        "imports": [
+          "math",
+          "typing"
+        ],
+        "signatures": [
+          "./src/metricsthinking/fpai/confidence.py::calculate_confidence_envelope(sample_values: list[float], confidence_level: float=0.95) -> dict[str, float | int]"
+        ],
+        "symbols": [
+          "calculate_confidence_envelope"
+        ]
+      },
+      "sha256": "cbd2a467eb3dc8524fd0f9dbaa3f00b9c6d9c63995d52a49dfd762639d51f045",
+      "size": 1824,
+      "stat": [
+        1824,
+        1792607977521251700
+      ]
+    },
+    "src/metricsthinking/fpai/drift_auditor.py": {
+      "contracts": {
+        "cli_flags": [],
+        "imports": [
+          "ast",
+          "pathlib",
+          "re",
+          "typing"
+        ],
+        "signatures": [
+          "./src/metricsthinking/fpai/drift_auditor.py::audit_seed_to_code_drift(seed_path: str, repo_files: dict[str, str]) -> dict[str, Any]"
+        ],
+        "symbols": [
+          "audit_seed_to_code_drift"
+        ]
+      },
+      "sha256": "6947e8d3c00f1097540ea217de4b958b88b7bd9b8fcdd11c78ddb23da3d39d80",
+      "size": 3841,
+      "stat": [
+        3841,
+        1793239203019945300
+      ]
+    },
+    "src/metricsthinking/fpai/gatekeeper.py": {
+      "contracts": {
+        "cli_flags": [],
+        "imports": [
+          "collections",
+          "math",
+          "metricsthinking.models",
+          "re",
+          "typing"
+        ],
+        "signatures": [
+          "./src/metricsthinking/fpai/gatekeeper.py::calculate_shannon_entropy(data: str) -> float",
+          "./src/metricsthinking/fpai/gatekeeper.py::is_safe_placeholder(text: str) -> bool",
+          "./src/metricsthinking/fpai/gatekeeper.py::scan_file_security(file_path: str, content: str, entropy_threshold: float=4.5) -> dict[str, Any]",
+          "./src/metricsthinking/fpai/gatekeeper.py::scan_repository_security(file_contents: dict[str, str], lockfile_present: bool=True, entropy_threshold: float=4.5, ignore_tests: bool=True) -> SecurityVulnerabilityReport"
+        ],
+        "symbols": [
+          "calculate_shannon_entropy",
+          "is_safe_placeholder",
+          "scan_file_security",
+          "scan_repository_security"
+        ]
+      },
+      "sha256": "b50ae50d1a0bed91d33c8a9ceade42be5a8bce69b73a09389fbaebc0954b74fe",
+      "size": 9410,
+      "stat": [
+        9410,
+        1792609245698356800
+      ]
+    },
+    "src/metricsthinking/fpai/medallion.py": {
+      "contracts": {
+        "cli_flags": [],
+        "imports": [
+          "collections",
+          "datetime",
+          "json",
+          "pathlib",
+          "typing"
+        ],
+        "signatures": [
+          "./src/metricsthinking/fpai/medallion.py::run_local_medallion_pipeline(raw_telemetry_dir: str='data/raw/telemetry', processed_dir: str='data/processed/telemetry') -> dict[str, Any]"
+        ],
+        "symbols": [
+          "run_local_medallion_pipeline"
+        ]
+      },
+      "sha256": "078dc2480be0f724b1f42c6377e9fa641a49f8151de7844100d317658ac7a93d",
+      "size": 4866,
+      "stat": [
+        4866,
+        1792608192751406300
+      ]
+    },
+    "src/metricsthinking/fpai/spectral_engine.py": {
+      "contracts": {
+        "cli_flags": [],
+        "imports": [
+          "math",
+          "metricsthinking.models"
+        ],
+        "signatures": [
+          "./src/metricsthinking/fpai/spectral_engine.py::compute_spectral_vector(p_active: float, q_dead: float, q_dup: float, d_structural: float, gain_coefficient: float=1.0) -> FPAISpectralVector"
+        ],
+        "symbols": [
+          "compute_spectral_vector"
+        ]
+      },
+      "sha256": "d0e5f62b619196a971cae1618e294cdac09cf9b7163de55fd163fdce7017580c",
+      "size": 2510,
+      "stat": [
+        2510,
+        1792607970941264400
+      ]
+    },
+    "src/metricsthinking/incremental.py": {
+      "contracts": {
+        "cli_flags": [],
+        "imports": [
+          "hashlib",
+          "inspect",
+          "json",
+          "pathlib",
+          "re",
+          "runtime"
+        ],
+        "signatures": [
+          "./src/metricsthinking/incremental.py::rule_fingerprint(evaluator, function, config, evidence, attribute_cache) -> Any",
+          "./src/metricsthinking/incremental.py::observed_context(evidence) -> Any"
+        ],
+        "symbols": [
+          "rule_fingerprint",
+          "observed_context"
+        ]
+      },
+      "sha256": "c25c594a2c37f8122a6865011b1d8a017347baf6afd84719087ac0d007d841c9",
+      "size": 1637,
+      "stat": [
+        1637,
+        1793472075183734900
+      ]
+    },
+    "src/metricsthinking/lifecycle.py": {
+      "contracts": {
+        "cli_flags": [],
+        "imports": [
+          "__future__",
+          "datetime",
+          "json",
+          "os",
+          "pathlib",
+          "re",
+          "typing",
+          "yaml"
+        ],
+        "signatures": [
+          "./src/metricsthinking/lifecycle.py::extract_plan_metadata(plan_path: Path) -> dict[str, Any]",
+          "./src/metricsthinking/lifecycle.py::update_plan_frontmatter(plan_path: Path, updates: dict[str, Any]) -> None",
+          "./src/metricsthinking/lifecycle.py::evaluate_plan_completion(plan_path: Path, checkpoint_data: dict[str, Any] | None=None) -> tuple[bool, str]",
+          "./src/metricsthinking/lifecycle.py::sync_backlog_queue(repo_root: Path, archived_plan_ids: list[str]) -> int",
+          "./src/metricsthinking/lifecycle.py::reconcile_active_plans(repo_root: Path | str='.', check_only: bool=False) -> dict[str, Any]"
+        ],
+        "symbols": [
+          "extract_plan_metadata",
+          "update_plan_frontmatter",
+          "evaluate_plan_completion",
+          "sync_backlog_queue",
+          "reconcile_active_plans"
+        ]
+      },
+      "sha256": "1c6510229a27edfa23e8e907bf6a9a9ec5c29fabb259cda803729326f05ea3f7",
+      "size": 10769,
+      "stat": [
+        10769,
+        1793363065505242200
+      ]
+    },
+    "src/metricsthinking/mcp_server.py": {
+      "contracts": {
+        "cli_flags": [],
+        "imports": [
+          "detector",
+          "engine",
+          "fpai.compensation",
+          "json",
+          "metricsthinking.engine",
+          "metricsthinking.fpai.compensation",
+          "pathlib",
+          "sys",
+          "typing"
+        ],
+        "signatures": [
+          "./src/metricsthinking/mcp_server.py::handle_list_tools() -> list[dict[str, Any]]",
+          "./src/metricsthinking/mcp_server.py::handle_call_tool(name: str, arguments: dict[str, Any]) -> list[dict[str, Any]]",
+          "./src/metricsthinking/mcp_server.py::run_mcp_server() -> Any"
+        ],
+        "symbols": [
+          "handle_list_tools",
+          "handle_call_tool",
+          "run_mcp_server"
+        ]
+      },
+      "sha256": "0dd9cce7a7f164b33b17731b86f38fbbe0113a5bb30482835822943083a6e8d5",
+      "size": 13460,
+      "stat": [
+        13460,
+        1793473435697929800
+      ]
+    },
+    "src/metricsthinking/models.py": {
+      "contracts": {
+        "cli_flags": [],
+        "imports": [
+          "enum",
+          "pydantic",
+          "typing"
+        ],
+        "signatures": [
+          "./src/metricsthinking/models.py::DomainArchetype(class)",
+          "./src/metricsthinking/models.py::InspectionMode(class)",
+          "./src/metricsthinking/models.py::EvidencePrimitiveSummary(class)",
+          "./src/metricsthinking/models.py::ModuleStatus(class)",
+          "./src/metricsthinking/models.py::MaturityBand(class)",
+          "./src/metricsthinking/models.py::AuditCriterion(class)",
+          "./src/metricsthinking/models.py::CanonicalModuleEvaluation(class)",
+          "./src/metricsthinking/models.py::RemediationItem(class)",
+          "./src/metricsthinking/models.py::FPAISpectralVector(class)",
+          "./src/metricsthinking/models.py::SecurityVulnerabilityReport(class)",
+          "./src/metricsthinking/models.py::SystemsResilienceReport(class)",
+          "./src/metricsthinking/models.py::PruningActionItem(class)",
+          "./src/metricsthinking/models.py::ContextPruningPlan(class)",
+          "./src/metricsthinking/models.py::ProjectAuditReport(class)"
+        ],
+        "symbols": [
+          "DomainArchetype",
+          "InspectionMode",
+          "EvidencePrimitiveSummary",
+          "ModuleStatus",
+          "MaturityBand",
+          "AuditCriterion",
+          "CanonicalModuleEvaluation",
+          "RemediationItem",
+          "FPAISpectralVector",
+          "SecurityVulnerabilityReport",
+          "SystemsResilienceReport",
+          "PruningActionItem",
+          "ContextPruningPlan",
+          "ProjectAuditReport"
+        ]
+      },
+      "sha256": "368e4483001c0c845822b5347dbd26cb4b70ddcb4ddd435f86a719f18d8985ee",
+      "size": 8891,
+      "stat": [
+        8891,
+        1792606159049249000
+      ]
+    },
+    "src/metricsthinking/renderer.py": {
+      "contracts": {
+        "cli_flags": [],
+        "imports": [
+          "json",
+          "metricsthinking.models",
+          "metricsthinking.runtime",
+          "models",
+          "pathlib",
+          "sys"
+        ],
+        "signatures": [
+          "./src/metricsthinking/renderer.py::ReportRenderer(class)"
+        ],
+        "symbols": [
+          "ReportRenderer"
+        ]
+      },
+      "sha256": "6688562d2f28386cee07490edb7cce3d29b86e0ccbd2867c94c61040ec6b67a1",
+      "size": 23744,
+      "stat": [
+        23744,
+        1793484761354950200
+      ]
+    },
+    "src/metricsthinking/scorer.py": {
+      "contracts": {
+        "cli_flags": [],
+        "imports": [
+          "collector",
+          "datetime",
+          "fpai.compensation",
+          "fpai.gatekeeper",
+          "fpai.spectral_engine",
+          "incremental",
+          "metricsthinking.collector",
+          "metricsthinking.fpai.compensation",
+          "metricsthinking.fpai.gatekeeper",
+          "metricsthinking.fpai.spectral_engine",
+          "metricsthinking.models",
+          "models",
+          "pathlib",
+          "sys",
+          "typing"
+        ],
+        "signatures": [
+          "./src/metricsthinking/scorer.py::AuditScorer(class)"
+        ],
+        "symbols": [
+          "AuditScorer"
+        ]
+      },
+      "sha256": "dfd89298404d75b55c257a4a96659bc1cff69cb74fdd383078505c024ff35679",
+      "size": 12633,
+      "stat": [
+        12633,
+        1793472108045667200
+      ]
+    },
+    "tests/.context.yaml": {
+      "sha256": "17f237291b102c3af1f3aa08a3e96dae3932252b6c8089309505fdf129572118",
+      "size": 318,
+      "stat": [
+        318,
+        1793487795057759300
+      ]
+    },
+    "tests/__init__.py": {
+      "contracts": {
+        "cli_flags": [],
+        "imports": [],
+        "signatures": [],
+        "symbols": []
+      },
+      "sha256": "b1599166e26651fabb190b3b35f4f5e671602372ed4933513f8b1e4933bde39a",
+      "size": 35,
+      "stat": [
+        35,
+        1790099895485902100
+      ]
+    },
+    "tests/conftest.py": {
+      "contracts": {
+        "cli_flags": [],
+        "imports": [
+          "os",
+          "pathlib",
+          "pytest"
+        ],
+        "signatures": [
+          "./tests/conftest.py::isolate_cwd() -> Any"
+        ],
+        "symbols": [
+          "isolate_cwd"
+        ]
+      },
+      "sha256": "75549751576eb74b62d41e319b2fe44562f8b4f6bbb04cb0766b0a11a3eee56b",
+      "size": 350,
+      "stat": [
+        350,
+        1793544535203979800
+      ]
+    },
+    "tests/fixtures/.context.yaml": {
+      "sha256": "acf10d7faaca5f887e0445662514bbff8670e1cd0579745e4fdb12b10ef84fad",
+      "size": 284,
+      "stat": [
+        284,
+        1793233028351793200
+      ]
+    },
+    "tests/fixtures/golden_baseline_report.json": {
+      "sha256": "44648a177cd9c1010f63c36d136794976667f8bed29c488183a30b75dc61cecc",
+      "size": 141,
+      "stat": [
+        141,
+        1793579128568895400
+      ]
+    },
+    "tests/fixtures/sample_golden_audit.json": {
+      "sha256": "51efba4b3740c02d67590ac105617ed032e07e9aed1f0bcc48b939e86b9d262d",
+      "size": 237,
+      "stat": [
+        237,
+        1790099895489560200
+      ]
+    },
+    "tests/other/.context.yaml": {
+      "sha256": "dccb35f3edc58ecfd9586d1969255ce058b86f8c77798401b4bebeae467a02af",
+      "size": 278,
+      "stat": [
+        278,
+        1793233028373967900
+      ]
+    },
+    "tests/other/MetricsThinking_ThinkingSeed.json": {
+      "sha256": "91721e540444a4c0786b0815c727f0dae2d79a0728a173b1fa30f3bfaab67897",
+      "size": 20338,
+      "stat": [
+        20338,
+        1790099895491555000
+      ]
+    },
+    "tests/other/MetricsThinking_ThinkingSeed.md": {
+      "sha256": "7d64c39bdb4d18d4852fd87cac632cdf3558d56fb36ba59373865e7b6422d6dc",
+      "size": 15139,
+      "stat": [
+        15139,
+        1790099895492558300
+      ]
+    },
+    "tests/test_archetype_detector.py": {
+      "contracts": {
+        "cli_flags": [],
+        "imports": [
+          "json",
+          "metricsthinking.collector",
+          "metricsthinking.detector",
+          "metricsthinking.engine",
+          "pathlib",
+          "pytest"
+        ],
+        "signatures": [
+          "./tests/test_archetype_detector.py::test_sdd_archetype_detection(tmp_path) -> Any",
+          "./tests/test_archetype_detector.py::test_data_platform_archetype_detection(tmp_path) -> Any",
+          "./tests/test_archetype_detector.py::test_web_app_archetype_detection(tmp_path) -> Any",
+          "./tests/test_archetype_detector.py::test_mlops_archetype_detection(tmp_path) -> Any",
+          "./tests/test_archetype_detector.py::test_llmops_archetype_detection(tmp_path) -> Any",
+          "./tests/test_archetype_detector.py::test_gitops_archetype_detection(tmp_path) -> Any",
+          "./tests/test_archetype_detector.py::test_devsecops_archetype_detection(tmp_path) -> Any",
+          "./tests/test_archetype_detector.py::test_agent_skill_pure_detection(tmp_path) -> Any",
+          "./tests/test_archetype_detector.py::test_prevent_agents_md_false_positive(tmp_path) -> Any",
+          "./tests/test_archetype_detector.py::test_custom_profile_extensibility(tmp_path) -> Any",
+          "./tests/test_archetype_detector.py::test_emerging_domain_fallback(tmp_path) -> Any"
+        ],
+        "symbols": [
+          "test_sdd_archetype_detection",
+          "test_data_platform_archetype_detection",
+          "test_web_app_archetype_detection",
+          "test_mlops_archetype_detection",
+          "test_llmops_archetype_detection",
+          "test_gitops_archetype_detection",
+          "test_devsecops_archetype_detection",
+          "test_agent_skill_pure_detection",
+          "test_prevent_agents_md_false_positive",
+          "test_custom_profile_extensibility",
+          "test_emerging_domain_fallback"
+        ]
+      },
+      "sha256": "160b0233114528efbddfeba95eafa3ecaf5c63d2061a2850dba6bf01e665039e",
+      "size": 8991,
+      "stat": [
+        8991,
+        1793148882873520900
+      ]
+    },
+    "tests/test_backends_collector_v4.py": {
+      "contracts": {
+        "cli_flags": [],
+        "imports": [
+          "metricsthinking.backends",
+          "metricsthinking.collector",
+          "pathlib"
+        ],
+        "signatures": [
+          "./tests/test_backends_collector_v4.py::test_active_backend_availability() -> Any",
+          "./tests/test_backends_collector_v4.py::test_rust_crate_structure() -> Any",
+          "./tests/test_backends_collector_v4.py::test_scan_directory_and_incremental_cache(tmp_path) -> Any",
+          "./tests/test_backends_collector_v4.py::test_shingling_jaccard_backend() -> Any",
+          "./tests/test_backends_collector_v4.py::test_ast_coupling_calculation() -> Any",
+          "./tests/test_backends_collector_v4.py::test_single_pass_collector_integration() -> Any"
+        ],
+        "symbols": [
+          "test_active_backend_availability",
+          "test_rust_crate_structure",
+          "test_scan_directory_and_incremental_cache",
+          "test_shingling_jaccard_backend",
+          "test_ast_coupling_calculation",
+          "test_single_pass_collector_integration"
+        ]
+      },
+      "sha256": "41908eb0550cc311bed97849cae9e2a33b2ada5f7bdd9dc8827b487e67666e9e",
+      "size": 2937,
+      "stat": [
+        2937,
+        1793473435698927000
+      ]
+    },
+    "tests/test_benchmarks_stress.py": {
+      "contracts": {
+        "cli_flags": [],
+        "imports": [
+          "datetime",
+          "json",
+          "metricsthinking.backends",
+          "metricsthinking.collector",
+          "pathlib",
+          "time"
+        ],
+        "signatures": [
+          "./tests/test_benchmarks_stress.py::test_volumetric_scale_benchmark(tmp_path) -> Any",
+          "./tests/test_benchmarks_stress.py::test_ast_coupling_stress_benchmark() -> Any",
+          "./tests/test_benchmarks_stress.py::test_golden_baseline_regression_snapshot() -> Any"
+        ],
+        "symbols": [
+          "test_volumetric_scale_benchmark",
+          "test_ast_coupling_stress_benchmark",
+          "test_golden_baseline_regression_snapshot"
+        ]
+      },
+      "sha256": "065eba8b81b93653e7bc6bdf8d7d8a283e9a3bf8d26cb7209eb65c7cb824dcd2",
+      "size": 4313,
+      "stat": [
+        4313,
+        1793485120994738900
+      ]
+    },
+    "tests/test_calibration.py": {
+      "contracts": {
+        "cli_flags": [],
+        "imports": [
+          "metricsthinking.collector",
+          "metricsthinking.engine",
+          "metricsthinking.evaluator",
+          "metricsthinking.models",
+          "metricsthinking.scorer",
+          "pathlib",
+          "pytest"
+        ],
+        "signatures": [
+          "./tests/test_calibration.py::test_self_audit_with_sdd_profile() -> Any",
+          "./tests/test_calibration.py::test_gitops_synthetic_repo_calibration(tmp_path) -> Any",
+          "./tests/test_calibration.py::test_mlops_synthetic_repo_calibration(tmp_path) -> Any",
+          "./tests/test_calibration.py::test_llmops_synthetic_repo_calibration(tmp_path) -> Any"
+        ],
+        "symbols": [
+          "test_self_audit_with_sdd_profile",
+          "test_gitops_synthetic_repo_calibration",
+          "test_mlops_synthetic_repo_calibration",
+          "test_llmops_synthetic_repo_calibration"
+        ]
+      },
+      "sha256": "8d32d5aca719d1699ed7548b06faf2acecd8989b03425b8225c6f29df9ec02a0",
+      "size": 5799,
+      "stat": [
+        5799,
+        1790603233587171300
+      ]
+    },
+    "tests/test_cli.py": {
+      "contracts": {
+        "cli_flags": [],
+        "imports": [
+          "metricsthinking.cli",
+          "metricsthinking.engine",
+          "pathlib",
+          "sys"
+        ],
+        "signatures": [
+          "./tests/test_cli.py::test_engine_run_audit(tmp_path: Path) -> Any",
+          "./tests/test_cli.py::test_cli_main_invocation(tmp_path: Path, monkeypatch) -> Any"
+        ],
+        "symbols": [
+          "test_engine_run_audit",
+          "test_cli_main_invocation"
+        ]
+      },
+      "sha256": "adebdbdce671b481b3cb8eef6ae1e338270c9dc3aaa93ccab779645238010029",
+      "size": 1508,
+      "stat": [
+        1508,
+        1790099895494379300
+      ]
+    },
+    "tests/test_cli_mcp_renderer_v4.py": {
+      "contracts": {
+        "cli_flags": [],
+        "imports": [
+          "json",
+          "metricsthinking.collector",
+          "metricsthinking.engine",
+          "metricsthinking.evaluator",
+          "metricsthinking.mcp_server",
+          "metricsthinking.renderer",
+          "metricsthinking.scorer",
+          "pathlib"
+        ],
+        "signatures": [
+          "./tests/test_cli_mcp_renderer_v4.py::test_renderer_materializes_four_artifacts(tmp_path) -> Any",
+          "./tests/test_cli_mcp_renderer_v4.py::test_engine_run_audit_with_prune_and_medallion(tmp_path) -> Any",
+          "./tests/test_cli_mcp_renderer_v4.py::test_mcp_server_six_tools() -> Any",
+          "./tests/test_cli_mcp_renderer_v4.py::test_mcp_server_tool_calls() -> Any"
+        ],
+        "symbols": [
+          "test_renderer_materializes_four_artifacts",
+          "test_engine_run_audit_with_prune_and_medallion",
+          "test_mcp_server_six_tools",
+          "test_mcp_server_tool_calls"
+        ]
+      },
+      "sha256": "7cbf852e96204fdc1a4c40484fa993d077e2853115508e55148f4db4a1f1b23c",
+      "size": 3513,
+      "stat": [
+        3513,
+        1793363219787274800
+      ]
+    },
+    "tests/test_collector.py": {
+      "contracts": {
+        "cli_flags": [],
+        "imports": [
+          "metricsthinking.collector",
+          "pathlib"
+        ],
+        "signatures": [
+          "./tests/test_collector.py::test_collector_basic_scan(tmp_path: Path) -> Any",
+          "./tests/test_collector.py::test_collector_anti_fraud_seed_filtering(tmp_path: Path) -> Any",
+          "./tests/test_collector.py::test_collector_detects_ci_and_tests(tmp_path: Path) -> Any"
+        ],
+        "symbols": [
+          "test_collector_basic_scan",
+          "test_collector_anti_fraud_seed_filtering",
+          "test_collector_detects_ci_and_tests"
+        ]
+      },
+      "sha256": "9aab9928e6ae83e4cda7c48278980f820910f06cb0bec709387960d136787de9",
+      "size": 2170,
+      "stat": [
+        2170,
+        1790099895494379300
+      ]
+    },
+    "tests/test_drift_compensation_v4.py": {
+      "contracts": {
+        "cli_flags": [],
+        "imports": [
+          "metricsthinking.fpai.compensation",
+          "metricsthinking.fpai.drift_auditor",
+          "pathlib"
+        ],
+        "signatures": [
+          "./tests/test_drift_compensation_v4.py::test_seed_to_code_drift_detection(tmp_path) -> Any",
+          "./tests/test_drift_compensation_v4.py::test_pruning_plan_generation() -> Any",
+          "./tests/test_drift_compensation_v4.py::test_apply_pruning_plan_reversibility(tmp_path) -> Any"
+        ],
+        "symbols": [
+          "test_seed_to_code_drift_detection",
+          "test_pruning_plan_generation",
+          "test_apply_pruning_plan_reversibility"
+        ]
+      },
+      "sha256": "8aa07473836041a915dd4fe146120ec6987f40f4e37d8c81a6c5a5394679e6fd",
+      "size": 3083,
+      "stat": [
+        3083,
+        1792608136053039200
+      ]
+    },
+    "tests/test_evaluator.py": {
+      "contracts": {
+        "cli_flags": [],
+        "imports": [
+          "metricsthinking.collector",
+          "metricsthinking.evaluator",
+          "pathlib"
+        ],
+        "signatures": [
+          "./tests/test_evaluator.py::test_evaluator_default_profile(tmp_path: Path) -> Any",
+          "./tests/test_evaluator.py::test_evaluator_detects_empty_repository(tmp_path: Path) -> Any"
+        ],
+        "symbols": [
+          "test_evaluator_default_profile",
+          "test_evaluator_detects_empty_repository"
+        ]
+      },
+      "sha256": "c789b2aefb887587a44f04e32c2bef419cc20c1faa275af7e74cf133f9697e24",
+      "size": 2007,
+      "stat": [
+        2007,
+        1790099895494379300
+      ]
+    },
+    "tests/test_evaluator_v4.py": {
+      "contracts": {
+        "cli_flags": [],
+        "imports": [
+          "metricsthinking.collector",
+          "metricsthinking.evaluator",
+          "metricsthinking.scorer",
+          "pathlib"
+        ],
+        "signatures": [
+          "./tests/test_evaluator_v4.py::test_v4_evaluation_rules_on_current_repo() -> Any",
+          "./tests/test_evaluator_v4.py::test_scorer_populates_v4_vectors() -> Any"
+        ],
+        "symbols": [
+          "test_v4_evaluation_rules_on_current_repo",
+          "test_scorer_populates_v4_vectors"
+        ]
+      },
+      "sha256": "9b573022a2f3966b721cf552473a4cdc4a7c3dbbd4436c3cb5cfee131bb49fca",
+      "size": 2168,
+      "stat": [
+        2168,
+        1792608923301304200
+      ]
+    },
+    "tests/test_gatekeeper_v4.py": {
+      "contracts": {
+        "cli_flags": [],
+        "imports": [
+          "metricsthinking.fpai.gatekeeper",
+          "pathlib",
+          "yaml"
+        ],
+        "signatures": [
+          "./tests/test_gatekeeper_v4.py::test_shannon_entropy_calculation() -> Any",
+          "./tests/test_gatekeeper_v4.py::test_secret_detection_and_safe_placeholder() -> Any",
+          "./tests/test_gatekeeper_v4.py::test_pii_detection() -> Any",
+          "./tests/test_gatekeeper_v4.py::test_prompt_injection_detection() -> Any",
+          "./tests/test_gatekeeper_v4.py::test_scan_repository_security() -> Any",
+          "./tests/test_gatekeeper_v4.py::test_fpai_governance_yaml_contract() -> Any"
+        ],
+        "symbols": [
+          "test_shannon_entropy_calculation",
+          "test_secret_detection_and_safe_placeholder",
+          "test_pii_detection",
+          "test_prompt_injection_detection",
+          "test_scan_repository_security",
+          "test_fpai_governance_yaml_contract"
+        ]
+      },
+      "sha256": "6a9ea1b0dd03301e8c8d905bcdb83451d65828a0415e1ef24e35d8c0c7a7f625",
+      "size": 2491,
+      "stat": [
+        2491,
+        1792608064474827600
+      ]
+    },
+    "tests/test_hygiene_v4.py": {
+      "contracts": {
+        "cli_flags": [],
+        "imports": [
+          "json",
+          "metricsthinking",
+          "pathlib",
+          "tomllib"
+        ],
+        "signatures": [
+          "./tests/test_hygiene_v4.py::test_requirements_hygiene() -> Any",
+          "./tests/test_hygiene_v4.py::test_pyproject_version_and_deps() -> Any",
+          "./tests/test_hygiene_v4.py::test_package_and_mcp_version_sync() -> Any",
+          "./tests/test_hygiene_v4.py::test_skeleton_directories_removed() -> Any",
+          "./tests/test_hygiene_v4.py::test_generated_runtime_has_a_manifest() -> Any",
+          "./tests/test_hygiene_v4.py::test_engine_readme_seed_link() -> Any",
+          "./tests/test_hygiene_v4.py::test_tree_json_hygiene() -> Any"
+        ],
+        "symbols": [
+          "test_requirements_hygiene",
+          "test_pyproject_version_and_deps",
+          "test_package_and_mcp_version_sync",
+          "test_skeleton_directories_removed",
+          "test_generated_runtime_has_a_manifest",
+          "test_engine_readme_seed_link",
+          "test_tree_json_hygiene"
+        ]
+      },
+      "sha256": "b5d5ff344b0f2cf5ffbf7362278c8f2104f1ef07a2c506673e8397b01b8c496f",
+      "size": 2850,
+      "stat": [
+        2850,
+        1793484905787473700
+      ]
+    },
+    "tests/test_incremental_v6.py": {
+      "contracts": {
+        "cli_flags": [],
+        "imports": [
+          "metricsthinking.collector",
+          "metricsthinking.engine",
+          "metricsthinking.incremental",
+          "pathlib",
+          "pytest"
+        ],
+        "signatures": [
+          "./tests/test_incremental_v6.py::snapshot(root) -> Any",
+          "./tests/test_incremental_v6.py::test_incremental_audit_reuses_outputs_without_changing_timestamps(tmp_path) -> Any",
+          "./tests/test_incremental_v6.py::test_collector_is_read_only_and_honors_ancestor_beacons(tmp_path) -> Any",
+          "./tests/test_incremental_v6.py::test_duplicate_estimate_uses_actual_duplicate_content(tmp_path) -> Any",
+          "./tests/test_incremental_v6.py::test_invalid_audit_target_is_not_created(tmp_path) -> Any"
+        ],
+        "symbols": [
+          "snapshot",
+          "test_incremental_audit_reuses_outputs_without_changing_timestamps",
+          "test_collector_is_read_only_and_honors_ancestor_beacons",
+          "test_duplicate_estimate_uses_actual_duplicate_content",
+          "test_invalid_audit_target_is_not_created"
+        ]
+      },
+      "sha256": "f750b11c2b17043c5836fd9b906253b2df1b688a846973302281f276f60d7a94",
+      "size": 2289,
+      "stat": [
+        2289,
+        1793477105147763600
+      ]
+    },
+    "tests/test_installer.py": {
+      "contracts": {
+        "cli_flags": [],
+        "imports": [
+          "json",
+          "metricsthinking.mcp_server",
+          "pathlib",
+          "scripts.install_skill"
+        ],
+        "signatures": [
+          "./tests/test_installer.py::test_install_antigravity_local(tmp_path: Path) -> Any",
+          "./tests/test_installer.py::test_install_codex_local(tmp_path: Path) -> Any",
+          "./tests/test_installer.py::test_install_claude(tmp_path: Path) -> Any",
+          "./tests/test_installer.py::test_install_cursor(tmp_path: Path) -> Any",
+          "./tests/test_installer.py::test_install_copilot(tmp_path: Path) -> Any",
+          "./tests/test_installer.py::test_install_mcp_config(tmp_path: Path) -> Any",
+          "./tests/test_installer.py::test_run_installer_all(tmp_path: Path) -> Any",
+          "./tests/test_installer.py::test_mcp_server_tools(tmp_path: Path) -> Any"
+        ],
+        "symbols": [
+          "test_install_antigravity_local",
+          "test_install_codex_local",
+          "test_install_claude",
+          "test_install_cursor",
+          "test_install_copilot",
+          "test_install_mcp_config",
+          "test_run_installer_all",
+          "test_mcp_server_tools"
+        ]
+      },
+      "sha256": "072ae6f0f9f9f69f1439841d860c87b524e5c0e77b264d6477add4f41323e485",
+      "size": 2860,
+      "stat": [
+        2860,
+        1793473080615959100
+      ]
+    },
+    "tests/test_medallion_ablation_v4.py": {
+      "contracts": {
+        "cli_flags": [],
+        "imports": [
+          "json",
+          "metricsthinking.fpai.ablation",
+          "metricsthinking.fpai.attribution",
+          "metricsthinking.fpai.medallion",
+          "pathlib",
+          "scripts.hnsw_index_rebuild"
+        ],
+        "signatures": [
+          "./tests/test_medallion_ablation_v4.py::test_local_medallion_pipeline(tmp_path) -> Any",
+          "./tests/test_medallion_ablation_v4.py::test_ablation_sampling() -> Any",
+          "./tests/test_medallion_ablation_v4.py::test_context_attribution() -> Any",
+          "./tests/test_medallion_ablation_v4.py::test_hnsw_index_rebuild_script(tmp_path) -> Any"
+        ],
+        "symbols": [
+          "test_local_medallion_pipeline",
+          "test_ablation_sampling",
+          "test_context_attribution",
+          "test_hnsw_index_rebuild_script"
+        ]
+      },
+      "sha256": "001bfb1c23d9e5851015dcc3f83df4676fa928186eb9c638d0e409d24b7830eb",
+      "size": 3999,
+      "stat": [
+        3999,
+        1792608241912323300
+      ]
+    },
+    "tests/test_models_schemas_v4.py": {
+      "contracts": {
+        "cli_flags": [],
+        "imports": [
+          "json",
+          "jsonschema",
+          "metricsthinking",
+          "pathlib"
+        ],
+        "signatures": [
+          "./tests/test_models_schemas_v4.py::test_models_instantiation() -> Any",
+          "./tests/test_models_schemas_v4.py::test_fpai_manifest_and_telemetry_schemas_valid() -> Any"
+        ],
+        "symbols": [
+          "test_models_instantiation",
+          "test_fpai_manifest_and_telemetry_schemas_valid"
+        ]
+      },
+      "sha256": "4ada81a291eb10974a7deb2c262c8d4a44b948012d372a3c70275c69b12aeea6",
+      "size": 4762,
+      "stat": [
+        4762,
+        1792606883223777700
+      ]
+    },
+    "tests/test_plan_lifecycle.py": {
+      "contracts": {
+        "cli_flags": [],
+        "imports": [
+          "json",
+          "metricsthinking.lifecycle",
+          "pathlib"
+        ],
+        "signatures": [
+          "./tests/test_plan_lifecycle.py::test_extract_and_update_plan_frontmatter(tmp_path) -> Any",
+          "./tests/test_plan_lifecycle.py::test_evaluate_plan_completion_by_status(tmp_path) -> Any",
+          "./tests/test_plan_lifecycle.py::test_evaluate_plan_completion_by_checkboxes(tmp_path) -> Any",
+          "./tests/test_plan_lifecycle.py::test_sync_backlog_queue(tmp_path) -> Any",
+          "./tests/test_plan_lifecycle.py::test_reconcile_active_plans_full_workflow(tmp_path) -> Any"
+        ],
+        "symbols": [
+          "test_extract_and_update_plan_frontmatter",
+          "test_evaluate_plan_completion_by_status",
+          "test_evaluate_plan_completion_by_checkboxes",
+          "test_sync_backlog_queue",
+          "test_reconcile_active_plans_full_workflow"
+        ]
+      },
+      "sha256": "278a3a83ac5cae9fb16c6072bff7dfa889d64c5d0069810f4d4e97cf4ef515ff",
+      "size": 4957,
+      "stat": [
+        4957,
+        1793363235723729600
+      ]
+    },
+    "tests/test_renderer.py": {
+      "contracts": {
+        "cli_flags": [],
+        "imports": [
+          "metricsthinking.models",
+          "metricsthinking.renderer",
+          "pathlib"
+        ],
+        "signatures": [
+          "./tests/test_renderer.py::test_renderer_mermaid_syntax(tmp_path: Path) -> Any",
+          "./tests/test_renderer.py::test_renderer_generates_markdown_and_roadmap(tmp_path: Path) -> Any",
+          "./tests/test_renderer.py::test_golden_snapshot_regression() -> Any"
+        ],
+        "symbols": [
+          "test_renderer_mermaid_syntax",
+          "test_renderer_generates_markdown_and_roadmap",
+          "test_golden_snapshot_regression"
+        ]
+      },
+      "sha256": "2f7738af9b588320e93709463a65d96c57a2e294f8381e3e69a961947760f410",
+      "size": 3225,
+      "stat": [
+        3225,
+        1790099895499558800
+      ]
+    },
+    "tests/test_scorer.py": {
+      "contracts": {
+        "cli_flags": [],
+        "imports": [
+          "metricsthinking.collector",
+          "metricsthinking.models",
+          "metricsthinking.scorer",
+          "pathlib"
+        ],
+        "signatures": [
+          "./tests/test_scorer.py::test_scorer_overall_score_calculation(tmp_path: Path) -> Any"
+        ],
+        "symbols": [
+          "test_scorer_overall_score_calculation"
+        ]
+      },
+      "sha256": "c796b60733e3b806576f10fe26a4c2c16c905c061270d4f4cda25f649eda524a",
+      "size": 1652,
+      "stat": [
+        1652,
+        1790099895499558800
+      ]
+    },
+    "tests/test_spectral_engine_v4.py": {
+      "contracts": {
+        "cli_flags": [],
+        "imports": [
+          "math",
+          "metricsthinking.fpai.confidence",
+          "metricsthinking.fpai.spectral_engine"
+        ],
+        "signatures": [
+          "./tests/test_spectral_engine_v4.py::test_spectral_vector_orthogonality_and_invariants() -> Any",
+          "./tests/test_spectral_engine_v4.py::test_spectral_vector_decoupled_gain() -> Any",
+          "./tests/test_spectral_engine_v4.py::test_spectral_vector_zero_tokens() -> Any",
+          "./tests/test_spectral_engine_v4.py::test_confidence_envelope() -> Any"
+        ],
+        "symbols": [
+          "test_spectral_vector_orthogonality_and_invariants",
+          "test_spectral_vector_decoupled_gain",
+          "test_spectral_vector_zero_tokens",
+          "test_confidence_envelope"
+        ]
+      },
+      "sha256": "addc7d886b3bbbcf6761c3013bcb70456bf3d1ad160c164b6c31ba2fa4d49a18",
+      "size": 2805,
+      "stat": [
+        2805,
+        1792607987863861700
+      ]
+    },
+    "tests/test_v3_archetypes.py": {
+      "contracts": {
+        "cli_flags": [],
+        "imports": [
+          "metricsthinking.collector",
+          "metricsthinking.engine",
+          "metricsthinking.evaluator",
+          "metricsthinking.models",
+          "metricsthinking.scorer",
+          "pathlib",
+          "pytest",
+          "yaml"
+        ],
+        "signatures": [
+          "./tests/test_v3_archetypes.py::test_profile_structure_and_weights(profile_name) -> Any",
+          "./tests/test_v3_archetypes.py::test_profile_rule_dispatch(profile_name) -> Any",
+          "./tests/test_v3_archetypes.py::test_thinking_seed_v3_detection(tmp_path) -> Any",
+          "./tests/test_v3_archetypes.py::test_universal_evidence_primitives(tmp_path) -> Any",
+          "./tests/test_v3_archetypes.py::test_agent_skill_auto_detection(tmp_path) -> Any",
+          "./tests/test_v3_archetypes.py::test_profile_alias_resolution() -> Any"
+        ],
+        "symbols": [
+          "test_profile_structure_and_weights",
+          "test_profile_rule_dispatch",
+          "test_thinking_seed_v3_detection",
+          "test_universal_evidence_primitives",
+          "test_agent_skill_auto_detection",
+          "test_profile_alias_resolution"
+        ]
+      },
+      "sha256": "29797a44b5859c630dac0cb9d17082476a2fbac8cb510ec753a5fb15eee8cdb9",
+      "size": 6852,
+      "stat": [
+        6852,
+        1790644620477206500
+      ]
+    },
+    "tools/.context.yaml": {
+      "sha256": "270d27ea24148c667bed940a12dbbb3d7ce5139d05a14b392ffc9a6f4b37cb14",
+      "size": 288,
+      "stat": [
+        288,
+        1793487795066176400
+      ]
+    }
+  },
+  "inputs_hash": "b9bca284381579db3e56b82bbd7390ec914de3d73a8e6eb210b5fe639eb13060",
+  "policy_hash": "37f29343a1356a6d6aac7a8100c728445978734731cfc86ae38f73510e074206",
+  "version": "6.0.0"
+}

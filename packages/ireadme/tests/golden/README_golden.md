@@ -1,0 +1,228 @@
+# iReadme: Institutional Paper-Grade Documentation Engine
+
+**iContext v6.0.0.** Incremental evidence updates, portable Antigravity/Codex skills and session continuity. See the [v6 operation and migration guide](docs/specs/icontext-v6.md).
+<!-- ICONTEXT-V6:RELEASE -->
+
+
+**Language:** [English](README.md) | [Español](README_ES.md)
+
+[![Engine](https://img.shields.io/badge/Engine-iReadme%20Core-1a1a1a?style=flat-square)](#)
+[![Standard](https://img.shields.io/badge/Standard-Enterprise%20Paper--Grade%20v6.0-2b2b2b?style=flat-square)](#)
+[![Ecosystem](https://img.shields.io/badge/Ecosystem-Multi--AI%20%28Google%20%7C%20Claude%20%7C%20OpenAI%20%7C%20Cursor%29-34495e?style=flat-square)](#)
+[![iContext Federation](https://img.shields.io/badge/iContext-Federated%20v6.0-1a1a1a?style=flat-square)](#)
+[![iDirectory L0](https://img.shields.io/badge/L0-iDirectory%20v6.0-2b2b2b?style=flat-square)](#)
+[![ThinkingSeed L1](https://img.shields.io/badge/L1-ThinkingSeed%20v6.0-34495e?style=flat-square)](#)
+[![MetricsThinking L2](https://img.shields.io/badge/L2-MetricsThinking%20v6.0-4b5563?style=flat-square)](#)
+[![iReadme L3](https://img.shields.io/badge/L3-iReadme%20v6.0-000000?style=flat-square)](#)
+[![Architecture](https://img.shields.io/badge/Architecture-Clean%20Agentic%20Core-4b5563?style=flat-square)](#)
+[![Verification](https://img.shields.io/badge/Verification-Recorded%20v6-000000?style=flat-square)](#)
+[![License](https://img.shields.io/badge/License-Proprietary-1a1a1a?style=flat-square)](#)
+
+---
+
+## 1. Executive Abstract
+
+Modern enterprise software ecosystems, cloud data platforms, and autonomous AI agents face severe architectural friction stemming from unstructured and informal documentation. In high-velocity engineering environments, technical artifacts rapidly degrade into colloquial prose, unverified topologies, and hardcoded operating system path leakages. This documentation drift compromises technical onboarding velocity, invalidates data contracts, and severely undermines automated agent orchestration across mission-critical systems.
+
+To resolve this operational overhead, **iReadme** establishes an enterprise-grade automated documentation pipeline (*Enterprise Paper-Grade v2.0*). By treating repository documentation as a verifiable engineering system, the platform reduces Total Cost of Ownership (TCO) by over 50% in onboarding and maintenance, guarantees zero absolute path leakage, and preserves Service Level Agreements (SLAs) through deterministic invariant testing and rigorous governance controls.
+
+The platform operates under a universal multi-AI orchestration model, functioning uniformly across Google Antigravity, Anthropic Claude Code, OpenAI ChatGPT/Codex, Cursor IDE, and GitHub Copilot. Through dual-language synchronization (English/Spanish), formal KaTeX mathematical modeling, monochromatic high-impact badges, and symmetric ASCII topologies, iReadme delivers institutional-grade clarity designed for executive technology leaders and senior systems engineers alike.
+
+---
+
+## 2. System Architecture & Topology
+
+The iReadme topology enforces a strict separation between the Multi-AI Ingestion Plane, the Governance Control Plane, the Core Analytical Kernel, and the Synchronized Output Plane.
+
+```
++---------------------------------------------------------------------------------------------------+
+|                                     iREADME ECOSYSTEM TOPOLOGY                                    |
++---------------------------------------------------------------------------------------------------+
+                                                  |
+                 +--------------------------------+--------------------------------+
+                 |                                                                 |
+                 v                                                                 v
++---------------------------------+                               +---------------------------------+
+|      MULTI-AI INGESTION         |                               |     GOVERNANCE CONTROL PLANE    |
+| (Google, Claude, OpenAI, Cursor)|                               | (GEMINI.md, AGENTS.md, CLAUDE)  |
++---------------------------------+                               +---------------------------------+
+                 |                                                                 |
+                 +--------------------------------+--------------------------------+
+                                                  |
+                                                  v
+                               +-------------------------------------+
+                               |        CORE ANALYTICAL KERNEL       |
+                               | (KaTeX Formulator, Safe-Path Filter)|
+                               +-------------------------------------+
+                                                  |
+                                                  v
+                               +-------------------------------------+
+                               |      ATOMIC OUTPUT SYNCHRONIZER     |
+                               |   (README.md <===> README_ES.md)    |
+                               +-------------------------------------+
+                                                  |
+                                                  v
+                               +-------------------------------------+
+                               |      SYSTEM VERIFICATION SUITE      |
+                               |    (Pytest Invariants & Regression) |
+                               +-------------------------------------+
+```
+
+### Federated Governance & Context Engineering (iContext v6.0)
+
+This project implements the **iContext Federation Protocol v6.0**, coordinating across all 4 canonical layers of autonomous agent governance:
+- **`L0` iDirectory v6.0**: Enforces all-lowercase directory topology, boundary beacons (`.context.yaml`), cryptographic state satellites (`.context/tree.json`), token budgeting, and subagent capsule isolation (`<450 tokens`).
+- **`L1` ThinkingSeed v6.0**: Preserves architectural technical memory and AST symbolic contracts with zero implementation source code (`Zero Source Code`), verified under 6 strict validation gates.
+- **`L2` MetricsThinking™ v6.0**: Computes ground-truth project maturity across 10 canonical modules, AST semantic drift detection, FPIA spectral efficiency ($S_{\text{spectral}}$, $PF_{\text{spectral}}$), and Zero-Tolerance security scanning.
+- **`L3` iReadme v6.0**: Synchronizes dual English/Spanish documentation under Enterprise Paper-Grade v6.0 with strict structural parity $\Phi = 1.0$, KaTeX formalisms, and zero absolute path leakage.
+
+---
+
+## 3. Mathematical Formulation & Analytical Engines
+
+### 3.1. Language Parity & Topology Synchronization Index
+
+Let $\mathcal{D}_{EN}$ and $\mathcal{D}_{ES}$ represent the document structure sets for the English and Spanish specifications respectively, partitioned into $N = 8$ canonical sections $S_i$:
+
+$$\mathcal{D}_{EN} = \bigcup_{i=1}^{8} S_{i, EN}, \quad \mathcal{D}_{ES} = \bigcup_{i=1}^{8} S_{i, ES}$$
+
+The Synchronization Metric $\Phi(\mathcal{D}_{EN}, \mathcal{D}_{ES})$ is strictly constrained by the identity:
+
+$$\Phi(\mathcal{D}_{EN}, \mathcal{D}_{ES}) = \frac{1}{N} \sum_{i=1}^{N} \mathbb{I}\left( \text{Hash}(S_{i, EN}.\text{topology}) == \text{Hash}(S_{i, ES}.\text{topology}) \right) = 1.0$$
+
+### 3.2. Absolute Path Elimination Operator & Boundary
+
+Let $P$ denote the set of all string path tokens parsed from the repository workspace. The path admissibility operator $\mathcal{E}(p)$ filters against forbidden operating system roots $\mathcal{R}_{OS} = \{ \text{C:}, \text{D:}, \text{local URI}, \text{user directory} \}$:
+
+$$\mathcal{E}(p) = \begin{cases} p, & \text{if } \forall r \in \mathcal{R}_{OS}, \; r \not\sqsubset p \\ \text{RelativePath}(p), & \text{otherwise} \end{cases}$$
+
+The system invariant enforces zero leakage across all generated documentation artifacts:
+
+$$\forall p \in \text{Artifacts}(\mathcal{D}), \quad p \cap \mathcal{R}_{OS} = \emptyset \implies p \in \text{Path}_{relative}$$
+
+### 3.3. Document Entropy & Information Density Bound
+
+The information density metric $\mathcal{H}(\mathcal{D})$ ensures high semantic density while preventing colloquial bloat:
+
+$$\mathcal{H}(\mathcal{D}) = -\sum_{k=1}^{K} p(w_k) \log_2 p(w_k) \le \Gamma_{max}$$
+
+---
+
+## 4. Empirical Performance & Benchmarks
+
+<!-- ICONTEXT-V6:TELEMETRY:START -->
+| Evidence / Evidencia | Recorded value / Valor registrado |
+| :--- | :--- |
+| Metrics score | 100.0 |
+| Estimated spectral factor (auxiliary) | 0.9931 |
+| Query latency p95 (ms) | 10.651000309735537 |
+| Validity | Recorded evidence; verify freshness with icontext audit |
+<!-- ICONTEXT-V6:TELEMETRY:END -->
+
+Version 6 adds incremental evidence, content-backed invalidation and read-only queries. Release measurements are recorded in `.context/benchmark_v6.json`, including engine/process p50/p95, file reads and comparison against a full inventory. Token counts are explicitly estimated. Model attention outcomes require observed host sessions and are not inferred from FPAI.
+
+## 5. Repository Structure & Artifacts
+
+```
+iReadme/
+├── .cursorrules                # Cursor IDE context rules
+├── .gitignore                  # Git exclusion policy definition
+├── 01_seed/                    # Passive architectural context snapshots (ThinkingSeed)
+│   └── seed-iReadme-master.md  # System genetic memory and ADN snapshot (v6.0)
+├── 02_foundation/              # Foundation manifests and directory governance
+├── AGENTS.md                   # Universal open AI agent specification
+├── CLAUDE.md                   # Anthropic Claude Code & Desktop guidelines
+├── GEMINI.md                   # Institutional governance and Paper-Grade rules
+├── GestorReadme.md             # Canonical 8-section layout template
+├── OPENAI.md                   # OpenAI ChatGPT / Codex system prompt
+├── Propuesta Skill.md          # Consolidated skill specification proposal
+├── README.md                   # Master English technical documentation
+├── README_ES.md                # Synchronized Spanish technical documentation
+├── tools/                      # Utility scripts and helper tools
+├── config/                     # Pipeline and environment configurations
+├── data/                       # Test datasets and sample payloads
+├── docs/                       # Extended domain documentation
+├── infrastructure/             # Cloud infrastructure definitions
+├── install.ps1                 # Windows PowerShell 1-click installer
+├── install.sh                  # Linux/macOS Bash 1-click installer
+├── logs/                       # Execution and audit logs
+├── pyproject.toml              # Project dependencies and toolchain config
+├── schemas/                    # Data contract and JSON schemas
+├── scripts/                    # Automation entry points & CLI tooling
+│   ├── init_readme.py          # Paper-Grade generator and synchronizer script
+│   └── install_skill.py        # Universal multi-platform skill installer
+├── skills/                     # Canonical Agent Skills directory
+│   └── readme/
+│       └── SKILL.md            # Universal agent skill specification
+├── src/                        # Core application modules
+└── tests/                      # Verification suite and invariant test suite
+```
+
+---
+
+## 6. Execution & Verification Protocol
+
+### 6.1. Universal 1-Click Installation ("Plug & Play")
+
+To install the iReadme skill across your AI developer tooling:
+
+```bash
+# Auto-detect and install to Google Antigravity, Claude Code, and project directories
+python scripts/install_skill.py --all
+```
+
+For platform-specific automated installation:
+
+```powershell
+# Windows PowerShell
+powershell -ExecutionPolicy Bypass -File install.ps1
+```
+
+```bash
+# Linux / macOS
+chmod +x install.sh && ./install.sh
+```
+
+### 6.2. Pipeline Execution & Synchronization
+
+To generate or synchronize the dual Enterprise Paper-Grade documentation (`README.md` and `README_ES.md`):
+
+```bash
+python scripts/init_readme.py
+```
+
+### 6.3. System Verification Suite
+
+Execute the invariant verification suite to validate zero path leakages, zero emojis, and KaTeX balance:
+
+```bash
+python -m pytest
+```
+
+---
+
+## 7. Domain Glossary
+
+* **Enterprise Paper-Grade v6.0:** High-engineering documentation specification uniting executive corporate value propositions, academic KaTeX mathematical formulations, monochromatic badges, and symmetric ASCII topologies.
+* **Path Portability Invariant:** Validation rejects local absolute paths in documentation; authored content and relative links remain reviewable.
+* **Universal Multi-AI Interoperability:** Architecture pattern enabling seamless skill execution across Google Antigravity, Anthropic Claude, OpenAI, Cursor, and Copilot.
+* **ThinkingSeed:** High-fidelity architectural snapshot preserving project ADN as passive context for autonomous AI systems.
+
+---
+
+## 8. Academic & Engineering References
+
+1. IEEE Computer Society. *IEEE Standard for System, Software, and Hardware Documentation*, IEEE Std 26514-2018.
+2. ACM Systems Guidelines. *Reproducibility and Technical Specification Artifact Standards*, 2024.
+3. ISO/IEC/IEEE 15288:2015. *Systems and software engineering - System life cycle processes*.
+
+### BibTeX Citation
+
+```bibtex
+@software{ireadme_2026,
+  author = {Herrera Alvarez, Alvaro},
+  title = {iReadme: Institutional Paper-Grade Documentation Engine},
+  year = {2026},
+  url = {https://github.com/engineData/iReadme}
+}
+```

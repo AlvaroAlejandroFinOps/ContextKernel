@@ -1,0 +1,17 @@
+version: 1.0
+directory: src/ireadme
+role: namespace
+purpose: "Núcleo v6: preservación de README y telemetría con evidencia."
+relevance: medium
+crawl: true
+read_priority: p2
+seed_reference: optional
+tier1_preload: false
+inherited: true
+token_density: sparse
+instructions: "Actualizar solo bloques gestionados; golden requiere operación explícita."
+key_files:
+  - "generator.py: generate_universal_readmes(repo_path, write_to_disk, update_golden)"
+exported_to:
+  - "scripts"
+  - "tests"

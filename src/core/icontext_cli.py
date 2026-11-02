@@ -158,6 +158,10 @@ def complete(root, layer, expected):
 
 def metrics(root, eco, full=False, profile="default"):
     candidate = eco / "MetricsThinking" / "src"
+    if not candidate.is_dir():
+        candidate = eco / "packages/metricsthinking/src"
+    if not candidate.is_dir():
+        candidate = Path(root) / "packages/metricsthinking/src"
     if candidate.is_dir():
         sys.path.insert(0, str(candidate))
     from metricsthinking.engine import run_audit
@@ -334,7 +338,15 @@ def main(argv=None):
         except (OSError, ValueError) as exc:
             print(json.dumps({"error": str(exc)}))
             return 1
-    roots = [eco / p for p in PROJECTS] if args.all else [target]
+    if args.all:
+        roots = []
+        for p in PROJECTS:
+            pkg = eco / "packages" / p.lower()
+            if not pkg.is_dir() and (Path.cwd() / "packages" / p.lower()).is_dir():
+                pkg = Path.cwd() / "packages" / p.lower()
+            roots.append(pkg if pkg.is_dir() else eco / p)
+    else:
+        roots = [target]
     results, code = [], 0
     for root in roots:
         if not root.is_dir():

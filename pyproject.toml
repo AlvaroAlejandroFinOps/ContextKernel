@@ -1,18 +1,31 @@
 [build-system]
-requires = ["setuptools>=68"]
+requires = ["setuptools>=68", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "icontext-control"
-version = "6.0.0"
+name = "contextkernel"
+version = "6.1.0"
+description = "ContextKernel is a context and attention control plane for AI engineering agents"
+readme = "README.md"
 requires-python = ">=3.10"
-description = "Incremental context engineering orchestration and audit CLI"
+authors = [{ name = "Gravity HyperScale Thinking" }]
+dependencies = [
+    "pydantic>=2.0",
+    "pyyaml>=6.0",
+]
 
 [project.optional-dependencies]
 audit = ["pydantic>=2", "pyyaml>=6"]
 
 [project.scripts]
-icontext = "icontext_cli:main"
+ck = "contextkernel.cli:main"
+contextkernel = "contextkernel.cli:main"
+icontext = "contextkernel.cli:main"
+
+[tool.uv.workspace]
+members = [
+    "packages/*"
+]
 
 [tool.setuptools]
 package-dir = {"" = "tools/icontext_runtime"}
@@ -26,3 +39,17 @@ include = ["metricsthinking*", "ireadme*", "_icontext_assets*"]
 [tool.setuptools.package-data]
 metricsthinking = ["profiles/*.yaml"]
 _icontext_assets = ["runtime_payload.zip"]
+
+[tool.pytest.ini_options]
+testpaths = ["packages"]
+pythonpath = [
+    "tools/icontext_runtime",
+    "packages/contextkernel-cli/src",
+    "packages/idirectory",
+    "packages/idirectory/src",
+    "packages/thinkingseed",
+    "packages/metricsthinking",
+    "packages/metricsthinking/src",
+    "packages/ireadme",
+    "packages/ireadme/src"
+]

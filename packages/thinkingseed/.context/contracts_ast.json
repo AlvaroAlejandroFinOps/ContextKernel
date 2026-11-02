@@ -1,0 +1,213 @@
+{
+  "$schema": "../schemas/contracts_ast.schema.json",
+  "analyzer_version": "6.0.0:3",
+  "cli_flags": [
+    "--backup",
+    "--check-only",
+    "--expand",
+    "--global-install",
+    "--no-anonymize",
+    "--output",
+    "--pack",
+    "--target",
+    "--target-repo",
+    "--tier"
+  ],
+  "contracts_ast_hash": "b26d1d8564e1d6e11101e13c4862baba5e34049f86a9bd241fe3fae3593908ed",
+  "inputs_hash": "b5b9874be4a922a44b00fb40a5e79dd5ef242a81b72fd70bb4dd7efa50115727",
+  "modules": {
+    "FWengine.py": {
+      "cli_flags": [
+        "--expand",
+        "--pack",
+        "--tier"
+      ],
+      "imports": [
+        "argparse",
+        "icontext_cli",
+        "pathlib",
+        "sys"
+      ],
+      "signatures": [],
+      "symbols": []
+    },
+    "scripts/install_skills.py": {
+      "cli_flags": [
+        "--backup",
+        "--check-only",
+        "--global-install",
+        "--target"
+      ],
+      "imports": [
+        "argparse",
+        "os",
+        "pathlib",
+        "re",
+        "shutil",
+        "skill_installer",
+        "sys"
+      ],
+      "signatures": [
+        "./scripts/install_skills.py::upsert_segmented_rule_file(src_path: Path, dest_path: Path, tool_key: str='THINKINGSEED', backup: bool=False) -> bool",
+        "./scripts/install_skills.py::get_home_dir() -> Path",
+        "./scripts/install_skills.py::install_antigravity_global() -> bool",
+        "./scripts/install_skills.py::install_claude_code_global() -> bool",
+        "./scripts/install_skills.py::install_codex_global() -> bool",
+        "./scripts/install_skills.py::inject_into_project(target_path: Path, backup: bool=False, check_only: bool=False) -> bool",
+        "./scripts/install_skills.py::main() -> Any"
+      ],
+      "symbols": [
+        "upsert_segmented_rule_file",
+        "get_home_dir",
+        "install_antigravity_global",
+        "install_claude_code_global",
+        "install_codex_global",
+        "inject_into_project",
+        "main"
+      ]
+    },
+    "scripts/test_seed_coverage.py": {
+      "cli_flags": [
+        "--check-only",
+        "--no-anonymize",
+        "--output",
+        "--target-repo"
+      ],
+      "imports": [
+        "argparse",
+        "ast",
+        "context_runtime",
+        "json",
+        "os",
+        "pathlib",
+        "re",
+        "sys",
+        "typing"
+      ],
+      "signatures": [
+        "./scripts/test_seed_coverage.py::check_llm_contract_headers(seed_content: str) -> Dict[str, Any]",
+        "./scripts/test_seed_coverage.py::check_zero_code_invariant(seed_content: str) -> Dict[str, Any]",
+        "./scripts/test_seed_coverage.py::check_path_portability(seed_content: str) -> Dict[str, Any]",
+        "./scripts/test_seed_coverage.py::check_secret_leaks(seed_content: str, seed_dir: Path=None) -> Dict[str, Any]",
+        "./scripts/test_seed_coverage.py::extract_repo_ast_contracts(repo_path: Path) -> Dict[str, List[str]]",
+        "./scripts/test_seed_coverage.py::check_ast_contract_coverage(repo_path: Path, seed_content: str) -> Dict[str, Any]",
+        "./scripts/test_seed_coverage.py::check_local_tree_freshness(repo_path: Path) -> Dict[str, Any]",
+        "./scripts/test_seed_coverage.py::analyze_repo(repo_path: Path) -> Dict[str, Any]",
+        "./scripts/test_seed_coverage.py::analyze_seed(seed_path: Path) -> Dict[str, Any]",
+        "./scripts/test_seed_coverage.py::compute_coverage(repo_meta: Dict[str, Any], seed_meta: Dict[str, Any], repo_path: Path) -> Dict[str, Any]",
+        "./scripts/test_seed_coverage.py::generate_report(repo_meta: Dict[str, Any], hybrid_meta: Dict[str, Any], master_meta: Dict[str, Any], cov_hybrid: Dict[str, Any], cov_master: Dict[str, Any], anonymize: bool=True) -> str",
+        "./scripts/test_seed_coverage.py::main() -> None"
+      ],
+      "symbols": [
+        "check_llm_contract_headers",
+        "check_zero_code_invariant",
+        "check_path_portability",
+        "check_secret_leaks",
+        "extract_repo_ast_contracts",
+        "check_ast_contract_coverage",
+        "check_local_tree_freshness",
+        "analyze_repo",
+        "analyze_seed",
+        "compute_coverage",
+        "generate_report",
+        "main"
+      ]
+    },
+    "skills/v6/seed-master/scripts/run.py": {
+      "cli_flags": [],
+      "imports": [
+        "icontext_cli",
+        "json",
+        "pathlib",
+        "sys"
+      ],
+      "signatures": [
+        "./skills/v6/seed-master/scripts/run.py::matches_version(path) -> Any"
+      ],
+      "symbols": [
+        "matches_version"
+      ]
+    },
+    "skills/v6/seed/scripts/run.py": {
+      "cli_flags": [],
+      "imports": [
+        "icontext_cli",
+        "json",
+        "pathlib",
+        "sys"
+      ],
+      "signatures": [
+        "./skills/v6/seed/scripts/run.py::matches_version(path) -> Any"
+      ],
+      "symbols": [
+        "matches_version"
+      ]
+    },
+    "tests/test_validators.py": {
+      "cli_flags": [],
+      "imports": [
+        "pathlib",
+        "scripts.install_skills",
+        "scripts.test_seed_coverage",
+        "sys",
+        "tempfile",
+        "unittest"
+      ],
+      "signatures": [
+        "./tests/test_validators.py::TestThinkingSeedV5Validators(class)"
+      ],
+      "symbols": [
+        "TestThinkingSeedV5Validators"
+      ]
+    }
+  },
+  "project": "ThinkingSeed",
+  "public_symbols": [
+    "TestThinkingSeedV5Validators",
+    "analyze_repo",
+    "analyze_seed",
+    "check_ast_contract_coverage",
+    "check_llm_contract_headers",
+    "check_local_tree_freshness",
+    "check_path_portability",
+    "check_secret_leaks",
+    "check_zero_code_invariant",
+    "compute_coverage",
+    "extract_repo_ast_contracts",
+    "generate_report",
+    "get_home_dir",
+    "inject_into_project",
+    "install_antigravity_global",
+    "install_claude_code_global",
+    "install_codex_global",
+    "main",
+    "matches_version",
+    "upsert_segmented_rule_file"
+  ],
+  "signatures_1line": [
+    "./scripts/install_skills.py::upsert_segmented_rule_file(src_path: Path, dest_path: Path, tool_key: str='THINKINGSEED', backup: bool=False) -> bool",
+    "./scripts/install_skills.py::get_home_dir() -> Path",
+    "./scripts/install_skills.py::install_antigravity_global() -> bool",
+    "./scripts/install_skills.py::install_claude_code_global() -> bool",
+    "./scripts/install_skills.py::install_codex_global() -> bool",
+    "./scripts/install_skills.py::inject_into_project(target_path: Path, backup: bool=False, check_only: bool=False) -> bool",
+    "./scripts/install_skills.py::main() -> Any",
+    "./scripts/test_seed_coverage.py::check_llm_contract_headers(seed_content: str) -> Dict[str, Any]",
+    "./scripts/test_seed_coverage.py::check_zero_code_invariant(seed_content: str) -> Dict[str, Any]",
+    "./scripts/test_seed_coverage.py::check_path_portability(seed_content: str) -> Dict[str, Any]",
+    "./scripts/test_seed_coverage.py::check_secret_leaks(seed_content: str, seed_dir: Path=None) -> Dict[str, Any]",
+    "./scripts/test_seed_coverage.py::extract_repo_ast_contracts(repo_path: Path) -> Dict[str, List[str]]",
+    "./scripts/test_seed_coverage.py::check_ast_contract_coverage(repo_path: Path, seed_content: str) -> Dict[str, Any]",
+    "./scripts/test_seed_coverage.py::check_local_tree_freshness(repo_path: Path) -> Dict[str, Any]",
+    "./scripts/test_seed_coverage.py::analyze_repo(repo_path: Path) -> Dict[str, Any]",
+    "./scripts/test_seed_coverage.py::analyze_seed(seed_path: Path) -> Dict[str, Any]",
+    "./scripts/test_seed_coverage.py::compute_coverage(repo_meta: Dict[str, Any], seed_meta: Dict[str, Any], repo_path: Path) -> Dict[str, Any]",
+    "./scripts/test_seed_coverage.py::generate_report(repo_meta: Dict[str, Any], hybrid_meta: Dict[str, Any], master_meta: Dict[str, Any], cov_hybrid: Dict[str, Any], cov_master: Dict[str, Any], anonymize: bool=True) -> str",
+    "./scripts/test_seed_coverage.py::main() -> None",
+    "./skills/v6/seed/scripts/run.py::matches_version(path) -> Any",
+    "./skills/v6/seed-master/scripts/run.py::matches_version(path) -> Any",
+    "./tests/test_validators.py::TestThinkingSeedV5Validators(class)"
+  ],
+  "topology_hash": "c715bd5be106cfa0e9e10fd5a8d09f956e80d3bc44b492495505b2f9abb060df",
+  "version": "6.0"
+}

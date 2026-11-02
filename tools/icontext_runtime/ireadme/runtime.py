@@ -409,7 +409,7 @@ def validate_seed(path, index=None):
         errors.append("Missing numbered architectural sections 0 through 10")
     if index is not None:
         expected = {symbol for name, module in index.get("modules", {}).items()
-                    if not name.startswith("tests/") for symbol in module.get("symbols", [])}
+                    if not (name.startswith("tests/") or "/tests/" in name) for symbol in module.get("symbols", [])}
         missing = sorted(symbol for symbol in expected if symbol not in text)
         if missing:
             errors.append("Missing public contracts: " + ", ".join(missing[:20]))

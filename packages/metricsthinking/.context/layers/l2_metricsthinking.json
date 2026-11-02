@@ -1,0 +1,12 @@
+{
+  "consolidated_score": 96.33,
+  "fpai_pf_spectral": 1.0,
+  "fpai_s_spectral": 216641.455,
+  "inputs_hash": "b9bca284381579db3e56b82bbd7390ec914de3d73a8e6eb210b5fe639eb13060",
+  "present": true,
+  "published_at": "2026-11-02T00:25:46.439260+00:00",
+  "report_path": "artifacts/plans/metricsthinking/MetricsThinking.json",
+  "security_gate": 0.0,
+  "state": "validated",
+  "version": "6.0.0"
+}

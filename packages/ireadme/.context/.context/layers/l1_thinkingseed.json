@@ -1,0 +1,9 @@
+{
+  "artifact_kind": "master",
+  "inputs_hash": "552eb5ba7a2d1299fb5ddcb8be680390a4efbd45f8dddb9b9730d55ce4baaa0e",
+  "output_hash": "4ab08c393433601f061f4e70c7e2cfe4ea6a267b074bedead29bd23c60adf468",
+  "present": true,
+  "published_at": "2026-10-31T22:31:29.401149+00:00",
+  "state": "validated",
+  "version": "6.0.0"
+}
