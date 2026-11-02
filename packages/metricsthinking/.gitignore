@@ -8,9 +8,12 @@ artifacts/benchmark
 *.csv
 *.parquet
 logs/
-data/raw/
-data/processed/
-data/sandbox/
+data/raw/*
+!data/raw/.context.yaml
+data/processed/*
+!data/processed/.context.yaml
+data/sandbox/*
+!data/sandbox/.context.yaml
 
 .context/cache/
 target/

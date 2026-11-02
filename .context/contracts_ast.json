@@ -89,8 +89,8 @@
     "-t",
     "-v"
   ],
-  "contracts_ast_hash": "b2eb3e9c14171e817c325762f35ac52fe144471d9e12cd356e08c840cc4b333c",
-  "inputs_hash": "3fddd4cb5403ca20a614b123e5727c09a046fb9312b2522ddcd965a1da48129c",
+  "contracts_ast_hash": "dd378435f0120325e90526682bea1b41a119e11550b3eba0e20d87a7fa7c2d46",
+  "inputs_hash": "1aeb0889e758b9014d9d2d521450e6cbb8cf597f2f7eb730b4d27e19162518b5",
   "modules": {
     "FWengine.py": {
       "cli_flags": [
@@ -1959,7 +1959,7 @@
         "pytest"
       ],
       "signatures": [
-        "./packages/metricsthinking/tests/test_calibration.py::test_self_audit_with_sdd_profile() -> Any",
+        "./packages/metricsthinking/tests/test_calibration.py::test_self_audit_with_sdd_profile(tmp_path) -> Any",
         "./packages/metricsthinking/tests/test_calibration.py::test_gitops_synthetic_repo_calibration(tmp_path) -> Any",
         "./packages/metricsthinking/tests/test_calibration.py::test_mlops_synthetic_repo_calibration(tmp_path) -> Any",
         "./packages/metricsthinking/tests/test_calibration.py::test_llmops_synthetic_repo_calibration(tmp_path) -> Any"
@@ -2004,7 +2004,7 @@
         "./packages/metricsthinking/tests/test_cli_mcp_renderer_v4.py::test_renderer_materializes_four_artifacts(tmp_path) -> Any",
         "./packages/metricsthinking/tests/test_cli_mcp_renderer_v4.py::test_engine_run_audit_with_prune_and_medallion(tmp_path) -> Any",
         "./packages/metricsthinking/tests/test_cli_mcp_renderer_v4.py::test_mcp_server_six_tools() -> Any",
-        "./packages/metricsthinking/tests/test_cli_mcp_renderer_v4.py::test_mcp_server_tool_calls() -> Any"
+        "./packages/metricsthinking/tests/test_cli_mcp_renderer_v4.py::test_mcp_server_tool_calls(tmp_path) -> Any"
       ],
       "symbols": [
         "test_renderer_materializes_four_artifacts",
@@ -3472,7 +3472,7 @@
     "./packages/metricsthinking/tests/test_benchmarks_stress.py::test_volumetric_scale_benchmark(tmp_path) -> Any",
     "./packages/metricsthinking/tests/test_benchmarks_stress.py::test_ast_coupling_stress_benchmark() -> Any",
     "./packages/metricsthinking/tests/test_benchmarks_stress.py::test_golden_baseline_regression_snapshot() -> Any",
-    "./packages/metricsthinking/tests/test_calibration.py::test_self_audit_with_sdd_profile() -> Any",
+    "./packages/metricsthinking/tests/test_calibration.py::test_self_audit_with_sdd_profile(tmp_path) -> Any",
     "./packages/metricsthinking/tests/test_calibration.py::test_gitops_synthetic_repo_calibration(tmp_path) -> Any",
     "./packages/metricsthinking/tests/test_calibration.py::test_mlops_synthetic_repo_calibration(tmp_path) -> Any",
     "./packages/metricsthinking/tests/test_calibration.py::test_llmops_synthetic_repo_calibration(tmp_path) -> Any",
@@ -3481,7 +3481,7 @@
     "./packages/metricsthinking/tests/test_cli_mcp_renderer_v4.py::test_renderer_materializes_four_artifacts(tmp_path) -> Any",
     "./packages/metricsthinking/tests/test_cli_mcp_renderer_v4.py::test_engine_run_audit_with_prune_and_medallion(tmp_path) -> Any",
     "./packages/metricsthinking/tests/test_cli_mcp_renderer_v4.py::test_mcp_server_six_tools() -> Any",
-    "./packages/metricsthinking/tests/test_cli_mcp_renderer_v4.py::test_mcp_server_tool_calls() -> Any",
+    "./packages/metricsthinking/tests/test_cli_mcp_renderer_v4.py::test_mcp_server_tool_calls(tmp_path) -> Any",
     "./packages/metricsthinking/tests/test_collector.py::test_collector_basic_scan(tmp_path: Path) -> Any",
     "./packages/metricsthinking/tests/test_collector.py::test_collector_anti_fraud_seed_filtering(tmp_path: Path) -> Any",
     "./packages/metricsthinking/tests/test_collector.py::test_collector_detects_ci_and_tests(tmp_path: Path) -> Any",

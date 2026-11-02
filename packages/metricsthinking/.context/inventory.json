@@ -6,7 +6,7 @@
       "size": 435,
       "stat": [
         435,
-        1793579141110685500
+        1793580618714121700
       ]
     },
     ".context.yaml": {
@@ -42,11 +42,11 @@
       ]
     },
     ".gitignore": {
-      "sha256": "7f45c845859fade830231075c5662385360aed84a207cd1f4f3ec96ca461d1f1",
-      "size": 312,
+      "sha256": "a0558108a4d777b5cba6527a31f21ca29792e2bd3f14f6bd7c904deb3bf417ee",
+      "size": 380,
       "stat": [
-        312,
-        1793544408154392500
+        380,
+        1793581047124835300
       ]
     },
     "01_seed/.context.yaml": {
@@ -160,7 +160,7 @@
       "size": 281,
       "stat": [
         281,
-        1793579127727372700
+        1793580618730079800
       ]
     },
     "artifacts/benchmark_seed_coverage.md": {
@@ -1570,7 +1570,7 @@
       "size": 141,
       "stat": [
         141,
-        1793579128568895400
+        1793580618743352800
       ]
     },
     "tests/fixtures/sample_golden_audit.json": {
@@ -1704,11 +1704,11 @@
           "test_golden_baseline_regression_snapshot"
         ]
       },
-      "sha256": "065eba8b81b93653e7bc6bdf8d7d8a283e9a3bf8d26cb7209eb65c7cb824dcd2",
-      "size": 4313,
+      "sha256": "3b056b35740c92bc51f52d62be81e95dcc9b859e9f2942b5604bc2cbdc0dd3f1",
+      "size": 4398,
       "stat": [
-        4313,
-        1793485120994738900
+        4398,
+        1793581113294128200
       ]
     },
     "tests/test_calibration.py": {
@@ -1724,7 +1724,7 @@
           "pytest"
         ],
         "signatures": [
-          "./tests/test_calibration.py::test_self_audit_with_sdd_profile() -> Any",
+          "./tests/test_calibration.py::test_self_audit_with_sdd_profile(tmp_path) -> Any",
           "./tests/test_calibration.py::test_gitops_synthetic_repo_calibration(tmp_path) -> Any",
           "./tests/test_calibration.py::test_mlops_synthetic_repo_calibration(tmp_path) -> Any",
           "./tests/test_calibration.py::test_llmops_synthetic_repo_calibration(tmp_path) -> Any"
@@ -1736,11 +1736,11 @@
           "test_llmops_synthetic_repo_calibration"
         ]
       },
-      "sha256": "8d32d5aca719d1699ed7548b06faf2acecd8989b03425b8225c6f29df9ec02a0",
-      "size": 5799,
+      "sha256": "85a20cc24583962f152cabab025b916c710112529d99c83e894c52d85fbd6f21",
+      "size": 5852,
       "stat": [
-        5799,
-        1790603233587171300
+        5852,
+        1793581068693423700
       ]
     },
     "tests/test_cli.py": {
@@ -1785,7 +1785,7 @@
           "./tests/test_cli_mcp_renderer_v4.py::test_renderer_materializes_four_artifacts(tmp_path) -> Any",
           "./tests/test_cli_mcp_renderer_v4.py::test_engine_run_audit_with_prune_and_medallion(tmp_path) -> Any",
           "./tests/test_cli_mcp_renderer_v4.py::test_mcp_server_six_tools() -> Any",
-          "./tests/test_cli_mcp_renderer_v4.py::test_mcp_server_tool_calls() -> Any"
+          "./tests/test_cli_mcp_renderer_v4.py::test_mcp_server_tool_calls(tmp_path) -> Any"
         ],
         "symbols": [
           "test_renderer_materializes_four_artifacts",
@@ -1794,11 +1794,11 @@
           "test_mcp_server_tool_calls"
         ]
       },
-      "sha256": "7cbf852e96204fdc1a4c40484fa993d077e2853115508e55148f4db4a1f1b23c",
-      "size": 3513,
+      "sha256": "f738e185c2aef181e30e7506a3c6242c0df4a3f70bca9014c05081b68a8a92ca",
+      "size": 4079,
       "stat": [
-        3513,
-        1793363219787274800
+        4079,
+        1793581494076263800
       ]
     },
     "tests/test_collector.py": {
@@ -2246,7 +2246,7 @@
       ]
     }
   },
-  "inputs_hash": "b9bca284381579db3e56b82bbd7390ec914de3d73a8e6eb210b5fe639eb13060",
-  "policy_hash": "37f29343a1356a6d6aac7a8100c728445978734731cfc86ae38f73510e074206",
+  "inputs_hash": "7ace2c978817733f95a6b8935c83013e5b7140e55fd348d30f7ea2c078809e50",
+  "policy_hash": "66faf4e97170a9b9164e6fd6c17b5044d03dd4ed141bb3acfa6b9e3906da528d",
   "version": "6.0.0"
 }

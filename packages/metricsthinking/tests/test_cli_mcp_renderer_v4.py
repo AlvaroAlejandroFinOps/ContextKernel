@@ -37,10 +37,15 @@ def test_renderer_materializes_four_artifacts(tmp_path):
 
 
 def test_engine_run_audit_with_prune_and_medallion(tmp_path):
+    repo_dir = tmp_path / "repo"
+    repo_dir.mkdir()
+    (repo_dir / "app.py").write_text("def hello(): pass\n", encoding="utf-8")
+    (repo_dir / ".agentignore").write_text("# initial ignore\n", encoding="utf-8")
+    (repo_dir / ".context.yaml").write_text("crawl: true\n", encoding="utf-8")
     report, artifacts = run_audit(
-        target_path=".",
+        target_path=str(repo_dir),
         profile_name="default",
-        out_dir=str(tmp_path),
+        out_dir=str(tmp_path / "out"),
         quiet=True,
         prune=True,
         medallion=True,
@@ -68,27 +73,32 @@ def test_mcp_server_six_tools():
         assert exp in tool_names, f"Tool {exp} must be exposed in MCP server"
 
 
-def test_mcp_server_tool_calls():
+def test_mcp_server_tool_calls(tmp_path):
+    repo = tmp_path / "repo"
+    repo.mkdir()
+    (repo / "README.md").write_text("# Test Repo\nProblem statement: testing.\n", encoding="utf-8")
+    (repo / ".context.yaml").write_text("crawl: true\n", encoding="utf-8")
+
     # 1. get_project_score
-    resp_score = handle_call_tool("get_project_score", {"target": "."})
+    resp_score = handle_call_tool("get_project_score", {"target": str(repo)})
     assert len(resp_score) == 1
     data_score = json.loads(resp_score[0]["text"])
     assert "consolidated_score" in data_score
 
     # 2. get_module_evaluation
-    resp_mod = handle_call_tool("get_module_evaluation", {"module_id": "M01", "target": "."})
+    resp_mod = handle_call_tool("get_module_evaluation", {"module_id": "M01", "target": str(repo)})
     assert len(resp_mod) == 1
     data_mod = json.loads(resp_mod[0]["text"])
     assert data_mod["module_id"] == "M01"
 
     # 3. get_spectral_efficiency
-    resp_spec = handle_call_tool("get_spectral_efficiency", {"target": "."})
+    resp_spec = handle_call_tool("get_spectral_efficiency", {"target": str(repo)})
     assert len(resp_spec) == 1
     data_spec = json.loads(resp_spec[0]["text"])
     assert "power_factor_spectral" in data_spec
 
     # 4. generate_pruning_plan
-    resp_prune = handle_call_tool("generate_pruning_plan", {"target": "."})
+    resp_prune = handle_call_tool("generate_pruning_plan", {"target": str(repo)})
     assert len(resp_prune) == 1
     data_prune = json.loads(resp_prune[0]["text"])
     assert "total_tokens_recovered" in data_prune

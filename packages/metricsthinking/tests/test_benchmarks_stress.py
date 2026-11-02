@@ -68,11 +68,12 @@ def test_volumetric_scale_benchmark(tmp_path):
         "status": "PASS",
     }
 
-    # Write artifact to artifacts/benchmark_coverage_report.json
+    # Write artifact to artifacts/benchmark_coverage_report.json if missing
     artifacts_dir = Path("artifacts")
     artifacts_dir.mkdir(parents=True, exist_ok=True)
     report_file = artifacts_dir / "benchmark_coverage_report.json"
-    report_file.write_text(json.dumps(benchmark_report, indent=2), encoding="utf-8")
+    if not report_file.exists():
+        report_file.write_text(json.dumps(benchmark_report, indent=2), encoding="utf-8")
 
     assert report_file.exists()
 
@@ -121,5 +122,6 @@ def test_golden_baseline_regression_snapshot():
         "has_schemas": len(ev.schemas) > 0,
     }
 
-    golden_file.write_text(json.dumps(baseline_data, indent=2), encoding="utf-8")
+    if not golden_file.exists():
+        golden_file.write_text(json.dumps(baseline_data, indent=2), encoding="utf-8")
     assert golden_file.exists()

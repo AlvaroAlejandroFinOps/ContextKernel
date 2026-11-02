@@ -1,13 +1,13 @@
 {
   "metrics": {
-    "input_hash": "b66a52696ca8ee0ca0e94461961f73d90253b62b00534a56dbe1088c1de8eea1",
-    "output_hash": "1eb7326c20f23a54daef85422f9400cdd42463a265ad80e0795c7f691880bd56"
+    "input_hash": "245e6a7767762e03f566ae65a3e570159ef8992023fcf818f667d3505dbdc2c4",
+    "output_hash": "ec6a135c3647362b9f91d65de131539d44b9116f1d39bf914678a71c0806063c"
   },
   "readme": {
     "files": {
       ".agentignore": "b713832b5ab2fd6191a9c59e9098496c9d90d5570f06742d8749ed504e23f030",
       ".agents/skills/icontext/SKILL.md": "45ea6e13061205c4c9bcb01f62c73cf929bb1ac9fce3170c313653ee066eb095",
-      ".gitignore": "f95bf97bd1140a0777c30981adea38d1bd3206400924bdfe5bd6a8d7a4400858",
+      ".gitignore": "6a1a301f51154b8bb94dd9581b82aae60ee42d7a8f1f6b4f950720619c5af19f",
       "01_seed/.context.yaml": "7d5461d313d5b70f7a35b76f1f822d85e257230c107157f5402b69a47a9a9f0c",
       "01_seed/seed-contextkernel-master.md": "30c868017f0f11f2e81806595300929761f9bc66fe26195b13fec8d722987a8e",
       "02_foundation/.context.yaml": "2637c17b145539cd43d629c4285f8085395e25a4f5b7b935f8c01060750ee3e1",
@@ -185,7 +185,7 @@
       "packages/metricsthinking/.cursor/rules/metrics.mdc": "c237c43a43ee2205dc954aa05745d665893035fc1b3c6825cbcb3cefea41daa5",
       "packages/metricsthinking/.github/copilot-instructions.md": "b27a7eaafd5f7fc19f230077655a5e271b94030b40181466a72fe0decb4de0b3",
       "packages/metricsthinking/.github/workflows/ci.yml": "df80091c2c47d54670c9226a7bdd971c7a6937ef2a31ef35b1a1a62637fc1e77",
-      "packages/metricsthinking/.gitignore": "7f45c845859fade830231075c5662385360aed84a207cd1f4f3ec96ca461d1f1",
+      "packages/metricsthinking/.gitignore": "a0558108a4d777b5cba6527a31f21ca29792e2bd3f14f6bd7c904deb3bf417ee",
       "packages/metricsthinking/01_seed/.context.yaml": "872a8461f6cc90373f0553baf10bf0e4ef8bc7c7dc433079a4c780673e43d939",
       "packages/metricsthinking/01_seed/seed-metricsthinking-master.md": "c8f0727f8d3f4c53fbaa92beb2666efbd33a3cedca87fd9b08bb4759ef223b8d",
       "packages/metricsthinking/02_foundation/.context.yaml": "2637c17b145539cd43d629c4285f8085395e25a4f5b7b935f8c01060750ee3e1",
@@ -249,12 +249,6 @@
       "packages/metricsthinking/crates/metricsthinking_rs/src/lib.rs": "3af19cfc2692ee0e06483aad6a160b6ee3e53285db1b61efe6cb09c2c5e89a32",
       "packages/metricsthinking/crates/metricsthinking_rs/src/walker.rs": "9b31d4c3c61618609adf27253ae0bc2b3e91f9cb3c5194f8efb31f456895bba6",
       "packages/metricsthinking/data/.context.yaml": "1f5bb6c07952f245d8c55385c245acfbf58a58f65052e095fb81706fa7d595f9",
-      "packages/metricsthinking/data/processed/.context.yaml": "fd495551369b91f2b0f9e2e30fc98c335991a680b002c2d12f79b301894e17a6",
-      "packages/metricsthinking/data/processed/telemetry/.context.yaml": "9750797ebeede969e45278e6a8283ae349e9c5a314e548a65a3cf507695f6ae0",
-      "packages/metricsthinking/data/processed/telemetry/gold_metrics.json": "100fb48c8fe97b6eb4343b867b3460dacdc952c9ab530983a06ea7b02996d631",
-      "packages/metricsthinking/data/processed/telemetry/silver_events.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "packages/metricsthinking/data/raw/.context.yaml": "241e753e56dd291cf3d70f2220350866966b18afe940d70877b3f846eaf9fbd8",
-      "packages/metricsthinking/data/raw/telemetry/.context.yaml": "ec9072ec5412d0961eca2014b6f1506d399ed6b516a4974a056d2adbcb3a1066",
       "packages/metricsthinking/integrations/.context.yaml": "4efafa576c6bc9b561af4f226ef221d748431fd5cb27dee5b4ecbc31fbeb63ef",
       "packages/metricsthinking/integrations/claude/.context.yaml": "da7a46a820612c48e97be44faa388ec034a9465c9c14afa83ce88929f85ea5c3",
       "packages/metricsthinking/integrations/claude/CLAUDE.md": "bb4537e8cf5023e6b70e12182d4bb88f552ac636c0791cc23ae90d20a74d5f0b",
@@ -343,10 +337,10 @@
       "packages/metricsthinking/tests/other/MetricsThinking_ThinkingSeed.md": "7d64c39bdb4d18d4852fd87cac632cdf3558d56fb36ba59373865e7b6422d6dc",
       "packages/metricsthinking/tests/test_archetype_detector.py": "160b0233114528efbddfeba95eafa3ecaf5c63d2061a2850dba6bf01e665039e",
       "packages/metricsthinking/tests/test_backends_collector_v4.py": "41908eb0550cc311bed97849cae9e2a33b2ada5f7bdd9dc8827b487e67666e9e",
-      "packages/metricsthinking/tests/test_benchmarks_stress.py": "065eba8b81b93653e7bc6bdf8d7d8a283e9a3bf8d26cb7209eb65c7cb824dcd2",
-      "packages/metricsthinking/tests/test_calibration.py": "8d32d5aca719d1699ed7548b06faf2acecd8989b03425b8225c6f29df9ec02a0",
+      "packages/metricsthinking/tests/test_benchmarks_stress.py": "3b056b35740c92bc51f52d62be81e95dcc9b859e9f2942b5604bc2cbdc0dd3f1",
+      "packages/metricsthinking/tests/test_calibration.py": "85a20cc24583962f152cabab025b916c710112529d99c83e894c52d85fbd6f21",
       "packages/metricsthinking/tests/test_cli.py": "adebdbdce671b481b3cb8eef6ae1e338270c9dc3aaa93ccab779645238010029",
-      "packages/metricsthinking/tests/test_cli_mcp_renderer_v4.py": "7cbf852e96204fdc1a4c40484fa993d077e2853115508e55148f4db4a1f1b23c",
+      "packages/metricsthinking/tests/test_cli_mcp_renderer_v4.py": "f738e185c2aef181e30e7506a3c6242c0df4a3f70bca9014c05081b68a8a92ca",
       "packages/metricsthinking/tests/test_collector.py": "9aab9928e6ae83e4cda7c48278980f820910f06cb0bec709387960d136787de9",
       "packages/metricsthinking/tests/test_drift_compensation_v4.py": "8aa07473836041a915dd4fe146120ec6987f40f4e37d8c81a6c5a5394679e6fd",
       "packages/metricsthinking/tests/test_evaluator.py": "c789b2aefb887587a44f04e32c2bef419cc20c1faa275af7e74cf133f9697e24",
@@ -455,14 +449,14 @@
       "tests/test_v6.py": "851839a5811a3ef39708d32a71d4b152c7e0a9d009ce6a96d946286780bda304",
       "tools/.context.yaml": "270d27ea24148c667bed940a12dbbb3d7ce5139d05a14b392ffc9a6f4b37cb14"
     },
-    "input_hash": "c8c89d0838a65a356cbb6e1894835f7d32ecb1b43991f17d3ec893ccce9880b5",
+    "input_hash": "809c0b41d1f2dc2e2568dfe84f50ec8640735721d26b3b26db88ae6b14638708",
     "output_hash": "aab5f8353d0c45e1c411a28dd77a34b2fa7d8ad4fe2b6c24196a651e1764e71e"
   },
   "seed": {
     "files": {
       ".agentignore": "b713832b5ab2fd6191a9c59e9098496c9d90d5570f06742d8749ed504e23f030",
       ".agents/skills/icontext/SKILL.md": "45ea6e13061205c4c9bcb01f62c73cf929bb1ac9fce3170c313653ee066eb095",
-      ".gitignore": "f95bf97bd1140a0777c30981adea38d1bd3206400924bdfe5bd6a8d7a4400858",
+      ".gitignore": "6a1a301f51154b8bb94dd9581b82aae60ee42d7a8f1f6b4f950720619c5af19f",
       "01_seed/.context.yaml": "7d5461d313d5b70f7a35b76f1f822d85e257230c107157f5402b69a47a9a9f0c",
       "01_seed/seed-contextkernel-master.md": "30c868017f0f11f2e81806595300929761f9bc66fe26195b13fec8d722987a8e",
       "02_foundation/.context.yaml": "2637c17b145539cd43d629c4285f8085395e25a4f5b7b935f8c01060750ee3e1",
@@ -640,7 +634,7 @@
       "packages/metricsthinking/.cursor/rules/metrics.mdc": "c237c43a43ee2205dc954aa05745d665893035fc1b3c6825cbcb3cefea41daa5",
       "packages/metricsthinking/.github/copilot-instructions.md": "b27a7eaafd5f7fc19f230077655a5e271b94030b40181466a72fe0decb4de0b3",
       "packages/metricsthinking/.github/workflows/ci.yml": "df80091c2c47d54670c9226a7bdd971c7a6937ef2a31ef35b1a1a62637fc1e77",
-      "packages/metricsthinking/.gitignore": "7f45c845859fade830231075c5662385360aed84a207cd1f4f3ec96ca461d1f1",
+      "packages/metricsthinking/.gitignore": "a0558108a4d777b5cba6527a31f21ca29792e2bd3f14f6bd7c904deb3bf417ee",
       "packages/metricsthinking/01_seed/.context.yaml": "872a8461f6cc90373f0553baf10bf0e4ef8bc7c7dc433079a4c780673e43d939",
       "packages/metricsthinking/01_seed/seed-metricsthinking-master.md": "c8f0727f8d3f4c53fbaa92beb2666efbd33a3cedca87fd9b08bb4759ef223b8d",
       "packages/metricsthinking/02_foundation/.context.yaml": "2637c17b145539cd43d629c4285f8085395e25a4f5b7b935f8c01060750ee3e1",
@@ -704,12 +698,6 @@
       "packages/metricsthinking/crates/metricsthinking_rs/src/lib.rs": "3af19cfc2692ee0e06483aad6a160b6ee3e53285db1b61efe6cb09c2c5e89a32",
       "packages/metricsthinking/crates/metricsthinking_rs/src/walker.rs": "9b31d4c3c61618609adf27253ae0bc2b3e91f9cb3c5194f8efb31f456895bba6",
       "packages/metricsthinking/data/.context.yaml": "1f5bb6c07952f245d8c55385c245acfbf58a58f65052e095fb81706fa7d595f9",
-      "packages/metricsthinking/data/processed/.context.yaml": "fd495551369b91f2b0f9e2e30fc98c335991a680b002c2d12f79b301894e17a6",
-      "packages/metricsthinking/data/processed/telemetry/.context.yaml": "9750797ebeede969e45278e6a8283ae349e9c5a314e548a65a3cf507695f6ae0",
-      "packages/metricsthinking/data/processed/telemetry/gold_metrics.json": "100fb48c8fe97b6eb4343b867b3460dacdc952c9ab530983a06ea7b02996d631",
-      "packages/metricsthinking/data/processed/telemetry/silver_events.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "packages/metricsthinking/data/raw/.context.yaml": "241e753e56dd291cf3d70f2220350866966b18afe940d70877b3f846eaf9fbd8",
-      "packages/metricsthinking/data/raw/telemetry/.context.yaml": "ec9072ec5412d0961eca2014b6f1506d399ed6b516a4974a056d2adbcb3a1066",
       "packages/metricsthinking/integrations/.context.yaml": "4efafa576c6bc9b561af4f226ef221d748431fd5cb27dee5b4ecbc31fbeb63ef",
       "packages/metricsthinking/integrations/claude/.context.yaml": "da7a46a820612c48e97be44faa388ec034a9465c9c14afa83ce88929f85ea5c3",
       "packages/metricsthinking/integrations/claude/CLAUDE.md": "bb4537e8cf5023e6b70e12182d4bb88f552ac636c0791cc23ae90d20a74d5f0b",
@@ -798,10 +786,10 @@
       "packages/metricsthinking/tests/other/MetricsThinking_ThinkingSeed.md": "7d64c39bdb4d18d4852fd87cac632cdf3558d56fb36ba59373865e7b6422d6dc",
       "packages/metricsthinking/tests/test_archetype_detector.py": "160b0233114528efbddfeba95eafa3ecaf5c63d2061a2850dba6bf01e665039e",
       "packages/metricsthinking/tests/test_backends_collector_v4.py": "41908eb0550cc311bed97849cae9e2a33b2ada5f7bdd9dc8827b487e67666e9e",
-      "packages/metricsthinking/tests/test_benchmarks_stress.py": "065eba8b81b93653e7bc6bdf8d7d8a283e9a3bf8d26cb7209eb65c7cb824dcd2",
-      "packages/metricsthinking/tests/test_calibration.py": "8d32d5aca719d1699ed7548b06faf2acecd8989b03425b8225c6f29df9ec02a0",
+      "packages/metricsthinking/tests/test_benchmarks_stress.py": "3b056b35740c92bc51f52d62be81e95dcc9b859e9f2942b5604bc2cbdc0dd3f1",
+      "packages/metricsthinking/tests/test_calibration.py": "85a20cc24583962f152cabab025b916c710112529d99c83e894c52d85fbd6f21",
       "packages/metricsthinking/tests/test_cli.py": "adebdbdce671b481b3cb8eef6ae1e338270c9dc3aaa93ccab779645238010029",
-      "packages/metricsthinking/tests/test_cli_mcp_renderer_v4.py": "7cbf852e96204fdc1a4c40484fa993d077e2853115508e55148f4db4a1f1b23c",
+      "packages/metricsthinking/tests/test_cli_mcp_renderer_v4.py": "f738e185c2aef181e30e7506a3c6242c0df4a3f70bca9014c05081b68a8a92ca",
       "packages/metricsthinking/tests/test_collector.py": "9aab9928e6ae83e4cda7c48278980f820910f06cb0bec709387960d136787de9",
       "packages/metricsthinking/tests/test_drift_compensation_v4.py": "8aa07473836041a915dd4fe146120ec6987f40f4e37d8c81a6c5a5394679e6fd",
       "packages/metricsthinking/tests/test_evaluator.py": "c789b2aefb887587a44f04e32c2bef419cc20c1faa275af7e74cf133f9697e24",
@@ -910,7 +898,7 @@
       "tests/test_v6.py": "851839a5811a3ef39708d32a71d4b152c7e0a9d009ce6a96d946286780bda304",
       "tools/.context.yaml": "270d27ea24148c667bed940a12dbbb3d7ce5139d05a14b392ffc9a6f4b37cb14"
     },
-    "input_hash": "ecf6c65b50dd64ab9067da241dff3f2b95212eec4df01923742955569c83bab9",
+    "input_hash": "3fa5c3c48eb945d4e19e1ae4417ba0bd3a3bb6c0b8c284e72dce89d623b602c6",
     "output_hash": "58c574b1cf3db2052f2eb3e3aa83c8be46bfc886dea0dff1440a81a38e6b2445"
   }
 }

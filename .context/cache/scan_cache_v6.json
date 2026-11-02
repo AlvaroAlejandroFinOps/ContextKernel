@@ -29,16 +29,16 @@
   },
   ".gitignore": {
     "record": {
-      "content": ".venv/\n__pycache__/\n*.pyc\n.ipynb_checkpoints/\n.pytest_cache/\n.coverage\nhtmlcov/\n\n# Lock files & concurrency markers\n.context/*.lock\n.context/.*.lock\n*.lock\n\n# Ignorar datos locales y logs\n*.csv\n*.parquet\nlogs/\ndata/raw/\ndata/processed/\ndata/sandbox/\n",
-      "line_count": 20,
+      "content": ".venv/\n__pycache__/\n*.pyc\n.ipynb_checkpoints/\n.pytest_cache/\n.coverage\nhtmlcov/\n\n# Lock files & concurrency markers\n.context/*.lock\n.context/.*.lock\n*.lock\n\n# Ignorar datos locales y logs\n*.csv\n*.parquet\nlogs/\ndata/raw/*\n!data/raw/.context.yaml\ndata/processed/*\n!data/processed/.context.yaml\ndata/sandbox/*\n!data/sandbox/.context.yaml\n**/data/raw/*\n!**/data/raw/.context.yaml\n**/data/processed/*\n!**/data/processed/.context.yaml\n**/data/sandbox/*\n!**/data/sandbox/.context.yaml\n",
+      "line_count": 29,
       "path": ".gitignore",
-      "sha256": "f95bf97bd1140a0777c30981adea38d1bd3206400924bdfe5bd6a8d7a4400858",
-      "size_bytes": 250,
-      "token_estimate": 62
+      "sha256": "6a1a301f51154b8bb94dd9581b82aae60ee42d7a8f1f6b4f950720619c5af19f",
+      "size_bytes": 478,
+      "token_estimate": 119
     },
     "stat": [
-      250,
-      1793544333493258400
+      478,
+      1793581054999028900
     ]
   },
   "01_seed/.context.yaml": {
@@ -52,7 +52,7 @@
     },
     "stat": [
       487,
-      1793577779449721900
+      1793581597750761400
     ]
   },
   "01_seed/seed-contextkernel-master.md": {
@@ -94,7 +94,7 @@
     },
     "stat": [
       404,
-      1793577779455704400
+      1793581597753486700
     ]
   },
   "02_foundation/engine/engine_readme.md": {
@@ -136,7 +136,7 @@
     },
     "stat": [
       350,
-      1793577779469676800
+      1793581597759478300
     ]
   },
   "AGENTS.md": {
@@ -290,7 +290,7 @@
     },
     "stat": [
       387,
-      1793577779515544000
+      1793581597775461000
     ]
   },
   "audit_federation.py": {
@@ -318,7 +318,7 @@
     },
     "stat": [
       403,
-      1793577779617485400
+      1793581597793383500
     ]
   },
   "config/context_policy.json": {
@@ -374,7 +374,7 @@
     },
     "stat": [
       350,
-      1793577779554550700
+      1793581597785408000
     ]
   },
   "docs/notes/.context.yaml": {
@@ -388,7 +388,7 @@
     },
     "stat": [
       351,
-      1793577779603419800
+      1793581597791397400
     ]
   },
   "docs/specs/.context.yaml": {
@@ -402,7 +402,7 @@
     },
     "stat": [
       333,
-      1793577779563526800
+      1793581597788396900
     ]
   },
   "docs/specs/icontext-v6.md": {
@@ -2460,7 +2460,7 @@
     },
     "stat": [
       435,
-      1793579141110685500
+      1793580618714121700
     ]
   },
   "packages/metricsthinking/.context.yaml": {
@@ -2521,16 +2521,16 @@
   },
   "packages/metricsthinking/.gitignore": {
     "record": {
-      "content": ".venv/\r\n__pycache__/\r\n*.pyc\r\n.ipynb_checkpoints/\r\nartifacts/benchmark\r\n\r\n# Ignorar datos locales y logs\r\n*.csv\r\n*.parquet\r\nlogs/\r\ndata/raw/\r\ndata/processed/\r\ndata/sandbox/\r\n\r\n.context/cache/\r\ntarget/\r\n.pytest_cache/\r\n\n# Lock files & concurrency markers\n.context/*.lock\n.context/.*.lock\n*.lock\n.coverage\nhtmlcov/\n",
-      "line_count": 24,
+      "content": ".venv/\n__pycache__/\n*.pyc\n.ipynb_checkpoints/\nartifacts/benchmark\n\n# Ignorar datos locales y logs\n*.csv\n*.parquet\nlogs/\ndata/raw/*\n!data/raw/.context.yaml\ndata/processed/*\n!data/processed/.context.yaml\ndata/sandbox/*\n!data/sandbox/.context.yaml\n\n.context/cache/\ntarget/\n.pytest_cache/\n\n# Lock files & concurrency markers\n.context/*.lock\n.context/.*.lock\n*.lock\n.coverage\nhtmlcov/\n",
+      "line_count": 27,
       "path": "packages/metricsthinking/.gitignore",
-      "sha256": "7f45c845859fade830231075c5662385360aed84a207cd1f4f3ec96ca461d1f1",
-      "size_bytes": 312,
-      "token_estimate": 78
+      "sha256": "a0558108a4d777b5cba6527a31f21ca29792e2bd3f14f6bd7c904deb3bf417ee",
+      "size_bytes": 380,
+      "token_estimate": 95
     },
     "stat": [
-      312,
-      1793544408154392500
+      380,
+      1793581047124835300
     ]
   },
   "packages/metricsthinking/01_seed/.context.yaml": {
@@ -2894,7 +2894,7 @@
     },
     "stat": [
       281,
-      1793579127727372700
+      1793580618730079800
     ]
   },
   "packages/metricsthinking/artifacts/benchmark_seed_coverage.md": {
@@ -2978,7 +2978,7 @@
     },
     "stat": [
       1234,
-      1793579146419313300
+      1793581501539708400
     ]
   },
   "packages/metricsthinking/artifacts/plans/metricsthinking/INFERRED_ROADMAP.md": {
@@ -2992,7 +2992,7 @@
     },
     "stat": [
       11411,
-      1793579146413330300
+      1793581501542700900
     ]
   },
   "packages/metricsthinking/artifacts/plans/metricsthinking/MetricsThinking.json": {
@@ -3006,7 +3006,7 @@
     },
     "stat": [
       31119,
-      1793579146426298400
+      1793581501545692800
     ]
   },
   "packages/metricsthinking/artifacts/plans/metricsthinking/MetricsThinking.md": {
@@ -3020,7 +3020,7 @@
     },
     "stat": [
       18304,
-      1793579146370448100
+      1793581501548684200
     ]
   },
   "packages/metricsthinking/config/.context.yaml": {
@@ -3413,90 +3413,6 @@
     "stat": [
       333,
       1793577783084083800
-    ]
-  },
-  "packages/metricsthinking/data/processed/.context.yaml": {
-    "record": {
-      "content": "version: 1.0\r\ndirectory: packages/metricsthinking/data/processed\r\nrole: namespace\r\npurpose: Subdominio processed bajo packages/metricsthinking/data/.\r\nrelevance: medium\r\ncrawl: true\r\nread_priority: p2\r\nseed_reference: optional\r\ntier1_preload: false\r\ninherited: true\r\ntoken_density: sparse\r\ninstructions: Hereda directivas de packages/metricsthinking/data/.\r\n",
-      "line_count": 12,
-      "path": "packages/metricsthinking/data/processed/.context.yaml",
-      "sha256": "fd495551369b91f2b0f9e2e30fc98c335991a680b002c2d12f79b301894e17a6",
-      "size_bytes": 358,
-      "token_estimate": 89
-    },
-    "stat": [
-      358,
-      1793577783116996900
-    ]
-  },
-  "packages/metricsthinking/data/processed/telemetry/.context.yaml": {
-    "record": {
-      "content": "version: 1.0\r\ndirectory: packages/metricsthinking/data/processed/telemetry\r\nrole: namespace\r\npurpose: Subdominio telemetry bajo packages/metricsthinking/data/processed/.\r\nrelevance: medium\r\ncrawl: true\r\nread_priority: p2\r\nseed_reference: optional\r\ntier1_preload: false\r\ninherited: true\r\ntoken_density: sparse\r\ninstructions: Hereda directivas de packages/metricsthinking/data/processed/.\r\n",
-      "line_count": 12,
-      "path": "packages/metricsthinking/data/processed/telemetry/.context.yaml",
-      "sha256": "9750797ebeede969e45278e6a8283ae349e9c5a314e548a65a3cf507695f6ae0",
-      "size_bytes": 388,
-      "token_estimate": 97
-    },
-    "stat": [
-      388,
-      1793577783199775700
-    ]
-  },
-  "packages/metricsthinking/data/processed/telemetry/gold_metrics.json": {
-    "record": {
-      "content": "{\r\n  \"total_events\": 0,\r\n  \"total_active_tokens\": 0,\r\n  \"total_reactive_tokens\": 0,\r\n  \"average_fpai_spectral\": 1.0,\r\n  \"average_fpai_linear\": 1.0,\r\n  \"repositories\": [],\r\n  \"updated_at\": \"2026-11-02T00:25:41.120658+00:00\"\r\n}",
-      "line_count": 9,
-      "path": "packages/metricsthinking/data/processed/telemetry/gold_metrics.json",
-      "sha256": "100fb48c8fe97b6eb4343b867b3460dacdc952c9ab530983a06ea7b02996d631",
-      "size_bytes": 225,
-      "token_estimate": 56
-    },
-    "stat": [
-      225,
-      1793579141120658100
-    ]
-  },
-  "packages/metricsthinking/data/processed/telemetry/silver_events.jsonl": {
-    "record": {
-      "content": "",
-      "line_count": 0,
-      "path": "packages/metricsthinking/data/processed/telemetry/silver_events.jsonl",
-      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "size_bytes": 0,
-      "token_estimate": 0
-    },
-    "stat": [
-      0,
-      1793579141119660200
-    ]
-  },
-  "packages/metricsthinking/data/raw/.context.yaml": {
-    "record": {
-      "content": "version: 1.0\r\ndirectory: packages/metricsthinking/data/raw\r\nrole: namespace\r\npurpose: Subdominio raw bajo packages/metricsthinking/data/.\r\nrelevance: medium\r\ncrawl: true\r\nread_priority: p2\r\nseed_reference: optional\r\ntier1_preload: false\r\ninherited: true\r\ntoken_density: sparse\r\ninstructions: Hereda directivas de packages/metricsthinking/data/.\r\n",
-      "line_count": 12,
-      "path": "packages/metricsthinking/data/raw/.context.yaml",
-      "sha256": "241e753e56dd291cf3d70f2220350866966b18afe940d70877b3f846eaf9fbd8",
-      "size_bytes": 346,
-      "token_estimate": 86
-    },
-    "stat": [
-      346,
-      1793577783159893700
-    ]
-  },
-  "packages/metricsthinking/data/raw/telemetry/.context.yaml": {
-    "record": {
-      "content": "version: 1.0\r\ndirectory: packages/metricsthinking/data/raw/telemetry\r\nrole: namespace\r\npurpose: Subdominio telemetry bajo packages/metricsthinking/data/raw/.\r\nrelevance: medium\r\ncrawl: true\r\nread_priority: p2\r\nseed_reference: optional\r\ntier1_preload: false\r\ninherited: true\r\ntoken_density: sparse\r\ninstructions: Hereda directivas de packages/metricsthinking/data/raw/.\r\n",
-      "line_count": 12,
-      "path": "packages/metricsthinking/data/raw/telemetry/.context.yaml",
-      "sha256": "ec9072ec5412d0961eca2014b6f1506d399ed6b516a4974a056d2adbcb3a1066",
-      "size_bytes": 370,
-      "token_estimate": 92
-    },
-    "stat": [
-      370,
-      1793577783225706000
     ]
   },
   "packages/metricsthinking/integrations/.context.yaml": {
@@ -4644,7 +4560,7 @@
     },
     "stat": [
       141,
-      1793579128568895400
+      1793580618743352800
     ]
   },
   "packages/metricsthinking/tests/fixtures/sample_golden_audit.json": {
@@ -4733,30 +4649,30 @@
   },
   "packages/metricsthinking/tests/test_benchmarks_stress.py": {
     "record": {
-      "content": "\"\"\"\nBenchmark and Volumetric Stress Test Suite for MetricsThinking™ v4.0.\nSatisfies M07-C03 (Suites de Estrés / Benchmark Masivo) and M07-C02 (Golden Regression Tests).\n\"\"\"\n\nfrom datetime import datetime, timezone\nimport json\nfrom pathlib import Path\nimport time\nfrom metricsthinking.backends import (\n    compute_ast_coupling,\n    fast_shannon_entropy,\n    get_active_backend,\n    scan_directory,\n)\nfrom metricsthinking.collector import ProjectCollector\n\n\ndef test_volumetric_scale_benchmark(tmp_path):\n    \"\"\"\n    Stress test generating 1,000 synthetic polyglot files to evaluate\n    single-pass crawl throughput, SHA-256 hashing, and incremental cache performance.\n    \"\"\"\n    repo_dir = tmp_path / \"large_repo\"\n    repo_dir.mkdir()\n\n    # Generate 1,000 files across multiple domains\n    domains = [\"core\", \"services\", \"models\", \"utils\", \"config\"]\n    for d in domains:\n        (repo_dir / d).mkdir()\n\n    file_count = 1000\n    for i in range(file_count):\n        d = domains[i % len(domains)]\n        f = repo_dir / d / f\"file_{i}.py\"\n        content = f\"# Module {i}\\nimport os\\n\\ndef func_{i}(x: int) -> int:\\n    return x + {i}\\n\"\n        f.write_text(content, encoding=\"utf-8\")\n\n    cache_file = repo_dir / \"scan_cache.json\"\n\n    # Pass 1: Cold start\n    t0 = time.perf_counter()\n    records_cold = scan_directory(str(repo_dir), cache_path=str(cache_file), persist=True)\n    t_cold = time.perf_counter() - t0\n\n    assert len(records_cold) == file_count, f\"Expected {file_count} records, got {len(records_cold)}\"\n\n    # Pass 2: Incremental cache hit\n    t1 = time.perf_counter()\n    records_cache = scan_directory(str(repo_dir), cache_path=str(cache_file), persist=True)\n    t_cache = time.perf_counter() - t1\n\n    assert len(records_cache) == file_count\n\n    # Cache hit should be significantly faster or under 500ms\n    assert t_cache <= max(0.5, t_cold)\n\n    # Benchmark report payload\n    backend = get_active_backend()\n    benchmark_report = {\n        \"timestamp\": datetime.now(timezone.utc).isoformat(),\n        \"backend\": backend,\n        \"total_files_benchmarked\": file_count,\n        \"cold_start_scan_seconds\": round(t_cold, 4),\n        \"cached_scan_seconds\": round(t_cache, 4),\n        \"speedup_factor\": round(t_cold / max(1e-5, t_cache), 2),\n        \"throughput_files_per_sec\": round(file_count / max(1e-4, t_cold), 1),\n        \"status\": \"PASS\",\n    }\n\n    # Write artifact to artifacts/benchmark_coverage_report.json\n    artifacts_dir = Path(\"artifacts\")\n    artifacts_dir.mkdir(parents=True, exist_ok=True)\n    report_file = artifacts_dir / \"benchmark_coverage_report.json\"\n    report_file.write_text(json.dumps(benchmark_report, indent=2), encoding=\"utf-8\")\n\n    assert report_file.exists()\n\n\ndef test_ast_coupling_stress_benchmark():\n    \"\"\"\n    Stress benchmark for AST dependency analysis across 100 interconnected modules.\n    \"\"\"\n    modules: dict[str, str] = {}\n    for i in range(100):\n        # Module i imports module i-1 and module 0 (hub)\n        imports = []\n        if i > 0:\n            imports.append(f\"import mod_{i-1}\")\n        if i > 1:\n            imports.append(\"import mod_0\")\n        code = \"\\n\".join(imports) + f\"\\ndef run_{i}(): pass\\n\"\n        modules[f\"mod_{i}.py\"] = code\n\n    t0 = time.perf_counter()\n    metrics = compute_ast_coupling(modules)\n    duration = time.perf_counter() - t0\n\n    assert duration < 1.0  # Must compute under 1 second\n    assert len(metrics[\"instability_i\"]) == 100\n    # mod_0 is imported by 98 modules -> SPOF / high afferent coupling\n    assert metrics[\"afferent_coupling_ca\"].get(\"mod_0\", 0) >= 90\n\n\ndef test_golden_baseline_regression_snapshot():\n    \"\"\"\n    Golden snapshot test verifying determinism of ProjectCollector on repository root.\n    \"\"\"\n    collector = ProjectCollector(target_path=\".\")\n    ev = collector.collect()\n\n    golden_dir = Path(\"tests/fixtures\")\n    golden_dir.mkdir(parents=True, exist_ok=True)\n    golden_file = golden_dir / \"golden_baseline_report.json\"\n\n    baseline_data = {\n        \"total_files\": ev.total_files,\n        \"detected_archetype\": ev.detected_archetype,\n        \"is_git\": ev.is_git,\n        \"has_seeds\": len(ev.seeds) > 0,\n        \"has_schemas\": len(ev.schemas) > 0,\n    }\n\n    golden_file.write_text(json.dumps(baseline_data, indent=2), encoding=\"utf-8\")\n    assert golden_file.exists()\n",
-      "line_count": 125,
+      "content": "\"\"\"\nBenchmark and Volumetric Stress Test Suite for MetricsThinking™ v4.0.\nSatisfies M07-C03 (Suites de Estrés / Benchmark Masivo) and M07-C02 (Golden Regression Tests).\n\"\"\"\n\nfrom datetime import datetime, timezone\nimport json\nfrom pathlib import Path\nimport time\nfrom metricsthinking.backends import (\n    compute_ast_coupling,\n    fast_shannon_entropy,\n    get_active_backend,\n    scan_directory,\n)\nfrom metricsthinking.collector import ProjectCollector\n\n\ndef test_volumetric_scale_benchmark(tmp_path):\n    \"\"\"\n    Stress test generating 1,000 synthetic polyglot files to evaluate\n    single-pass crawl throughput, SHA-256 hashing, and incremental cache performance.\n    \"\"\"\n    repo_dir = tmp_path / \"large_repo\"\n    repo_dir.mkdir()\n\n    # Generate 1,000 files across multiple domains\n    domains = [\"core\", \"services\", \"models\", \"utils\", \"config\"]\n    for d in domains:\n        (repo_dir / d).mkdir()\n\n    file_count = 1000\n    for i in range(file_count):\n        d = domains[i % len(domains)]\n        f = repo_dir / d / f\"file_{i}.py\"\n        content = f\"# Module {i}\\nimport os\\n\\ndef func_{i}(x: int) -> int:\\n    return x + {i}\\n\"\n        f.write_text(content, encoding=\"utf-8\")\n\n    cache_file = repo_dir / \"scan_cache.json\"\n\n    # Pass 1: Cold start\n    t0 = time.perf_counter()\n    records_cold = scan_directory(str(repo_dir), cache_path=str(cache_file), persist=True)\n    t_cold = time.perf_counter() - t0\n\n    assert len(records_cold) == file_count, f\"Expected {file_count} records, got {len(records_cold)}\"\n\n    # Pass 2: Incremental cache hit\n    t1 = time.perf_counter()\n    records_cache = scan_directory(str(repo_dir), cache_path=str(cache_file), persist=True)\n    t_cache = time.perf_counter() - t1\n\n    assert len(records_cache) == file_count\n\n    # Cache hit should be significantly faster or under 500ms\n    assert t_cache <= max(0.5, t_cold)\n\n    # Benchmark report payload\n    backend = get_active_backend()\n    benchmark_report = {\n        \"timestamp\": datetime.now(timezone.utc).isoformat(),\n        \"backend\": backend,\n        \"total_files_benchmarked\": file_count,\n        \"cold_start_scan_seconds\": round(t_cold, 4),\n        \"cached_scan_seconds\": round(t_cache, 4),\n        \"speedup_factor\": round(t_cold / max(1e-5, t_cache), 2),\n        \"throughput_files_per_sec\": round(file_count / max(1e-4, t_cold), 1),\n        \"status\": \"PASS\",\n    }\n\n    # Write artifact to artifacts/benchmark_coverage_report.json if missing\n    artifacts_dir = Path(\"artifacts\")\n    artifacts_dir.mkdir(parents=True, exist_ok=True)\n    report_file = artifacts_dir / \"benchmark_coverage_report.json\"\n    if not report_file.exists():\n        report_file.write_text(json.dumps(benchmark_report, indent=2), encoding=\"utf-8\")\n\n    assert report_file.exists()\n\n\ndef test_ast_coupling_stress_benchmark():\n    \"\"\"\n    Stress benchmark for AST dependency analysis across 100 interconnected modules.\n    \"\"\"\n    modules: dict[str, str] = {}\n    for i in range(100):\n        # Module i imports module i-1 and module 0 (hub)\n        imports = []\n        if i > 0:\n            imports.append(f\"import mod_{i-1}\")\n        if i > 1:\n            imports.append(\"import mod_0\")\n        code = \"\\n\".join(imports) + f\"\\ndef run_{i}(): pass\\n\"\n        modules[f\"mod_{i}.py\"] = code\n\n    t0 = time.perf_counter()\n    metrics = compute_ast_coupling(modules)\n    duration = time.perf_counter() - t0\n\n    assert duration < 1.0  # Must compute under 1 second\n    assert len(metrics[\"instability_i\"]) == 100\n    # mod_0 is imported by 98 modules -> SPOF / high afferent coupling\n    assert metrics[\"afferent_coupling_ca\"].get(\"mod_0\", 0) >= 90\n\n\ndef test_golden_baseline_regression_snapshot():\n    \"\"\"\n    Golden snapshot test verifying determinism of ProjectCollector on repository root.\n    \"\"\"\n    collector = ProjectCollector(target_path=\".\")\n    ev = collector.collect()\n\n    golden_dir = Path(\"tests/fixtures\")\n    golden_dir.mkdir(parents=True, exist_ok=True)\n    golden_file = golden_dir / \"golden_baseline_report.json\"\n\n    baseline_data = {\n        \"total_files\": ev.total_files,\n        \"detected_archetype\": ev.detected_archetype,\n        \"is_git\": ev.is_git,\n        \"has_seeds\": len(ev.seeds) > 0,\n        \"has_schemas\": len(ev.schemas) > 0,\n    }\n\n    if not golden_file.exists():\n        golden_file.write_text(json.dumps(baseline_data, indent=2), encoding=\"utf-8\")\n    assert golden_file.exists()\n",
+      "line_count": 127,
       "path": "packages/metricsthinking/tests/test_benchmarks_stress.py",
-      "sha256": "065eba8b81b93653e7bc6bdf8d7d8a283e9a3bf8d26cb7209eb65c7cb824dcd2",
-      "size_bytes": 4313,
-      "token_estimate": 1077
+      "sha256": "3b056b35740c92bc51f52d62be81e95dcc9b859e9f2942b5604bc2cbdc0dd3f1",
+      "size_bytes": 4398,
+      "token_estimate": 1098
     },
     "stat": [
-      4313,
-      1793485120994738900
+      4398,
+      1793581113294128200
     ]
   },
   "packages/metricsthinking/tests/test_calibration.py": {
     "record": {
-      "content": "\"\"\"\nCalibration and Archetype Precision Tests for MetricsThinking™ v3.0.\n\"\"\"\n\nfrom pathlib import Path\nimport pytest\n\nfrom metricsthinking.collector import ProjectCollector\nfrom metricsthinking.evaluator import CriteriaEvaluator\nfrom metricsthinking.models import DomainArchetype, InspectionMode, MaturityBand\nfrom metricsthinking.scorer import AuditScorer\nfrom metricsthinking.engine import run_audit\n\nREPO_ROOT = Path(__file__).resolve().parent.parent\nPROFILES_DIR = REPO_ROOT / \"config\" / \"profiles\"\n\n\ndef test_self_audit_with_sdd_profile():\n    \"\"\"Verifies that MetricsThinking auditing itself under SDD profile scores in pre-prod/excellence.\"\"\"\n    report, artifacts = run_audit(\n        target_path=str(REPO_ROOT),\n        profile_name=\"sdd\",\n        quiet=True\n    )\n\n    assert report.domain_archetype == DomainArchetype.SDD\n    assert report.inspection_mode == InspectionMode.GOVERNANCE_SPEC\n    # Self audit score should be high given schemas, tests, ci, seed, CLI\n    assert report.consolidated_score >= 80.0, f\"Expected self audit score >= 80.0%, got {report.consolidated_score}%\"\n    assert report.maturity_band in [MaturityBand.ADVANCED_MATURITY, MaturityBand.OPERATIONAL_EXCELLENCE]\n    assert artifacts[\"markdown\"].exists()\n    assert artifacts[\"json\"].exists()\n    assert artifacts[\"roadmap\"].exists()\n\n\ndef test_gitops_synthetic_repo_calibration(tmp_path):\n    \"\"\"Calibrates GitOps evaluation on a declarative infrastructure repository.\"\"\"\n    # Create GitOps repository layout\n    (tmp_path / \"manifests\" / \"apps\").mkdir(parents=True)\n    (tmp_path / \"manifests\" / \"apps\" / \"deployment.yaml\").write_text(\"image: myapp:1.2.3\\nsha256:abc123456\", encoding=\"utf-8\")\n    (tmp_path / \"charts\" / \"myapp\").mkdir(parents=True)\n    (tmp_path / \"charts\" / \"myapp\" / \"Chart.yaml\").write_text(\"name: myapp\\nversion: 1.0.0\", encoding=\"utf-8\")\n    (tmp_path / \"policies\").mkdir()\n    (tmp_path / \"policies\" / \"admission.rego\").write_text(\"package admission\\ndefault allow = false\", encoding=\"utf-8\")\n    (tmp_path / \"README.md\").write_text(\"# GitOps Platform\\nProblem statement: Declarative cluster infra.\\nScope: In-Scope: staging & prod clusters.\", encoding=\"utf-8\")\n    (tmp_path / \".github\" / \"workflows\").mkdir(parents=True)\n    (tmp_path / \".github\" / \"workflows\" / \"ci.yml\").write_text(\"name: CI\\non: push\", encoding=\"utf-8\")\n    (tmp_path / \"tests\").mkdir()\n    (tmp_path / \"tests\" / \"test_manifests.py\").write_text(\"def test_manifests(): pass\", encoding=\"utf-8\")\n\n    report, artifacts = run_audit(\n        target_path=str(tmp_path),\n        profile_name=\"gitops\",\n        quiet=True\n    )\n\n    assert report.domain_archetype == DomainArchetype.GITOPS\n    assert report.inspection_mode == InspectionMode.DECLARATIVE_CONFIG\n    # Check that M02 (declarative k8s, policies) evaluated positively\n    m02 = next(m for m in report.modules if m.module_id == \"M02\")\n    assert m02.phase_completion_pct > 0.0\n\n\ndef test_mlops_synthetic_repo_calibration(tmp_path):\n    \"\"\"Calibrates MLOps evaluation on an ML project repository.\"\"\"\n    (tmp_path / \"01_seed\").mkdir()\n    (tmp_path / \"01_seed\" / \"seed-mlops.md\").write_text(\n        \"---\\ndomain_archetype: mlops\\n---\\n# MLOps Project\\nProblem statement: Churn prediction.\\nScope: In-Scope: feature pipeline.\",\n        encoding=\"utf-8\"\n    )\n    (tmp_path / \"src\" / \"training\").mkdir(parents=True)\n    (tmp_path / \"src\" / \"training\" / \"train.py\").write_text(\"def train_model(): pass\", encoding=\"utf-8\")\n    (tmp_path / \"models\").mkdir()\n    (tmp_path / \"models\" / \"model_card.md\").write_text(\"# Model Card\\nFairness and bias analysis.\", encoding=\"utf-8\")\n    (tmp_path / \"tests\").mkdir()\n    (tmp_path / \"tests\" / \"test_pipeline.py\").write_text(\"def test_train(): pass\", encoding=\"utf-8\")\n    (tmp_path / \"pyproject.toml\").write_text(\"[project]\\nname = 'mlops'\\ndependencies = ['torch>=2.0.0']\", encoding=\"utf-8\")\n\n    report, artifacts = run_audit(\n        target_path=str(tmp_path),\n        profile_name=\"mlops\",\n        quiet=True\n    )\n\n    assert report.domain_archetype == DomainArchetype.MLOPS\n    assert report.inspection_mode == InspectionMode.PIPELINE_ORCHESTRATION\n    m01 = next(m for m in report.modules if m.module_id == \"M01\")\n    assert m01.phase_completion_pct == 100.0\n\n\ndef test_llmops_synthetic_repo_calibration(tmp_path):\n    \"\"\"Calibrates LLMOps evaluation on a GenAI / RAG project repository.\"\"\"\n    (tmp_path / \"01_seed\").mkdir()\n    (tmp_path / \"01_seed\" / \"seed-llmops.md\").write_text(\n        \"---\\ndomain_archetype: llmops\\n---\\n# LLMOps RAG Agent\\nProblem statement: Customer Support RAG.\\nScope: In-Scope: vector retrieval.\",\n        encoding=\"utf-8\"\n    )\n    (tmp_path / \"prompts\").mkdir()\n    (tmp_path / \"prompts\" / \"system_prompt.yaml\").write_text(\"system: You are a helpful assistant.\", encoding=\"utf-8\")\n    (tmp_path / \"src\" / \"rag\").mkdir(parents=True)\n    (tmp_path / \"src\" / \"rag\" / \"vector_store.py\").write_text(\"class ChromaVectorStore: pass\", encoding=\"utf-8\")\n    (tmp_path / \"tests\").mkdir()\n    (tmp_path / \"tests\" / \"test_ragas_evals.py\").write_text(\"def test_faithfulness(): pass\", encoding=\"utf-8\")\n    (tmp_path / \"pyproject.toml\").write_text(\"[project]\\nname = 'llmops'\\ndependencies = ['google-genai>=0.1.0']\", encoding=\"utf-8\")\n\n    report, artifacts = run_audit(\n        target_path=str(tmp_path),\n        profile_name=\"llmops\",\n        quiet=True\n    )\n\n    assert report.domain_archetype == DomainArchetype.LLMOPS\n    assert report.inspection_mode == InspectionMode.PIPELINE_ORCHESTRATION\n    # Verify prompt registry and context engineering rules passed\n    m02 = next(m for m in report.modules if m.module_id == \"M02\")\n    m04 = next(m for m in report.modules if m.module_id == \"M04\")\n    assert any(c.fulfilled for c in m02.criteria)\n    assert any(c.fulfilled for c in m04.criteria)\n",
-      "line_count": 118,
+      "content": "\"\"\"\nCalibration and Archetype Precision Tests for MetricsThinking™ v3.0.\n\"\"\"\n\nfrom pathlib import Path\nimport pytest\n\nfrom metricsthinking.collector import ProjectCollector\nfrom metricsthinking.evaluator import CriteriaEvaluator\nfrom metricsthinking.models import DomainArchetype, InspectionMode, MaturityBand\nfrom metricsthinking.scorer import AuditScorer\nfrom metricsthinking.engine import run_audit\n\nREPO_ROOT = Path(__file__).resolve().parent.parent\nPROFILES_DIR = REPO_ROOT / \"config\" / \"profiles\"\n\n\ndef test_self_audit_with_sdd_profile(tmp_path):\n    \"\"\"Verifies that MetricsThinking auditing itself under SDD profile scores in pre-prod/excellence.\"\"\"\n    report, artifacts = run_audit(\n        target_path=str(REPO_ROOT),\n        profile_name=\"sdd\",\n        out_dir=str(tmp_path / \"artifacts\"),\n        quiet=True\n    )\n\n    assert report.domain_archetype == DomainArchetype.SDD\n    assert report.inspection_mode == InspectionMode.GOVERNANCE_SPEC\n    # Self audit score should be high given schemas, tests, ci, seed, CLI\n    assert report.consolidated_score >= 80.0, f\"Expected self audit score >= 80.0%, got {report.consolidated_score}%\"\n    assert report.maturity_band in [MaturityBand.ADVANCED_MATURITY, MaturityBand.OPERATIONAL_EXCELLENCE]\n    assert artifacts[\"markdown\"].exists()\n    assert artifacts[\"json\"].exists()\n    assert artifacts[\"roadmap\"].exists()\n\n\ndef test_gitops_synthetic_repo_calibration(tmp_path):\n    \"\"\"Calibrates GitOps evaluation on a declarative infrastructure repository.\"\"\"\n    # Create GitOps repository layout\n    (tmp_path / \"manifests\" / \"apps\").mkdir(parents=True)\n    (tmp_path / \"manifests\" / \"apps\" / \"deployment.yaml\").write_text(\"image: myapp:1.2.3\\nsha256:abc123456\", encoding=\"utf-8\")\n    (tmp_path / \"charts\" / \"myapp\").mkdir(parents=True)\n    (tmp_path / \"charts\" / \"myapp\" / \"Chart.yaml\").write_text(\"name: myapp\\nversion: 1.0.0\", encoding=\"utf-8\")\n    (tmp_path / \"policies\").mkdir()\n    (tmp_path / \"policies\" / \"admission.rego\").write_text(\"package admission\\ndefault allow = false\", encoding=\"utf-8\")\n    (tmp_path / \"README.md\").write_text(\"# GitOps Platform\\nProblem statement: Declarative cluster infra.\\nScope: In-Scope: staging & prod clusters.\", encoding=\"utf-8\")\n    (tmp_path / \".github\" / \"workflows\").mkdir(parents=True)\n    (tmp_path / \".github\" / \"workflows\" / \"ci.yml\").write_text(\"name: CI\\non: push\", encoding=\"utf-8\")\n    (tmp_path / \"tests\").mkdir()\n    (tmp_path / \"tests\" / \"test_manifests.py\").write_text(\"def test_manifests(): pass\", encoding=\"utf-8\")\n\n    report, artifacts = run_audit(\n        target_path=str(tmp_path),\n        profile_name=\"gitops\",\n        quiet=True\n    )\n\n    assert report.domain_archetype == DomainArchetype.GITOPS\n    assert report.inspection_mode == InspectionMode.DECLARATIVE_CONFIG\n    # Check that M02 (declarative k8s, policies) evaluated positively\n    m02 = next(m for m in report.modules if m.module_id == \"M02\")\n    assert m02.phase_completion_pct > 0.0\n\n\ndef test_mlops_synthetic_repo_calibration(tmp_path):\n    \"\"\"Calibrates MLOps evaluation on an ML project repository.\"\"\"\n    (tmp_path / \"01_seed\").mkdir()\n    (tmp_path / \"01_seed\" / \"seed-mlops.md\").write_text(\n        \"---\\ndomain_archetype: mlops\\n---\\n# MLOps Project\\nProblem statement: Churn prediction.\\nScope: In-Scope: feature pipeline.\",\n        encoding=\"utf-8\"\n    )\n    (tmp_path / \"src\" / \"training\").mkdir(parents=True)\n    (tmp_path / \"src\" / \"training\" / \"train.py\").write_text(\"def train_model(): pass\", encoding=\"utf-8\")\n    (tmp_path / \"models\").mkdir()\n    (tmp_path / \"models\" / \"model_card.md\").write_text(\"# Model Card\\nFairness and bias analysis.\", encoding=\"utf-8\")\n    (tmp_path / \"tests\").mkdir()\n    (tmp_path / \"tests\" / \"test_pipeline.py\").write_text(\"def test_train(): pass\", encoding=\"utf-8\")\n    (tmp_path / \"pyproject.toml\").write_text(\"[project]\\nname = 'mlops'\\ndependencies = ['torch>=2.0.0']\", encoding=\"utf-8\")\n\n    report, artifacts = run_audit(\n        target_path=str(tmp_path),\n        profile_name=\"mlops\",\n        quiet=True\n    )\n\n    assert report.domain_archetype == DomainArchetype.MLOPS\n    assert report.inspection_mode == InspectionMode.PIPELINE_ORCHESTRATION\n    m01 = next(m for m in report.modules if m.module_id == \"M01\")\n    assert m01.phase_completion_pct == 100.0\n\n\ndef test_llmops_synthetic_repo_calibration(tmp_path):\n    \"\"\"Calibrates LLMOps evaluation on a GenAI / RAG project repository.\"\"\"\n    (tmp_path / \"01_seed\").mkdir()\n    (tmp_path / \"01_seed\" / \"seed-llmops.md\").write_text(\n        \"---\\ndomain_archetype: llmops\\n---\\n# LLMOps RAG Agent\\nProblem statement: Customer Support RAG.\\nScope: In-Scope: vector retrieval.\",\n        encoding=\"utf-8\"\n    )\n    (tmp_path / \"prompts\").mkdir()\n    (tmp_path / \"prompts\" / \"system_prompt.yaml\").write_text(\"system: You are a helpful assistant.\", encoding=\"utf-8\")\n    (tmp_path / \"src\" / \"rag\").mkdir(parents=True)\n    (tmp_path / \"src\" / \"rag\" / \"vector_store.py\").write_text(\"class ChromaVectorStore: pass\", encoding=\"utf-8\")\n    (tmp_path / \"tests\").mkdir()\n    (tmp_path / \"tests\" / \"test_ragas_evals.py\").write_text(\"def test_faithfulness(): pass\", encoding=\"utf-8\")\n    (tmp_path / \"pyproject.toml\").write_text(\"[project]\\nname = 'llmops'\\ndependencies = ['google-genai>=0.1.0']\", encoding=\"utf-8\")\n\n    report, artifacts = run_audit(\n        target_path=str(tmp_path),\n        profile_name=\"llmops\",\n        quiet=True\n    )\n\n    assert report.domain_archetype == DomainArchetype.LLMOPS\n    assert report.inspection_mode == InspectionMode.PIPELINE_ORCHESTRATION\n    # Verify prompt registry and context engineering rules passed\n    m02 = next(m for m in report.modules if m.module_id == \"M02\")\n    m04 = next(m for m in report.modules if m.module_id == \"M04\")\n    assert any(c.fulfilled for c in m02.criteria)\n    assert any(c.fulfilled for c in m04.criteria)\n",
+      "line_count": 119,
       "path": "packages/metricsthinking/tests/test_calibration.py",
-      "sha256": "8d32d5aca719d1699ed7548b06faf2acecd8989b03425b8225c6f29df9ec02a0",
-      "size_bytes": 5799,
-      "token_estimate": 1449
+      "sha256": "85a20cc24583962f152cabab025b916c710112529d99c83e894c52d85fbd6f21",
+      "size_bytes": 5852,
+      "token_estimate": 1462
     },
     "stat": [
-      5799,
-      1790603233587171300
+      5852,
+      1793581068693423700
     ]
   },
   "packages/metricsthinking/tests/test_cli.py": {
@@ -4775,16 +4691,16 @@
   },
   "packages/metricsthinking/tests/test_cli_mcp_renderer_v4.py": {
     "record": {
-      "content": "\"\"\"\nAutomated validation of FEP-010: Renderer Expansion, Engine Orchestrator, CLI and MCP Server.\n\"\"\"\nimport json\nfrom pathlib import Path\nfrom metricsthinking.collector import ProjectCollector\nfrom metricsthinking.evaluator import CriteriaEvaluator\nfrom metricsthinking.scorer import AuditScorer\nfrom metricsthinking.renderer import ReportRenderer\nfrom metricsthinking.engine import run_audit\nfrom metricsthinking.mcp_server import handle_list_tools, handle_call_tool\n\n\ndef test_renderer_materializes_four_artifacts(tmp_path):\n    collector = ProjectCollector(target_path=\".\")\n    evidence = collector.collect()\n    evaluator = CriteriaEvaluator.load_profile(\"default\", profiles_dir=Path(\"config/profiles\"))\n    modules = evaluator.evaluate(evidence)\n    scorer = AuditScorer(modules=modules, evidence=evidence, profile_name=\"default\")\n    report = scorer.score()\n\n    renderer = ReportRenderer(report)\n    md_text = renderer.render_markdown()\n\n    # Check 3 new sections in Markdown\n    assert \"## 6. EFICIENCIA CONTEXTUAL Y VECTOR ESPECTRAL\" in md_text\n    assert \"## 7. VECTOR DE SEGURIDAD Y SUPERFICIE DE ATAQUE AGÉNTICA\" in md_text\n    assert \"## 8. VECTOR DE RESILIENCIA Y ACOPLAMIENTO DE SISTEMAS\" in md_text\n\n    # Write artifacts to tmp_path\n    artifacts = renderer.write_artifacts(tmp_path)\n    assert Path(artifacts[\"markdown\"]).exists()\n    assert Path(artifacts[\"json\"]).exists()\n    assert Path(artifacts[\"roadmap\"]).exists()\n    assert (tmp_path / \"CONTEXT_PRUNING_PLAN.json\").exists()\n    assert (Path(report.project_path) / \"artifacts\" / \"plans\" / \"metricsthinking\" / \"CONTEXT_PRUNING_PLAN.json\").exists()\n\n\ndef test_engine_run_audit_with_prune_and_medallion(tmp_path):\n    report, artifacts = run_audit(\n        target_path=\".\",\n        profile_name=\"default\",\n        out_dir=str(tmp_path),\n        quiet=True,\n        prune=True,\n        medallion=True,\n    )\n    assert report.consolidated_score > 0.0\n    assert report.fpai is not None\n    assert report.security is not None\n    assert report.resilience is not None\n    assert Path(artifacts[\"markdown\"]).exists()\n\n\ndef test_mcp_server_six_tools():\n    tools = handle_list_tools()\n    tool_names = [t[\"name\"] for t in tools]\n\n    expected_tools = [\n        \"audit_project\",\n        \"get_project_score\",\n        \"get_module_evaluation\",\n        \"get_spectral_efficiency\",\n        \"generate_pruning_plan\",\n        \"apply_pruning_plan\",\n    ]\n    for exp in expected_tools:\n        assert exp in tool_names, f\"Tool {exp} must be exposed in MCP server\"\n\n\ndef test_mcp_server_tool_calls():\n    # 1. get_project_score\n    resp_score = handle_call_tool(\"get_project_score\", {\"target\": \".\"})\n    assert len(resp_score) == 1\n    data_score = json.loads(resp_score[0][\"text\"])\n    assert \"consolidated_score\" in data_score\n\n    # 2. get_module_evaluation\n    resp_mod = handle_call_tool(\"get_module_evaluation\", {\"module_id\": \"M01\", \"target\": \".\"})\n    assert len(resp_mod) == 1\n    data_mod = json.loads(resp_mod[0][\"text\"])\n    assert data_mod[\"module_id\"] == \"M01\"\n\n    # 3. get_spectral_efficiency\n    resp_spec = handle_call_tool(\"get_spectral_efficiency\", {\"target\": \".\"})\n    assert len(resp_spec) == 1\n    data_spec = json.loads(resp_spec[0][\"text\"])\n    assert \"power_factor_spectral\" in data_spec\n\n    # 4. generate_pruning_plan\n    resp_prune = handle_call_tool(\"generate_pruning_plan\", {\"target\": \".\"})\n    assert len(resp_prune) == 1\n    data_prune = json.loads(resp_prune[0][\"text\"])\n    assert \"total_tokens_recovered\" in data_prune\n",
-      "line_count": 94,
+      "content": "\"\"\"\nAutomated validation of FEP-010: Renderer Expansion, Engine Orchestrator, CLI and MCP Server.\n\"\"\"\nimport json\nfrom pathlib import Path\nfrom metricsthinking.collector import ProjectCollector\nfrom metricsthinking.evaluator import CriteriaEvaluator\nfrom metricsthinking.scorer import AuditScorer\nfrom metricsthinking.renderer import ReportRenderer\nfrom metricsthinking.engine import run_audit\nfrom metricsthinking.mcp_server import handle_list_tools, handle_call_tool\n\n\ndef test_renderer_materializes_four_artifacts(tmp_path):\n    collector = ProjectCollector(target_path=\".\")\n    evidence = collector.collect()\n    evaluator = CriteriaEvaluator.load_profile(\"default\", profiles_dir=Path(\"config/profiles\"))\n    modules = evaluator.evaluate(evidence)\n    scorer = AuditScorer(modules=modules, evidence=evidence, profile_name=\"default\")\n    report = scorer.score()\n\n    renderer = ReportRenderer(report)\n    md_text = renderer.render_markdown()\n\n    # Check 3 new sections in Markdown\n    assert \"## 6. EFICIENCIA CONTEXTUAL Y VECTOR ESPECTRAL\" in md_text\n    assert \"## 7. VECTOR DE SEGURIDAD Y SUPERFICIE DE ATAQUE AGÉNTICA\" in md_text\n    assert \"## 8. VECTOR DE RESILIENCIA Y ACOPLAMIENTO DE SISTEMAS\" in md_text\n\n    # Write artifacts to tmp_path\n    artifacts = renderer.write_artifacts(tmp_path)\n    assert Path(artifacts[\"markdown\"]).exists()\n    assert Path(artifacts[\"json\"]).exists()\n    assert Path(artifacts[\"roadmap\"]).exists()\n    assert (tmp_path / \"CONTEXT_PRUNING_PLAN.json\").exists()\n    assert (Path(report.project_path) / \"artifacts\" / \"plans\" / \"metricsthinking\" / \"CONTEXT_PRUNING_PLAN.json\").exists()\n\n\ndef test_engine_run_audit_with_prune_and_medallion(tmp_path):\n    repo_dir = tmp_path / \"repo\"\n    repo_dir.mkdir()\n    (repo_dir / \"app.py\").write_text(\"def hello(): pass\\n\", encoding=\"utf-8\")\n    (repo_dir / \".agentignore\").write_text(\"# initial ignore\\n\", encoding=\"utf-8\")\n    (repo_dir / \".context.yaml\").write_text(\"crawl: true\\n\", encoding=\"utf-8\")\n    report, artifacts = run_audit(\n        target_path=str(repo_dir),\n        profile_name=\"default\",\n        out_dir=str(tmp_path / \"out\"),\n        quiet=True,\n        prune=True,\n        medallion=True,\n    )\n    assert report.consolidated_score > 0.0\n    assert report.fpai is not None\n    assert report.security is not None\n    assert report.resilience is not None\n    assert Path(artifacts[\"markdown\"]).exists()\n\n\ndef test_mcp_server_six_tools():\n    tools = handle_list_tools()\n    tool_names = [t[\"name\"] for t in tools]\n\n    expected_tools = [\n        \"audit_project\",\n        \"get_project_score\",\n        \"get_module_evaluation\",\n        \"get_spectral_efficiency\",\n        \"generate_pruning_plan\",\n        \"apply_pruning_plan\",\n    ]\n    for exp in expected_tools:\n        assert exp in tool_names, f\"Tool {exp} must be exposed in MCP server\"\n\n\ndef test_mcp_server_tool_calls(tmp_path):\n    repo = tmp_path / \"repo\"\n    repo.mkdir()\n    (repo / \"README.md\").write_text(\"# Test Repo\\nProblem statement: testing.\\n\", encoding=\"utf-8\")\n    (repo / \".context.yaml\").write_text(\"crawl: true\\n\", encoding=\"utf-8\")\n\n    # 1. get_project_score\n    resp_score = handle_call_tool(\"get_project_score\", {\"target\": str(repo)})\n    assert len(resp_score) == 1\n    data_score = json.loads(resp_score[0][\"text\"])\n    assert \"consolidated_score\" in data_score\n\n    # 2. get_module_evaluation\n    resp_mod = handle_call_tool(\"get_module_evaluation\", {\"module_id\": \"M01\", \"target\": str(repo)})\n    assert len(resp_mod) == 1\n    data_mod = json.loads(resp_mod[0][\"text\"])\n    assert data_mod[\"module_id\"] == \"M01\"\n\n    # 3. get_spectral_efficiency\n    resp_spec = handle_call_tool(\"get_spectral_efficiency\", {\"target\": str(repo)})\n    assert len(resp_spec) == 1\n    data_spec = json.loads(resp_spec[0][\"text\"])\n    assert \"power_factor_spectral\" in data_spec\n\n    # 4. generate_pruning_plan\n    resp_prune = handle_call_tool(\"generate_pruning_plan\", {\"target\": str(repo)})\n    assert len(resp_prune) == 1\n    data_prune = json.loads(resp_prune[0][\"text\"])\n    assert \"total_tokens_recovered\" in data_prune\n",
+      "line_count": 104,
       "path": "packages/metricsthinking/tests/test_cli_mcp_renderer_v4.py",
-      "sha256": "7cbf852e96204fdc1a4c40484fa993d077e2853115508e55148f4db4a1f1b23c",
-      "size_bytes": 3513,
-      "token_estimate": 878
+      "sha256": "f738e185c2aef181e30e7506a3c6242c0df4a3f70bca9014c05081b68a8a92ca",
+      "size_bytes": 4079,
+      "token_estimate": 1019
     },
     "stat": [
-      3513,
-      1793363219787274800
+      4079,
+      1793581494076263800
     ]
   },
   "packages/metricsthinking/tests/test_collector.py": {
@@ -5428,7 +5344,7 @@
     },
     "stat": [
       368,
-      1793577779667325200
+      1793581597804354100
     ]
   },
   "schemas/backlog.schema.json": {
@@ -5568,7 +5484,7 @@
     },
     "stat": [
       318,
-      1793577779678296700
+      1793581597807350600
     ]
   },
   "skills/.context.yaml": {
@@ -6128,7 +6044,7 @@
     },
     "stat": [
       437,
-      1793577779486622600
+      1793581597764460000
     ]
   },
   "src/core/.context.yaml": {
@@ -6142,7 +6058,7 @@
     },
     "stat": [
       335,
-      1793577779503578400
+      1793581597769447200
     ]
   },
   "src/core/benchmark.py": {
@@ -6198,7 +6114,7 @@
     },
     "stat": [
       351,
-      1793577779508566800
+      1793581597772439600
     ]
   },
   "src/data_generation/.context.yaml": {
@@ -6212,7 +6128,7 @@
     },
     "stat": [
       365,
-      1793577779497595000
+      1793581597766458200
     ]
   },
   "tests/.context.yaml": {
@@ -6226,7 +6142,7 @@
     },
     "stat": [
       318,
-      1793577779705326400
+      1793581597809340400
     ]
   },
   "tests/fixtures/.context.yaml": {
@@ -6282,7 +6198,7 @@
     },
     "stat": [
       288,
-      1793577779712309300
+      1793581597812333100
     ]
   }
 }

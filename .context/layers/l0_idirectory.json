@@ -1,10 +1,10 @@
 {
   "active_nodes_count": 20,
-  "contracts_ast_hash": "b2eb3e9c14171e817c325762f35ac52fe144471d9e12cd356e08c840cc4b333c",
-  "inputs_hash": "3fddd4cb5403ca20a614b123e5727c09a046fb9312b2522ddcd965a1da48129c",
+  "contracts_ast_hash": "dd378435f0120325e90526682bea1b41a119e11550b3eba0e20d87a7fa7c2d46",
+  "inputs_hash": "1aeb0889e758b9014d9d2d521450e6cbb8cf597f2f7eb730b4d27e19162518b5",
   "present": true,
   "pruned_nodes_count": 8,
-  "published_at": "2026-11-02T00:33:09.824148+00:00",
+  "published_at": "2026-11-02T01:10:02.680852+00:00",
   "state": "recorded",
   "topology_hash": "dfdd910f5220fb7f684ec0fb5bf79d7cb49261a825cf4825bbd3e7d367a6f0bc",
   "version": "6.0.0"

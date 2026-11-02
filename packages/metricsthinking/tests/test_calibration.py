@@ -15,11 +15,12 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 PROFILES_DIR = REPO_ROOT / "config" / "profiles"
 
 
-def test_self_audit_with_sdd_profile():
+def test_self_audit_with_sdd_profile(tmp_path):
     """Verifies that MetricsThinking auditing itself under SDD profile scores in pre-prod/excellence."""
     report, artifacts = run_audit(
         target_path=str(REPO_ROOT),
         profile_name="sdd",
+        out_dir=str(tmp_path / "artifacts"),
         quiet=True
     )
 

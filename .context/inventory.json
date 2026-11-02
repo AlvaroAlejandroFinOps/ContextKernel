@@ -18,11 +18,11 @@
       ]
     },
     ".gitignore": {
-      "sha256": "f95bf97bd1140a0777c30981adea38d1bd3206400924bdfe5bd6a8d7a4400858",
-      "size": 250,
+      "sha256": "6a1a301f51154b8bb94dd9581b82aae60ee42d7a8f1f6b4f950720619c5af19f",
+      "size": 478,
       "stat": [
-        250,
-        1793544333493258400
+        478,
+        1793581054999028900
       ]
     },
     "01_seed/.context.yaml": {
@@ -30,7 +30,7 @@
       "size": 487,
       "stat": [
         487,
-        1793579582733582300
+        1793581796054560500
       ]
     },
     "01_seed/seed-contextkernel-master.md": {
@@ -54,7 +54,7 @@
       "size": 404,
       "stat": [
         404,
-        1793579582737570600
+        1793581796057552100
       ]
     },
     "02_foundation/engine/engine_readme.md": {
@@ -78,7 +78,7 @@
       "size": 350,
       "stat": [
         350,
-        1793579582745549800
+        1793581796062540100
       ]
     },
     "AGENTS.md": {
@@ -183,7 +183,7 @@
       "size": 387,
       "stat": [
         387,
-        1793579582769485600
+        1793581796083160200
       ]
     },
     "audit_federation.py": {
@@ -209,7 +209,7 @@
       "size": 403,
       "stat": [
         403,
-        1793579582799404800
+        1793581796107090200
       ]
     },
     "config/context_policy.json": {
@@ -241,7 +241,7 @@
       "size": 350,
       "stat": [
         350,
-        1793579582785442000
+        1793581796097115000
       ]
     },
     "docs/notes/.context.yaml": {
@@ -249,7 +249,7 @@
       "size": 351,
       "stat": [
         351,
-        1793579582794424300
+        1793581796103116400
       ]
     },
     "docs/specs/.context.yaml": {
@@ -257,7 +257,7 @@
       "size": 333,
       "stat": [
         333,
-        1793579582790431500
+        1793581796099107900
       ]
     },
     "docs/specs/icontext-v6.md": {
@@ -2493,7 +2493,7 @@
       "size": 435,
       "stat": [
         435,
-        1793579141110685500
+        1793580618714121700
       ]
     },
     "packages/metricsthinking/.context.yaml": {
@@ -2529,11 +2529,11 @@
       ]
     },
     "packages/metricsthinking/.gitignore": {
-      "sha256": "7f45c845859fade830231075c5662385360aed84a207cd1f4f3ec96ca461d1f1",
-      "size": 312,
+      "sha256": "a0558108a4d777b5cba6527a31f21ca29792e2bd3f14f6bd7c904deb3bf417ee",
+      "size": 380,
       "stat": [
-        312,
-        1793544408154392500
+        380,
+        1793581047124835300
       ]
     },
     "packages/metricsthinking/01_seed/.context.yaml": {
@@ -2741,7 +2741,7 @@
       "size": 281,
       "stat": [
         281,
-        1793579127727372700
+        1793580618730079800
       ]
     },
     "packages/metricsthinking/artifacts/benchmark_seed_coverage.md": {
@@ -2789,7 +2789,7 @@
       "size": 1234,
       "stat": [
         1234,
-        1793579146419313300
+        1793581501539708400
       ]
     },
     "packages/metricsthinking/artifacts/plans/metricsthinking/INFERRED_ROADMAP.md": {
@@ -2797,7 +2797,7 @@
       "size": 11411,
       "stat": [
         11411,
-        1793579146413330300
+        1793581501542700900
       ]
     },
     "packages/metricsthinking/artifacts/plans/metricsthinking/MetricsThinking.json": {
@@ -2805,7 +2805,7 @@
       "size": 31119,
       "stat": [
         31119,
-        1793579146426298400
+        1793581501545692800
       ]
     },
     "packages/metricsthinking/artifacts/plans/metricsthinking/MetricsThinking.md": {
@@ -2813,7 +2813,7 @@
       "size": 18304,
       "stat": [
         18304,
-        1793579146370448100
+        1793581501548684200
       ]
     },
     "packages/metricsthinking/config/.context.yaml": {
@@ -3038,54 +3038,6 @@
       "stat": [
         333,
         1793577783084083800
-      ]
-    },
-    "packages/metricsthinking/data/processed/.context.yaml": {
-      "sha256": "fd495551369b91f2b0f9e2e30fc98c335991a680b002c2d12f79b301894e17a6",
-      "size": 358,
-      "stat": [
-        358,
-        1793577783116996900
-      ]
-    },
-    "packages/metricsthinking/data/processed/telemetry/.context.yaml": {
-      "sha256": "9750797ebeede969e45278e6a8283ae349e9c5a314e548a65a3cf507695f6ae0",
-      "size": 388,
-      "stat": [
-        388,
-        1793577783199775700
-      ]
-    },
-    "packages/metricsthinking/data/processed/telemetry/gold_metrics.json": {
-      "sha256": "100fb48c8fe97b6eb4343b867b3460dacdc952c9ab530983a06ea7b02996d631",
-      "size": 225,
-      "stat": [
-        225,
-        1793579141120658100
-      ]
-    },
-    "packages/metricsthinking/data/processed/telemetry/silver_events.jsonl": {
-      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "size": 0,
-      "stat": [
-        0,
-        1793579141119660200
-      ]
-    },
-    "packages/metricsthinking/data/raw/.context.yaml": {
-      "sha256": "241e753e56dd291cf3d70f2220350866966b18afe940d70877b3f846eaf9fbd8",
-      "size": 346,
-      "stat": [
-        346,
-        1793577783159893700
-      ]
-    },
-    "packages/metricsthinking/data/raw/telemetry/.context.yaml": {
-      "sha256": "ec9072ec5412d0961eca2014b6f1506d399ed6b516a4974a056d2adbcb3a1066",
-      "size": 370,
-      "stat": [
-        370,
-        1793577783225706000
       ]
     },
     "packages/metricsthinking/integrations/.context.yaml": {
@@ -4429,7 +4381,7 @@
       "size": 141,
       "stat": [
         141,
-        1793579128568895400
+        1793580618743352800
       ]
     },
     "packages/metricsthinking/tests/fixtures/sample_golden_audit.json": {
@@ -4563,11 +4515,11 @@
           "test_golden_baseline_regression_snapshot"
         ]
       },
-      "sha256": "065eba8b81b93653e7bc6bdf8d7d8a283e9a3bf8d26cb7209eb65c7cb824dcd2",
-      "size": 4313,
+      "sha256": "3b056b35740c92bc51f52d62be81e95dcc9b859e9f2942b5604bc2cbdc0dd3f1",
+      "size": 4398,
       "stat": [
-        4313,
-        1793485120994738900
+        4398,
+        1793581113294128200
       ]
     },
     "packages/metricsthinking/tests/test_calibration.py": {
@@ -4583,7 +4535,7 @@
           "pytest"
         ],
         "signatures": [
-          "./packages/metricsthinking/tests/test_calibration.py::test_self_audit_with_sdd_profile() -> Any",
+          "./packages/metricsthinking/tests/test_calibration.py::test_self_audit_with_sdd_profile(tmp_path) -> Any",
           "./packages/metricsthinking/tests/test_calibration.py::test_gitops_synthetic_repo_calibration(tmp_path) -> Any",
           "./packages/metricsthinking/tests/test_calibration.py::test_mlops_synthetic_repo_calibration(tmp_path) -> Any",
           "./packages/metricsthinking/tests/test_calibration.py::test_llmops_synthetic_repo_calibration(tmp_path) -> Any"
@@ -4595,11 +4547,11 @@
           "test_llmops_synthetic_repo_calibration"
         ]
       },
-      "sha256": "8d32d5aca719d1699ed7548b06faf2acecd8989b03425b8225c6f29df9ec02a0",
-      "size": 5799,
+      "sha256": "85a20cc24583962f152cabab025b916c710112529d99c83e894c52d85fbd6f21",
+      "size": 5852,
       "stat": [
-        5799,
-        1790603233587171300
+        5852,
+        1793581068693423700
       ]
     },
     "packages/metricsthinking/tests/test_cli.py": {
@@ -4644,7 +4596,7 @@
           "./packages/metricsthinking/tests/test_cli_mcp_renderer_v4.py::test_renderer_materializes_four_artifacts(tmp_path) -> Any",
           "./packages/metricsthinking/tests/test_cli_mcp_renderer_v4.py::test_engine_run_audit_with_prune_and_medallion(tmp_path) -> Any",
           "./packages/metricsthinking/tests/test_cli_mcp_renderer_v4.py::test_mcp_server_six_tools() -> Any",
-          "./packages/metricsthinking/tests/test_cli_mcp_renderer_v4.py::test_mcp_server_tool_calls() -> Any"
+          "./packages/metricsthinking/tests/test_cli_mcp_renderer_v4.py::test_mcp_server_tool_calls(tmp_path) -> Any"
         ],
         "symbols": [
           "test_renderer_materializes_four_artifacts",
@@ -4653,11 +4605,11 @@
           "test_mcp_server_tool_calls"
         ]
       },
-      "sha256": "7cbf852e96204fdc1a4c40484fa993d077e2853115508e55148f4db4a1f1b23c",
-      "size": 3513,
+      "sha256": "f738e185c2aef181e30e7506a3c6242c0df4a3f70bca9014c05081b68a8a92ca",
+      "size": 4079,
       "stat": [
-        3513,
-        1793363219787274800
+        4079,
+        1793581494076263800
       ]
     },
     "packages/metricsthinking/tests/test_collector.py": {
@@ -5502,7 +5454,7 @@
       "size": 368,
       "stat": [
         368,
-        1793579582815382500
+        1793581796120051800
       ]
     },
     "schemas/backlog.schema.json": {
@@ -5582,7 +5534,7 @@
       "size": 318,
       "stat": [
         318,
-        1793579582820352700
+        1793581796124040200
       ]
     },
     "skills/.context.yaml": {
@@ -5992,7 +5944,7 @@
       "size": 437,
       "stat": [
         437,
-        1793579582752530500
+        1793581796069182700
       ]
     },
     "src/core/.context.yaml": {
@@ -6000,7 +5952,7 @@
       "size": 335,
       "stat": [
         335,
-        1793579582760508800
+        1793581796076173300
       ]
     },
     "src/core/benchmark.py": {
@@ -6155,7 +6107,7 @@
       "size": 351,
       "stat": [
         351,
-        1793579582764498600
+        1793581796079160700
       ]
     },
     "src/data_generation/.context.yaml": {
@@ -6163,7 +6115,7 @@
       "size": 365,
       "stat": [
         365,
-        1793579582756520200
+        1793581796072179300
       ]
     },
     "tests/.context.yaml": {
@@ -6171,7 +6123,7 @@
       "size": 318,
       "stat": [
         318,
-        1793579582824338300
+        1793581796127033200
       ]
     },
     "tests/fixtures/.context.yaml": {
@@ -6282,11 +6234,11 @@
       "size": 288,
       "stat": [
         288,
-        1793579582828327700
+        1793581796130026900
       ]
     }
   },
-  "inputs_hash": "3fddd4cb5403ca20a614b123e5727c09a046fb9312b2522ddcd965a1da48129c",
-  "policy_hash": "c632ce6939e22ed540df4a9eb84b179b656b6f3ee7412ce1d6c23cc30067b59d",
+  "inputs_hash": "1aeb0889e758b9014d9d2d521450e6cbb8cf597f2f7eb730b4d27e19162518b5",
+  "policy_hash": "873367cc12c255c41f8c8f72dacf70a4cd031b8401c838f7190096299a475435",
   "version": "6.0.0"
 }
