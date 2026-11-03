@@ -1,9 +1,9 @@
 {
   "entries": {
     ".": {
-      "beacon_chain_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "beacon_chain_hash": "aade935f15cd6e705b6da68f9d74a42d1f81e1233cb1a4c86391e31f6cfa847a",
       "beacon_hash": "29e02afbcbc4a62b3d955593f853063b09bd47dfaac65d45221ae9ff2f1be606",
-      "fingerprint": "568f75e366225d4aa884081404155b74b555f2c4a071fb00d9d20745215bc0f6",
+      "fingerprint": "724a985619785a046e7396e95f7d975e6e849d0e208650f6852eff6c66ed6710",
       "pack": {
         "crawl": true,
         "edges": {
@@ -15,24 +15,24 @@
         "files": [
           "AGENTS.md(~327t)",
           "pyproject.toml(~555t)",
-          "FWengine.py(~288t)",
           "CLAUDE.md(~770t)",
           "GEMINI.md(~60t)",
-          "MetricsThinking.jpg(~0t)"
+          "README.md(~2743t)",
+          "README_ES.md(~2858t)"
         ],
         "focus": ".",
         "idir_pack": "6.0",
-        "instructions": "Directorio con herencia canónica.",
+        "instructions": "Hereda directivas de packages/.",
         "prio": "p2",
-        "role": "general",
+        "role": "namespace",
         "seed_ref": "optional",
         "tier": "1a"
       }
     },
     "01_seed": {
-      "beacon_chain_hash": "45f8f90180cb387dcd1941358b4cf25131e674070df207dff0e3c565d44e3ebd",
+      "beacon_chain_hash": "99acac53b01ea273b440d25ef363d5d5652c1134b2eba2f7f27a7871488e439c",
       "beacon_hash": "e34717c679f586c46a15f7b32799e29e090122f8e0e597e9a41f1ce9ea8873cb",
-      "fingerprint": "71da88914c12b268d9fd0f50276c6db5c11e384cf37548557e323b700911d0aa",
+      "fingerprint": "c08c95f60bf07c938acc7002dbcbc3d2bbc8d54849ec8057a537a2411314bf0d",
       "pack": {
         "crawl": true,
         "edges": {},
@@ -49,9 +49,9 @@
       }
     },
     "02_foundation": {
-      "beacon_chain_hash": "fe6840f08b73914d307975bec449a273fd381ebb153a35fdf54fab6413c409dc",
+      "beacon_chain_hash": "35cdfe3370fdc90bea8071e363bcb5cee90ef3a023be57711dec14fbd12332e6",
       "beacon_hash": "8dbb22b09a799714fcc14d4466e97eefc9e237fda424bb4aef9fbbcf99713e51",
-      "fingerprint": "6353079c4762ef65a15a027a1922f33706686c8371749e207f0a7544134df1c3",
+      "fingerprint": "20e893e1904028750b186c7911686fd74cce772698980bb4eb9d37e680fb2e99",
       "pack": {
         "crawl": true,
         "edges": {
@@ -68,9 +68,9 @@
       }
     },
     "02_foundation/engine": {
-      "beacon_chain_hash": "9a8b4537d4cdeb3ca6d2ea0be413525a959153a7eaba3b0c6ea7a2bf0005712d",
+      "beacon_chain_hash": "f0c680eaac82ed2168fa6fd0fffd107ff78896fe8e62dfd8f0759cee30577e98",
       "beacon_hash": "525cd5a3d61fce6f40bdddf3acc87c26466f4fa368adfefff5a56d0861505229",
-      "fingerprint": "53d39c1fe815876e40cb4027c8e22ac78d17fb1c5d5ffb13e04564b716d0321c",
+      "fingerprint": "f3cc22e9ed4ebd7cf8df1042f941482fcb8e082e6cc3513715eea3e8b42d8acd",
       "pack": {
         "crawl": true,
         "edges": {
@@ -90,9 +90,9 @@
       }
     },
     "03_research": {
-      "beacon_chain_hash": "c35a0dd3e3352ab317a0da1a6ec183dfb38e0256d40f5fb17494af327a0b51f4",
+      "beacon_chain_hash": "d46d7ffbb3fcad5411b40399b45cf75f30311937bfbf17c8d7d15f8e5c138098",
       "beacon_hash": "e1cba28c622f8a679b10e72b032038fed9bd21f88453617f81ba21f7aad151ba",
-      "fingerprint": "592c844f392ea371320350586a04d24f05c6ac83639364078d58a9b151b22f94",
+      "fingerprint": "8f7ebcdf81cadc61e6882b362c23100f4c4de7fc2a69d481c65dc4d363d58a0b",
       "pack": {
         "crawl": true,
         "edges": {
@@ -109,9 +109,9 @@
       }
     },
     "03_research/prompts": {
-      "beacon_chain_hash": "75d484d1d2df5976fe0ff9a6b81e51e46515195720f8f15d651697caf103b9ea",
+      "beacon_chain_hash": "5c72a0fc536c2198833502b61d4200d0c2f535b1715fb257d89d3f82cfbca07c",
       "beacon_hash": "d269ea009fcc9d12c4ca4b5c48842c1c39631611f98578d06d3a65477ca3622b",
-      "fingerprint": "8d91cb37e761d3abdcd81bb743d59e9df09f79d35a8871c7a5c89604985c21d6",
+      "fingerprint": "6401dcc4673be956ce29e997b6080bebeb7ce4fd67e7911d91e3040f48125006",
       "pack": {
         "crawl": true,
         "edges": {
@@ -129,9 +129,9 @@
       }
     },
     "artifacts": {
-      "beacon_chain_hash": "69f495596b2524ec0cb2f5ba38fcca560f164fabe0defb1400f123c3825ea961",
+      "beacon_chain_hash": "1f7efba60c0dcc4687884dec258e9a60425942eeffbb9b7dcac3fdaad67c7856",
       "beacon_hash": "ecf87001343d9bfc9263ab9e61badc9c72c5e312a58fdf19e70353177dfaf341",
-      "fingerprint": "ccf47bca1d086e8f1bba293565a38ddb4ecb0db70f49643c973a488dd2127f76",
+      "fingerprint": "152061439b9c848e7589a719dd96453c2b30f44c0f700c63acdd869d17c43d93",
       "pack": {
         "crawl": true,
         "edges": {
@@ -152,9 +152,9 @@
       }
     },
     "artifacts/plans": {
-      "beacon_chain_hash": "b33ba51561ce74ecd82ddc045e1e316134b351eb5721d6174876b40ce3faac5d",
+      "beacon_chain_hash": "57ff56a608db847f71d423579441618d637f43b7e7db2b9bcaa0e2c87a290501",
       "beacon_hash": "8c240f3e1464c5ba911c0da867dcccbc80887b73680588326c0537346521f252",
-      "fingerprint": "548b1bf13de23aafff7903e51d58a5818cbb5ee1da49f024b87b2c120c74f1d2",
+      "fingerprint": "1c65cb6e75707e35126c8abc9c617e407f5dd43b373763cd9e8266b200a07388",
       "pack": {
         "crawl": true,
         "edges": {
@@ -174,9 +174,9 @@
       }
     },
     "artifacts/plans/active": {
-      "beacon_chain_hash": "e0fec9a0ef3bc4d0cfb5009edcd0f9f355e9dc0ad73188be1bdbf7fc94c67b4b",
+      "beacon_chain_hash": "ad8152e2818dc4ec9a7f2f779da3b129d29dfc5aab37a0ae6bc9c09b5a5ce821",
       "beacon_hash": "4099ccf8eeb2b31acd32ca9fe98dc35988cc70c149825027948b31a8bf8406f4",
-      "fingerprint": "56a6d82ea5ee5bc21d2aa96a9d3b7dc062718fd8c3ebc4745e0c69769ca44ef5",
+      "fingerprint": "82acfc3a3e690f4fcf02c99564d4080b581fdc86b2a483791d5d97d7228358c7",
       "pack": {
         "crawl": true,
         "edges": {
@@ -196,9 +196,9 @@
       }
     },
     "config": {
-      "beacon_chain_hash": "ceabe8ac96ad505fb82d97ea542c4c35d50a4c572bfb507ff2e33e6e3f23bf32",
+      "beacon_chain_hash": "de74793fdc1c4aa9f9a3ed7b726957341c9ce8da78514c8ce5bb2be19cc978b4",
       "beacon_hash": "6c2651b95e2d4b9daa0c4c6ed9fc950355fafa09491a7f72fd7351e29a0684e9",
-      "fingerprint": "39fa90b5b22e1c253cf1655084711bf05de8707732e89627e7bed2b73a8cc3e4",
+      "fingerprint": "c33fe78c8bbef2601ffec606e06c7334872fd66bb7d710754b8092b4bea60312",
       "pack": {
         "crawl": true,
         "edges": {
@@ -218,9 +218,9 @@
       }
     },
     "config/profiles": {
-      "beacon_chain_hash": "4ae854ab3244e3aa2821954d8843c1f0eae8950f21b91ecaf3a69a87e4d5a8ef",
+      "beacon_chain_hash": "0e689710f4fe7dcde6b1e4df5d32843b61a29f695d487d88820d40f331e20967",
       "beacon_hash": "1a63a9179273fc688b0a7728365ed8873278d374885902c8f97f51afeea0ac10",
-      "fingerprint": "86faaee7c308063a7a6226583aacdfddf40475f441396b2f24f32f663e09975b",
+      "fingerprint": "062672db188a1ef966e31fb3af8a65955022f352587eb9bbdb39b9c0501e77b4",
       "pack": {
         "crawl": true,
         "edges": {
@@ -245,9 +245,9 @@
       }
     },
     "crates": {
-      "beacon_chain_hash": "412558c4209f4fdd1e2daaf0fb64c1926a0ef69ca8be634adbf0566716714dc0",
+      "beacon_chain_hash": "fb63c4ad1a34caf588fd75aef0269aff11e1090a0b08c4b5e8e35a9863e9cd35",
       "beacon_hash": "fabad2efea994f54bd4d721dc8d0f03c166252d7770bb9b148d9fd63db0d238c",
-      "fingerprint": "7cb02b38235e855475385b91118d382bb78d378a1971fbdb20d13e6f78968d4f",
+      "fingerprint": "1313ab3c1b22ada260737914ae9f795dc7e46b19b51402f9e5ac21b52e0a2a6c",
       "pack": {
         "crawl": true,
         "edges": {
@@ -264,9 +264,9 @@
       }
     },
     "crates/metricsthinking_rs": {
-      "beacon_chain_hash": "d4722d7969587dd39c98f995d1402d51dad2d978353fb2ed1603b5101a67d67a",
+      "beacon_chain_hash": "c08106311c4b2ef3673be6b4869e8cd9dd62034d75a5d7f8e16b1eb8cb419cce",
       "beacon_hash": "765ab5f421e60254aec87f2b98ffb5f3a8bac3350b77856cc486cb45404f92c3",
-      "fingerprint": "a74d1c466169a9ac8201370a7bfa7f8397948a24b0a86fc2c19ea3fb86ccf792",
+      "fingerprint": "4850b1071d543ae5dbbeb9f497daadc338231c3f5d29f0d3eb8878b7d9b05707",
       "pack": {
         "crawl": true,
         "edges": {
@@ -287,9 +287,9 @@
       }
     },
     "crates/metricsthinking_rs/src": {
-      "beacon_chain_hash": "ddc116aa1b14e9e103203e3d84dda2658b2da04ed600f0ebad39f3a11c9a6b42",
+      "beacon_chain_hash": "0b9089b12773a1fbb1ca53e96dd88a0b70ea192cfec1cbe9189c2628c4dfab5b",
       "beacon_hash": "24bd43ca1cbe44a3d27b3ea21f796c02d8956238e2028c25c1473e0828cbf534",
-      "fingerprint": "e22bf78f16d0c23d6765699c469dacebaa78e577b6ad8eeead2caecf83a06a27",
+      "fingerprint": "e9e90062a02a1d2b3037cc1b7e2816fe8ce2b2254c7e86a200338f4f7617f1eb",
       "pack": {
         "crawl": true,
         "edges": {
@@ -313,117 +313,26 @@
       }
     },
     "data": {
-      "beacon_chain_hash": "e518bbd9943d34dcd1e84f35d3828d460fb7a3935d4165acf54755145a0ff4d9",
-      "beacon_hash": "3be8fdc0307105b6b32fe02217ac737fc7382b65525d178ec6790f7dff7bb04e",
-      "fingerprint": "ed63fa2b567ed66f3110b195404d0fd78969eff6a84652c0c02e74d05e8a7bc5",
+      "beacon_chain_hash": "9077a89e86e543158b23629dea6688b87af2fba2329c1cf21c95e0136e026659",
+      "beacon_hash": "e26681470d1c9c21b0e95f3a1c703595d230d76f8ce0ea962d50d440d5ca1ab1",
+      "fingerprint": "b601abea7f0e208cc14083ff8786860f2ed2c6254b37eed3dfb98065da6a1c05",
       "pack": {
         "crawl": true,
         "edges": {},
         "files": [],
         "focus": "data",
         "idir_pack": "6.0",
-        "instructions": "Sin lógica propia. Usar map --slice o leer el beacon del subdirectorio objetivo.",
+        "instructions": "Hereda directivas de packages/metricsthinking/.",
         "prio": "p2",
         "role": "namespace",
-        "seed_ref": "optional",
-        "tier": "1a"
-      }
-    },
-    "docs": {
-      "beacon_chain_hash": "d232e93a64d8d94f2a138ae294d1dff1ad86747117e5cba40090d0b41022d831",
-      "beacon_hash": "51b490bf2f919c688e64e387fc88e2c855e8a1408197cc83f4af3f328df15943",
-      "fingerprint": "d977ab81529ca9a850c457ff12a98dd252ce8102acb369e2e0d6df125e922f38",
-      "pack": {
-        "crawl": true,
-        "edges": {
-          "docs/architecture": "child",
-          "docs/notes": "child",
-          "docs/specs": "child"
-        },
-        "files": [
-          "PERSONA_LENSES.md(~327t)"
-        ],
-        "focus": "docs",
-        "idir_pack": "6.0",
-        "instructions": "Sin lógica propia. Usar map --slice o leer el beacon del subdirectorio objetivo.",
-        "prio": "p2",
-        "role": "namespace",
-        "seed_ref": "optional",
-        "tier": "1a"
-      }
-    },
-    "docs/architecture": {
-      "beacon_chain_hash": "a67857a8ec1425eb8d69614cc16b2a9b6ffb038943b7b8122eb057111a592e3f",
-      "beacon_hash": "579ac3a434b5f233b8ab64811f475dcc1275ed6df7c60a959dc7dcd62e8e8d90",
-      "fingerprint": "def91519e05006b2dfd67fc081888be2220d14fec01b377ea62a7dc0b6e29f02",
-      "pack": {
-        "crawl": true,
-        "edges": {
-          "docs": "parent"
-        },
-        "files": [],
-        "focus": "docs/architecture",
-        "idir_pack": "6.0",
-        "inherited_from": "docs",
-        "instructions": "Diagramas y especificaciones de alto nivel de sistemas.",
-        "prio": "p1",
-        "role": "architecture_diagrams",
-        "seed_ref": "optional",
-        "tier": "1a"
-      }
-    },
-    "docs/notes": {
-      "beacon_chain_hash": "fdb18505c1a78f0ff1988314c0a598ced86da2d3e7fe99456b0edb4d36e3cad7",
-      "beacon_hash": "0f908d7156270d3f06214795029bafbef351231876d83e1341f0d353fbb1f704",
-      "fingerprint": "c964df5c98584ee2c61cddcbde62b89dcc1801acb0628d3e8d02f48ed6b76be9",
-      "pack": {
-        "crawl": true,
-        "edges": {
-          "docs": "parent"
-        },
-        "files": [
-          "ACADEMIC_SDD_PROJECT_EVALUATION_PAPERS.md(~5072t)",
-          "CONTEXT_ENGINEERING_METRICSTHINKING_ALIGNMENT.md(~3079t)"
-        ],
-        "focus": "docs/notes",
-        "idir_pack": "6.0",
-        "inherited_from": "docs",
-        "instructions": "Notas de ingeniería y registros de decisiones.",
-        "prio": "p2",
-        "role": "engineers_notes",
-        "seed_ref": "optional",
-        "tier": "1a"
-      }
-    },
-    "docs/specs": {
-      "beacon_chain_hash": "45245293fd7b7bc78967c7b70e4308a6a4463fdeb662a15ed58ef08bbdecc9d4",
-      "beacon_hash": "d399e0fc46ebb7ba355d1446f1807e77fd98f1e6837057a5c0ea09116293f465",
-      "fingerprint": "e679efcced9abd1f5e9c16157bca6bd0128eeba6f093a52c07d5a5608ff6b661",
-      "pack": {
-        "crawl": true,
-        "edges": {
-          "docs": "parent"
-        },
-        "files": [
-          "governance-agents-before-v6.md(~444t)",
-          "governance-gemini-before-v6.md(~417t)",
-          "icontext-v6.md(~1685t)",
-          "skill-metrics-before-v6.md(~2795t)"
-        ],
-        "focus": "docs/specs",
-        "idir_pack": "6.0",
-        "inherited_from": "docs",
-        "instructions": "Contratos técnicos de integración.",
-        "prio": "p1",
-        "role": "technical_specs",
         "seed_ref": "optional",
         "tier": "1a"
       }
     },
     "integrations": {
-      "beacon_chain_hash": "016ee4e7dc829417661d6f02e07314daca37cf3f60e9b3002b8287b319f62724",
+      "beacon_chain_hash": "4ecb26ffae345af366ad9d7aa10a76aa97919226abe96b9783f6198bd8abb52d",
       "beacon_hash": "6c51977bd2444114844de252d68b9facb074b7f807826d6723d2395106a6e511",
-      "fingerprint": "475dcd4e18d058d7e49e83c54fbd02b7bc2824ac641757d534730e38450aa132",
+      "fingerprint": "b314b8f3746703fe235e82299fbb0a2848f83b91514bc9937efb8e1717b66d56",
       "pack": {
         "crawl": true,
         "edges": {
@@ -443,9 +352,9 @@
       }
     },
     "integrations/claude": {
-      "beacon_chain_hash": "acd584e44ff76dda4cad82f20daefa896e4e18d5a84a72fe1e2b91828e2776a5",
+      "beacon_chain_hash": "280aa9bc25665518e208f1c0a6274d082f3e403370c9fea24a6179c141041b28",
       "beacon_hash": "e1394ca01e4fe53098c4856759ea3ae4b68b4fc3efe379de9fc4e7ec00a9c60f",
-      "fingerprint": "4db10dda620f5432ea98821240d8934d42aa84408adf92db18252bdcfb8aae32",
+      "fingerprint": "881ff483bbb66d76a5c5b0720daac268225565cbdd9e3b7921ba3baf91eace3e",
       "pack": {
         "crawl": true,
         "edges": {
@@ -465,9 +374,9 @@
       }
     },
     "integrations/codex": {
-      "beacon_chain_hash": "bda8d5797cad7ce660131ed0dc800f62c41f858a609cc6de9ccc5e452678c470",
+      "beacon_chain_hash": "edd73521cced104a1104a4e9dbe571faa17754bfc6232e33b14ba2ba89f63634",
       "beacon_hash": "e33ba437351bee7ff12b97b3821bf26db9dc949136654d4b6054678456ab22c6",
-      "fingerprint": "e98e056337b42f4045cd4a22e38c8b90942dfbf83a3268b8a19f270a43a9e832",
+      "fingerprint": "c37ff9a6de87f87da03dac5428ce4bdcdca861888520c840477b1b49d9423542",
       "pack": {
         "crawl": true,
         "edges": {
@@ -487,9 +396,9 @@
       }
     },
     "integrations/copilot": {
-      "beacon_chain_hash": "e090bfa0cdbea04d36a00ccdad92bc1cfbb2e9e9ce229cb040c375a5ab5bc36e",
+      "beacon_chain_hash": "72423aa60921df1b81b36eeb4ae4dedd37746649fe3b15bc780be802deb6c1e4",
       "beacon_hash": "cc6b3f1404cffb9db53020f654cca50d3e3164aad2ca268502b0f0884a60165f",
-      "fingerprint": "29a33fd101ed858eee0f15e76c288fa529a96597ed7aed9a9f0d692ae24fc92b",
+      "fingerprint": "a93389c1b34af0a2d6c9dab9d4eec69e7d7eb22d53afd33c9aa00469636ea101",
       "pack": {
         "crawl": true,
         "edges": {
@@ -509,9 +418,9 @@
       }
     },
     "integrations/cursor": {
-      "beacon_chain_hash": "e24aea060855a5f23021e6a7d0ded6bb785d7d230898addfeebaf71e1be02728",
+      "beacon_chain_hash": "126552ce0d3ef2a24f0cc1ca9abeee7bfb936756070c18a4c1eea8c7f1eb7830",
       "beacon_hash": "9c07b73be159cde3112ee9248ac634598f2900640880049fefc206b68cfcb4f5",
-      "fingerprint": "16c1c4fa20071456ea70e0a5d472aecc6d044f1f0906bfe130e3da3a11befdbf",
+      "fingerprint": "a28c378deaa971347da3350a87e76ed8de51bf2ad73e42b62bba4cb585f64b99",
       "pack": {
         "crawl": true,
         "edges": {
@@ -531,9 +440,9 @@
       }
     },
     "schemas": {
-      "beacon_chain_hash": "2209a3d179669ada8610d1bc4385ee75a777ed80cbd67678bb80f1ebb7df8009",
+      "beacon_chain_hash": "a5e4291a64a2e93ab643c802acada3857cf08dace46abf3ef7871b55770e7b34",
       "beacon_hash": "7de72434b0ffd7567b5faf10cd364ce01e6c776532cf3ef0bee378527d4b07ae",
-      "fingerprint": "1ff79933d618504b0772d4e863c3f79fdb64fed29982bcceb86b966f7241ec12",
+      "fingerprint": "27636c56b7e6f0cdb89c1986ab644f11d773a3502d5adc20849fba9fd5261a3a",
       "pack": {
         "crawl": true,
         "edges": {},
@@ -555,9 +464,9 @@
       }
     },
     "scripts": {
-      "beacon_chain_hash": "bec0aa7880deb21e2f5162064cbba140e70b67f80090b9f2f7246ef5de003210",
+      "beacon_chain_hash": "f11902fceda6d023bfee7a5da5c30fe493e52ec56e7fb2d240f7e50fc019c6a5",
       "beacon_hash": "d236725ac174c56326279ba8de0c15bdd98f853bd2fd5ba329fc73f8ac8a39f1",
-      "fingerprint": "55d953cbe65102f3ab3471068f9e2276c214626b3ad4b6b77f94e0c9529e8667",
+      "fingerprint": "9edadc68e25cfd88e5ba001535fea8be3f3e811e258dda82de2b14d0753c326d",
       "pack": {
         "crawl": true,
         "edges": {},
@@ -575,74 +484,10 @@
         "tier": "1a"
       }
     },
-    "skills": {
-      "beacon_chain_hash": "33097dd9fd3745aeb07167b4211b971463c2efb044acf918dd613c1738952ce2",
-      "beacon_hash": "30e51476b593c7baad42407b3eb8f70adba2b6a25f3516679bdea069a6671ef0",
-      "fingerprint": "1ba8243440ad3c25a0c1d37a82cb15ef3ccaa2cdd5d7cb7b5a04a9e6e38fcab8",
-      "pack": {
-        "crawl": true,
-        "edges": {
-          "skills/v6": "child"
-        },
-        "files": [],
-        "focus": "skills",
-        "idir_pack": "6.0",
-        "instructions": "Extensión de dominio activa. Enriquecer con /idir enrich si añade contratos.",
-        "prio": "p1",
-        "role": "domain_extension",
-        "seed_ref": "optional",
-        "tier": "1a"
-      }
-    },
-    "skills/v6": {
-      "beacon_chain_hash": "79bb34c7f3f43df5ad440f9be3501080322f8bc2a7612bad32a6021ba19d3a14",
-      "beacon_hash": "75a0c31a0f6a7a3cf224c317d118caeb81e447716146322e1f476755902e2fa6",
-      "fingerprint": "3b0ee806b05cd43935e237dead315c68eafaf9c022622579b2d59b399daa70fc",
-      "pack": {
-        "crawl": true,
-        "edges": {
-          "skills": "parent",
-          "skills/v6/metrics": "child"
-        },
-        "files": [],
-        "focus": "skills/v6",
-        "idir_pack": "6.0",
-        "inherited_from": "skills",
-        "instructions": "Hereda directivas de skills/.",
-        "prio": "p1",
-        "role": "domain_extension",
-        "seed_ref": "optional",
-        "tier": "1a"
-      }
-    },
-    "skills/v6/metrics": {
-      "beacon_chain_hash": "43bb840008de8ec62807a2e2948eea135064438d820d597a1217418bd7f3bb79",
-      "beacon_hash": "dd958d6c1634dd59af43e24f5859d2cb1ad1a36ab569c5d2b157aae7e2f38b9d",
-      "fingerprint": "1b5e39f8c9e4b62aa5a8e90e767346e11fbd3a9f7f044046e92cee8fedbeee29",
-      "pack": {
-        "crawl": true,
-        "edges": {
-          "skills/v6": "parent",
-          "skills/v6/metrics/scripts": "child"
-        },
-        "files": [
-          "SKILL.md(~355t)",
-          "bundle.json(~68t)"
-        ],
-        "focus": "skills/v6/metrics",
-        "idir_pack": "6.0",
-        "inherited_from": "skills/v6",
-        "instructions": "Hereda directivas de skills/v6/.",
-        "prio": "p1",
-        "role": "domain_extension",
-        "seed_ref": "optional",
-        "tier": "1a"
-      }
-    },
     "src": {
-      "beacon_chain_hash": "1af93970ea8e5efe296a71d800cfd221a80af4084b3194741b8c08efe79468dc",
+      "beacon_chain_hash": "c80e32b489117ff454b97a179b1d86bc23701808f4efab0dccff28c3dd621904",
       "beacon_hash": "c05e4aaad49fab9e8746fe857b21433fdce9b1d6ef2caa7460fe294d76be9b15",
-      "fingerprint": "9a879f93a5368e3760055459949300ed1a207deb97c819f24094198a4beb81e9",
+      "fingerprint": "c673a2331d6571c115f2e808a31ddd990eb5d3b846d3cebd92a9740aac7a9547",
       "pack": {
         "crawl": true,
         "edges": {
@@ -661,9 +506,9 @@
       }
     },
     "src/metricsthinking": {
-      "beacon_chain_hash": "ceb62961308ec4734ef50dd563b104f0f403d5b7c388898ba341d48cdf949a86",
+      "beacon_chain_hash": "e7ebfbafb7d4934671f8a211ca074259393c1177f6e11ac43d445fe328d8b073",
       "beacon_hash": "d62f85fa1b0b7a5b9de7c661693b71640bb8f8cd66e93ecfdc5dbd9ad9971ced",
-      "fingerprint": "33bf96b181521602be304b1f5fb6a5cace199cdcf85f0d994b444b82e555719d",
+      "fingerprint": "60019793dd7743530cbba52314344f56fe3bb3fe54f1f665f122bf0865c8c782",
       "pack": {
         "crawl": true,
         "edges": {
@@ -689,10 +534,60 @@
         "tier": "1a"
       }
     },
+    "src/metricsthinking/backends": {
+      "beacon_chain_hash": "61f564ab33bcb0c26012a6bdcb03adfa581dc543138fec70ceec730307b08490",
+      "beacon_hash": "f10bf51f0a6a0971a5bfa4247a5c7d26b07d1fe8aee68a48cfaf29ee54f706c3",
+      "fingerprint": "2378862001be43a0611d107446244f7e50ccf72f1a7120b9068c178ab0a9699c",
+      "pack": {
+        "crawl": true,
+        "edges": {
+          "src/metricsthinking": "parent"
+        },
+        "files": [
+          "__init__.py(~613t)",
+          "python_fallback.py(~1821t)"
+        ],
+        "focus": "src/metricsthinking/backends",
+        "idir_pack": "6.0",
+        "inherited_from": "src/metricsthinking",
+        "instructions": "Hereda directivas de src/metricsthinking/.",
+        "prio": "p2",
+        "role": "namespace",
+        "seed_ref": "optional",
+        "tier": "1a"
+      }
+    },
+    "src/metricsthinking/fpai": {
+      "beacon_chain_hash": "2efa92187537b438dd21a91cd72d1026984748c5272ad489fbe02f9990ea48a5",
+      "beacon_hash": "587d1969b8b2508951ad989369e897f8ecaa99b38e31cf538051132b497304b9",
+      "fingerprint": "1a453ed54a6c583bea7ee09c8f760ac69a418905fbd68326f8fabcfd68aeeae7",
+      "pack": {
+        "crawl": true,
+        "edges": {
+          "src/metricsthinking": "parent"
+        },
+        "files": [
+          "__init__.py(~288t)",
+          "ablation.py(~759t)",
+          "attribution.py(~918t)",
+          "compensation.py(~1410t)",
+          "confidence.py(~506t)",
+          "drift_auditor.py(~1066t)"
+        ],
+        "focus": "src/metricsthinking/fpai",
+        "idir_pack": "6.0",
+        "inherited_from": "src/metricsthinking",
+        "instructions": "Hereda directivas de src/metricsthinking/.",
+        "prio": "p2",
+        "role": "namespace",
+        "seed_ref": "optional",
+        "tier": "1a"
+      }
+    },
     "tests": {
-      "beacon_chain_hash": "aae40b2cfe5b9735d23cd69fd2a9f23197625aceb5900b25cbb949c9de4f7b2a",
+      "beacon_chain_hash": "57e4f0e3c77988e8bbbbb446643b83aacca1daca35cba22218af04ba15f0ec7b",
       "beacon_hash": "7e91a77a62b63ae5520c615174a49a5545610e1dd472efcac76c7e86bcd1079a",
-      "fingerprint": "7b9a5798e175af102d6d168cfafcf361e8e28c8bdff8d207ec5060f3b138a9b1",
+      "fingerprint": "c4120bcd11933ecc22e70f4aab77d4e367428b809b64a94a63157e723ee3b6c2",
       "pack": {
         "crawl": true,
         "edges": {
@@ -700,11 +595,11 @@
           "tests/other": "child"
         },
         "files": [
-          "__init__.py(~9t)",
+          "conftest.py(~97t)",
           "test_archetype_detector.py(~2497t)",
           "test_backends_collector_v4.py(~815t)",
-          "test_benchmarks_stress.py(~1198t)",
-          "test_calibration.py(~1610t)",
+          "test_benchmarks_stress.py(~1221t)",
+          "test_calibration.py(~1625t)",
           "test_cli.py(~418t)"
         ],
         "focus": "tests",
@@ -715,19 +610,82 @@
         "seed_ref": "optional",
         "tier": "1a"
       }
+    },
+    "tests/fixtures": {
+      "beacon_chain_hash": "1637c2bfee7c607350a3eb7eed216317df16da1831bd4603c1113ff69a2189c9",
+      "beacon_hash": "5a4128c44455b7da7f4e720de7c16c7f3620f7a29e3adf494d057c8e37f6277c",
+      "fingerprint": "1ea7496742900e432a03d10978e94f32994463f4b2a3064dbd3e62bfddc57d39",
+      "pack": {
+        "crawl": true,
+        "edges": {
+          "tests": "parent"
+        },
+        "files": [
+          "golden_baseline_report.json(~39t)",
+          "sample_golden_audit.json(~65t)"
+        ],
+        "focus": "tests/fixtures",
+        "idir_pack": "6.0",
+        "inherited_from": "tests",
+        "instructions": "Hereda directivas de tests/.",
+        "prio": "p1",
+        "role": "test_suites",
+        "seed_ref": "optional",
+        "tier": "1a"
+      }
+    },
+    "tests/other": {
+      "beacon_chain_hash": "fd1977d55e5e2ece7eeb21b95aa638e8e9d22cea9113addb362d5a7d583c4bfe",
+      "beacon_hash": "c730a011485f812980aaaef8de600c534c354fc8b0291c978a76930c22f62fce",
+      "fingerprint": "990294d6fc4b9c4cfd064b2a5642bf43728a7c756a7edcf94ef0d14ea3ef3129",
+      "pack": {
+        "crawl": true,
+        "edges": {
+          "tests": "parent"
+        },
+        "files": [
+          "MetricsThinking_ThinkingSeed.json(~5649t)",
+          "MetricsThinking_ThinkingSeed.md(~3784t)"
+        ],
+        "focus": "tests/other",
+        "idir_pack": "6.0",
+        "inherited_from": "tests",
+        "instructions": "Hereda directivas de tests/.",
+        "prio": "p1",
+        "role": "test_suites",
+        "seed_ref": "optional",
+        "tier": "1a"
+      }
+    },
+    "tools": {
+      "beacon_chain_hash": "787f5a8d40b340a91a9dc18fa419e828cc2a623610400ab8df6d3cfdabe50386",
+      "beacon_hash": "e5fc97b97c72967c1dbe6b05656ee616dc7e6b6cafdce126aba4fb8981dff6e5",
+      "fingerprint": "32bf6e8a1a3e484ee4084faee361018f9e8dc6fb00e338e6594140b3e1acf2d3",
+      "pack": {
+        "crawl": true,
+        "edges": {},
+        "files": [],
+        "focus": "tools",
+        "idir_pack": "6.0",
+        "instructions": "Herramientas locales del proyecto.",
+        "prio": "p2",
+        "role": "tooling",
+        "seed_ref": "optional",
+        "tier": "1a"
+      }
     }
   },
-  "generation": "5fcc7525bd631ae0",
+  "generation": "54b6541f631e98be",
   "policy_stamp": [
     [
       ".agentignore",
       435,
-      1793485286443328500
+      1793580618714121700
     ],
     [
       ".gitignore",
-      217,
-      1792697629647128500
+      380,
+      1793581047124835300
     ],
     [
       "config/context_policy.json",

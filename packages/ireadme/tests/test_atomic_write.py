@@ -1,6 +1,10 @@
+import sys
 from pathlib import Path
 import pytest
-from scripts.init_readme import atomic_write_text, generate_readmes
+_pkg_scripts = Path(__file__).resolve().parent.parent / "scripts"
+if str(_pkg_scripts) not in sys.path:
+    sys.path.insert(0, str(_pkg_scripts))
+from init_readme import atomic_write_text, generate_readmes
 
 
 def test_atomic_write_creates_file(tmp_path: Path):

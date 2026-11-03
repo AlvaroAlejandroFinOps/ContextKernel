@@ -1,14 +1,14 @@
 # METRICSTHINKING™: Auditoría Forense y Madurez del Proyecto
 
 > **Motor Evaluador:** MetricsThinking™ v6.0 Universal  
-> **Proyecto Auditado:** `ContextControl`  
+> **Proyecto Auditado:** `ContextKernel`  
 > **Ubicación:** `./`  
-> **Fecha de Auditoría:** `2026-11-01 22:08:11`  
+> **Fecha de Auditoría:** `2026-11-02 22:07:22`  
 > **Auditor Responsable:** `MetricsThinking™ Universal Auditor`  
 > **Perfil Aplicado:** `default` (`software-engineering`)  
 > **Modo de Inspección:** `source_code`  
 > **ThinkingSeed:** `Detectado (v6.1)`  
-> **Git Commit / Branch:** `b555e62` / `master`  
+> **Git Commit / Branch:** `46a67b1` / `master`  
 > **Score Consolidado:** **`80.5% / 100.0%`**  
 > **Banda de Madurez:** **Madurez Avanzada / Pre-producción (75.0% - 89.9%)**
 
@@ -22,7 +22,7 @@ MetricsThinking™ ha completado la auditoría forense estricta basada en eviden
 - **Arquetipo de Dominio:** **`software-engineering`** (Modo: `source_code`)
 - **Criterios Cumplidos:** **`31 / 36`** (86.1%)
 - **Cuello de Botella Inmediato:** **`M05: Construcción Núcleo (Core Engine) (50.0% completado)`**
-- **Archivos Físicos Escaneados:** **`443`**
+- **Archivos Físicos Escaneados:** **`444`**
 - **Memoria Técnica (Seed):** `Presente`
 - **Gobernanza iDirectory (.context.yaml):** `Activa`
 
@@ -30,11 +30,11 @@ MetricsThinking™ ha completado la auditoría forense estricta basada en eviden
 
 | Primitiva | Archivos Clasificados | Rutas de Muestra |
 |:---|:---:|:---|
-| **Config** | `181` | `.agentignore`, `pyproject.toml`, `01_seed/.context.yaml` |
-| **Spec** | `93` | `.agentignore`, `AGENTS.md`, `GEMINI.md` |
+| **Config** | `182` | `.agentignore`, `pyproject.toml`, `01_seed/.context.yaml` |
+| **Spec** | `95` | `.agentignore`, `AGENTS.md`, `GEMINI.md` |
 | **Pipeline** | `5` | `packages/idirectory/.github/workflows/ci.yml`, `packages/ireadme/scripts/install_skill.py`, `packages/metricsthinking/.github/workflows/ci.yml` |
-| **Verification** | `64` | `artifacts/benchmark_coverage_report.json`, `packages/contextkernel-cli/src/contextkernel/benchmark.py`, `packages/contextkernel-cli/tests/test_v6.py` |
-| **Implementation** | `72` | `.agents/skills/icontext/SKILL.md`, `01_seed/seed-contextkernel-master.md`, `02_foundation/.context.yaml` |
+| **Verification** | `62` | `artifacts/benchmark_coverage_report.json`, `packages/contextkernel-cli/src/contextkernel/benchmark.py`, `packages/contextkernel-cli/tests/test_v6.py` |
+| **Implementation** | `74` | `.agents/skills/icontext/SKILL.md`, `01_seed/seed-contextkernel-hybrid.md`, `01_seed/seed-contextkernel-master.md` |
 
 
 ---
@@ -139,7 +139,7 @@ flowchart LR
 |:---|:---|:---:|:---|
 | `M03-C01` | Detección y Marcado de PII | ✅ `[CUMPLIDO]` | **`01_seed/seed-contextkernel-master.md`** — Políticas de privacidad y clasificación PII documentadas en '01_seed/seed-contextkernel-master.md'. |
 | `M03-C02` | Reglas de Calidad Formales (cQS) | ✅ `[CUMPLIDO]` | **`packages/metricsthinking/artifacts/benchmark/FlowAgentic_INFERRED_ROADMAP.md`** — Catálogo de criterios y reglas formales de calidad especificados en 'packages/metricsthinking/artifacts/benchmark/FlowAgentic_INFERRED_ROADMAP.md'. |
-| `M03-C03` | Validación Estricta de Esquemas / Context | ✅ `[CUMPLIDO]` | **`01_seed/.context.yaml`** — Gobernanza contextual iDirectory activa con 138 archivos de contexto (.context.yaml). |
+| `M03-C03` | Validación Estricta de Esquemas / Context | ✅ `[CUMPLIDO]` | **`01_seed/.context.yaml`** — Gobernanza contextual iDirectory activa con 139 archivos de contexto (.context.yaml). |
 
 ### M04: Aprovisionamiento y Readiness — 🟢 DONE (100.0%)
 **Peso Relativo:** 5% | **Contribución Ponderada:** 5.00%
@@ -155,7 +155,7 @@ flowchart LR
 
 | Criterio | Nombre | Estado | Evidencia Física Detectada |
 |:---|:---|:---:|:---|
-| `M05-C01` | Parsers Funcionales | ✅ `[CUMPLIDO]` | **`.agents/skills/icontext/SKILL.md`** — Módulos de procesamiento e implementación activos (72 archivos, e.g. '.agents/skills/icontext/SKILL.md'). |
+| `M05-C01` | Parsers Funcionales | ✅ `[CUMPLIDO]` | **`.agents/skills/icontext/SKILL.md`** — Módulos de procesamiento e implementación activos (74 archivos, e.g. '.agents/skills/icontext/SKILL.md'). |
 | `M05-C02` | Inferencia Operativa de Roles | ✅ `[CUMPLIDO]` | **`src/core/benchmark.py`** — Motor nuclear de procesamiento y lógica operativa verificado en 'src/core/benchmark.py'. |
 | `M05-C03` | Resolución de Relaciones y Ciclos | ❌ `[FALTANTE]` | No se encontró componente de resolución de relaciones o dependencias. |
 | `M05-C04` | Generador Canónico de Métricas / Lógica | ❌ `[FALTANTE]` | No se detectó generador de métricas ni sintetizador canónico. |
@@ -168,7 +168,7 @@ flowchart LR
 | `M06-C01` | Emisores de Dialecto Nativo | ❌ `[FALTANTE]` | No se encontraron emisores nativos de plataforma o destino. |
 | `M06-C02` | Escritura Atómica y Safe-Encoding | ✅ `[CUMPLIDO]` | **`src/core/benchmark.py`** — Manejo seguro de codificación UTF-8 / serialización protegida en 'src/core/benchmark.py'. |
 | `M06-C03` | Exportación Multi-Formato | ✅ `[CUMPLIDO]` | Soporte de representación multi-formato verificado en el repositorio (.code-workspace, .json, .md, .mdc, .py). |
-| `M06-C04` | Resiliencia de Sistemas y Mitigación de SPOF | ✅ `[CUMPLIDO]` | Grafo de dependencias evaluado: 96 módulos analizados, acoplamiento estable. |
+| `M06-C04` | Resiliencia de Sistemas y Mitigación de SPOF | ✅ `[CUMPLIDO]` | Grafo de dependencias evaluado: 94 módulos analizados, acoplamiento estable. |
 | `M06-C05` | Patrones de Tolerancia a Fallos y Fallback | ✅ `[CUMPLIDO]` | Patrones de tolerancia a fallos verificados: {'timeout': 33, 'retry': 32, 'circuit_breaker': 4, 'fallback': 28} (cobertura=100.0%). |
 
 ### M07: Aseguramiento de Calidad (QA & Stress) — 🟢 DONE (100.0%)
@@ -176,7 +176,7 @@ flowchart LR
 
 | Criterio | Nombre | Estado | Evidencia Física Detectada |
 |:---|:---|:---:|:---|
-| `M07-C01` | Cobertura y Tasa de Éxito de Pruebas | ✅ `[CUMPLIDO]` | **`packages/contextkernel-cli/tests/test_v6.py`** — Suite de pruebas presente (34 archivos de prueba en tests/, e.g. 'packages/contextkernel-cli/tests/test_v6.py'). |
+| `M07-C01` | Cobertura y Tasa de Éxito de Pruebas | ✅ `[CUMPLIDO]` | **`packages/contextkernel-cli/tests/test_v6.py`** — Suite de pruebas presente (32 archivos de prueba en tests/, e.g. 'packages/contextkernel-cli/tests/test_v6.py'). |
 | `M07-C02` | Golden Regression Tests Validados | ✅ `[CUMPLIDO]` | **`packages/ireadme/tests/test_golden_regression.py`** — Pruebas de regresión deterministas (Golden files/Snapshots) identificadas en 'packages/ireadme/tests/test_golden_regression.py'. |
 | `M07-C03` | Suites de Estrés / Benchmark Masivo | ✅ `[CUMPLIDO]` | **`packages/metricsthinking/tests/test_benchmarks_stress.py`** — Suites de estrés o benchmarks masivos verificados en 'packages/metricsthinking/tests/test_benchmarks_stress.py'. |
 
@@ -204,10 +204,10 @@ flowchart LR
 
 | Criterio | Nombre | Estado | Evidencia Física Detectada |
 |:---|:---|:---:|:---|
-| `M10-C01` | Documentación Técnica Exhaustiva (Seed) | ✅ `[CUMPLIDO]` | **`01_seed/seed-contextkernel-master.md`** — Memoria técnica formal (ThinkingSeed) identificada en '01_seed/seed-contextkernel-master.md'. |
+| `M10-C01` | Documentación Técnica Exhaustiva (Seed) | ✅ `[CUMPLIDO]` | **`01_seed/seed-contextkernel-hybrid.md`** — Memoria técnica formal (ThinkingSeed) identificada en '01_seed/seed-contextkernel-hybrid.md'. |
 | `M10-C02` | CLI Help Documentado | ✅ `[CUMPLIDO]` | **`README_ES.md`** — Instrucciones operativas y ayuda de comandos documentadas en 'README_ES.md'. |
 | `M10-C03` | Adaptadores Multicanal / Roadmap | ✅ `[CUMPLIDO]` | **`packages/idirectory/01_seed/seed-idirectory-master.md`** — Roadmap formal de extensibilidad y capacidades futuras documentado en 'packages/idirectory/01_seed/seed-idirectory-master.md'. |
-| `M10-C04` | Eficiencia Contextual Espectral FPAI | ✅ `[CUMPLIDO]` | **`.agentignore`** — Indicador FPAI estimado (distorsión no medida): PF_spectral=0.978 >= 0.70 (S_spectral=571989, S_linear=679084). |
+| `M10-C04` | Eficiencia Contextual Espectral FPAI | ✅ `[CUMPLIDO]` | **`.agentignore`** — Indicador FPAI estimado (distorsión no medida): PF_spectral=0.978 >= 0.70 (S_spectral=576392, S_linear=683587). |
 
 
 ---
@@ -232,16 +232,16 @@ Métrica canónica de densidad cognitiva y preservación de potencia activa $P$:
 
 | Componente de Potencia | Símbolo | Tokens | Ratio | Estado |
 |:---|:---:|:---:|:---:|:---|
-| **Potencia Activa** (Working Set) | $P$ | `559307` | `82.4%` | 🟢 Preservada |
+| **Potencia Activa** (Working Set) | $P$ | `565310` | `82.5%` | 🟢 Preservada |
 | **Potencia Reactiva Inerte** | $Q_{dead}$ | `0` | `0.0%` | ⚪ Inerte |
-| **Potencia Reactiva Redundante** | $Q_{dup}$ | `119777` | `17.6%` | 🟡 Duplicada |
+| **Potencia Reactiva Redundante** | $Q_{dup}$ | `119777` | `17.5%` | 🟡 Duplicada |
 | **Distorsión Estructural** | $D$ | `0` | `0.0%` | 🔴 Conflicto |
-| **Potencia Aparente Espectral** | $S_{spectral}$ | `571989` | — | $\sqrt{P^2 + Q^2 + D^2}$ |
-| **Potencia Aparente Lineal** | $S_{linear}$ | `679084` | — | $P + Q + D$ |
+| **Potencia Aparente Espectral** | $S_{spectral}$ | `577860` | — | $\sqrt{P^2 + Q^2 + D^2}$ |
+| **Potencia Aparente Lineal** | $S_{linear}$ | `685087` | — | $P + Q + D$ |
 
 - **Factor de Potencia Espectral ($PF_{spectral}$):** `0.978` *(Meta >= 0.70)*
-- **Factor de Potencia Lineal ($PF_{linear}$):** `0.824`
-- **Ratio de Divergencia Espectral:** `15.8%`
+- **Factor de Potencia Lineal ($PF_{linear}$):** `0.825`
+- **Ratio de Divergencia Espectral:** `15.7%`
 - **Estado de Calibración:** `DETERMINISTIC` (Ganancia $G=1.00$)
 
 ---
@@ -264,7 +264,7 @@ Auditoría Zero-Tolerance de credenciales expuestas, entropía de Shannon e inye
 
 Análisis estático de estabilidad modular $I = \frac{{C_e}}{{C_a + C_e}}$ y puntos únicos de fallo (SPOFs):
 
-- **Módulos Analizados:** `96`
+- **Módulos Analizados:** `94`
 - **Puntos Únicos de Fallo (SPOFs) Detectados:** `11` (packages.contextkernel-cli.src.contextkernel.context_runtime, packages.contextkernel-cli.src.contextkernel.runtime, packages.idirectory.src.core.context_runtime, packages.ireadme.src.ireadme.runtime, packages.metricsthinking.src.metricsthinking.detector, packages.metricsthinking.src.metricsthinking.fpai.gatekeeper, packages.metricsthinking.src.metricsthinking.fpai.medallion, packages.metricsthinking.src.metricsthinking.fpai.spectral_engine, packages.metricsthinking.src.metricsthinking.models, packages.metricsthinking.src.metricsthinking.runtime, packages.thinkingseed.scripts.context_runtime)
 - **Cobertura de Patrones de Tolerancia a Fallos:** `100.0%`
 - **Recuento de Patrones Resilientes:**

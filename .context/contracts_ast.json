@@ -89,8 +89,8 @@
     "-t",
     "-v"
   ],
-  "contracts_ast_hash": "dd378435f0120325e90526682bea1b41a119e11550b3eba0e20d87a7fa7c2d46",
-  "inputs_hash": "1aeb0889e758b9014d9d2d521450e6cbb8cf597f2f7eb730b4d27e19162518b5",
+  "contracts_ast_hash": "eb1f6616e9198ab978be424976eb984bab7fe3de5931c2cc7ede15e5e3b564cf",
+  "inputs_hash": "29cc9f2bd0f37d492d30cb4f56866801b457a39e74299bfd602adb6dd953285c",
   "modules": {
     "FWengine.py": {
       "cli_flags": [
@@ -1084,18 +1084,13 @@
         "validate_readmes"
       ]
     },
-    "packages/ireadme/tests/__init__.py": {
-      "cli_flags": [],
-      "imports": [],
-      "signatures": [],
-      "symbols": []
-    },
     "packages/ireadme/tests/test_atomic_write.py": {
       "cli_flags": [],
       "imports": [
+        "init_readme",
         "pathlib",
         "pytest",
-        "scripts.init_readme"
+        "sys"
       ],
       "signatures": [
         "./packages/ireadme/tests/test_atomic_write.py::test_atomic_write_creates_file(tmp_path: Path) -> Any",
@@ -1845,12 +1840,6 @@
         "AuditScorer"
       ]
     },
-    "packages/metricsthinking/tests/__init__.py": {
-      "cli_flags": [],
-      "imports": [],
-      "signatures": [],
-      "symbols": []
-    },
     "packages/metricsthinking/tests/conftest.py": {
       "cli_flags": [],
       "imports": [
@@ -2159,10 +2148,11 @@
     "packages/metricsthinking/tests/test_installer.py": {
       "cli_flags": [],
       "imports": [
+        "install_skill",
         "json",
         "metricsthinking.mcp_server",
         "pathlib",
-        "scripts.install_skill"
+        "sys"
       ],
       "signatures": [
         "./packages/metricsthinking/tests/test_installer.py::test_install_antigravity_local(tmp_path: Path) -> Any",
@@ -2188,12 +2178,13 @@
     "packages/metricsthinking/tests/test_medallion_ablation_v4.py": {
       "cli_flags": [],
       "imports": [
+        "hnsw_index_rebuild",
         "json",
         "metricsthinking.fpai.ablation",
         "metricsthinking.fpai.attribution",
         "metricsthinking.fpai.medallion",
         "pathlib",
-        "scripts.hnsw_index_rebuild"
+        "sys"
       ],
       "signatures": [
         "./packages/metricsthinking/tests/test_medallion_ablation_v4.py::test_local_medallion_pipeline(tmp_path) -> Any",
@@ -2783,7 +2774,7 @@
       ]
     }
   },
-  "project": "ContextControl",
+  "project": "ContextKernel",
   "public_symbols": [
     "ArchetypeDetectionResult",
     "ArchetypeDetector",
@@ -3636,6 +3627,6 @@
     "./tests/test_v6.py::test_readme_validation_allows_absolute_paths_in_terminal_examples(tmp_path) -> Any",
     "./tests/test_v6.py::test_audit_runtime_upgrade_invalidates_consumer_metrics(tmp_path, monkeypatch) -> Any"
   ],
-  "topology_hash": "dfdd910f5220fb7f684ec0fb5bf79d7cb49261a825cf4825bbd3e7d367a6f0bc",
+  "topology_hash": "e8ca446a70088bfc872842d7710bb7403ba5c05b0c5eb6ead83a839addb185dc",
   "version": "6.0"
 }

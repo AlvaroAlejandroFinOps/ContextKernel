@@ -10,5 +10,5 @@ tier1_preload: false
 token_density: medium
 instructions: "LECTURA CONDICIONAL (Tier 2 o consulta seccional vía seed --section). Prohibido precargar completo en Tier 1."
 key_files:
+  - "seed-contextkernel-hybrid.md"
   - "seed-contextkernel-master.md"
-  - "seed-contextcontrol-master.md"

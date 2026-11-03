@@ -8,7 +8,7 @@
       "name": "Problem Statement Formalizado",
       "remediation_hint": "Declarar formalmente el Problem Statement en 01_seed o README.md."
     },
-    "fingerprint": "773bc9501b7fd7129aeaa62831178cee652f0fb3ee29076e5c1a19c9e1e3beff"
+    "fingerprint": "0da8a5536c75edbbcf7243124e1f9387a42b726002327d01e98f43d2c73da774"
   },
   "M01:M01-C02": {
     "criterion": {
@@ -19,7 +19,7 @@
       "name": "Límites y Scope Declarados",
       "remediation_hint": "Definir secciones 'In Scope' y 'Out of Scope' explícitas."
     },
-    "fingerprint": "1f82dbd68a3068aa4236273ab60bd8af00f664cc560214772b9861f044495498"
+    "fingerprint": "9ded6851dbd2883e4e118d4c610c8d6085f95a7add8555ffe3b158208a7f9e13"
   },
   "M01:M01-C03": {
     "criterion": {
@@ -30,7 +30,7 @@
       "name": "Casos de Uso Formales",
       "remediation_hint": "Documentar casos de uso o perfiles de consumidores formales."
     },
-    "fingerprint": "76f2b924fa82bc02cef69ef4325a92121992bb91ed879b511c7fb7cfa16387a4"
+    "fingerprint": "73b16a572626d833099bb470411a0d13ea94c5ebbd756be2312eee64730e577e"
   },
   "M02:M02-C01": {
     "criterion": {
@@ -41,7 +41,7 @@
       "name": "AST / Modelos Canónicos Desacoplados",
       "remediation_hint": "Crear modelos de datos/AST neutrales en src/metricsthinking/models.py o similar."
     },
-    "fingerprint": "3dc409a4c8319ae15ac307940bccedd0b0510e79a15ef004b50e1bc6aaba20c3"
+    "fingerprint": "43ecf7dde54c7e9ad28e4051306d3f22c769a09d491b45cd23b4323256707262"
   },
   "M02:M02-C02": {
     "criterion": {
@@ -52,7 +52,7 @@
       "name": "ADRs Documentados",
       "remediation_hint": "Registrar ADRs formales en docs/notes o docs/architecture."
     },
-    "fingerprint": "7f488f45baadf32975ed330aa59beab88485dc374cef5438adbb9be51480e5d1"
+    "fingerprint": "0d4e78a1fb0b5e6a1ec2803df5a813635f03a8af7af5b03dfa3769e4b65a6b62"
   },
   "M02:M02-C03": {
     "criterion": {
@@ -63,7 +63,7 @@
       "name": "Contratos JSON Schema Validados",
       "remediation_hint": "Añadir esquemas JSON Schema o Pydantic validados en schemas/."
     },
-    "fingerprint": "fb9e446ff589b7ef336f7d3cb1a3e5cffb3ecab806081754f77928d21837a9d6"
+    "fingerprint": "fa6869121ea3f0b1ec185f99a30c03dd1ec87c7f8e3392c9f4c9a4628c379833"
   },
   "M02:M02-C04": {
     "criterion": {
@@ -74,7 +74,7 @@
       "name": "Topología y Grafos Formales",
       "remediation_hint": "Implementar análisis de dependencias/grafos en core o .context/tree.json."
     },
-    "fingerprint": "95dc011fec38504960e45d2388e77ecfc6ef00a33b6f8dece810c9281216cf03"
+    "fingerprint": "0ed8e9f472e4c76420cb348a795e7a20a9207c8626a669b1d3e82c568549312d"
   },
   "M03:M03-C01": {
     "criterion": {
@@ -85,7 +85,7 @@
       "name": "Detección y Marcado de PII",
       "remediation_hint": "Integrar etiquetado o enmascarado de PII en los modelos de datos."
     },
-    "fingerprint": "095ffec0a8424636ed222d21cb654a8a6b5492d04efce3a69d1b9f80172923fa"
+    "fingerprint": "c99ac5422fea4e9512739bede4d8ffedac35e102003f90d589417ab2ef010802"
   },
   "M03:M03-C02": {
     "criterion": {
@@ -96,18 +96,18 @@
       "name": "Reglas de Calidad Formales (cQS)",
       "remediation_hint": "Implementar reglas de calidad de datos o código cQS."
     },
-    "fingerprint": "d3f6e8d1957b6971302943adeae93c052687e1295bb319401f11e718d29d1fe0"
+    "fingerprint": "67d97c487e2d464a5999f5a8891fb71aa8a065ead05c7fde6a44174f53c729dd"
   },
   "M03:M03-C03": {
     "criterion": {
       "criterion_id": "M03-C03",
-      "evidence_detail": "Gobernanza contextual iDirectory activa con 138 archivos de contexto (.context.yaml).",
+      "evidence_detail": "Gobernanza contextual iDirectory activa con 139 archivos de contexto (.context.yaml).",
       "evidence_path": "01_seed/.context.yaml",
       "fulfilled": true,
       "name": "Validación Estricta de Esquemas / Context",
       "remediation_hint": "Asegurar validadores estrictos o gobernanza .context.yaml."
     },
-    "fingerprint": "60bfca6af12c9531244e72f381eac0cc31369f82636559905507e19ebc07b974"
+    "fingerprint": "b462b4019206e416adffcb64e4ca97c49292344fc48176737080005dc1a9d658"
   },
   "M04:M04-C01": {
     "criterion": {
@@ -118,7 +118,7 @@
       "name": "Entorno Reproducible",
       "remediation_hint": "Definir pyproject.toml o package.json formal."
     },
-    "fingerprint": "941fc7d6b480c306d2a7ceb842234dae43ed1affbfbab7a3de41ccd3da06f370"
+    "fingerprint": "3cf9d0223758412afa82788b8c74a1f86403604e195c7f7ac7bca53641e6c68f"
   },
   "M04:M04-C02": {
     "criterion": {
@@ -129,7 +129,7 @@
       "name": "Dependencias Versionadas",
       "remediation_hint": "Fijar versiones estrictas en el manifiesto de dependencias."
     },
-    "fingerprint": "a13c7fbf7de90cff5ee695431a7be20592bbc57fe05e9754afccda497fd5c738"
+    "fingerprint": "6bdbab73bd08bae4e7cb20b58557c0f8549f20a8e309492005e45ab16026aee0"
   },
   "M04:M04-C03": {
     "criterion": {
@@ -140,18 +140,18 @@
       "name": "Fixture Enterprise Disponible",
       "remediation_hint": "Proveer fixtures o esquemas de prueba deterministas en tests/fixtures o data/."
     },
-    "fingerprint": "ee6acf557c5076a93b66a35db87606a88907bbdde8f7fca2da617e7f1eced02c"
+    "fingerprint": "a6009facca4860d72585a5e1824a0f4e4c3aff320e9ee2f32ac7589d7c62167d"
   },
   "M05:M05-C01": {
     "criterion": {
       "criterion_id": "M05-C01",
-      "evidence_detail": "Módulos de procesamiento e implementación activos (72 archivos, e.g. '.agents/skills/icontext/SKILL.md').",
+      "evidence_detail": "Módulos de procesamiento e implementación activos (74 archivos, e.g. '.agents/skills/icontext/SKILL.md').",
       "evidence_path": ".agents/skills/icontext/SKILL.md",
       "fulfilled": true,
       "name": "Parsers Funcionales",
       "remediation_hint": "Implementar parsers para lectura de especificaciones de entrada."
     },
-    "fingerprint": "049dcc50911e38726d957b830e9adddc4e4e14aef72cc842e64a479a85a2daf8"
+    "fingerprint": "1e10ba8441f8b2cb2e03e00000eb7dea20f55194d3de4238a946aeeb88fc6281"
   },
   "M05:M05-C02": {
     "criterion": {
@@ -162,7 +162,7 @@
       "name": "Inferencia Operativa de Roles",
       "remediation_hint": "Desarrollar lógica central de inferencia o transformación."
     },
-    "fingerprint": "f4f3306dc4c38dab96d368bcd6914b492ee496e6dd1c5e51a691bfa34ec91060"
+    "fingerprint": "dba49aee20fd558005bcd58dffaf9fdb6ce6de15f8ade2ee6bad4379794b56c4"
   },
   "M05:M05-C03": {
     "criterion": {
@@ -173,7 +173,7 @@
       "name": "Resolución de Relaciones y Ciclos",
       "remediation_hint": "Asegurar algoritmos para resolver dependencias o relaciones."
     },
-    "fingerprint": "731d90b8aafb65091c9e185c4b7105758b1b269575c31deba24bd4dea4dd6f20"
+    "fingerprint": "bb2d4004c7d941673d50d8c93a2d455ca59839427eaf068abbaf87e6d7f90422"
   },
   "M05:M05-C04": {
     "criterion": {
@@ -184,7 +184,7 @@
       "name": "Generador Canónico de Métricas / Lógica",
       "remediation_hint": "Implementar generador de código o síntesis de medidas."
     },
-    "fingerprint": "9c9d5e94699ab2c685ae863329a6047ca1f604974d0543b625597b2793b455fd"
+    "fingerprint": "f7b6d718a93825881342701cf2b51538534c38f0a89b09ae7c9ac7804053f664"
   },
   "M06:M06-C01": {
     "criterion": {
@@ -195,7 +195,7 @@
       "name": "Emisores de Dialecto Nativo",
       "remediation_hint": "Crear emisores hacia tecnologías destino en src/core/emitter o similar."
     },
-    "fingerprint": "c8368ac08edf9782972eb0c06a5129d758743881393956273d8d711243819395"
+    "fingerprint": "6cd5c5f00847ba49a36e5dd79c11673d529bad5e11f5ff966c6e2effb46ebf80"
   },
   "M06:M06-C02": {
     "criterion": {
@@ -206,7 +206,7 @@
       "name": "Escritura Atómica y Safe-Encoding",
       "remediation_hint": "Usar atomic write y UTF-8 seguro para serializar artefactos."
     },
-    "fingerprint": "f9b2ecaf10cb22fd6f8d4b91f7e9820460b3b26647e8f441faa5a9a92034a8a0"
+    "fingerprint": "c08979187d85284a1d2faaad465cf77235a2d31094f5d3d7da65f27703a261b7"
   },
   "M06:M06-C03": {
     "criterion": {
@@ -217,18 +217,18 @@
       "name": "Exportación Multi-Formato",
       "remediation_hint": "Ofrecer serialización a JSON, Markdown o diagramas."
     },
-    "fingerprint": "57f745e194947cfcf14ba54dc80282f30dcf1b95dbfe1408b01b92538cf9e5a4"
+    "fingerprint": "32c5e58370c6cc910eefc8a2903d538f714669a6921b47fc5da26112833bef80"
   },
   "M06:M06-C04": {
     "criterion": {
       "criterion_id": "M06-C04",
-      "evidence_detail": "Grafo de dependencias evaluado: 96 módulos analizados, acoplamiento estable.",
+      "evidence_detail": "Grafo de dependencias evaluado: 94 módulos analizados, acoplamiento estable.",
       "evidence_path": null,
       "fulfilled": true,
       "name": "Resiliencia de Sistemas y Mitigación de SPOF",
       "remediation_hint": "Garantizar acoplamiento desacoplado y ausencia de cuellos de botella únicos."
     },
-    "fingerprint": "d55974006d140ba9b93bcdd877e65c49e4ebb4378a6cb717e1e81fae100142e0"
+    "fingerprint": "cd349959b7124820424521197990ead9d80d93af8b42233ec1371b482088038e"
   },
   "M06:M06-C05": {
     "criterion": {
@@ -239,18 +239,18 @@
       "name": "Patrones de Tolerancia a Fallos y Fallback",
       "remediation_hint": "Implementar fallbacks defensivos y patrones de tolerancia a fallos."
     },
-    "fingerprint": "72f7c9002d1f2c668ab4d4c56007ccafb109d773a795278000b8973d066a334d"
+    "fingerprint": "f044ba1e18c8e647b473e3d325d88b71d12becc9fc2188443ecc9208bc9f6b5c"
   },
   "M07:M07-C01": {
     "criterion": {
       "criterion_id": "M07-C01",
-      "evidence_detail": "Suite de pruebas presente (34 archivos de prueba en tests/, e.g. 'packages/contextkernel-cli/tests/test_v6.py').",
+      "evidence_detail": "Suite de pruebas presente (32 archivos de prueba en tests/, e.g. 'packages/contextkernel-cli/tests/test_v6.py').",
       "evidence_path": "packages/contextkernel-cli/tests/test_v6.py",
       "fulfilled": true,
       "name": "Cobertura y Tasa de Éxito de Pruebas",
       "remediation_hint": "Desarrollar suite de tests en tests/."
     },
-    "fingerprint": "df47b6ad742cf9223b4da1002584cefbf5ad3d907334080c806277bac86a331b"
+    "fingerprint": "ab48486144e586ee4472ff35e2d34e16078277211fb57702d3c14fff6b496cda"
   },
   "M07:M07-C02": {
     "criterion": {
@@ -261,7 +261,7 @@
       "name": "Golden Regression Tests Validados",
       "remediation_hint": "Añadir tests de regresión con archivos golden / snapshots esperados."
     },
-    "fingerprint": "b1f69047ed5e39e51955a85932d6e7348feef78baa7077622813d10b2a7266af"
+    "fingerprint": "a61bee317bcd5d47e7e2996c9d2fddf6698f0b6b6fa076b8cadbcdad9d838035"
   },
   "M07:M07-C03": {
     "criterion": {
@@ -272,7 +272,7 @@
       "name": "Suites de Estrés / Benchmark Masivo",
       "remediation_hint": "Implementar benchmarks o stress tests en tests/ o scripts/."
     },
-    "fingerprint": "c4a8126cb956c2ad3c8297e1787fdf01f29895374a378b44b936535481c76e96"
+    "fingerprint": "ae430cc21c80d0f541bf2dcf0563bbe7f39a4bb78ad5cd14fdeaeae6c1aa7e28"
   },
   "M08:M08-C01": {
     "criterion": {
@@ -283,7 +283,7 @@
       "name": "Proyecciones por Rol (Persona Lenses)",
       "remediation_hint": "Implementar proyecciones adaptadas a diferentes perfiles (lenses/personas)."
     },
-    "fingerprint": "4b5045082af8294a087620f288d75279a59235608e07f2eb296f6e3727a5d50a"
+    "fingerprint": "5ab3cd0336bad58eb748a9ab34c0ac05b7d6dfb74834837de9b77eb659480b57"
   },
   "M08:M08-C02": {
     "criterion": {
@@ -294,7 +294,7 @@
       "name": "Leadership Cockpit / Tableros Ejecutivos",
       "remediation_hint": "Proveer dashboard o cockpit de resumen ejecutivo."
     },
-    "fingerprint": "44b439ba1d568142ae90e367993b3b01ad49a341ffca87dcbf5affd05497ae55"
+    "fingerprint": "ea5e6a09c5366f16d9d82ca1bb932cb841c9b24f30df3ae9e8ed38443ddf0766"
   },
   "M08:M08-C03": {
     "criterion": {
@@ -305,7 +305,7 @@
       "name": "CLI de Diagnóstico y Exploración",
       "remediation_hint": "Exponer comandos CLI de diagnóstico o auditoría."
     },
-    "fingerprint": "3d362677d86c3bcc469078c05886a23ebe216181ea4d8e5ec01617d8a3772352"
+    "fingerprint": "20220a1c7df8abdc9f7210f3b6bf04c9055c1eddc1f1fb42872b3bb156238219"
   },
   "M08:M08-C04": {
     "criterion": {
@@ -316,7 +316,7 @@
       "name": "Seguridad Zero-Tolerance contra Secretos y Credenciales",
       "remediation_hint": "Limpiar cualquier credencial o clave expuesta en el repositorio."
     },
-    "fingerprint": "21c32bacffb100cd47480437162e9fca97c1e3afb91bfce48c62007b66a6bdd3"
+    "fingerprint": "0d395a25c52f5cce2e5aac25ed0a49cb081a504d8d9b71c0dcab8978e615f49b"
   },
   "M08:M08-C05": {
     "criterion": {
@@ -327,7 +327,7 @@
       "name": "Control de Entropía de Shannon e Inyecciones de Prompt",
       "remediation_hint": "Evitar tokens de alta entropía descontrolados e inyecciones de prompt."
     },
-    "fingerprint": "6bae3f6bebf877cc4155715d19db0ed10a88225afdfeaa2a6d905acb831fe5da"
+    "fingerprint": "650133dfbc089fd3c2e31e1e7b275062cbe7939edebcf4a9202badbd6a4b21e7"
   },
   "M09:M09-C01": {
     "criterion": {
@@ -338,7 +338,7 @@
       "name": "Pipeline CI/CD Automatizado",
       "remediation_hint": "Configurar workflow de CI en .github/workflows/ci.yml."
     },
-    "fingerprint": "d81252690b9527f4b450da3174fb7b070296a01daec3e0581f25b9e137378ce9"
+    "fingerprint": "384cfe8623305a4d48d5d0c6d830400c206a230c796c3f451209fc5d81766fe3"
   },
   "M09:M09-C02": {
     "criterion": {
@@ -349,18 +349,18 @@
       "name": "Empaquetado y Distribución Estandarizada",
       "remediation_hint": "Configurar empaquetado buildable o .pre-commit-config.yaml."
     },
-    "fingerprint": "63722659b968b74e680bef4b174817b4460705caf31cb4c71213d38e8c66f62e"
+    "fingerprint": "8cf0a50772750d5c43e5103e204e1051affa890b12e8057b5bb7c151e8adb474"
   },
   "M10:M10-C01": {
     "criterion": {
       "criterion_id": "M10-C01",
-      "evidence_detail": "Memoria técnica formal (ThinkingSeed) identificada en '01_seed/seed-contextkernel-master.md'.",
-      "evidence_path": "01_seed/seed-contextkernel-master.md",
+      "evidence_detail": "Memoria técnica formal (ThinkingSeed) identificada en '01_seed/seed-contextkernel-hybrid.md'.",
+      "evidence_path": "01_seed/seed-contextkernel-hybrid.md",
       "fulfilled": true,
       "name": "Documentación Técnica Exhaustiva (Seed)",
       "remediation_hint": "Generar ThinkingSeed Master completo en 01_seed/."
     },
-    "fingerprint": "015b267b949507fc4d0affed2022b92c9497a3933d5329417fa9601b3f572547"
+    "fingerprint": "948545fff1c9c8c4b0bd894009a3eddddbaf2063b653926b602a0f718825fe50"
   },
   "M10:M10-C02": {
     "criterion": {
@@ -371,7 +371,7 @@
       "name": "CLI Help Documentado",
       "remediation_hint": "Documentar comandos CLI y opciones en README o help."
     },
-    "fingerprint": "02f4d7ce095e533104cfa1b07f664b367301519d6eb341be2e449c6731ba93d4"
+    "fingerprint": "4c6afd87a015c9904722e2bcb960936d062226da89417e71c5f8806d6f98186a"
   },
   "M10:M10-C03": {
     "criterion": {
@@ -382,17 +382,17 @@
       "name": "Adaptadores Multicanal / Roadmap",
       "remediation_hint": "Documentar roadmap y adaptadores futuros en el plan maestro."
     },
-    "fingerprint": "2cdbc80df66bcd1a7968e1e2d4fb89a37a277cda70502a825e329572e33414aa"
+    "fingerprint": "7069051b28f9cfa866f92c1401e060a028b6bd7bd543263a6dac1497f09f7e3e"
   },
   "M10:M10-C04": {
     "criterion": {
       "criterion_id": "M10-C04",
-      "evidence_detail": "Indicador FPAI estimado (distorsión no medida): PF_spectral=0.978 >= 0.70 (S_spectral=571989, S_linear=679084).",
+      "evidence_detail": "Indicador FPAI estimado (distorsión no medida): PF_spectral=0.978 >= 0.70 (S_spectral=576392, S_linear=683587).",
       "evidence_path": ".agentignore",
       "fulfilled": true,
       "name": "Eficiencia Contextual Espectral FPAI",
       "remediation_hint": "Mantener eficiencia espectral >= 0.70 eliminando tokens muertos o redundantes."
     },
-    "fingerprint": "381a765a7bd6ac8cca2eee1c27451e0d5c39498377b11eedbccacf1afe389e64"
+    "fingerprint": "9410d81f247525efd340d257dfc20e61346e3f91a527416baf892006c869bd9c"
   }
 }

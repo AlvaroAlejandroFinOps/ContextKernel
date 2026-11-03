@@ -2,10 +2,10 @@
   "$schema": "../schemas/icontext_bus.schema.json",
   "layers": {
     "l0_idirectory": {
-      "contracts_ast_hash": "2c0c4306a7785dad7b350fca194c02d5ea54bfc68c50ffd7f8b1a405e1bfb07c",
-      "inputs_hash": "b58c4d71a5abeddf335c21fabb5db003f7f48d001eabb437ac922779ad2ff6cd",
+      "contracts_ast_hash": "cccb9f9fb5e4816200f690c7896c5128c589e167eda25d6357e8fb073cd9dc83",
+      "inputs_hash": "03f1ba6dccd9ca88ea38a4ad8367ca56c135ad1ac40edab93d4fc03e7e2f5176",
       "present": true,
-      "published_at": "2026-10-31T23:03:46.330199+00:00",
+      "published_at": "2026-11-02T10:27:59.058284+00:00",
       "state": "recorded",
       "version": "6.0.0"
     },
@@ -43,7 +43,7 @@
       "version": "6.0.0"
     }
   },
-  "project": "iReadme",
+  "project": "ireadme",
   "protocol_version": "6.0.0",
-  "updated_at": "2026-10-31T23:03:46.340464+00:00"
+  "updated_at": "2026-11-02T10:27:59.065418+00:00"
 }

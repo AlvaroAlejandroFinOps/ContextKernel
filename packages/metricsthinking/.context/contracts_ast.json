@@ -8,7 +8,6 @@
     "--compact",
     "--dest",
     "--dry-run",
-    "--expand",
     "--full",
     "--global",
     "--hint",
@@ -18,7 +17,6 @@
     "--medallion",
     "--no-reconcile-plans",
     "--out-dir",
-    "--pack",
     "--prefix",
     "--probe",
     "--processed-dir",
@@ -27,7 +25,6 @@
     "--quiet",
     "--raw-dir",
     "--target",
-    "--tier",
     "-a",
     "-d",
     "-g",
@@ -36,24 +33,9 @@
     "-q",
     "-t"
   ],
-  "contracts_ast_hash": "f8fb84e9b8c4abb89e786f5c6aac53ade7d23d5a4a64883c3e5eb2a3b0deff96",
-  "inputs_hash": "5fcc7525bd631ae0eea3ad3cf1748371029624adb9ea415f52338ea10bcdb573",
+  "contracts_ast_hash": "98038c7f8c2c72187da9ddf7dda992b9c89dae98f127a358b83568cbbd39a7f8",
+  "inputs_hash": "54b6541f631e98be7c71f611cdf407f5d30df5696f76ab3f49dbe39efbc7a2f7",
   "modules": {
-    "FWengine.py": {
-      "cli_flags": [
-        "--expand",
-        "--pack",
-        "--tier"
-      ],
-      "imports": [
-        "argparse",
-        "icontext_cli",
-        "pathlib",
-        "sys"
-      ],
-      "signatures": [],
-      "symbols": []
-    },
     "scripts/hnsw_index_rebuild.py": {
       "cli_flags": [
         "--compact",
@@ -133,21 +115,6 @@
       ],
       "symbols": [
         "main"
-      ]
-    },
-    "skills/v6/metrics/scripts/run.py": {
-      "cli_flags": [],
-      "imports": [
-        "icontext_cli",
-        "json",
-        "pathlib",
-        "sys"
-      ],
-      "signatures": [
-        "./skills/v6/metrics/scripts/run.py::matches_version(path) -> Any"
-      ],
-      "symbols": [
-        "matches_version"
       ]
     },
     "src/__init__.py": {
@@ -675,11 +642,19 @@
         "AuditScorer"
       ]
     },
-    "tests/__init__.py": {
+    "tests/conftest.py": {
       "cli_flags": [],
-      "imports": [],
-      "signatures": [],
-      "symbols": []
+      "imports": [
+        "os",
+        "pathlib",
+        "pytest"
+      ],
+      "signatures": [
+        "./tests/conftest.py::isolate_cwd() -> Any"
+      ],
+      "symbols": [
+        "isolate_cwd"
+      ]
     },
     "tests/test_archetype_detector.py": {
       "cli_flags": [],
@@ -775,7 +750,7 @@
         "pytest"
       ],
       "signatures": [
-        "./tests/test_calibration.py::test_self_audit_with_sdd_profile() -> Any",
+        "./tests/test_calibration.py::test_self_audit_with_sdd_profile(tmp_path) -> Any",
         "./tests/test_calibration.py::test_gitops_synthetic_repo_calibration(tmp_path) -> Any",
         "./tests/test_calibration.py::test_mlops_synthetic_repo_calibration(tmp_path) -> Any",
         "./tests/test_calibration.py::test_llmops_synthetic_repo_calibration(tmp_path) -> Any"
@@ -820,7 +795,7 @@
         "./tests/test_cli_mcp_renderer_v4.py::test_renderer_materializes_four_artifacts(tmp_path) -> Any",
         "./tests/test_cli_mcp_renderer_v4.py::test_engine_run_audit_with_prune_and_medallion(tmp_path) -> Any",
         "./tests/test_cli_mcp_renderer_v4.py::test_mcp_server_six_tools() -> Any",
-        "./tests/test_cli_mcp_renderer_v4.py::test_mcp_server_tool_calls() -> Any"
+        "./tests/test_cli_mcp_renderer_v4.py::test_mcp_server_tool_calls(tmp_path) -> Any"
       ],
       "symbols": [
         "test_renderer_materializes_four_artifacts",
@@ -1146,7 +1121,7 @@
       ]
     }
   },
-  "project": "MetricsThinking",
+  "project": "metricsthinking",
   "public_symbols": [
     "ArchetypeDetectionResult",
     "ArchetypeDetector",
@@ -1192,9 +1167,9 @@
     "install_cursor",
     "install_mcp_config",
     "is_safe_placeholder",
+    "isolate_cwd",
     "list_available_profiles",
     "main",
-    "matches_version",
     "observed_context",
     "probe_archetype",
     "probe_project",
@@ -1318,7 +1293,6 @@
     "./scripts/install_skill.py::run_installer(target: str='all', dest: str='.', is_global: bool=False, dry_run: bool=False) -> Any",
     "./scripts/install_skill.py::main() -> Any",
     "./scripts/run_benchmark.py::main() -> Any",
-    "./skills/v6/metrics/scripts/run.py::matches_version(path) -> Any",
     "./src/metricsthinking/cli.py::list_available_profiles() -> None",
     "./src/metricsthinking/cli.py::main() -> Any",
     "./src/metricsthinking/collector.py::ProjectEvidence(class)",
@@ -1378,6 +1352,7 @@
     "./src/metricsthinking/fpai/gatekeeper.py::scan_repository_security(file_contents: dict[str, str], lockfile_present: bool=True, entropy_threshold: float=4.5, ignore_tests: bool=True) -> SecurityVulnerabilityReport",
     "./src/metricsthinking/fpai/medallion.py::run_local_medallion_pipeline(raw_telemetry_dir: str='data/raw/telemetry', processed_dir: str='data/processed/telemetry') -> dict[str, Any]",
     "./src/metricsthinking/fpai/spectral_engine.py::compute_spectral_vector(p_active: float, q_dead: float, q_dup: float, d_structural: float, gain_coefficient: float=1.0) -> FPAISpectralVector",
+    "./tests/conftest.py::isolate_cwd() -> Any",
     "./tests/test_archetype_detector.py::test_sdd_archetype_detection(tmp_path) -> Any",
     "./tests/test_archetype_detector.py::test_data_platform_archetype_detection(tmp_path) -> Any",
     "./tests/test_archetype_detector.py::test_web_app_archetype_detection(tmp_path) -> Any",
@@ -1398,7 +1373,7 @@
     "./tests/test_benchmarks_stress.py::test_volumetric_scale_benchmark(tmp_path) -> Any",
     "./tests/test_benchmarks_stress.py::test_ast_coupling_stress_benchmark() -> Any",
     "./tests/test_benchmarks_stress.py::test_golden_baseline_regression_snapshot() -> Any",
-    "./tests/test_calibration.py::test_self_audit_with_sdd_profile() -> Any",
+    "./tests/test_calibration.py::test_self_audit_with_sdd_profile(tmp_path) -> Any",
     "./tests/test_calibration.py::test_gitops_synthetic_repo_calibration(tmp_path) -> Any",
     "./tests/test_calibration.py::test_mlops_synthetic_repo_calibration(tmp_path) -> Any",
     "./tests/test_calibration.py::test_llmops_synthetic_repo_calibration(tmp_path) -> Any",
@@ -1407,7 +1382,7 @@
     "./tests/test_cli_mcp_renderer_v4.py::test_renderer_materializes_four_artifacts(tmp_path) -> Any",
     "./tests/test_cli_mcp_renderer_v4.py::test_engine_run_audit_with_prune_and_medallion(tmp_path) -> Any",
     "./tests/test_cli_mcp_renderer_v4.py::test_mcp_server_six_tools() -> Any",
-    "./tests/test_cli_mcp_renderer_v4.py::test_mcp_server_tool_calls() -> Any",
+    "./tests/test_cli_mcp_renderer_v4.py::test_mcp_server_tool_calls(tmp_path) -> Any",
     "./tests/test_collector.py::test_collector_basic_scan(tmp_path: Path) -> Any",
     "./tests/test_collector.py::test_collector_anti_fraud_seed_filtering(tmp_path: Path) -> Any",
     "./tests/test_collector.py::test_collector_detects_ci_and_tests(tmp_path: Path) -> Any",

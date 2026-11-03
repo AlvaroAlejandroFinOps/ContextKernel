@@ -3,33 +3,33 @@
   "layers": {
     "l0_idirectory": {
       "active_nodes_count": 20,
-      "contracts_ast_hash": "dd378435f0120325e90526682bea1b41a119e11550b3eba0e20d87a7fa7c2d46",
-      "inputs_hash": "1aeb0889e758b9014d9d2d521450e6cbb8cf597f2f7eb730b4d27e19162518b5",
+      "contracts_ast_hash": "eb1f6616e9198ab978be424976eb984bab7fe3de5931c2cc7ede15e5e3b564cf",
+      "inputs_hash": "29cc9f2bd0f37d492d30cb4f56866801b457a39e74299bfd602adb6dd953285c",
       "present": true,
       "pruned_nodes_count": 8,
-      "published_at": "2026-11-02T01:10:02.680852+00:00",
+      "published_at": "2026-11-03T01:10:09.578875+00:00",
       "state": "recorded",
-      "topology_hash": "dfdd910f5220fb7f684ec0fb5bf79d7cb49261a825cf4825bbd3e7d367a6f0bc",
+      "topology_hash": "e8ca446a70088bfc872842d7710bb7403ba5c05b0c5eb6ead83a839addb185dc",
       "version": "6.0.0"
     },
     "l1_thinkingseed": {
       "artifact_kind": "master",
-      "inputs_hash": "3fa5c3c48eb945d4e19e1ae4417ba0bd3a3bb6c0b8c284e72dce89d623b602c6",
-      "output_hash": "58c574b1cf3db2052f2eb3e3aa83c8be46bfc886dea0dff1440a81a38e6b2445",
+      "inputs_hash": "a75d6f5675560713a5a17e660d9e9b233762dcf5693a991128a271dc8b24049e",
+      "output_hash": "ccfe8ba1d737336700256e6ec7f1d6fd74d8935a9589af2c7c03f3ee36adde24",
       "present": true,
-      "published_at": "2026-11-02T01:07:50.082194+00:00",
+      "published_at": "2026-11-02T10:35:49.122362+00:00",
       "state": "validated",
       "version": "6.0.0"
     },
     "l2_metricsthinking": {
       "consolidated_score": 80.5,
-      "evaluation_hash": "c8b54de8ceeeaae0e27763caadba7a48c35a5b57f33262a1240b3b95863c7c62",
-      "fpai_pf_spectral": 0.9778,
-      "fpai_s_spectral": 571988.5051,
-      "inputs_hash": "1aeb0889e758b9014d9d2d521450e6cbb8cf597f2f7eb730b4d27e19162518b5",
-      "output_hash": "ec6a135c3647362b9f91d65de131539d44b9116f1d39bf914678a71c0806063c",
+      "evaluation_hash": "52253ecd38ec51c5d28c8a74ab9ff54c78070016ac3e1305eb783bc68da8f10d",
+      "fpai_pf_spectral": 0.9783,
+      "fpai_s_spectral": 577859.7804,
+      "inputs_hash": "29cc9f2bd0f37d492d30cb4f56866801b457a39e74299bfd602adb6dd953285c",
+      "output_hash": "17ecd915d5faa648fb379b62c3772efb3e6714bc70016c259f3b5aa66dd38768",
       "present": true,
-      "published_at": "2026-11-02T01:08:11.979101+00:00",
+      "published_at": "2026-11-03T01:07:22.792615+00:00",
       "report_path": "artifacts/plans/metricsthinking/MetricsThinking.json",
       "security_gate": 0.0,
       "security_gate_basis": "pii_scan_only",
@@ -38,15 +38,15 @@
     },
     "l3_ireadme": {
       "artifact_kind": "readme",
-      "inputs_hash": "809c0b41d1f2dc2e2568dfe84f50ec8640735721d26b3b26db88ae6b14638708",
-      "output_hash": "aab5f8353d0c45e1c411a28dd77a34b2fa7d8ad4fe2b6c24196a651e1764e71e",
+      "inputs_hash": "5d539a4faba212e3e48d56c4355cbd85082f6c58e7ccf63b588daebc04515a9b",
+      "output_hash": "175405895b8f561533b9387b5c5b990059e516d3de5407188757153862121de7",
       "present": true,
-      "published_at": "2026-11-02T01:08:34.528392+00:00",
+      "published_at": "2026-11-03T01:07:40.995922+00:00",
       "state": "validated",
       "version": "6.0.0"
     }
   },
-  "project": "ContextControl",
+  "project": "ContextKernel",
   "protocol_version": "6.0.0",
-  "updated_at": "2026-11-02T01:10:02.687833+00:00"
+  "updated_at": "2026-11-03T01:10:09.587833+00:00"
 }

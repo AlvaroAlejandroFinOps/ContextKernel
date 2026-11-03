@@ -1,1 +1,0 @@
-"""MetricsThinking test suite."""

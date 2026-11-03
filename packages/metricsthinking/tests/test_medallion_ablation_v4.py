@@ -6,7 +6,11 @@ from pathlib import Path
 from metricsthinking.fpai.medallion import run_local_medallion_pipeline
 from metricsthinking.fpai.ablation import run_ablation_sampling
 from metricsthinking.fpai.attribution import resolve_context_attribution
-from scripts.hnsw_index_rebuild import rebuild_hnsw_index
+import sys
+_pkg_scripts = Path(__file__).resolve().parent.parent / "scripts"
+if str(_pkg_scripts) not in sys.path:
+    sys.path.insert(0, str(_pkg_scripts))
+from hnsw_index_rebuild import rebuild_hnsw_index
 
 
 def test_local_medallion_pipeline(tmp_path):

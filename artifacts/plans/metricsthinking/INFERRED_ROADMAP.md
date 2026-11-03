@@ -1,17 +1,17 @@
 ---
 id: "inferred_roadmap"
-title: "INFERRED OPERATIONAL ROADMAP: CONTEXTCONTROL"
+title: "INFERRED OPERATIONAL ROADMAP: CONTEXTKERNEL"
 status: "active"
 executable: true
 version: "5.0"
 ---
-# INFERRED OPERATIONAL ROADMAP: CONTEXTCONTROL
+# INFERRED OPERATIONAL ROADMAP: CONTEXTKERNEL
 
 > **Framework de Gobernanza:** MetricsThinking™ v5.0 Universal (SOFTWARE-ENGINEERING / Stage-Gate)  
 > **Arquetipo de Dominio:** `software-engineering` | **Modo:** `source_code`  
 > **Estado Consolidado:** `80.5% / 100.0%` — **Madurez Avanzada / Pre-producción (75.0% - 89.9%)**  
 > **Cuello de Botella Activo:** `M05: Construcción Núcleo (Core Engine) (50.0% completado)`  
-> **Fecha de Emisión:** `2026-11-01 22:08:11`  
+> **Fecha de Emisión:** `2026-11-02 22:07:22`  
 
 Este documento representa el **Roadmap Operacional y de Ejecución Técnica** derivado por ingeniería inversa a partir de la evidencia física (Ground Truth) del repositorio. Sirve como guía de trabajo para el equipo de arquitectura y desarrollo.
 
@@ -50,7 +50,7 @@ Este documento representa el **Roadmap Operacional y de Ejecución Técnica** de
 ### Checklists de Implementación
 - [x] **Detección y Marcado de PII** (`M03-C01`): Políticas de privacidad y clasificación PII documentadas en '01_seed/seed-contextkernel-master.md'. *(Evidencia: `01_seed/seed-contextkernel-master.md`)*
 - [x] **Reglas de Calidad Formales (cQS)** (`M03-C02`): Catálogo de criterios y reglas formales de calidad especificados en 'packages/metricsthinking/artifacts/benchmark/FlowAgentic_INFERRED_ROADMAP.md'. *(Evidencia: `packages/metricsthinking/artifacts/benchmark/FlowAgentic_INFERRED_ROADMAP.md`)*
-- [x] **Validación Estricta de Esquemas / Context** (`M03-C03`): Gobernanza contextual iDirectory activa con 138 archivos de contexto (.context.yaml). *(Evidencia: `01_seed/.context.yaml`)*
+- [x] **Validación Estricta de Esquemas / Context** (`M03-C03`): Gobernanza contextual iDirectory activa con 139 archivos de contexto (.context.yaml). *(Evidencia: `01_seed/.context.yaml`)*
 
 ### Entregables Tangibles Esperados
 - ✅ Todos los artefactos y contratos físicos de **M03** han sido verificados satisfactoriamente en disco.
@@ -74,7 +74,7 @@ Este documento representa el **Roadmap Operacional y de Ejecución Técnica** de
 **Avance:** `50.0%` | **Peso en Ciclo:** `25%` | **Estado:** 🔵 EN CONSTRUCCIÓN
 
 ### Checklists de Implementación
-- [x] **Parsers Funcionales** (`M05-C01`): Módulos de procesamiento e implementación activos (72 archivos, e.g. '.agents/skills/icontext/SKILL.md'). *(Evidencia: `.agents/skills/icontext/SKILL.md`)*
+- [x] **Parsers Funcionales** (`M05-C01`): Módulos de procesamiento e implementación activos (74 archivos, e.g. '.agents/skills/icontext/SKILL.md'). *(Evidencia: `.agents/skills/icontext/SKILL.md`)*
 - [x] **Inferencia Operativa de Roles** (`M05-C02`): Motor nuclear de procesamiento y lógica operativa verificado en 'src/core/benchmark.py'. *(Evidencia: `src/core/benchmark.py`)*
 - [ ] **Resolución de Relaciones y Ciclos** (`M05-C03`): Asegurar algoritmos para resolver dependencias o relaciones.
 - [ ] **Generador Canónico de Métricas / Lógica** (`M05-C04`): Implementar generador de código o síntesis de medidas.
@@ -92,7 +92,7 @@ Este documento representa el **Roadmap Operacional y de Ejecución Técnica** de
 - [ ] **Emisores de Dialecto Nativo** (`M06-C01`): Crear emisores hacia tecnologías destino en src/core/emitter o similar.
 - [x] **Escritura Atómica y Safe-Encoding** (`M06-C02`): Manejo seguro de codificación UTF-8 / serialización protegida en 'src/core/benchmark.py'. *(Evidencia: `src/core/benchmark.py`)*
 - [x] **Exportación Multi-Formato** (`M06-C03`): Soporte de representación multi-formato verificado en el repositorio (.code-workspace, .json, .md, .mdc, .py).
-- [x] **Resiliencia de Sistemas y Mitigación de SPOF** (`M06-C04`): Grafo de dependencias evaluado: 96 módulos analizados, acoplamiento estable.
+- [x] **Resiliencia de Sistemas y Mitigación de SPOF** (`M06-C04`): Grafo de dependencias evaluado: 94 módulos analizados, acoplamiento estable.
 - [x] **Patrones de Tolerancia a Fallos y Fallback** (`M06-C05`): Patrones de tolerancia a fallos verificados: {'timeout': 33, 'retry': 32, 'circuit_breaker': 4, 'fallback': 28} (cobertura=100.0%).
 
 ### Entregables Tangibles Esperados
@@ -105,7 +105,7 @@ Este documento representa el **Roadmap Operacional y de Ejecución Técnica** de
 **Avance:** `100.0%` | **Peso en Ciclo:** `10%` | **Estado:** 🟢 COMPLETADO
 
 ### Checklists de Implementación
-- [x] **Cobertura y Tasa de Éxito de Pruebas** (`M07-C01`): Suite de pruebas presente (34 archivos de prueba en tests/, e.g. 'packages/contextkernel-cli/tests/test_v6.py'). *(Evidencia: `packages/contextkernel-cli/tests/test_v6.py`)*
+- [x] **Cobertura y Tasa de Éxito de Pruebas** (`M07-C01`): Suite de pruebas presente (32 archivos de prueba en tests/, e.g. 'packages/contextkernel-cli/tests/test_v6.py'). *(Evidencia: `packages/contextkernel-cli/tests/test_v6.py`)*
 - [x] **Golden Regression Tests Validados** (`M07-C02`): Pruebas de regresión deterministas (Golden files/Snapshots) identificadas en 'packages/ireadme/tests/test_golden_regression.py'. *(Evidencia: `packages/ireadme/tests/test_golden_regression.py`)*
 - [x] **Suites de Estrés / Benchmark Masivo** (`M07-C03`): Suites de estrés o benchmarks masivos verificados en 'packages/metricsthinking/tests/test_benchmarks_stress.py'. *(Evidencia: `packages/metricsthinking/tests/test_benchmarks_stress.py`)*
 
@@ -146,10 +146,10 @@ Este documento representa el **Roadmap Operacional y de Ejecución Técnica** de
 **Avance:** `100.0%` | **Peso en Ciclo:** `5%` | **Estado:** 🟢 COMPLETADO
 
 ### Checklists de Implementación
-- [x] **Documentación Técnica Exhaustiva (Seed)** (`M10-C01`): Memoria técnica formal (ThinkingSeed) identificada en '01_seed/seed-contextkernel-master.md'. *(Evidencia: `01_seed/seed-contextkernel-master.md`)*
+- [x] **Documentación Técnica Exhaustiva (Seed)** (`M10-C01`): Memoria técnica formal (ThinkingSeed) identificada en '01_seed/seed-contextkernel-hybrid.md'. *(Evidencia: `01_seed/seed-contextkernel-hybrid.md`)*
 - [x] **CLI Help Documentado** (`M10-C02`): Instrucciones operativas y ayuda de comandos documentadas en 'README_ES.md'. *(Evidencia: `README_ES.md`)*
 - [x] **Adaptadores Multicanal / Roadmap** (`M10-C03`): Roadmap formal de extensibilidad y capacidades futuras documentado en 'packages/idirectory/01_seed/seed-idirectory-master.md'. *(Evidencia: `packages/idirectory/01_seed/seed-idirectory-master.md`)*
-- [x] **Eficiencia Contextual Espectral FPAI** (`M10-C04`): Indicador FPAI estimado (distorsión no medida): PF_spectral=0.978 >= 0.70 (S_spectral=571989, S_linear=679084). *(Evidencia: `.agentignore`)*
+- [x] **Eficiencia Contextual Espectral FPAI** (`M10-C04`): Indicador FPAI estimado (distorsión no medida): PF_spectral=0.978 >= 0.70 (S_spectral=576392, S_linear=683587). *(Evidencia: `.agentignore`)*
 
 ### Entregables Tangibles Esperados
 - ✅ Todos los artefactos y contratos físicos de **M10** han sido verificados satisfactoriamente en disco.

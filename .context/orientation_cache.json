@@ -3,7 +3,7 @@
     ".": {
       "beacon_chain_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
       "beacon_hash": "29e02afbcbc4a62b3d955593f853063b09bd47dfaac65d45221ae9ff2f1be606",
-      "fingerprint": "c1d3162a5024d2e8512aa5dacb2bc783970ca721e13d95b96909ff5b1744e066",
+      "fingerprint": "e2f247479069fc98591b3ace4fe5c4fb32b5c9abed9810a6b1a8769a8b706b72",
       "pack": {
         "crawl": true,
         "edges": {
@@ -14,7 +14,7 @@
         },
         "files": [
           "AGENTS.md(~315t)",
-          "pyproject.toml(~395t)",
+          "pyproject.toml(~406t)",
           "FWengine.py(~288t)",
           "icontext.py(~94t)",
           "Contex.code-workspace(~131t)",
@@ -30,14 +30,15 @@
       }
     },
     "01_seed": {
-      "beacon_chain_hash": "03a5f5c5d887acd36dbc1a8b8605b1ef848eb561cb02fcd411699deb385dada4",
-      "beacon_hash": "7f15d6696fa4be82f95a9442c3450057b3eb7d0f15a52c4c641f9dea0e45d06c",
-      "fingerprint": "1c16f192f803cf5bf06eaa5ebaeffc26dec9a08c21734ecd01ca9812cd04fe19",
+      "beacon_chain_hash": "b2061e931970e96459b29fc0319acf040b171c0628b97771a1c99d117bd549c7",
+      "beacon_hash": "92715de9ba22ab388cb74eaf19522fb34824a0f468c35ff78e24b3ef471accb4",
+      "fingerprint": "1456619e2456c89e9a67182644427c6e3c7385149d71fac237626f742b82a6b8",
       "pack": {
         "crawl": true,
         "edges": {},
         "files": [
-          "seed-contextkernel-master.md(~12251t)"
+          "seed-contextkernel-hybrid.md(~818t)",
+          "seed-contextkernel-master.md(~12920t)"
         ],
         "focus": "01_seed",
         "idir_pack": "6.0",
@@ -51,7 +52,7 @@
     "02_foundation": {
       "beacon_chain_hash": "fe6840f08b73914d307975bec449a273fd381ebb153a35fdf54fab6413c409dc",
       "beacon_hash": "8dbb22b09a799714fcc14d4466e97eefc9e237fda424bb4aef9fbbcf99713e51",
-      "fingerprint": "508e4e7af54327f0bee625ab6990c1674717a4407db62646fbc929621fe38c2a",
+      "fingerprint": "f6d015647400a75b5239a63700f5662c340c3980c3ed5748caeea3b4f1ff2241",
       "pack": {
         "crawl": true,
         "edges": {
@@ -70,7 +71,7 @@
     "02_foundation/engine": {
       "beacon_chain_hash": "9a8b4537d4cdeb3ca6d2ea0be413525a959153a7eaba3b0c6ea7a2bf0005712d",
       "beacon_hash": "525cd5a3d61fce6f40bdddf3acc87c26466f4fa368adfefff5a56d0861505229",
-      "fingerprint": "1fd3295cb672b623f2e3de6d4e4c0d1aa5f46fa7416d5d641a32cc950f82eb2b",
+      "fingerprint": "d9a0ac06d6d0ccf51fc3bfe2e86774651996945e9401b8567bc4e38518321715",
       "pack": {
         "crawl": true,
         "edges": {
@@ -92,7 +93,7 @@
     "03_research": {
       "beacon_chain_hash": "c35a0dd3e3352ab317a0da1a6ec183dfb38e0256d40f5fb17494af327a0b51f4",
       "beacon_hash": "e1cba28c622f8a679b10e72b032038fed9bd21f88453617f81ba21f7aad151ba",
-      "fingerprint": "eaaa09735a941f7a54b6e267de3a88f0c3f0965b9408b4258ddf07814c7c37cd",
+      "fingerprint": "1c01b3700aa387213aad12cdd83b2bd8c953d501fd618f317752b7b4ce05b116",
       "pack": {
         "crawl": true,
         "edges": {
@@ -111,7 +112,7 @@
     "03_research/prompts": {
       "beacon_chain_hash": "75d484d1d2df5976fe0ff9a6b81e51e46515195720f8f15d651697caf103b9ea",
       "beacon_hash": "d269ea009fcc9d12c4ca4b5c48842c1c39631611f98578d06d3a65477ca3622b",
-      "fingerprint": "331c29b12664a7282e98657fc5d68fc371882e3aeb80d7e2d89baf617afe056c",
+      "fingerprint": "f7aa816e5b22a1ab023f2b56cf1edaff665e38944e234981ca9d2782df495deb",
       "pack": {
         "crawl": true,
         "edges": {
@@ -131,7 +132,7 @@
     "artifacts": {
       "beacon_chain_hash": "69f495596b2524ec0cb2f5ba38fcca560f164fabe0defb1400f123c3825ea961",
       "beacon_hash": "ecf87001343d9bfc9263ab9e61badc9c72c5e312a58fdf19e70353177dfaf341",
-      "fingerprint": "2fff81b395eecdaabe32d749e6508099459ecf14d1c98281f632bfb3cd9b64fe",
+      "fingerprint": "ea4210e34a1468b9df9a3dea9a02efd3e73c45c622ca99ff0f12039466a0a33d",
       "pack": {
         "crawl": true,
         "edges": {
@@ -152,7 +153,7 @@
     "artifacts/plans": {
       "beacon_chain_hash": "b33ba51561ce74ecd82ddc045e1e316134b351eb5721d6174876b40ce3faac5d",
       "beacon_hash": "8c240f3e1464c5ba911c0da867dcccbc80887b73680588326c0537346521f252",
-      "fingerprint": "cf75302aa9838ac91d4a1d0d50f2595c52b83f668a8df0aa7e2950cb173f4d35",
+      "fingerprint": "91fd38dad8a6ce7e83ee4d8a2b70d0bfd9b18dfcffd66529a73201cc764383c2",
       "pack": {
         "crawl": true,
         "edges": {
@@ -174,7 +175,7 @@
     "artifacts/plans/active": {
       "beacon_chain_hash": "c747b10163bcb09c13c59986a2962aa9c80479a491893458f5a8d643d93455e7",
       "beacon_hash": "3bc34475d902ad61421991904182a67b5024bb48120231e49a04c036ced33236",
-      "fingerprint": "2a4e2de69f65bb8844274a45b194bb4f52b77aca583a44d235cc4f1ffa601be5",
+      "fingerprint": "bdfc7f484ec5b061df6b375e33674ee6d1ffff94f030fcddbed087fa4067cd52",
       "pack": {
         "crawl": true,
         "edges": {
@@ -194,7 +195,7 @@
     "config": {
       "beacon_chain_hash": "a02d437178233f267b8ff5b029ac2fd8e4345126321785bc0c822f6a9b189f51",
       "beacon_hash": "ce7db4c43a255974e026bcf989fdb56ec687f7b1c598d7d20a41448f6977e382",
-      "fingerprint": "a6459642ed40a9dd5c75f539bed364d269087d000068463024e033bb2a1bf74e",
+      "fingerprint": "537b4772efd751b71a331891363b3ae2bf7356d04eb8a707c9b00cdf59341f23",
       "pack": {
         "crawl": true,
         "edges": {},
@@ -213,7 +214,7 @@
     "data": {
       "beacon_chain_hash": "e518bbd9943d34dcd1e84f35d3828d460fb7a3935d4165acf54755145a0ff4d9",
       "beacon_hash": "3be8fdc0307105b6b32fe02217ac737fc7382b65525d178ec6790f7dff7bb04e",
-      "fingerprint": "7d6dff94ed55208502277250cfaaeec52cfee28345d37b001986b709cbbda117",
+      "fingerprint": "c5db4127185e7e48577dfd9a16511fca237949a52d367056abccae7dc60c052c",
       "pack": {
         "crawl": true,
         "edges": {},
@@ -230,7 +231,7 @@
     "docs": {
       "beacon_chain_hash": "d232e93a64d8d94f2a138ae294d1dff1ad86747117e5cba40090d0b41022d831",
       "beacon_hash": "51b490bf2f919c688e64e387fc88e2c855e8a1408197cc83f4af3f328df15943",
-      "fingerprint": "3f3dcedc5aba084212631d635235296303f1969964573361c74fd35fe51bf78a",
+      "fingerprint": "d03517ea869f1c39da48c468b616f029426379cfcd8593a9bfc079e2d8c8649a",
       "pack": {
         "crawl": true,
         "edges": {
@@ -251,7 +252,7 @@
     "docs/architecture": {
       "beacon_chain_hash": "a67857a8ec1425eb8d69614cc16b2a9b6ffb038943b7b8122eb057111a592e3f",
       "beacon_hash": "579ac3a434b5f233b8ab64811f475dcc1275ed6df7c60a959dc7dcd62e8e8d90",
-      "fingerprint": "ccc9f1cfdaa04063fc5222b6cfca62e75588ca77909ef41fc74e1564430a0b3a",
+      "fingerprint": "e7788818e9bca68213a4584af092eea2a543cce92b5a3932fcf14fe24dec07f1",
       "pack": {
         "crawl": true,
         "edges": {
@@ -271,7 +272,7 @@
     "docs/notes": {
       "beacon_chain_hash": "fdb18505c1a78f0ff1988314c0a598ced86da2d3e7fe99456b0edb4d36e3cad7",
       "beacon_hash": "0f908d7156270d3f06214795029bafbef351231876d83e1341f0d353fbb1f704",
-      "fingerprint": "786e4ef69da5785ca7005ca3bac14d28b6f5ed3a7c11595a656af064dad5bb5c",
+      "fingerprint": "cfb74010540898485e8b3939e687e236e5713a83172be94b1b9043cef37b5e7b",
       "pack": {
         "crawl": true,
         "edges": {
@@ -291,7 +292,7 @@
     "docs/specs": {
       "beacon_chain_hash": "45245293fd7b7bc78967c7b70e4308a6a4463fdeb662a15ed58ef08bbdecc9d4",
       "beacon_hash": "d399e0fc46ebb7ba355d1446f1807e77fd98f1e6837057a5c0ea09116293f465",
-      "fingerprint": "5f195523a609cb04beb1b3f107956f09a16506e7ade1178d77c870e10b13dacd",
+      "fingerprint": "6231bdbbfc58b06141a8570d9fae970f8c89b460600132c0a5bb8d5c982e12bc",
       "pack": {
         "crawl": true,
         "edges": {
@@ -318,7 +319,7 @@
     "packages": {
       "beacon_chain_hash": "2017f30cf5e63b28f90e2c0a3ea56645e4502338dd25193965f019bf375ff69e",
       "beacon_hash": "332bbef8fc87d2da6ca425efb5c01b58f468a17f3a70f519999a329ef5582d7c",
-      "fingerprint": "7e0c9cddc93d1c0f6f6531806450b0e815668813cd689fe9838f4d7ed8d5bdb1",
+      "fingerprint": "1a46de0ac0f84314103f1f12fad1af19e8c8211cef0332185ecece60052741b5",
       "pack": {
         "crawl": true,
         "edges": {
@@ -340,11 +341,12 @@
     "packages/contextkernel-cli": {
       "beacon_chain_hash": "f9ce728d003a2f634111789961efc7f67668adfc887ffffd2d3821f0dad2815c",
       "beacon_hash": "9e1549a95323a941798aea958a9de51c289ff9131ec94f253b2a735aca7106bf",
-      "fingerprint": "ff5385e56ba31873a0d67ead01369a89a78200d4a2d80044362eea4ba8e026e0",
+      "fingerprint": "c523d602854b1ce88a3d06819bdb3b5e2ca7bcfacdf6375d769fc16e4bacd6b4",
       "pack": {
         "crawl": true,
         "edges": {
           "packages": "parent",
+          "packages/contextkernel-cli/01_seed": "child",
           "packages/contextkernel-cli/src": "child",
           "packages/contextkernel-cli/tests": "child"
         },
@@ -362,10 +364,32 @@
         "tier": "1a"
       }
     },
+    "packages/contextkernel-cli/01_seed": {
+      "beacon_chain_hash": "d774b9dd48d64c326922ebebbbf4015bbbcab75dc173b5c80c95f3e87821d540",
+      "beacon_hash": "60254c3033717d1449c369fbc5db0fd7654775a5d8b31997469597c6f041bbe7",
+      "fingerprint": "f52040fa8b94eddba7f77c1830fad67bc6139b5912e59b3048d2d8f7c65f164c",
+      "pack": {
+        "crawl": true,
+        "edges": {
+          "packages/contextkernel-cli": "parent"
+        },
+        "files": [
+          "seed-contextkernel-cli-master.md(~2930t)"
+        ],
+        "focus": "packages/contextkernel-cli/01_seed",
+        "idir_pack": "6.0",
+        "inherited_from": "packages/contextkernel-cli",
+        "instructions": "LECTURA CONDICIONAL (Tier 2 / Disparadores de Arquitectura). Prohibido precargar en Tier 1.",
+        "prio": "p0",
+        "role": "dna",
+        "seed_ref": "required",
+        "tier": "1a"
+      }
+    },
     "packages/contextkernel-cli/src": {
       "beacon_chain_hash": "8d45d4af52b1257e27fe4c7063a66aec18761e157531701ec0c55c6682247ef8",
       "beacon_hash": "fe132c20d776c0230c2fc1a1cac07b5f3481c142833d12b1d6662f2ac651b271",
-      "fingerprint": "7d1637f2f19577a1baa46eb22da63b1ff5d2865a24b8103a9564777e5ef990a4",
+      "fingerprint": "c3a92961eadb898237fe6532b67e60e5903e76b67330ad8d4a7d899d35dc6aa5",
       "pack": {
         "crawl": true,
         "edges": {
@@ -386,7 +410,7 @@
     "packages/contextkernel-cli/src/contextkernel": {
       "beacon_chain_hash": "cd970ed41d5cd2302b946b29f791c0c19d4e6c78aa43c0b65a86db69a25c2b83",
       "beacon_hash": "6bea8936552b9047918e5e223bd0f69f5773c17b9ab122e3b6cf02774d86dbe8",
-      "fingerprint": "bbdcc42a601ed82ae996409121835be3ef6fe81b60a123d1a82f23af54ecd405",
+      "fingerprint": "ac4a5ed47cdae865c75d0298af3c63444d858a2401da977610cc1e3e566bb9c6",
       "pack": {
         "crawl": true,
         "edges": {
@@ -413,7 +437,7 @@
     "packages/contextkernel-cli/tests": {
       "beacon_chain_hash": "633f3e59d3dc3ca88ad4992424e91508e2cd0aa9ad83441e1a2acd064d2f4291",
       "beacon_hash": "7c865f08f3e1e19eb86bca7a43e64213e31bb001c1788f0d9e78b2a2c9beff62",
-      "fingerprint": "4f820c69d232a5c704f0b32c60906fd489fde819eb89e4abed701b188457a4a2",
+      "fingerprint": "1c9fcba32185813da22dc277de96f9539364cd5c2d885734e834fc836fd43232",
       "pack": {
         "crawl": true,
         "edges": {
@@ -436,7 +460,7 @@
     "packages/contextkernel-cli/tests/fixtures": {
       "beacon_chain_hash": "506c40c343e4b848f2031d661395b8b834791f84f6c89f6c811e66d73e04ebfd",
       "beacon_hash": "a960663e4cca985e3b4ecae5adba866715b6cbabb157106da43cf87d3335cc38",
-      "fingerprint": "79135fc942c18d21d1398285c4923b27a3b555dda4aa51d26138e3a67937c4a2",
+      "fingerprint": "af5bc38d1437c50d33b06ebdfcb3a60243cb5f3ed885f0bd22c43b8961032151",
       "pack": {
         "crawl": true,
         "edges": {
@@ -458,7 +482,7 @@
     "packages/idirectory": {
       "beacon_chain_hash": "459f276b722220e7bf269bcaae4609064fd1b6ee63216dbb7d64f0913baec04a",
       "beacon_hash": "e97a38f64a52fa35cfb496c0bb9d8465ba190f91c62fdc301b6358d5122999a3",
-      "fingerprint": "8c7fb7689a786b1de9a994dca2d8a8f3eb2665fe7437591071ac3ea97836aac2",
+      "fingerprint": "5d93cd192458089c40f12c437cef17bc79505572231785c426b28b27747ca897",
       "pack": {
         "crawl": true,
         "edges": {
@@ -488,7 +512,7 @@
     "packages/idirectory/.agents/skills/idir": {
       "beacon_chain_hash": "459f276b722220e7bf269bcaae4609064fd1b6ee63216dbb7d64f0913baec04a",
       "beacon_hash": "56dd811e7dd8f5bf759cc12efc2555ac36600afd6363ad51214d904c4f504f74",
-      "fingerprint": "24e72600ca682c4097a6f6d38ad807636fe260d1ccba11b91e9df0c7c6aa3693",
+      "fingerprint": "7095cf6571ed69012d9f5514d6ac690788e3a11814b6ad94725ca98733ddb0f2",
       "pack": {
         "crawl": true,
         "edges": {
@@ -510,7 +534,7 @@
     "packages/idirectory/.github": {
       "beacon_chain_hash": "459f276b722220e7bf269bcaae4609064fd1b6ee63216dbb7d64f0913baec04a",
       "beacon_hash": "56dd811e7dd8f5bf759cc12efc2555ac36600afd6363ad51214d904c4f504f74",
-      "fingerprint": "e04ca4c62a415c29620422a84fe02f257406149123f106d06dcfe3872dc48a69",
+      "fingerprint": "0d0be900fa371f118ade796f6c267c93569dcce8c554c015b2a38a1bf3adb24a",
       "pack": {
         "crawl": true,
         "edges": {
@@ -532,7 +556,7 @@
     "packages/idirectory/.github/workflows": {
       "beacon_chain_hash": "459f276b722220e7bf269bcaae4609064fd1b6ee63216dbb7d64f0913baec04a",
       "beacon_hash": "56dd811e7dd8f5bf759cc12efc2555ac36600afd6363ad51214d904c4f504f74",
-      "fingerprint": "80ecec74ef717e1287a5644ba74307b398cb521e472f07c8976799141d5a4f44",
+      "fingerprint": "b972d5cd73763498774ac13275d9bb9b40373e1b07f662732a90f83a974f104b",
       "pack": {
         "crawl": true,
         "edges": {
@@ -554,7 +578,7 @@
     "packages/idirectory/01_seed": {
       "beacon_chain_hash": "e894ff06536fccd8a438b122c944718a231d76c7d1dc4fd41313d27df8393cd0",
       "beacon_hash": "1c092f779dba8c6046fa0e02c6aa5c272b04abb874bfe2423988efae4edc8807",
-      "fingerprint": "97cacb87fea5f8fbb7a5bbf4f3e948654dace8d0ac0f11b875b13cbb597c2f93",
+      "fingerprint": "ac7500abffe88028ea83a8ef2ae1cf1fd57297e24071a8741ad3c7c8a673f21e",
       "pack": {
         "crawl": true,
         "edges": {
@@ -576,7 +600,7 @@
     "packages/idirectory/02_foundation": {
       "beacon_chain_hash": "4ca5e8f6da4af36b302ab804af17d0526418e0bae8523512762fad5127eae700",
       "beacon_hash": "e9fb67a0ae6647cf98c12eddc2507dbdddf52f0ba6bba018f01472052f66cce7",
-      "fingerprint": "8542e340228d5112a25178256242c3a396e3252cfa9acb109a1a817649097cd8",
+      "fingerprint": "2f19b636bf13b54a86990aa3321f20a16fc5278212e75af75d3e95de29189bd6",
       "pack": {
         "crawl": true,
         "edges": {
@@ -595,31 +619,10 @@
         "tier": "1a"
       }
     },
-    "packages/idirectory/02_foundation/02_foundation": {
-      "beacon_chain_hash": "1a393f44e35d9c0d049867382759d62c5acb642f595ce0eec5ae4c6e7e95e8d2",
-      "beacon_hash": "88b6216a7b71e7d1e5c9799cee16e012ef79deafa70201b27dc30e5eb3d394aa",
-      "fingerprint": "ea9c3009b2e8b3929c5f66275cffb534300e37bfa785587667414c42614bbfbc",
-      "pack": {
-        "crawl": true,
-        "edges": {
-          "packages/idirectory/02_foundation": "parent",
-          "packages/idirectory/02_foundation/02_foundation/engine": "child"
-        },
-        "files": [],
-        "focus": "packages/idirectory/02_foundation/02_foundation",
-        "idir_pack": "6.0",
-        "inherited_from": "packages/idirectory/02_foundation",
-        "instructions": "Sin lógica propia. Leer el beacon del subdirectorio objetivo.",
-        "prio": "p2",
-        "role": "namespace",
-        "seed_ref": "optional",
-        "tier": "1a"
-      }
-    },
     "scripts": {
       "beacon_chain_hash": "bec0aa7880deb21e2f5162064cbba140e70b67f80090b9f2f7246ef5de003210",
       "beacon_hash": "d236725ac174c56326279ba8de0c15bdd98f853bd2fd5ba329fc73f8ac8a39f1",
-      "fingerprint": "e1db697fcc25d9a4204d3562b55e174d606c5c15334ea23260d5f946dc72590c",
+      "fingerprint": "df68678afbb20579acfba82435f5909d7006cc61d4776aa1c3236cbde0d26934",
       "pack": {
         "crawl": true,
         "edges": {},
@@ -636,7 +639,7 @@
     "src": {
       "beacon_chain_hash": "1af93970ea8e5efe296a71d800cfd221a80af4084b3194741b8c08efe79468dc",
       "beacon_hash": "c05e4aaad49fab9e8746fe857b21433fdce9b1d6ef2caa7460fe294d76be9b15",
-      "fingerprint": "dc50412a8cb9820d728c5394977548579aeb67b6920012e2ceac05aa97acb4ac",
+      "fingerprint": "174c2a74eb4a8807e07dd3ea672a1007dbf92986eee3e71b8a6d387409353e8a",
       "pack": {
         "crawl": true,
         "edges": {
@@ -658,7 +661,7 @@
     "src/core": {
       "beacon_chain_hash": "ba0cb906004cfc32cb0e26b5ac022e3985f42448aab188ef13621fdbf15963d6",
       "beacon_hash": "216ca5fb1a473346db22eef1a7dbdc12a2503b316191de44b943c7b932f0044c",
-      "fingerprint": "f74f0f129b03d443acceb08fdc9ae3f2ab25e6064d370ac891355064cf3d77bd",
+      "fingerprint": "3e41f5d693b245909f2b3eadd0206936a0d892b61725ba21a5649d9884a75127",
       "pack": {
         "crawl": true,
         "edges": {
@@ -682,7 +685,7 @@
     "tests": {
       "beacon_chain_hash": "aae40b2cfe5b9735d23cd69fd2a9f23197625aceb5900b25cbb949c9de4f7b2a",
       "beacon_hash": "7e91a77a62b63ae5520c615174a49a5545610e1dd472efcac76c7e86bcd1079a",
-      "fingerprint": "cb8cbf6e4081d0c0d426a198cb970bc4aeeabb32d8a4bab8c269ec2684eaf7bd",
+      "fingerprint": "9ede8db119ee955c4bbfaadb90238d4fa665d374b6cb72a18532f45d3065c611",
       "pack": {
         "crawl": true,
         "edges": {
@@ -701,7 +704,7 @@
       }
     }
   },
-  "generation": "1aeb0889e758b901",
+  "generation": "29cc9f2bd0f37d49",
   "policy_stamp": [
     [
       ".agentignore",

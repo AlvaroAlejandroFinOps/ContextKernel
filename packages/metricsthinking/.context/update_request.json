@@ -1,4 +1,53 @@
 {
-  "requests": [],
+  "requests": [
+    {
+      "changed_files": [
+        ".agents/skills/metrics/SKILL.md",
+        ".context.yaml",
+        ".gitignore",
+        "FWengine.py",
+        "MetricsThinking.jpg",
+        "artifacts/benchmark_coverage_report.json",
+        "data/.context.yaml",
+        "docs/.context.yaml",
+        "docs/PERSONA_LENSES.md",
+        "docs/architecture/.context.yaml",
+        "docs/notes/.context.yaml",
+        "docs/notes/ACADEMIC_SDD_PROJECT_EVALUATION_PAPERS.md",
+        "docs/notes/CONTEXT_ENGINEERING_METRICSTHINKING_ALIGNMENT.md",
+        "docs/specs/.context.yaml",
+        "docs/specs/icontext-v6.md",
+        "skills/.context.yaml",
+        "skills/v6/.context.yaml",
+        "skills/v6/metrics/.context.yaml",
+        "skills/v6/metrics/SKILL.md",
+        "skills/v6/metrics/bundle.json",
+        "skills/v6/metrics/scripts/.context.yaml",
+        "skills/v6/metrics/scripts/run.py",
+        "tests/__init__.py",
+        "tests/conftest.py",
+        "tests/fixtures/golden_baseline_report.json",
+        "tests/test_benchmarks_stress.py",
+        "tests/test_calibration.py",
+        "tests/test_cli_mcp_renderer_v4.py"
+      ],
+      "contract_files": [
+        "tests/conftest.py",
+        "tests/test_benchmarks_stress.py",
+        "tests/test_calibration.py",
+        "tests/test_cli_mcp_renderer_v4.py"
+      ],
+      "input_hash": "60c1d028e2654ef897be29d7a646632fb2d646f5ec1504bb93e22916ccf70da1",
+      "instruction": "Current agent: inspect changed evidence, update affected sections only, preserve other content, then run complete with this input hash.",
+      "layer": "seed",
+      "sections": [
+        "2",
+        "3",
+        "4",
+        "7",
+        "9"
+      ]
+    }
+  ],
   "version": "6.0.0"
 }

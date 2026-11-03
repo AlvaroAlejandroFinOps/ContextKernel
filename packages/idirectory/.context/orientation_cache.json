@@ -1,9 +1,9 @@
 {
   "entries": {
     ".": {
-      "beacon_chain_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "beacon_chain_hash": "fd88289889cb7f7ef878ab0c84392cd6181876fa5f822ebaa45472f186fbdf97",
       "beacon_hash": "29e02afbcbc4a62b3d955593f853063b09bd47dfaac65d45221ae9ff2f1be606",
-      "fingerprint": "bcdc29c524c9ccd39c0bdb32a09128db2d8df28f313f06029ef810ea52c6764c",
+      "fingerprint": "e920e770b424740329e0882addccc008096a6fc5c36ad4ed3ad030a450a00f0f",
       "pack": {
         "crawl": true,
         "edges": {
@@ -22,9 +22,9 @@
         ],
         "focus": ".",
         "idir_pack": "6.0",
-        "instructions": "Directorio con herencia canónica.",
+        "instructions": "Hereda directivas de packages/.",
         "prio": "p2",
-        "role": "general",
+        "role": "namespace",
         "seed_ref": "optional",
         "tier": "1a"
       }
@@ -645,16 +645,16 @@
       }
     },
     "src/core": {
-      "beacon_chain_hash": "829405288781fa9f1a809c6c56043c2ec0247b5f9f44d89c27104a8ebb320146",
+      "beacon_chain_hash": "19967775cf0517870c08a8d60881408966dc4688f7d3b76fc9ca6c1d076b5e41",
       "beacon_hash": "216ca5fb1a473346db22eef1a7dbdc12a2503b316191de44b943c7b932f0044c",
-      "fingerprint": "3699a1b70c54b1d673e7efd80c86f38f8ea53efc6df510a95e8925da4c060409",
+      "fingerprint": "5b8e7143c0925f0af7d469118917d52c5185bbe31ad0c47320b1047eccfd6028",
       "pack": {
         "crawl": true,
         "edges": {
           "src": "parent"
         },
         "files": [
-          "context_runtime.py(~5713t)",
+          "context_runtime.py(~5719t)",
           "fwengine.py(~44799t)"
         ],
         "focus": "src/core",
@@ -688,7 +688,7 @@
       }
     }
   },
-  "generation": "5ce9b0d3a0e34c60",
+  "generation": "e53ed13b0e4d0eb7",
   "policy_stamp": [
     [
       "config/context_policy.json",

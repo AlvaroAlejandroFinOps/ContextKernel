@@ -156,7 +156,7 @@ def extract_repo_ast_contracts(repo_path: Path) -> Dict[str, List[str]]:
     sys.path.insert(0, str(Path(__file__).resolve().parent))
     from context_runtime import contracts_index
     index, _ = contracts_index(repo_path, persist=False)
-    modules = {k: v for k, v in index["modules"].items() if not k.startswith("tests/")
+    modules = {k: v for k, v in index["modules"].items() if not ("tests/" in k or k.startswith("tests") or "test_" in Path(k).name)
                and not (k == "FWengine.py" and repo_path.name.lower() != "idirectory")}
     symbols = sorted({s for m in modules.values() for s in m["symbols"]})
     flags = sorted({s for m in modules.values() for s in m["cli_flags"]})

@@ -59,7 +59,7 @@ known_analysis_limits:
 [CONFIRMADO] En v6, FWengine.py es un lanzador y tools/icontext_runtime es una distribución generada. Los orígenes mantenidos están en iDirectory/src/core y ContextControl/src/core; las copias generadas se verifican por manifest. skills/v6 contiene bundles con scripts y recursos completos. Las capas siguen siendo L0 iDirectory, L1 ThinkingSeed, L2 MetricsThinking y L3 iReadme.
 - **2.1 Patrón arquitectónico:** Pipeline determinista de generación atómica dual (`init_readme.py`) acoplado a una suite de verificación de invariantes (`tests/test_invariants.py`, `tests/test_golden_regression.py`) y un instalador multi-agente (`scripts/install_skill.py`) `[CONFIRMADO]`.
 - **2.2 Mapa de módulos y directorios (`all-lowercase`):**
-  - `./01_seed/`: Vector arquitectónico `seed-iReadme-master.md` `[CONFIRMADO]`.
+  - `./01_seed/`: Vector arquitectónico `seed-ireadme-master.md` `[CONFIRMADO]`.
   - `./02_foundation/engine/`: Manifiesto de gobernanza topológica `engine_readme.md` `[CONFIRMADO]`.
   - `./03_research/`: Subdirectorios `notebooks/`, `prompts/` y `experiments/` `[CONFIRMADO]`.
   - `./artifacts/plans/`: Subdirectorios `active/`, `metricsthinking/`, `backlog/` y `archive/` `[CONFIRMADO]`.

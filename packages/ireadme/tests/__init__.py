@@ -1,3 +1,0 @@
-"""
-iReadme Test Suite Package
-"""

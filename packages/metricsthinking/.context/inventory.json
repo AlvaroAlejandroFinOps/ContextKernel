@@ -1521,20 +1521,6 @@
         1793487795057759300
       ]
     },
-    "tests/__init__.py": {
-      "contracts": {
-        "cli_flags": [],
-        "imports": [],
-        "signatures": [],
-        "symbols": []
-      },
-      "sha256": "b1599166e26651fabb190b3b35f4f5e671602372ed4933513f8b1e4933bde39a",
-      "size": 35,
-      "stat": [
-        35,
-        1790099895485902100
-      ]
-    },
     "tests/conftest.py": {
       "contracts": {
         "cli_flags": [],
@@ -2004,10 +1990,11 @@
       "contracts": {
         "cli_flags": [],
         "imports": [
+          "install_skill",
           "json",
           "metricsthinking.mcp_server",
           "pathlib",
-          "scripts.install_skill"
+          "sys"
         ],
         "signatures": [
           "./tests/test_installer.py::test_install_antigravity_local(tmp_path: Path) -> Any",
@@ -2030,23 +2017,24 @@
           "test_mcp_server_tools"
         ]
       },
-      "sha256": "072ae6f0f9f9f69f1439841d860c87b524e5c0e77b264d6477add4f41323e485",
-      "size": 2860,
+      "sha256": "d2ab10cf7bf481aad9de86a5d9ad282341c57ac2aa2a2bfc4307e9af4595c061",
+      "size": 3009,
       "stat": [
-        2860,
-        1793473080615959100
+        3009,
+        1793615637549470800
       ]
     },
     "tests/test_medallion_ablation_v4.py": {
       "contracts": {
         "cli_flags": [],
         "imports": [
+          "hnsw_index_rebuild",
           "json",
           "metricsthinking.fpai.ablation",
           "metricsthinking.fpai.attribution",
           "metricsthinking.fpai.medallion",
           "pathlib",
-          "scripts.hnsw_index_rebuild"
+          "sys"
         ],
         "signatures": [
           "./tests/test_medallion_ablation_v4.py::test_local_medallion_pipeline(tmp_path) -> Any",
@@ -2061,11 +2049,11 @@
           "test_hnsw_index_rebuild_script"
         ]
       },
-      "sha256": "001bfb1c23d9e5851015dcc3f83df4676fa928186eb9c638d0e409d24b7830eb",
-      "size": 3999,
+      "sha256": "9fbd738fe3baf13c7a5ca752e07d5e49e79d6e5245df310435e4f19da01ee2a4",
+      "size": 4148,
       "stat": [
-        3999,
-        1792608241912323300
+        4148,
+        1793615656853283700
       ]
     },
     "tests/test_models_schemas_v4.py": {
@@ -2246,7 +2234,7 @@
       ]
     }
   },
-  "inputs_hash": "7ace2c978817733f95a6b8935c83013e5b7140e55fd348d30f7ea2c078809e50",
+  "inputs_hash": "d26ba35802eaabf8cf14049e524dbff633a8f2418101c2a0c2de921476079ef5",
   "policy_hash": "66faf4e97170a9b9164e6fd6c17b5044d03dd4ed141bb3acfa6b9e3906da528d",
   "version": "6.0.0"
 }

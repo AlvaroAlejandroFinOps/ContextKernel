@@ -2,7 +2,11 @@
 import json
 from pathlib import Path
 
-from scripts.install_skill import (
+import sys
+_pkg_scripts = Path(__file__).resolve().parent.parent / "scripts"
+if str(_pkg_scripts) not in sys.path:
+    sys.path.insert(0, str(_pkg_scripts))
+from install_skill import (
     install_antigravity,
     install_codex,
     install_claude,

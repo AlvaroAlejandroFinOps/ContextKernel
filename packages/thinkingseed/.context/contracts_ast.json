@@ -4,33 +4,15 @@
   "cli_flags": [
     "--backup",
     "--check-only",
-    "--expand",
     "--global-install",
     "--no-anonymize",
     "--output",
-    "--pack",
     "--target",
-    "--target-repo",
-    "--tier"
+    "--target-repo"
   ],
-  "contracts_ast_hash": "b26d1d8564e1d6e11101e13c4862baba5e34049f86a9bd241fe3fae3593908ed",
-  "inputs_hash": "b5b9874be4a922a44b00fb40a5e79dd5ef242a81b72fd70bb4dd7efa50115727",
+  "contracts_ast_hash": "985787f4a5ad2e156919b559cb9c7de146ff9494179aa0e2337acc49164d720f",
+  "inputs_hash": "a3262284cc82a0f895d2fb2799666da88feee7cbe7b0d8eef40263a4fc9000e7",
   "modules": {
-    "FWengine.py": {
-      "cli_flags": [
-        "--expand",
-        "--pack",
-        "--tier"
-      ],
-      "imports": [
-        "argparse",
-        "icontext_cli",
-        "pathlib",
-        "sys"
-      ],
-      "signatures": [],
-      "symbols": []
-    },
     "scripts/install_skills.py": {
       "cli_flags": [
         "--backup",
@@ -113,36 +95,6 @@
         "main"
       ]
     },
-    "skills/v6/seed-master/scripts/run.py": {
-      "cli_flags": [],
-      "imports": [
-        "icontext_cli",
-        "json",
-        "pathlib",
-        "sys"
-      ],
-      "signatures": [
-        "./skills/v6/seed-master/scripts/run.py::matches_version(path) -> Any"
-      ],
-      "symbols": [
-        "matches_version"
-      ]
-    },
-    "skills/v6/seed/scripts/run.py": {
-      "cli_flags": [],
-      "imports": [
-        "icontext_cli",
-        "json",
-        "pathlib",
-        "sys"
-      ],
-      "signatures": [
-        "./skills/v6/seed/scripts/run.py::matches_version(path) -> Any"
-      ],
-      "symbols": [
-        "matches_version"
-      ]
-    },
     "tests/test_validators.py": {
       "cli_flags": [],
       "imports": [
@@ -161,7 +113,7 @@
       ]
     }
   },
-  "project": "ThinkingSeed",
+  "project": "thinkingseed",
   "public_symbols": [
     "TestThinkingSeedV5Validators",
     "analyze_repo",
@@ -181,7 +133,6 @@
     "install_claude_code_global",
     "install_codex_global",
     "main",
-    "matches_version",
     "upsert_segmented_rule_file"
   ],
   "signatures_1line": [
@@ -204,8 +155,6 @@
     "./scripts/test_seed_coverage.py::compute_coverage(repo_meta: Dict[str, Any], seed_meta: Dict[str, Any], repo_path: Path) -> Dict[str, Any]",
     "./scripts/test_seed_coverage.py::generate_report(repo_meta: Dict[str, Any], hybrid_meta: Dict[str, Any], master_meta: Dict[str, Any], cov_hybrid: Dict[str, Any], cov_master: Dict[str, Any], anonymize: bool=True) -> str",
     "./scripts/test_seed_coverage.py::main() -> None",
-    "./skills/v6/seed/scripts/run.py::matches_version(path) -> Any",
-    "./skills/v6/seed-master/scripts/run.py::matches_version(path) -> Any",
     "./tests/test_validators.py::TestThinkingSeedV5Validators(class)"
   ],
   "topology_hash": "c715bd5be106cfa0e9e10fd5a8d09f956e80d3bc44b492495505b2f9abb060df",

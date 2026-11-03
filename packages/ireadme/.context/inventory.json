@@ -9,84 +9,36 @@
         1793473906098883400
       ]
     },
-    ".cursorrules": {
-      "sha256": "cea5f52b2b6f50fef3b76bd81ae43bb796f7f88483dd86c2eb1cfb5e99e63fa0",
-      "size": 1020,
+    ".context.yaml": {
+      "sha256": "5a6526497ad0f7b44032b4d7925560d7024b81df517955fd905e72229f349477",
+      "size": 291,
       "stat": [
-        1020,
-        1793233477771087500
-      ]
-    },
-    ".github/copilot-instructions.md": {
-      "sha256": "0e713e92a914f683a9164ff3f6e100e6bcb00ec4582ba5977c66b3e9f35150e5",
-      "size": 720,
-      "stat": [
-        720,
-        1793468905708682400
-      ]
-    },
-    ".github/workflows/ci.yml": {
-      "sha256": "960adc717ffa404aec9c237fbaa3e4b738bbc040d3233f7ffcee8d95643bfff7",
-      "size": 1639,
-      "stat": [
-        1639,
-        1790099393745454400
+        291,
+        1793577782844262100
       ]
     },
     ".gitignore": {
-      "sha256": "35713b534536f0a8e24b9e8e1f3dee18bbd39e3c811995133119794f86ede520",
-      "size": 152,
+      "sha256": "93e732779a0cd70af0dbed50b4d9ae65f3acd9063726c02713c041835f925e3d",
+      "size": 257,
       "stat": [
-        152,
-        1788917832659948200
+        257,
+        1793544435061802600
       ]
     },
     "01_seed/.context.yaml": {
-      "sha256": "7c024e43819369ad0ea991322a5efafd6b17f9876da27eabf9631d32e3031ec7",
+      "sha256": "c078081f95785de7bf2b441694e5921f5bc8abaca382096de81e11c3cb150190",
       "size": 423,
       "stat": [
         423,
-        1793487815896024300
+        1793614867020707100
       ]
     },
-    "01_seed/seed-iReadme-master.md": {
-      "sha256": "ef623aae0ce170d17f72d1dc4169c03610107ace5fd1b6413cafd17c5be9abe5",
+    "01_seed/seed-ireadme-master.md": {
+      "sha256": "a7001c7f9d1865891c71ec2612b09a2a916e2c63527c7b0546bbf281d9314fa8",
       "size": 16857,
       "stat": [
         16857,
-        1793485142007796000
-      ]
-    },
-    "02_foundation/.context.yaml": {
-      "sha256": "2637c17b145539cd43d629c4285f8085395e25a4f5b7b935f8c01060750ee3e1",
-      "size": 344,
-      "stat": [
-        344,
-        1793238710838159000
-      ]
-    },
-    "02_foundation/engine/.context.yaml": {
-      "sha256": "91d2b15b6ce915671565770cce1d0ea73fb39f540390bdfe9de79cef971ea59d",
-      "size": 404,
-      "stat": [
-        404,
-        1793487815901017700
-      ]
-    },
-    "03_research/.context.yaml": {
-      "sha256": "cc8b8dd91bb6a57e1e4527f87dbd8cddf1186d1a1263d3ea070f9b2dde3736cc",
-      "size": 319,
-      "stat": [
-        319,
-        1793031514009807200
-      ]
-    },
-    "03_research/prompts/.context.yaml": {
-      "sha256": "db006f937bff731d5c030613c1f6b0f47f199d8c1b8a2af7fc56cc4cbdd17c65",
-      "size": 350,
-      "stat": [
-        350,
-        1793487815914973600
+        1793614899192693800
       ]
     },
     "AGENTS.md": {
@@ -105,59 +57,12 @@
         1793468880875950700
       ]
     },
-    "FWengine.py": {
-      "contracts": {
-        "cli_flags": [
-          "--expand",
-          "--pack",
-          "--tier"
-        ],
-        "imports": [
-          "argparse",
-          "icontext_cli",
-          "pathlib",
-          "sys"
-        ],
-        "signatures": [],
-        "symbols": []
-      },
-      "sha256": "f8c9499aa5b6dc286e846b401f3b414e4ed8ed8b4c309e2db007927e23fc6b1a",
-      "size": 1039,
-      "stat": [
-        1039,
-        1793476793077847700
-      ]
-    },
     "GEMINI.md": {
       "sha256": "eeb6db99d76a4959495c02353e1e89d9981bf945d26a6bcc674b850db716feea",
       "size": 240,
       "stat": [
         240,
         1793473131775881800
-      ]
-    },
-    "GestorReadme.md": {
-      "sha256": "70dd9b8af6fe7000b820b606fc79ed618dedc1d2ed19af3f116b91158e0e0f36",
-      "size": 5160,
-      "stat": [
-        5160,
-        1791423066487077000
-      ]
-    },
-    "OPENAI.md": {
-      "sha256": "d7c47c49748fa45ee985c3476b73d73ced73e470177058e4e871dc121d1d61d1",
-      "size": 2236,
-      "stat": [
-        2236,
-        1793468893250529200
-      ]
-    },
-    "Propuesta Skill.md": {
-      "sha256": "b8a10ad3254cc7fa21e6f28547cb08d8d58e27f14f8d25debb99fe70b853b543",
-      "size": 2453,
-      "stat": [
-        2453,
-        1791423077202133300
       ]
     },
     "README.md": {
@@ -178,284 +83,12 @@
         1793487811974985700
       ]
     },
-    "artifacts/.context.yaml": {
-      "sha256": "45e889a3088d28c4cc41abd329dfd5711c9fec30a3283f6d0676a5c6af5e62e6",
-      "size": 594,
-      "stat": [
-        594,
-        1793233908708120800
-      ]
-    },
-    "artifacts/MetricsThinking.json": {
-      "sha256": "c44413205964e4fee37dfae034c5247943fcec9b29ea33c5949e7dab111d840d",
-      "size": 19209,
-      "stat": [
-        19209,
-        1791425317620829300
-      ]
-    },
-    "artifacts/MetricsThinking.md": {
-      "sha256": "be357555819fd94ae5e84163681606897b0098fd4a27b4306e5d2248ab586985",
-      "size": 14582,
-      "stat": [
-        14582,
-        1791425317619310100
-      ]
-    },
-    "artifacts/benchmark_coverage_report.md": {
-      "sha256": "417880dbd77e4f0730eef2af940d0e678394ea8c2063a9a670b3cf94e0fb7f04",
-      "size": 1839,
-      "stat": [
-        1839,
-        1791424225333561000
-      ]
-    },
-    "artifacts/benchmark_seed_coverage.md": {
-      "sha256": "913975404ce5eacc7c7832e8c4ccb855ca523d0f543714347bd1ff6058ff6ac5",
-      "size": 4018,
-      "stat": [
-        4018,
-        1793294636141730600
-      ]
-    },
-    "artifacts/plans/.context.yaml": {
-      "sha256": "f0d91db102008c337e6ee2da539d9f5e2d267012f917fbe6058198727327a039",
-      "size": 327,
-      "stat": [
-        327,
-        1793031514113748100
-      ]
-    },
-    "artifacts/plans/active/.context.yaml": {
-      "sha256": "3c08c6b0031becbf0cd90cd8bc76ade07db9c37bbc32f9566ed1740488ef8cf9",
-      "size": 554,
-      "stat": [
-        554,
-        1793487815960239000
-      ]
-    },
-    "artifacts/plans/active/INFERRED_ROADMAP.md": {
-      "sha256": "648cf690c4c8c1f1db34de4273d29c4b6486c25e644171b4b4536582372cece1",
-      "size": 10032,
-      "stat": [
-        10032,
-        1791425317620829300
-      ]
-    },
-    "artifacts/plans/active/plan_estilo_vanguardia_ireadme.md": {
-      "sha256": "7cba092bdbf9efff9a58a70df82ae2e297784504eeda57befe7e3ccf9eac2581",
-      "size": 7867,
-      "stat": [
-        7867,
-        1791422838334920900
-      ]
-    },
-    "config/.context.yaml": {
-      "sha256": "98254eb9e74ed5d25c4de0c9cb25076f546ea329089f94eb77273f21e5e2bbfb",
-      "size": 478,
-      "stat": [
-        478,
-        1793487816014446000
-      ]
-    },
-    "config/context_policy.json": {
-      "sha256": "4bb17e44826b54eef6ca47466b664233dca130d79184056aeefedf0924b841fb",
-      "size": 3078,
-      "stat": [
-        3078,
-        1793477321786235900
-      ]
-    },
-    "data/.context.yaml": {
-      "sha256": "f170de83f63910ad25035a10f51158083b18d56381b9334cb04c96ba8e259615",
-      "size": 305,
-      "stat": [
-        305,
-        1793031514062526300
-      ]
-    },
-    "docs/.context.yaml": {
-      "sha256": "2dc077b646550ed9cc26d35923b8bb538b34d70315852af3829d4c8c5eb58190",
-      "size": 305,
-      "stat": [
-        305,
-        1793031514070504500
-      ]
-    },
-    "docs/architecture/.context.yaml": {
-      "sha256": "225a0dbb34e86b8235ef57e19baebfde05ee7e844af29da4c72ef994afde61a6",
-      "size": 560,
-      "stat": [
-        560,
-        1793487815982163200
-      ]
-    },
-    "docs/architecture/system_topology.md": {
-      "sha256": "226b0d03e64f41c30e1bece4721e9975d2c64c11173a9f95aad7ee86a79bd2b3",
-      "size": 1783,
-      "stat": [
-        1783,
-        1791424243841319900
-      ]
-    },
-    "docs/architecture/topology.svg": {
-      "sha256": "4f0f20b6253dfaf631515e1ad1b099b601f556c3417387cacb633834523d2e01",
-      "size": 4363,
-      "stat": [
-        4363,
-        1791424398958911000
-      ]
-    },
-    "docs/engineers_notes/.context.yaml": {
-      "sha256": "fbd93845d263ac8a7a114cec29be87df309b7427bc9d2b77462143464a0a9684",
-      "size": 321,
-      "stat": [
-        321,
-        1793031514126132900
-      ]
-    },
-    "docs/notes/.context.yaml": {
-      "sha256": "3425f57f359033363ae217df26d6f3bc7262af469cd8910ea26918df10ad2164",
-      "size": 351,
-      "stat": [
-        351,
-        1793487816005657300
-      ]
-    },
-    "docs/specs/.context.yaml": {
-      "sha256": "f5f48db46374d9967dae8889c01010be31127ad2b982b9da7ff9c3d06e9c7f1c",
-      "size": 333,
-      "stat": [
-        333,
-        1793487815989969500
-      ]
-    },
-    "docs/specs/icontext-v6.md": {
-      "sha256": "a2533b901c6dec1d87fa8dc77ae89efa776dd51499ab487f58e33b404f9554cd",
-      "size": 6740,
-      "stat": [
-        6740,
-        1793477321789226000
-      ]
-    },
-    "docs/technical_specs/.context.yaml": {
-      "sha256": "1a15c49ec13e779937e7ffb892ba4ad05ac39fb43320968a87fdd97405aa2e47",
-      "size": 321,
-      "stat": [
-        321,
-        1793031514137738100
-      ]
-    },
-    "infrastructure/.context.yaml": {
-      "sha256": "bbde7d0687a00834aceeb18ae5cc5d4bb19b50468444914bf5e3aefb10bef8c1",
-      "size": 315,
-      "stat": [
-        315,
-        1793031514079838600
-      ]
-    },
-    "install.ps1": {
-      "sha256": "2e3340e1c17e97e6b21f0b0749dda4484e936104441728be3ba4fdd9dfccee81",
-      "size": 177,
-      "stat": [
-        177,
-        1793476649354726300
-      ]
-    },
-    "install.sh": {
-      "sha256": "7e0b4f8572a348d949cac691fffa1c92c9f5437d0f502e56202c9ce8be37f7c0",
-      "size": 169,
-      "stat": [
-        169,
-        1793476649357717600
-      ]
-    },
     "pyproject.toml": {
       "sha256": "ad43c37e7d98cfd58a4a9543104d9bfcc55b48cf002df83236d48e50349d8e63",
       "size": 1218,
       "stat": [
         1218,
         1793472153712046200
-      ]
-    },
-    "schemas/.context.yaml": {
-      "sha256": "0360e24966cfb776e436d1a29d5c8b7eedc6fc50e3fe030a23e8196dfbdf4fc7",
-      "size": 368,
-      "stat": [
-        368,
-        1793487816033956400
-      ]
-    },
-    "schemas/backlog.schema.json": {
-      "sha256": "a5d392ea7768d984781da5f61ede127f53d6469c08617f62ce0124bc73179ea9",
-      "size": 1561,
-      "stat": [
-        1561,
-        1793202765137720900
-      ]
-    },
-    "schemas/beacon.schema.json": {
-      "sha256": "d42d69bebda3b414376fa8c48c06cd8863301e35bf506d643fbfb9608150c686",
-      "size": 1872,
-      "stat": [
-        1872,
-        1793046439790988100
-      ]
-    },
-    "schemas/checkpoint.schema.json": {
-      "sha256": "c81210ffaa333b9176313486ba14b4a012f8888706e9f0536308c158e3c9dd59",
-      "size": 2212,
-      "stat": [
-        2212,
-        1793473806591042100
-      ]
-    },
-    "schemas/contracts_ast.schema.json": {
-      "sha256": "30d2107109780341dd10d8befbba1defe9e61befe0381985c833f43dc514e2f8",
-      "size": 3223,
-      "stat": [
-        3223,
-        1793473806593038000
-      ]
-    },
-    "schemas/icontext_bus.schema.json": {
-      "sha256": "a82c2abd66a6d04272605764bb9c64cfb20da0d5b799a475d408bbf48b8b6a41",
-      "size": 6183,
-      "stat": [
-        6183,
-        1793473806596030000
-      ]
-    },
-    "schemas/inventory.schema.json": {
-      "sha256": "aa5f4d9e42f2ccdd88ab086686f2ae66e0bace9d702c73fa8dba36e8bbd04cdf",
-      "size": 604,
-      "stat": [
-        604,
-        1793473806598026700
-      ]
-    },
-    "schemas/plan_metadata.schema.json": {
-      "sha256": "059aa7e208d67d464c8615bdb4abb29235f45c01c76f209537b5952e1356e505",
-      "size": 892,
-      "stat": [
-        892,
-        1793046444704324500
-      ]
-    },
-    "schemas/toolchain.schema.json": {
-      "sha256": "1906661dc8e0cd43e79477362692ee306d1bc66211792f2b3b56e042558cfdcb",
-      "size": 552,
-      "stat": [
-        552,
-        1793473806600018300
-      ]
-    },
-    "schemas/tree.schema.json": {
-      "sha256": "590f8fb62ed341b87acb75686999cc1df64a9f6105df24cf233772133522fc91",
-      "size": 3564,
-      "stat": [
-        3564,
-        1793202775316109600
       ]
     },
     "scripts/.context.yaml": {
@@ -535,93 +168,6 @@
       "stat": [
         3603,
         1793476649360406700
-      ]
-    },
-    "skills/.context.yaml": {
-      "sha256": "0f9ffd6b225556afe76229649c618682cab26e551105e959ee12cdcecc5ba8c3",
-      "size": 299,
-      "stat": [
-        299,
-        1793031514090819500
-      ]
-    },
-    "skills/readme/.context.yaml": {
-      "sha256": "4f6d3633eb451ad380e0cb5e842878234e2d0bf39d4e50da41a4bfa383f18b0d",
-      "size": 505,
-      "stat": [
-        505,
-        1793468997744064200
-      ]
-    },
-    "skills/readme/SKILL.md": {
-      "sha256": "70222177b8433abf0d8b33f9ecb53f15cfc181329fbe6275734dc2ded5a87b28",
-      "size": 488,
-      "stat": [
-        488,
-        1793473210515500300
-      ]
-    },
-    "skills/v6/.context.yaml": {
-      "sha256": "cc1f01d9150f8a1544c70c0d2c0d26b6c1ea2bad542bca67f9376df9492de508",
-      "size": 280,
-      "stat": [
-        280,
-        1793474275568097900
-      ]
-    },
-    "skills/v6/readme/.context.yaml": {
-      "sha256": "bd90402e6436d913a769219dc58a3ab1da96313230f52586a8baf942a31a42ed",
-      "size": 297,
-      "stat": [
-        297,
-        1793474275616891200
-      ]
-    },
-    "skills/v6/readme/SKILL.md": {
-      "sha256": "e11d40cee46254136d44c21a3828913c3c0633a78fa90d27e0bea685475fe694",
-      "size": 1610,
-      "stat": [
-        1610,
-        1793476790078870200
-      ]
-    },
-    "skills/v6/readme/bundle.json": {
-      "sha256": "a5527c61f9ba4c755ece4f2ff2c886b70a85b89632b4ad7a1fb1acabfd8bc00d",
-      "size": 244,
-      "stat": [
-        244,
-        1793476790082822200
-      ]
-    },
-    "skills/v6/readme/scripts/.context.yaml": {
-      "sha256": "9f5dc7eb9dccea4412212bd34635b519bbe8efccf46317c5637725d25032d0d1",
-      "size": 320,
-      "stat": [
-        320,
-        1793474275692423000
-      ]
-    },
-    "skills/v6/readme/scripts/run.py": {
-      "contracts": {
-        "cli_flags": [],
-        "imports": [
-          "icontext_cli",
-          "json",
-          "pathlib",
-          "sys"
-        ],
-        "signatures": [
-          "./skills/v6/readme/scripts/run.py::matches_version(path) -> Any"
-        ],
-        "symbols": [
-          "matches_version"
-        ]
-      },
-      "sha256": "354efcdae125b7fc630daa0c9c7d1950574b0f797c19039f4427684405614af6",
-      "size": 1369,
-      "stat": [
-        1369,
-        1793474238397761700
       ]
     },
     "src/.context.yaml": {
@@ -739,20 +285,6 @@
       "stat": [
         526,
         1793487816053901800
-      ]
-    },
-    "tests/__init__.py": {
-      "contracts": {
-        "cli_flags": [],
-        "imports": [],
-        "signatures": [],
-        "symbols": []
-      },
-      "sha256": "35a4adb0801c912544109e724a9cfd9c4400abeb4506bc33f6200641af23ddfc",
-      "size": 35,
-      "stat": [
-        35,
-        1790099348265748600
       ]
     },
     "tests/golden/.context.yaml": {
@@ -897,17 +429,9 @@
         4334,
         1790099414865809100
       ]
-    },
-    "tools/.context.yaml": {
-      "sha256": "270d27ea24148c667bed940a12dbbb3d7ce5139d05a14b392ffc9a6f4b37cb14",
-      "size": 288,
-      "stat": [
-        288,
-        1793487816064876300
-      ]
     }
   },
-  "inputs_hash": "b58c4d71a5abeddf335c21fabb5db003f7f48d001eabb437ac922779ad2ff6cd",
-  "policy_hash": "2e9286a500a79723dcb9f07853c40e2e8b91342717dfdad06d34df5ee65188ca",
+  "inputs_hash": "03f1ba6dccd9ca88ea38a4ad8367ca56c135ad1ac40edab93d4fc03e7e2f5176",
+  "policy_hash": "594dd49060b6270becd004f844e8b509a413b8c3e3148b46c9a973aff0d2fe41",
   "version": "6.0.0"
 }

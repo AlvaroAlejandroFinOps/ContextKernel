@@ -42,6 +42,7 @@ _icontext_assets = ["runtime_payload.zip"]
 
 [tool.pytest.ini_options]
 testpaths = ["packages"]
+addopts = ["--import-mode=importlib"]
 pythonpath = [
     "tools/icontext_runtime",
     "packages/contextkernel-cli/src",

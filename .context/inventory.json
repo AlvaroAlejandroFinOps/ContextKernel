@@ -26,19 +26,27 @@
       ]
     },
     "01_seed/.context.yaml": {
-      "sha256": "7d5461d313d5b70f7a35b76f1f822d85e257230c107157f5402b69a47a9a9f0c",
-      "size": 487,
+      "sha256": "2f65e67d12c32b79cbd26eac98c84ae25c916fce9613df561d2e2c830ef0186b",
+      "size": 486,
       "stat": [
-        487,
-        1793581796054560500
+        486,
+        1793668197573896600
+      ]
+    },
+    "01_seed/seed-contextkernel-hybrid.md": {
+      "sha256": "6385a287ecb80b7e72fa43ae992bd54482ca78343f1c673d7de559f8340cffe5",
+      "size": 3275,
+      "stat": [
+        3275,
+        1793614981656674900
       ]
     },
     "01_seed/seed-contextkernel-master.md": {
-      "sha256": "30c868017f0f11f2e81806595300929761f9bc66fe26195b13fec8d722987a8e",
-      "size": 49006,
+      "sha256": "e20fdc62fdaa96940ba1b0854bb0cbd266ca158185ac72fd44470072c3a9efd8",
+      "size": 51683,
       "stat": [
-        49006,
-        1793577389114623900
+        51683,
+        1793615096483440600
       ]
     },
     "02_foundation/.context.yaml": {
@@ -54,7 +62,7 @@
       "size": 404,
       "stat": [
         404,
-        1793581796057552100
+        1793668197585865400
       ]
     },
     "02_foundation/engine/engine_readme.md": {
@@ -78,7 +86,7 @@
       "size": 350,
       "stat": [
         350,
-        1793581796062540100
+        1793668197617581600
       ]
     },
     "AGENTS.md": {
@@ -137,21 +145,21 @@
       ]
     },
     "README.md": {
-      "semantic_sha256": "0bd7fa1fe856d95f5d06d7876201d6e310227f1a3def63918f5b128bb4c31153",
-      "sha256": "c7c07108a26a4b6390be00ca597ec17bc6983e3794a5b94c6a1538b46a6a5633",
-      "size": 13467,
+      "semantic_sha256": "2105dc34fe7e67a6ebd6f052f46cf1713fe09a95568794b4a7fe33bcd6383467",
+      "sha256": "e04b6e13a1246be2830c6fffb4953ce4c60b1af020c3d89aa6a9ab2ec9994fb5",
+      "size": 16200,
       "stat": [
-        13467,
-        1793577572071738800
+        16200,
+        1793667994948310000
       ]
     },
     "README_ES.md": {
-      "semantic_sha256": "df52373612c7b2b4793ebf5bfb288c2141f1ec2e675a01665f1b6e8cbcdffb1f",
-      "sha256": "bb4649b73b62cb2629f38c3acded99723e97b38974fa4706967845264eb2fab1",
-      "size": 14085,
+      "semantic_sha256": "5d05db83198292d367fcb4a1ca008ecb52b87ceb02ead30b7c2965c506d5d282",
+      "sha256": "8c5f5df58332fc2da49d7267bd1ce1dabe536eb567165181efeba3cab9365909",
+      "size": 16922,
       "stat": [
-        14085,
-        1793577596468277500
+        16922,
+        1793667994948830600
       ]
     },
     "artifacts/.context.yaml": {
@@ -183,7 +191,7 @@
       "size": 387,
       "stat": [
         387,
-        1793581796083160200
+        1793668197668999100
       ]
     },
     "audit_federation.py": {
@@ -209,7 +217,7 @@
       "size": 403,
       "stat": [
         403,
-        1793581796107090200
+        1793668197723733700
       ]
     },
     "config/context_policy.json": {
@@ -241,7 +249,7 @@
       "size": 350,
       "stat": [
         350,
-        1793581796097115000
+        1793668197701480900
       ]
     },
     "docs/notes/.context.yaml": {
@@ -249,7 +257,7 @@
       "size": 351,
       "stat": [
         351,
-        1793581796103116400
+        1793668197713450100
       ]
     },
     "docs/specs/.context.yaml": {
@@ -257,7 +265,7 @@
       "size": 333,
       "stat": [
         333,
-        1793581796099107900
+        1793668197705471000
       ]
     },
     "docs/specs/icontext-v6.md": {
@@ -300,6 +308,22 @@
       "stat": [
         315,
         1793577782795392800
+      ]
+    },
+    "packages/contextkernel-cli/01_seed/.context.yaml": {
+      "sha256": "70948666bf1bcced3825bd22a16086541c49a95a812a94af6eb6f0750f5b1a5c",
+      "size": 425,
+      "stat": [
+        425,
+        1793614924421385900
+      ]
+    },
+    "packages/contextkernel-cli/01_seed/seed-contextkernel-cli-master.md": {
+      "sha256": "b7dfc3aca19830cfda92e7cbe74f4dcc9cc6469ffef5efafa54a98f29eb81ea5",
+      "size": 11722,
+      "stat": [
+        11722,
+        1793614953143721000
       ]
     },
     "packages/contextkernel-cli/README.md": {
@@ -2002,19 +2026,19 @@
       ]
     },
     "packages/ireadme/01_seed/.context.yaml": {
-      "sha256": "7c024e43819369ad0ea991322a5efafd6b17f9876da27eabf9631d32e3031ec7",
+      "sha256": "c078081f95785de7bf2b441694e5921f5bc8abaca382096de81e11c3cb150190",
       "size": 423,
       "stat": [
         423,
-        1793487815896024300
+        1793614867020707100
       ]
     },
-    "packages/ireadme/01_seed/seed-iReadme-master.md": {
-      "sha256": "ef623aae0ce170d17f72d1dc4169c03610107ace5fd1b6413cafd17c5be9abe5",
+    "packages/ireadme/01_seed/seed-ireadme-master.md": {
+      "sha256": "a7001c7f9d1865891c71ec2612b09a2a916e2c63527c7b0546bbf281d9314fa8",
       "size": 16857,
       "stat": [
         16857,
-        1793485142007796000
+        1793614899192693800
       ]
     },
     "packages/ireadme/AGENTS.md": {
@@ -2331,20 +2355,6 @@
         1793487816053901800
       ]
     },
-    "packages/ireadme/tests/__init__.py": {
-      "contracts": {
-        "cli_flags": [],
-        "imports": [],
-        "signatures": [],
-        "symbols": []
-      },
-      "sha256": "35a4adb0801c912544109e724a9cfd9c4400abeb4506bc33f6200641af23ddfc",
-      "size": 35,
-      "stat": [
-        35,
-        1790099348265748600
-      ]
-    },
     "packages/ireadme/tests/golden/.context.yaml": {
       "sha256": "7a30787ab3670abee67ba89345c5ef8b1adbca76267e0c356a569e76bf45c1ee",
       "size": 545,
@@ -2373,9 +2383,10 @@
       "contracts": {
         "cli_flags": [],
         "imports": [
+          "init_readme",
           "pathlib",
           "pytest",
-          "scripts.init_readme"
+          "sys"
         ],
         "signatures": [
           "./packages/ireadme/tests/test_atomic_write.py::test_atomic_write_creates_file(tmp_path: Path) -> Any",
@@ -2390,11 +2401,11 @@
           "test_generate_readmes_to_custom_dir"
         ]
       },
-      "sha256": "57ba126b193dc5ee7c5fa16bcc6a9a401a726a864b14afccf429beae11ef6551",
-      "size": 1841,
+      "sha256": "c96b3cdb193b68798e564f12b52cb47c1737687f918de7abbb800ad94ea13ab2",
+      "size": 1990,
       "stat": [
-        1841,
-        1793472845763100700
+        1990,
+        1793615526779731800
       ]
     },
     "packages/ireadme/tests/test_golden_regression.py": {
@@ -4332,20 +4343,6 @@
         1793487795057759300
       ]
     },
-    "packages/metricsthinking/tests/__init__.py": {
-      "contracts": {
-        "cli_flags": [],
-        "imports": [],
-        "signatures": [],
-        "symbols": []
-      },
-      "sha256": "b1599166e26651fabb190b3b35f4f5e671602372ed4933513f8b1e4933bde39a",
-      "size": 35,
-      "stat": [
-        35,
-        1790099895485902100
-      ]
-    },
     "packages/metricsthinking/tests/conftest.py": {
       "contracts": {
         "cli_flags": [],
@@ -4815,10 +4812,11 @@
       "contracts": {
         "cli_flags": [],
         "imports": [
+          "install_skill",
           "json",
           "metricsthinking.mcp_server",
           "pathlib",
-          "scripts.install_skill"
+          "sys"
         ],
         "signatures": [
           "./packages/metricsthinking/tests/test_installer.py::test_install_antigravity_local(tmp_path: Path) -> Any",
@@ -4841,23 +4839,24 @@
           "test_mcp_server_tools"
         ]
       },
-      "sha256": "072ae6f0f9f9f69f1439841d860c87b524e5c0e77b264d6477add4f41323e485",
-      "size": 2860,
+      "sha256": "d2ab10cf7bf481aad9de86a5d9ad282341c57ac2aa2a2bfc4307e9af4595c061",
+      "size": 3009,
       "stat": [
-        2860,
-        1793473080615959100
+        3009,
+        1793615637549470800
       ]
     },
     "packages/metricsthinking/tests/test_medallion_ablation_v4.py": {
       "contracts": {
         "cli_flags": [],
         "imports": [
+          "hnsw_index_rebuild",
           "json",
           "metricsthinking.fpai.ablation",
           "metricsthinking.fpai.attribution",
           "metricsthinking.fpai.medallion",
           "pathlib",
-          "scripts.hnsw_index_rebuild"
+          "sys"
         ],
         "signatures": [
           "./packages/metricsthinking/tests/test_medallion_ablation_v4.py::test_local_medallion_pipeline(tmp_path) -> Any",
@@ -4872,11 +4871,11 @@
           "test_hnsw_index_rebuild_script"
         ]
       },
-      "sha256": "001bfb1c23d9e5851015dcc3f83df4676fa928186eb9c638d0e409d24b7830eb",
-      "size": 3999,
+      "sha256": "9fbd738fe3baf13c7a5ca752e07d5e49e79d6e5245df310435e4f19da01ee2a4",
+      "size": 4148,
       "stat": [
-        3999,
-        1792608241912323300
+        4148,
+        1793615656853283700
       ]
     },
     "packages/metricsthinking/tests/test_models_schemas_v4.py": {
@@ -5089,19 +5088,19 @@
       ]
     },
     "packages/thinkingseed/01_seed/.context.yaml": {
-      "sha256": "05cea5a81441bbd25e93f8f88200207d49ca2be481179a52b9f9f98f64b3e383",
+      "sha256": "fcea73e86e67454d13358b150a794d496683926ec22ebdc35a2d6b72e0b22289",
       "size": 433,
       "stat": [
         433,
-        1793487765970676500
+        1793614861539533000
       ]
     },
-    "packages/thinkingseed/01_seed/seed-ThinkingSeed-master.md": {
-      "sha256": "fb0b97775b176c90d9045da308e8fedeb529124cdbfefd4a95df890e81d36cad",
+    "packages/thinkingseed/01_seed/seed-thinkingseed-master.md": {
+      "sha256": "94f5182640907e6c0f3faf42c83c46430b91af9dffa6bd7974dea6153fed16cc",
       "size": 47016,
       "stat": [
         47016,
-        1793485141459573400
+        1793614888590180000
       ]
     },
     "packages/thinkingseed/AGENTS.md": {
@@ -5329,11 +5328,11 @@
           "main"
         ]
       },
-      "sha256": "96a54de2eda0a51fd682bfb493f4e5ed297fa892cb6d8f1e2220efab59d1ddbe",
-      "size": 34431,
+      "sha256": "0b19e3461d13bcc0c2f1bb9865fc50696965bfa7eecf012a2cb15a7502cb07bc",
+      "size": 34476,
       "stat": [
-        34431,
-        1793472517137748800
+        34476,
+        1793614813854322200
       ]
     },
     "packages/thinkingseed/src/.context.yaml": {
@@ -5442,11 +5441,11 @@
       ]
     },
     "pyproject.toml": {
-      "sha256": "2ae7a5614fd530ba5468d46f702cae2469907851dd99a8a49baf7984ed6c592d",
-      "size": 1425,
+      "sha256": "f9a6db279a129c3ee60cdfc78531fcb6a30e5a248a8bcc37ead954408ffed631",
+      "size": 1463,
       "stat": [
-        1425,
-        1793576350964561500
+        1463,
+        1793615181406504300
       ]
     },
     "schemas/.context.yaml": {
@@ -5454,7 +5453,7 @@
       "size": 368,
       "stat": [
         368,
-        1793581796120051800
+        1793668197756931400
       ]
     },
     "schemas/backlog.schema.json": {
@@ -5534,7 +5533,7 @@
       "size": 318,
       "stat": [
         318,
-        1793581796124040200
+        1793668197763302600
       ]
     },
     "skills/.context.yaml": {
@@ -5944,7 +5943,7 @@
       "size": 437,
       "stat": [
         437,
-        1793581796069182700
+        1793668197634301400
       ]
     },
     "src/core/.context.yaml": {
@@ -5952,7 +5951,7 @@
       "size": 335,
       "stat": [
         335,
-        1793581796076173300
+        1793668197656990000
       ]
     },
     "src/core/benchmark.py": {
@@ -6107,7 +6106,7 @@
       "size": 351,
       "stat": [
         351,
-        1793581796079160700
+        1793668197662199800
       ]
     },
     "src/data_generation/.context.yaml": {
@@ -6115,7 +6114,7 @@
       "size": 365,
       "stat": [
         365,
-        1793581796072179300
+        1793668197652002200
       ]
     },
     "tests/.context.yaml": {
@@ -6123,7 +6122,7 @@
       "size": 318,
       "stat": [
         318,
-        1793581796127033200
+        1793668197771270700
       ]
     },
     "tests/fixtures/.context.yaml": {
@@ -6234,11 +6233,11 @@
       "size": 288,
       "stat": [
         288,
-        1793581796130026900
+        1793668197777257000
       ]
     }
   },
-  "inputs_hash": "1aeb0889e758b9014d9d2d521450e6cbb8cf597f2f7eb730b4d27e19162518b5",
+  "inputs_hash": "29cc9f2bd0f37d492d30cb4f56866801b457a39e74299bfd602adb6dd953285c",
   "policy_hash": "873367cc12c255c41f8c8f72dacf70a4cd031b8401c838f7190096299a475435",
   "version": "6.0.0"
 }

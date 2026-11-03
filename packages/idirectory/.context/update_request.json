@@ -1,4 +1,50 @@
 {
-  "requests": [],
+  "requests": [
+    {
+      "changed_files": [
+        ".agentignore",
+        ".claude/commands/idir.md",
+        ".context.yaml",
+        ".gitignore",
+        "02_foundation/.context.yaml",
+        "02_foundation/02_foundation/.context.yaml",
+        "02_foundation/02_foundation/engine/.context.yaml",
+        "02_foundation/02_foundation/engine/engine_readme.md",
+        "02_foundation/engine/engine_readme.md",
+        "03_research/.context.yaml",
+        "03_research/03_research/.context.yaml",
+        "03_research/03_research/prompts/.context.yaml",
+        "LICENSE",
+        "docs/specs/agent-governance-before-v6.md",
+        "docs/specs/governance-gemini-before-v6.md",
+        "docs/specs/skill-idir-before-v6.md",
+        "iDirectory.png",
+        "pyproject.toml",
+        "scripts/generate_benchmark_reports.py",
+        "scripts/scripts/.context.yaml",
+        "scripts/scripts/generate_benchmark_reports.py",
+        "src/core/context_runtime.py",
+        "src/idirectory/.context.yaml",
+        "src/idirectory/__init__.py",
+        "src/idirectory/context_runtime.py",
+        "src/idirectory/fwengine.py"
+      ],
+      "contract_files": [
+        "scripts/scripts/generate_benchmark_reports.py",
+        "src/core/context_runtime.py",
+        "src/idirectory/__init__.py"
+      ],
+      "input_hash": "d9413762fcb719aaa1ff7d3a256eb789fdb3f4f99fa8e03e52a97249946ba36f",
+      "instruction": "Current agent: inspect changed evidence, update affected sections only, preserve other content, then run complete with this input hash.",
+      "layer": "seed",
+      "sections": [
+        "2",
+        "3",
+        "4",
+        "7",
+        "9"
+      ]
+    }
+  ],
   "version": "6.0.0"
 }

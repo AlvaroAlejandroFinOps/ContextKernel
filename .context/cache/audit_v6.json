@@ -1,24 +1,24 @@
 {
   "artifacts": {
-    "json": "D:\\0001 HyperScale Thinking\\PROYECTOS CLOUD\\iContext\\ContextControl\\artifacts\\plans\\metricsthinking\\MetricsThinking.json",
-    "markdown": "D:\\0001 HyperScale Thinking\\PROYECTOS CLOUD\\iContext\\ContextControl\\artifacts\\plans\\metricsthinking\\MetricsThinking.md",
-    "pruning": "D:\\0001 HyperScale Thinking\\PROYECTOS CLOUD\\iContext\\ContextControl\\artifacts\\plans\\metricsthinking\\CONTEXT_PRUNING_PLAN.json",
-    "roadmap": "D:\\0001 HyperScale Thinking\\PROYECTOS CLOUD\\iContext\\ContextControl\\artifacts\\plans\\metricsthinking\\INFERRED_ROADMAP.md"
+    "json": "D:\\0001 HyperScale Thinking\\PROYECTOS CLOUD\\iContext\\ContextKernel\\artifacts\\plans\\metricsthinking\\MetricsThinking.json",
+    "markdown": "D:\\0001 HyperScale Thinking\\PROYECTOS CLOUD\\iContext\\ContextKernel\\artifacts\\plans\\metricsthinking\\MetricsThinking.md",
+    "pruning": "D:\\0001 HyperScale Thinking\\PROYECTOS CLOUD\\iContext\\ContextKernel\\artifacts\\plans\\metricsthinking\\CONTEXT_PRUNING_PLAN.json",
+    "roadmap": "D:\\0001 HyperScale Thinking\\PROYECTOS CLOUD\\iContext\\ContextKernel\\artifacts\\plans\\metricsthinking\\INFERRED_ROADMAP.md"
   },
-  "key": "c8b54de8ceeeaae0e27763caadba7a48c35a5b57f33262a1240b3b95863c7c62",
+  "key": "52253ecd38ec51c5d28c8a74ab9ff54c78070016ac3e1305eb783bc68da8f10d",
   "outputs": {
-    "json": "a29f074c0a2f4fbc945b2a4af931d03bb1e11aa725537009eb2e07662f547fd4",
-    "markdown": "221d5d2e0f82aeaf724ab826e9b1c1d7e59218aa9114e4adac6eddde66e901fd",
-    "pruning": "4a7a53e635affa452ff78808b1603ae38f1d64c7b9a37f0533bab20a7f92aa45",
-    "roadmap": "2dc8b6ea8867db7349a824c46706710dd56a0978fc7f1ff27860a2b246536387"
+    "json": "d16b2713359b588ca02878b66b51e9f8e38115c69baa283b8e2f9be86331c615",
+    "markdown": "3765bb916bb1bb3a3023185282128ef711dc84b577cc393b0817707f629cc479",
+    "pruning": "4f1ff9ea1c2b8cbe5bd151d297d2e99c524844d29910d3caa103ddae08b1af03",
+    "roadmap": "4cc9ce89fb042fe3a6b1961182f9028710d21845a45ac3920ca184c35f1e02c1"
   },
   "report": {
-    "audit_date": "2026-11-01 22:08:11",
+    "audit_date": "2026-11-02 22:07:22",
     "auditor": "MetricsThinking™ Universal Auditor",
     "domain_archetype": "software-engineering",
     "evidence_primitives": {
       "config": {
-        "file_count": 181,
+        "file_count": 182,
         "primitive_type": "config",
         "sample_paths": [
           ".agentignore",
@@ -27,20 +27,20 @@
           "02_foundation/.context.yaml",
           "02_foundation/engine/.context.yaml"
         ],
-        "total_lines": 8658,
+        "total_lines": 8672,
         "verified_valid": true
       },
       "implementation": {
-        "file_count": 72,
+        "file_count": 74,
         "primitive_type": "implementation",
         "sample_paths": [
           ".agents/skills/icontext/SKILL.md",
+          "01_seed/seed-contextkernel-hybrid.md",
           "01_seed/seed-contextkernel-master.md",
           "02_foundation/.context.yaml",
-          "02_foundation/engine/.context.yaml",
-          "02_foundation/engine/engine_readme.md"
+          "02_foundation/engine/.context.yaml"
         ],
-        "total_lines": 4732,
+        "total_lines": 5571,
         "verified_valid": true
       },
       "pipeline": {
@@ -57,20 +57,20 @@
         "verified_valid": true
       },
       "spec": {
-        "file_count": 93,
+        "file_count": 95,
         "primitive_type": "spec",
         "sample_paths": [
           ".agentignore",
           "AGENTS.md",
           "GEMINI.md",
           ".agents/skills/icontext/SKILL.md",
-          "01_seed/seed-contextkernel-master.md"
+          "01_seed/seed-contextkernel-hybrid.md"
         ],
-        "total_lines": 6973,
+        "total_lines": 7812,
         "verified_valid": true
       },
       "verification": {
-        "file_count": 64,
+        "file_count": 62,
         "primitive_type": "verification",
         "sample_paths": [
           "artifacts/benchmark_coverage_report.json",
@@ -79,29 +79,29 @@
           "packages/idirectory/artifacts/benchmark_seed_coverage.md",
           "packages/idirectory/artifacts/benchmarks/.context.yaml"
         ],
-        "total_lines": 15071,
+        "total_lines": 15079,
         "verified_valid": true
       }
     },
     "fpai": {
-      "active_ratio": 0.8236,
+      "active_ratio": 0.8252,
       "calibration_state": "DETERMINISTIC",
       "d_structural": 0.0,
       "dead_ratio": 0.0,
       "distortion_ratio": 0.0,
-      "divergence_ratio": 0.1577,
+      "divergence_ratio": 0.1565,
       "gain_coefficient": 1.0,
-      "p_active": 559307.0,
-      "power_factor_linear": 0.8236,
-      "power_factor_spectral": 0.9778,
+      "p_active": 565310.0,
+      "power_factor_linear": 0.8252,
+      "power_factor_spectral": 0.9783,
       "q_dead": 0.0,
       "q_dup": 119777.0,
-      "redundant_ratio": 0.1764,
-      "s_linear": 679084.0,
-      "s_spectral": 571988.5051
+      "redundant_ratio": 0.1748,
+      "s_linear": 685087.0,
+      "s_spectral": 577859.7804
     },
     "git_branch": "master",
-    "git_commit": "b555e62",
+    "git_commit": "46a67b1",
     "inspection_mode": "source_code",
     "modules": [
       {
@@ -196,7 +196,7 @@
           },
           {
             "criterion_id": "M03-C03",
-            "evidence_detail": "Gobernanza contextual iDirectory activa con 138 archivos de contexto (.context.yaml).",
+            "evidence_detail": "Gobernanza contextual iDirectory activa con 139 archivos de contexto (.context.yaml).",
             "evidence_path": "01_seed/.context.yaml",
             "fulfilled": true,
             "name": "Validación Estricta de Esquemas / Context",
@@ -244,7 +244,7 @@
         "criteria": [
           {
             "criterion_id": "M05-C01",
-            "evidence_detail": "Módulos de procesamiento e implementación activos (72 archivos, e.g. '.agents/skills/icontext/SKILL.md').",
+            "evidence_detail": "Módulos de procesamiento e implementación activos (74 archivos, e.g. '.agents/skills/icontext/SKILL.md').",
             "evidence_path": ".agents/skills/icontext/SKILL.md",
             "fulfilled": true,
             "name": "Parsers Funcionales",
@@ -308,7 +308,7 @@
           },
           {
             "criterion_id": "M06-C04",
-            "evidence_detail": "Grafo de dependencias evaluado: 96 módulos analizados, acoplamiento estable.",
+            "evidence_detail": "Grafo de dependencias evaluado: 94 módulos analizados, acoplamiento estable.",
             "evidence_path": null,
             "fulfilled": true,
             "name": "Resiliencia de Sistemas y Mitigación de SPOF",
@@ -332,7 +332,7 @@
         "criteria": [
           {
             "criterion_id": "M07-C01",
-            "evidence_detail": "Suite de pruebas presente (34 archivos de prueba en tests/, e.g. 'packages/contextkernel-cli/tests/test_v6.py').",
+            "evidence_detail": "Suite de pruebas presente (32 archivos de prueba en tests/, e.g. 'packages/contextkernel-cli/tests/test_v6.py').",
             "evidence_path": "packages/contextkernel-cli/tests/test_v6.py",
             "fulfilled": true,
             "name": "Cobertura y Tasa de Éxito de Pruebas",
@@ -436,8 +436,8 @@
         "criteria": [
           {
             "criterion_id": "M10-C01",
-            "evidence_detail": "Memoria técnica formal (ThinkingSeed) identificada en '01_seed/seed-contextkernel-master.md'.",
-            "evidence_path": "01_seed/seed-contextkernel-master.md",
+            "evidence_detail": "Memoria técnica formal (ThinkingSeed) identificada en '01_seed/seed-contextkernel-hybrid.md'.",
+            "evidence_path": "01_seed/seed-contextkernel-hybrid.md",
             "fulfilled": true,
             "name": "Documentación Técnica Exhaustiva (Seed)",
             "remediation_hint": "Generar ThinkingSeed Master completo en 01_seed/."
@@ -460,7 +460,7 @@
           },
           {
             "criterion_id": "M10-C04",
-            "evidence_detail": "Indicador FPAI estimado (distorsión no medida): PF_spectral=0.978 >= 0.70 (S_spectral=571989, S_linear=679084).",
+            "evidence_detail": "Indicador FPAI estimado (distorsión no medida): PF_spectral=0.978 >= 0.70 (S_spectral=576392, S_linear=683587).",
             "evidence_path": ".agentignore",
             "fulfilled": true,
             "name": "Eficiencia Contextual Espectral FPAI",
@@ -474,11 +474,11 @@
       }
     ],
     "profile_used": "default",
-    "project_name": "ContextControl",
-    "project_path": "D:\\0001 HyperScale Thinking\\PROYECTOS CLOUD\\iContext\\ContextControl",
+    "project_name": "ContextKernel",
+    "project_path": "D:\\0001 HyperScale Thinking\\PROYECTOS CLOUD\\iContext\\ContextKernel",
     "pruning_plan": {
       "active_tokens_remaining": 1000,
-      "generated_at": "2026-11-02T01:08:11.879365+00:00",
+      "generated_at": "2026-11-03T01:07:22.734527+00:00",
       "items": [
         {
           "file_path": "packages/metricsthinking/tests/other/.context.yaml",
@@ -509,7 +509,7 @@
         }
       ],
       "power_factor_target": 0.85,
-      "target_path": "D:/0001 HyperScale Thinking/PROYECTOS CLOUD/iContext/ContextControl",
+      "target_path": "D:/0001 HyperScale Thinking/PROYECTOS CLOUD/iContext/ContextKernel",
       "total_tokens_recovered": 8937
     },
     "remediation_plan": [
@@ -594,7 +594,6 @@
         "packages.ireadme.src.ireadme.__init__": 0,
         "packages.ireadme.src.ireadme.generator": 2,
         "packages.ireadme.src.ireadme.runtime": 19,
-        "packages.ireadme.tests.__init__": 0,
         "packages.ireadme.tests.test_atomic_write": 0,
         "packages.ireadme.tests.test_golden_regression": 0,
         "packages.ireadme.tests.test_incremental_v6": 0,
@@ -627,7 +626,6 @@
         "packages.metricsthinking.src.metricsthinking.renderer": 4,
         "packages.metricsthinking.src.metricsthinking.runtime": 19,
         "packages.metricsthinking.src.metricsthinking.scorer": 7,
-        "packages.metricsthinking.tests.__init__": 0,
         "packages.metricsthinking.tests.conftest": 0,
         "packages.metricsthinking.tests.test_archetype_detector": 0,
         "packages.metricsthinking.tests.test_backends_collector_v4": 0,
@@ -692,7 +690,6 @@
         "packages.ireadme.src.ireadme.__init__": 0,
         "packages.ireadme.src.ireadme.generator": 10,
         "packages.ireadme.src.ireadme.runtime": 0,
-        "packages.ireadme.tests.__init__": 0,
         "packages.ireadme.tests.test_atomic_write": 1,
         "packages.ireadme.tests.test_golden_regression": 0,
         "packages.ireadme.tests.test_incremental_v6": 1,
@@ -725,7 +722,6 @@
         "packages.metricsthinking.src.metricsthinking.renderer": 11,
         "packages.metricsthinking.src.metricsthinking.runtime": 0,
         "packages.metricsthinking.src.metricsthinking.scorer": 14,
-        "packages.metricsthinking.tests.__init__": 0,
         "packages.metricsthinking.tests.conftest": 0,
         "packages.metricsthinking.tests.test_archetype_detector": 10,
         "packages.metricsthinking.tests.test_backends_collector_v4": 1,
@@ -790,7 +786,6 @@
         "packages.ireadme.src.ireadme.__init__": 0.0,
         "packages.ireadme.src.ireadme.generator": 0.833,
         "packages.ireadme.src.ireadme.runtime": 0.0,
-        "packages.ireadme.tests.__init__": 0.0,
         "packages.ireadme.tests.test_atomic_write": 1.0,
         "packages.ireadme.tests.test_golden_regression": 0.0,
         "packages.ireadme.tests.test_incremental_v6": 1.0,
@@ -823,7 +818,6 @@
         "packages.metricsthinking.src.metricsthinking.renderer": 0.733,
         "packages.metricsthinking.src.metricsthinking.runtime": 0.0,
         "packages.metricsthinking.src.metricsthinking.scorer": 0.667,
-        "packages.metricsthinking.tests.__init__": 0.0,
         "packages.metricsthinking.tests.conftest": 0.0,
         "packages.metricsthinking.tests.test_archetype_detector": 1.0,
         "packages.metricsthinking.tests.test_backends_collector_v4": 1.0,
@@ -904,24 +898,24 @@
     "seed_detected": true,
     "seed_version": "6.1",
     "stats": {
-      "context_files_detected": 138,
+      "context_files_detected": 139,
       "context_measurement": {
         "dead": 0,
         "distortion": 0.0,
         "distortion_state": "not_measured",
         "duplicate": 119777,
         "method": "exact_content_duplicates; heuristic_tokens; attention_not_measured",
-        "total": 679084
+        "total": 685087
       },
       "domain_archetype": "software-engineering",
       "inspection_mode": "source_code",
       "is_git": true,
       "manifests_detected": 1,
       "schemas_detected": 34,
-      "seeds_detected": 7,
+      "seeds_detected": 9,
       "source_files_detected": 3,
-      "tests_detected": 34,
-      "total_files_scanned": 443
+      "tests_detected": 32,
+      "total_files_scanned": 444
     }
   }
 }
